@@ -22,7 +22,7 @@
                 	<li><span class="e_code"><?=$code;?></span></li>
                     <li><span class="e_message"><?=$message;?></span></li>
                     <li>Si crees que esto es un fallo, te agradeceremos si lo reportas a:</li>
-                    <li class="e_mail"><a href="mailto:carlos.jug@juiceweb.mx">carlos.jug@juiceweb.mx</a></li>
+                    <li class="e_mail"><a href="mailto:carlos.jug@maus.mx">carlos.jug@maus.mx</a></li>
                 </ul>
             </div>
 		</div>

@@ -6,13 +6,13 @@
 	static public function contacto($datos = array()){
 		// Estas son cabeceras que se usan para evitar que el correo llegue a SPAM:
 		$headers = "From: Nombre <tu@dominio.com>\r\n";
-		$headers .= 'Bcc: carlos@jug.mx' . "\r\n";
+		$headers .= 'Bcc: carlos.jug@maus.mx' . "\r\n";
 		$headers .= "X-Mailer: PHP5\n";
 		$headers .= 'MIME-Version: 1.0' . "\n";
 		$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 		// Definir el correo de destino:
 		if($datos["email"])
-			$dest .=" ,".strip_tags($datos["email"]);
+			$dest =strip_tags($datos["email"]);
 		// Aqui definimos el asunto y armamos el cuerpo del mensaje
 		
 		$asunto = "Formulario de contacto: ";
