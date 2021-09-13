@@ -11,7 +11,9 @@
 		<!-- <link rel="shortcut icon" href="images/favicon.png" /> -->
 		<meta name="author" content="Maus Casa Creativa SC" />
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.typekit.net/avv6anh.css">
 		<?=$this->html->includeCss("style");?>
+		<?=$this->html->includeCss("style2");?>
 		<script>var Path="<?=Path?>";</script>
 	</head>
 	<body id="<?=$controllerName; ?>" class="<?=$function;?>">

@@ -1,0 +1,20 @@
+.font-10{font-size:10px !important;}
+.c-black{color:#000000 !important;}
+.c-white{color:#FFFFFF !important;}
+.font-sweet-sans-pro {
+    font-family: sweet-sans-pro, sans-serif;
+}
+
+footer{background-color: rgba(0, 0, 0, 0.7);}
+
+footer .contenido-borde{border-bottom: 6px solid; border-color:#DA291C;}
+footer .container .info-footer{display: flex;align-items: center;}
+footer .container .logo-footer{justify-content: center;}
+
+
+@media (min-width:320px) and (max-width:480px){
+footer .container .logo-footer{justify-content: left !important;}
+}
+@media (min-width:481px) and (max-width: 767px){
+footer .container .logo-footer{justify-content: left !important;}
+}
