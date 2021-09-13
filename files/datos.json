@@ -1,0 +1,4 @@
+{
+"tipoUsuarioById":{"1":{"idTipoUsuario":1,"nombre":"Administrador"},"2":{"idTipoUsuario":2,"nombre":"Staff"},"3":{"idTipoUsuario":3,"nombre":"Cliente"}},
+"activoById":{"1":{"idActivo":1,"nombre":"Activado"},"2":{"idActivo":2,"nombre":"Desactivado"}}
+}
