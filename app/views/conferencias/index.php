@@ -2,7 +2,7 @@
     <div class="bg-white rounded p-5 mb-5">
         <div class="row px-4">
             <div class="col-lg-9">
-                <h1 class="text-danger font-44 mb-5 mt-3"><strong>Conferencias Javer</strong></h1>
+                <h1 class="text-danger font-44 mb-4 mt-3"><strong>Conferencias Javer</strong></h1>
                 <p class="font-18">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
                 </p>
@@ -11,7 +11,7 @@
                 <img src="<?=Path?>/images/conferencias/logo_mundo_javer.png">
             </div>
             <div class="w-100 mb-5"></div>
-            <div class="col-lg-6 mb-4">
+            <div class="col-lg-6 mb-5">
                 <div class="px-3">
                     <div class="row">
                         <div class="col-lg-5 rounded-left" style="background: url(<?=Path?>/images/conferencias/video1.png);background-size:cover;">
@@ -26,7 +26,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 mb-4">
+            <div class="col-lg-6 mb-5">
                 <div class="px-3">
                     <div class="row">
                         <div class="col-lg-5 rounded-left" style="background: url(<?=Path?>/images/conferencias/video2.png);background-size:cover;">
@@ -41,7 +41,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 mb-4">
+            <div class="col-lg-6 mb-5">
                 <div class="px-3">
                     <div class="row">
                         <div class="col-lg-5 rounded-left" style="background: url(<?=Path?>/images/conferencias/video3.png);background-size:cover;">
@@ -56,7 +56,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 mb-4">
+            <div class="col-lg-6 mb-5">
                 <div class="px-3">
                     <div class="row">
                         <div class="col-lg-5 rounded-left" style="background: url(<?=Path?>/images/conferencias/video4.png);background-size:cover;">
