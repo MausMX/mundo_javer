@@ -5,7 +5,7 @@
 .poppins {font-family: poppins, sans-serif;}
 .bold{font-weight:800;}
 .text-center{text-align:center;}
-body.contador{background-image: url(/mundo-javer-2021/images/contador/fondo_contador.jpg);}
+body.contador{background-image: url(/mundo-javer-2021/images/contador/fondo_contador.jpg);background-size: cover;}
 body.contador .btn-registro{border-radius: 12px; border-color:#EB4141;}
 
 footer{background-color: rgba(0, 0, 0, 0.7);}

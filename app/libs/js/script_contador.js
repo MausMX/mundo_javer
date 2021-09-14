@@ -1,147 +1,156 @@
-// Create Countdown
-var Countdown = {
-  
-  // Backbone-like structure
-  $el: $('.countdown'),
-  
-  // Params
-  countdown_interval: null,
-  total_seconds     : 0,
-  
-  // Initialize the countdown  
-  init: function() {
-    
-    // DOM
-		this.$ = {
-    	hours  : this.$el.find('.bloc-time.hours .figure'),
-    	minutes: this.$el.find('.bloc-time.min .figure'),
-    	seconds: this.$el.find('.bloc-time.sec .figure')
-   	};
+Vue.filter('zerofill', function (value) {
+  //value = ( value < 0 ? 0 : value );
+  return (value < 10 && value > -1 ? '0' : '') + value;
+});
 
-    // Init countdown values
-    this.values = {
-	      hours  : this.$.hours.parent().attr('data-init-value'),
-        minutes: this.$.minutes.parent().attr('data-init-value'),
-        seconds: this.$.seconds.parent().attr('data-init-value'),
-    };
-    
-    // Initialize total seconds
-    this.total_seconds = this.values.hours * 60 * 60 + (this.values.minutes * 60) + this.values.seconds;
+var Tracker = Vue.extend({
+  template: `
+  <span v-show="show" class="flip-clock__piece">
+    <span class="flip-clock__card flip-card">
+      <b class="flip-card__top">{{current | zerofill}}</b>
+      <b class="flip-card__bottom" data-value="{{current | zerofill}}"></b>
+      <b class="flip-card__back" data-value="{{previous | zerofill}}"></b>
+      <b class="flip-card__back-bottom" data-value="{{previous | zerofill}}"></b>
+    </span>
+    <span class="flip-clock__slot">{{property}}</span>
+  </span>`,
+  props: ['property', 'time'],
+  data: () => ({
+    current: 0,
+    previous: 0,
+    show: false }),
 
-    // Animate countdown to the end 
-    this.count();    
-  },
-  
-  count: function() {
-    
-    var that    = this,
-        $hour_1 = this.$.hours.eq(0),
-        $hour_2 = this.$.hours.eq(1),
-        $min_1  = this.$.minutes.eq(0),
-        $min_2  = this.$.minutes.eq(1),
-        $sec_1  = this.$.seconds.eq(0),
-        $sec_2  = this.$.seconds.eq(1);
-    
-        this.countdown_interval = setInterval(function() {
 
-        if(that.total_seconds > 0) {
+  events: {
+    time(newValue) {
 
-            --that.values.seconds;              
+      if (newValue[this.property] === undefined) {
+        this.show = false;
+        return;
+      }
 
-            if(that.values.minutes >= 0 && that.values.seconds < 0) {
+      var val = newValue[this.property];
+      this.show = true;
 
-                that.values.seconds = 59;
-                --that.values.minutes;
-            }
+      val = val < 0 ? 0 : val;
 
-            if(that.values.hours >= 0 && that.values.minutes < 0) {
+      if (val !== this.current) {
 
-                that.values.minutes = 59;
-                --that.values.hours;
-            }
+        this.previous = this.current;
+        this.current = val;
 
-            // Update DOM values
-            // Hours
-            that.checkHour(that.values.hours, $hour_1, $hour_2);
+        this.$el.classList.remove('flip');
+        void this.$el.offsetWidth;
+        this.$el.classList.add('flip');
+      }
 
-            // Minutes
-            that.checkHour(that.values.minutes, $min_1, $min_2);
+    } } });
 
-            // Seconds
-            that.checkHour(that.values.seconds, $sec_1, $sec_2);
 
-            --that.total_seconds;
-        }
-        else {
-            clearInterval(that.countdown_interval);
-        }
-    }, 1000);    
-  },
-  
-  animateFigure: function($el, value) {
-    
-     var that         = this,
-		     $top         = $el.find('.top'),
-         $bottom      = $el.find('.bottom'),
-         $back_top    = $el.find('.top-back'),
-         $back_bottom = $el.find('.bottom-back');
 
-    // Before we begin, change the back value
-    $back_top.find('span').html(value);
 
-    // Also change the back bottom value
-    $back_bottom.find('span').html(value);
 
-    // Then animate
-    TweenMax.to($top, 0.8, {
-        rotationX           : '-180deg',
-        transformPerspective: 300,
-	      ease                : Quart.easeOut,
-        onComplete          : function() {
 
-            $top.html(value);
+/*var el = document.createElement('div');
+document.body.appendChild(el);*/
 
-            $bottom.html(value);
+var el = document.createElement('div');
+var el2 = document.getElementById("logo-clean").parentNode;
+var sp2 = document.getElementById("logo-clean");
+el2.insertBefore(el, sp2.nextSibling);
+//document.body.appendChild('div.logo-clean');
 
-            TweenMax.set($top, { rotationX: 0 });
-        }
-    });
+var Countdown = new Vue({
 
-    TweenMax.to($back_top, 0.8, { 
-        rotationX           : 0,
-        transformPerspective: 300,
-	      ease                : Quart.easeOut, 
-        clearProps          : 'all' 
-    });    
-  },
-  
-  checkHour: function(value, $el_1, $el_2) {
-    
-    var val_1       = value.toString().charAt(0),
-        val_2       = value.toString().charAt(1),
-        fig_1_value = $el_1.find('.top').html(),
-        fig_2_value = $el_2.find('.top').html();
+  el: el,
 
-    if(value >= 10) {
+  template: ` 
+  <div class="flip-clock" data-date="2021-10-15" @click="update">
+    <tracker 
+      v-for="tracker in trackers"
+      :property="tracker"
+      :time="time"
+      v-ref:trackers
+    ></tracker>
+  </div>
+  `,
 
-        // Animate only if the figure has changed
-        if(fig_1_value !== val_1) this.animateFigure($el_1, val_1);
-        if(fig_2_value !== val_2) this.animateFigure($el_2, val_2);
+  props: ['date', 'callback'],
+
+  data: () => ({
+    time: {},
+    i: 0,
+    trackers: ['Días', 'Horas', 'Minutos', 'Segundos'] //'Random', 
+  }),
+
+  components: {
+    Tracker },
+
+
+  beforeDestroy() {
+    if (window['cancelAnimationFrame']) {
+      cancelAnimationFrame(this.frame);
     }
-    else {
+  },
 
-        // If we are under 10, replace first figure with 0
-        if(fig_1_value !== '0') this.animateFigure($el_1, 0);
-        if(fig_2_value !== val_1) this.animateFigure($el_2, val_1);
-    }    
-  }
-};
+  watch: {
+    'date': function (newVal) {
+      this.setCountdown(newVal);
+    } },
 
-// Let's go !
-Countdown.init();
+
+  ready() {
+    if (window['requestAnimationFrame']) {
+      this.setCountdown(this.date);
+      this.callback = this.callback || function () {};
+      this.update();
+    }
+  },
+
+  methods: {
+
+    setCountdown(date) {
+
+      if (date) {
+        this.countdown = moment(date, 'YYYY-MM-DD HH:mm:ss');
+      } else {
+        this.countdown = moment(this.$el.getAttribute('data-date')); //this.$el.getAttribute('data-date');
+      }
+    },
+
+    update() {
+      this.frame = requestAnimationFrame(this.update.bind(this));
+      if (this.i++ % 10) {return;}
+      var t = moment(new Date());
+      // Calculation adapted from https://www.sitepoint.com/build-javascript-countdown-timer-no-dependencies/
+      if (this.countdown) {
+
+        t = this.countdown.diff(t);
+
+        //t = this.countdown.diff(t);//.getTime();
+        //console.log(t);
+        this.time.Días = Math.floor(t / (1000 * 60 * 60 * 24));
+        this.time.Horas = Math.floor(t / (1000 * 60 * 60) % 24);
+        this.time.Minutos = Math.floor(t / 1000 / 60 % 60);
+        this.time.Segundos = Math.floor(t / 1000 % 60);
+      } else {
+        this.time.Días = undefined;
+        this.time.Horas = t.Horas() % 13;
+        this.time.Minutos = t.Minutos();
+        this.time.Segundos = t.Segundos();
+      }
+
+      this.time.Total = t;
+
+      this.$broadcast('time', this.time);
+      return this.time;
+    } } });
 
 $(function() {
 	altura_wrapper_fixed();
+	$(".btn-registro").click(function(){
+			document.location.href="/mundo-javer-2021/registro";
+	});
 });
 window.addEventListener("resize", function(){
 	altura_wrapper_fixed();
