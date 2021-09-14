@@ -15,7 +15,7 @@
             <div class="col-lg-6 mb-5">
                 <div class="px-3">
                     <div class="row">
-                        <div class="col-lg-5 rounded-left" style="background: url(<?=Path?>/images/conferencias/video1.png);background-size:cover;">
+                        <div class="col-lg-5 rounded-left imagen" style="background: url(<?=Path?>/images/conferencias/video1.png);background-size:cover;">
                             <a class="player" href="https://www.youtube.com/embed/XFQtjhFgxN0" data-toggle="modal" data-target="#youtube"><img src="<?=Path?>/images/conferencias/player.png"></a>
                         </div>
                         <div class="col-lg-7 contenido bg-dark text-white rounded-right">
@@ -30,7 +30,7 @@
             <div class="col-lg-6 mb-5">
                 <div class="px-3">
                     <div class="row">
-                        <div class="col-lg-5 rounded-left" style="background: url(<?=Path?>/images/conferencias/video2.png);background-size:cover;">
+                        <div class="col-lg-5 rounded-left imagen" style="background: url(<?=Path?>/images/conferencias/video2.png);background-size:cover;">
                             <a class="player" href="https://www.youtube.com/embed/XFQtjhFgxN0" data-toggle="modal" data-target="#youtube"><img src="<?=Path?>/images/conferencias/player.png"></a>
                         </div>
                         <div class="col-lg-7 contenido bg-dark text-white rounded-right">
@@ -45,7 +45,7 @@
             <div class="col-lg-6 mb-5">
                 <div class="px-3">
                     <div class="row">
-                        <div class="col-lg-5 rounded-left" style="background: url(<?=Path?>/images/conferencias/video3.png);background-size:cover;">
+                        <div class="col-lg-5 rounded-left imagen" style="background: url(<?=Path?>/images/conferencias/video3.png);background-size:cover;">
                             <a class="player" href="https://www.youtube.com/embed/XFQtjhFgxN0" data-toggle="modal" data-target="#youtube"><img src="<?=Path?>/images/conferencias/player.png"></a>
                         </div>
                         <div class="col-lg-7 contenido bg-dark text-white rounded-right">
@@ -60,7 +60,7 @@
             <div class="col-lg-6 mb-5">
                 <div class="px-3">
                     <div class="row">
-                        <div class="col-lg-5 rounded-left" style="background: url(<?=Path?>/images/conferencias/video4.png);background-size:cover;">
+                        <div class="col-lg-5 rounded-left imagen" style="background: url(<?=Path?>/images/conferencias/video4.png);background-size:cover;">
                             <a class="player" href="https://www.youtube.com/embed/XFQtjhFgxN0" data-toggle="modal" data-target="#youtube"><img src="<?=Path?>/images/conferencias/player.png"></a>
                         </div>
                         <div class="col-lg-7 contenido bg-dark text-white rounded-right">

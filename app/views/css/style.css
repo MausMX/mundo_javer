@@ -40,6 +40,7 @@ header .container nav{border-radius: 15px;}
 .rounded-bottom{border-bottom-right-radius: 1rem!important;border-bottom-left-radius: 1rem!important;}
 .rounded-right{border-top-right-radius: 1rem!important;border-bottom-right-radius: 1rem!important;}
 body#conferencias .player{position: absolute;bottom: 20px;right: 20px;}
+body#conferencias .imagen{min-height: 220px;}
 body{background: url(../../../images/general/fondo.jpg) no-repeat top center fixed #43712d;background-size:100%;}
 #btn-back{position: absolute;right: -10px;top: -20px;}
 .modal .close{position: absolute;top:-20px;right: -10px;opacity: 1;}
