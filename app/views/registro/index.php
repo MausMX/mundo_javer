@@ -1,7 +1,8 @@
 <div class="container font-poppins">
     <div class="px-3 mb-5">
-        <div class="row">
-            <div class="col-lg-4 bg-black rounded-left p-0">
+        <div class="row" style="position: relative;">
+            <a id="btn-back" href="<?=Path?>" style="z-index:10;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
+            <div class="col-lg-4 bg-black rounded-left p-0 text-md-center text-lg-left">
                 <div class="p-5">
                     <div class="px-3">
                         <h1 class="text-danger font-37 line-height-32 font-poppins"><strong>Encuentra tu nuevo hogar</strong></h1>
@@ -11,7 +12,6 @@
                 <img src="<?=Path?>/images/registro/imagen_registro.png">
             </div>
             <div class="col-lg-8 bg-white rounded-right" style="position: relative;">
-                <a id="btn-back" href="<?=Path?>"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
                 <div class="p-5">
                     <div class="px-5 py-3">
                         <h3 class="font-poppins font-18 text-center mb-5"><strong>¡Regístrate y completa el proceso para obtener tu regalos!</strong></h3>
