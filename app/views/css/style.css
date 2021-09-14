@@ -54,6 +54,7 @@ border-left: 1px solid #5C5C5C;
 .navbar-dark .navbar-nav .nav-link {color:rgba(255, 255, 255, 1);}
 #menu-1 i{font-size: 20px;}
 #menu-1 i.fa-spotify{color:#1DB954;position:absolute;top:5px;right:-20px;}
+#menu-1 .active a{color: #DA291C;}
 .bg-dark{background-color:#2C2C2C !important;}
 .text-dark{color:#2C2C2C !important;}
 .bg-danger{background-color: #DA291C !important;}

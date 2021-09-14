@@ -13,14 +13,11 @@
 					<li class="nav-item">
 						<a class="nav-link" href="#">Acerca de Javer</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Conferencias</a>
+					<li class="nav-item <?=$controllerName=='conferencias'?'active':'';?>">
+						<a class="nav-link" href="<?=Path?>/conferencias">Conferencias</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Registro para premio</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Contacto</a>
 					</li>
 				</ul>
 				<ul class="navbar-nav ml-auto pr-3">
