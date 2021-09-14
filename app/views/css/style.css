@@ -4,106 +4,48 @@ img{max-width:100%;}
 header{display: inline-block;width: 100%;height: 212px;}
 header .container{margin-top: 66px;position:relative;padding-left:100px;}
 header .container nav{border-radius: 15px;}
-#logo-principal{
-    position: absolute;
-    left:-15px;
-    top: -70px;
-    z-index: 10;
-}
+#logo-principal{position: absolute;left:-15px;top: -70px;z-index: 10;}
 #logo-principal img{width: 192px;}
 #menu-1 ul li
 /*,#menu-1 ul li a*/{height: 66px;display: flex;flex-direction: column;justify-content: space-around;align-items: flex-start;font-weight: 700;}
-#menu-1 ul:first-child li:first-child{
-    background-color: #DA291C;
-    padding-left: 50px;
-    border-right: 1px solid #000000;
-}
-#menu-1 ul:first-child li:nth-child(2){
-border-left: 1px solid #5C5C5C;
-}
-
-
-#menu-1 ul:first-child li a{
-    position:relative;
-    padding: 0 .9rem;
-}
-#menu-1 ul:first-child li a::after{
-    content: '';
-    border-right: 1px solid #5C5C5C;
-    position: absolute;
-    right: 0px;
-    width: 1px;
-    height: 16px;
-    top: 0px;
-}
-#menu-1 ul:first-child li a::before{
-    content: '';
-    border-right: 1px solid #000000;
-    position: absolute;
-    right: 1px;
-    width: 1px;
-    height: 16px;
-    top: 0px;
-}
-
+#menu-1 ul:first-child li:first-child{background-color: #DA291C;padding-left: 50px;border-right: 1px solid #000000;}
+#menu-1 ul:first-child li:nth-child(2){border-left: 1px solid #5C5C5C;}
+#menu-1 ul:first-child li a{position:relative;padding: 0 .9rem;}
+#menu-1 ul:first-child li a::after{content: '';border-right: 1px solid #5C5C5C;position: absolute;right: 0px;width: 1px;height: 16px;top: 0px;}
+#menu-1 ul:first-child li a::before{content: '';border-right: 1px solid #000000;position: absolute;right: 1px;width: 1px;height: 16px;top: 0px;}
 #menu-1 ul:first-child li:last-child a::before,
 #menu-1 ul:first-child li:last-child a::after,
 #menu-1 ul:first-child li:first-child a::before,
 #menu-1 ul:first-child li:first-child a::after{display:none;}
-
 .navbar-dark .navbar-nav .nav-link {color:rgba(255, 255, 255, 1);}
 #menu-1 i{font-size: 20px;}
 #menu-1 i.fa-spotify{color:#1DB954;position:absolute;top:5px;right:-20px;}
 #menu-1 .active a{color: #DA291C;}
 .bg-dark{background-color:#2C2C2C !important;}
 .text-dark{color:#2C2C2C !important;}
+.bg-black{background-color:#1D1D1D !important;}
 .bg-danger{background-color: #DA291C !important;}
 .text-danger{color: #DA291C !important;}
+.btn-danger{background-color: #DA291C !important;}
 .font-poppins{font-family:poppins, sans-serif;}
 .font-44{font-size: 44px;}
+.font-37{font-size: 37px;}
+.line-height-32{line-height: 32px;}
 .font-18{font-size: 18px;}
 .font-14{font-size: 14px;}
-.rounded{
-    border-radius:1rem !important;
-}
-.rounded-top{
-    border-top-left-radius: 1rem!important;
-    border-top-right-radius: 1rem!important;
-}
-.rounded-left{
-    border-top-left-radius: 1rem!important;
-    border-bottom-left-radius: 1rem!important;
-}
-.rounded-bottom {
-    border-bottom-right-radius: 1rem!important;
-    border-bottom-left-radius: 1rem!important;
-}
-.rounded-right {
-    border-top-right-radius: 1rem!important;
-    border-bottom-right-radius: 1rem!important;
-}
-body#conferencias .player{
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-}
-body{
-    background: url(../../../images/general/fondo.jpg) no-repeat top center fixed #43712d;
-    background-size:100%;
-}
-#btn-back{
-    position: absolute;
-    right: -10px;
-    top: -20px;
-}
-.modal .close{
-    position: absolute;
-    top:-20px;
-    right: -10px;
-    opacity: 1;
-}
+.letter-spacing-1{letter-spacing:1px ;}
+.rounded{border-radius:1rem !important;}
+.rounded-top{border-top-left-radius: 1rem!important;border-top-right-radius: 1rem!important;}
+.rounded-left{border-top-left-radius: 1rem!important;border-bottom-left-radius: 1rem!important;}
+.rounded-bottom{border-bottom-right-radius: 1rem!important;border-bottom-left-radius: 1rem!important;}
+.rounded-right{border-top-right-radius: 1rem!important;border-bottom-right-radius: 1rem!important;}
+body#conferencias .player{position: absolute;bottom: 20px;right: 20px;}
+body{background: url(../../../images/general/fondo.jpg) no-repeat top center fixed #43712d;background-size:100%;}
+#btn-back{position: absolute;right: -10px;top: -20px;}
+.modal .close{position: absolute;top:-20px;right: -10px;opacity: 1;}
+input[type=text],input[type=email]{background: url(../../../images/registro/bg_input.png) no-repeat;border: none;background-size: contain;width: 240px;font-size: 10px;height: 38px;}
+.form-control:focus{border: 1px solid #333;box-shadow: none;border-radius: 8px;}
+#registro.index .bg-white{background: url(../../../images/registro/bg_registro.png) bottom right no-repeat;}
 @media (min-width: 1250px){
-.container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 1200px;
-}
+    .container, .container-lg, .container-md, .container-sm, .container-xl{max-width: 1200px;}
 }
