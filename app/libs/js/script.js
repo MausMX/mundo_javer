@@ -1,14 +1,10 @@
 $(function() {
-	$('#detalle').on('hidden.bs.modal', function() {
-		location.hash = '';
-	    $("#detalle .modal-body").html("");
-	    $(this).removeData('bs.modal');
-	});
-	$('a.external').on('click', function(e) {
-        e.preventDefault();
-        var url = $(this).attr('href');
-        $(".modal-content").load(url);
-    });
+	$('#detalle').on('hidden.bs.modal',function(){location.hash='';$("#detalle .modal-body").html("");$(this).removeData('bs.modal');});
+	$('#detalle').on('show.bs.modal', function(event){var href=$(event.relatedTarget).attr("href");$('#detalle .modal-content').load(href,function(){$("#loading").hide();});});
+
+	$('#youtube').on('hidden.bs.modal',function(){location.hash='';$("#youtube .modal-content iframe").attr("src",'');$(this).removeData('bs.modal');});
+	$('#youtube').on('show.bs.modal', function(event){var href=$(event.relatedTarget).attr("href");$('#youtube .modal-content iframe').attr('src',href);});
+
     $('.confirmation').on('click', function () {
         return confirm('¿Estas seguro de eliminar este registro?');
     });
