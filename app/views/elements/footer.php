@@ -18,7 +18,7 @@
 							</a>						
 						</div>
 					</div>
-					<div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12 py-2 font-10 info-footer logo-footer"><span class="c-white"><img class="mr-2" src="/mundo-javer-2021/images/footer/logo_footer.png"></span></div>
+					<div class="col-xl-4 col-lg-4 col-md-2 col-sm-12 col-xs-12 py-2 font-10 info-footer logo-footer"><span class="c-white"><img class="mr-2" src="/mundo-javer-2021/images/footer/logo_footer.png"></span></div>
 				</div>
 			</div>
 		</div>
