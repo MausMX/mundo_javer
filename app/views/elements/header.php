@@ -10,8 +10,8 @@
 					<li class="nav-item">
 						<a class="nav-link" href="#">Fraccionamientos</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Acerca de Javer</a>
+					<li class="nav-item <?=$controllerName=='acerca'?'active':'';?>">
+						<a class="nav-link" href="<?=Path?>/acerca">Acerca de Javer</a>
 					</li>
 					<li class="nav-item <?=$controllerName=='conferencias'?'active':'';?>">
 						<a class="nav-link" href="<?=Path?>/conferencias">Conferencias</a>
@@ -37,7 +37,7 @@
 						|
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" style="position: relative;" href="#" nowrap>Podcast <i class="fa fa-fw fa-spotify"></i></a>
+						<a class="nav-link" target="_blank" style="position: relative;" href="https://open.spotify.com/show/2y8p0X9aATy4AS0MoOOFHJ?si=OXalRj0DSjynkRTtxBoZJA&dl_branch=1" nowrap>Podcast <i class="fa fa-fw fa-spotify"></i></a>
 					</li>
 				</ul>
 			</div>
