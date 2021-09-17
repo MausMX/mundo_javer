@@ -1,18 +1,29 @@
-.font-10{font-size:10px !important;}
+.font-10{font-size:10px;}
+.font-23{font-size: 23px;}
+.font-30{font-size: 30px;}
+.font-17{font-size: 17px;}
 .c-black{color:#000000 !important;}
 .c-white{color:#FFFFFF !important;}
 .font-sweet-sans-pro {    font-family: sweet-sans-pro, sans-serif;}
-.poppins {font-family: poppins, sans-serif;}
+.poppins{font-family: poppins, sans-serif;}
 .bold{font-weight:800;}
+.DA291C{color:#DA291C;}
 .text-center{text-align:center;}
+.btn-light{border:1px solid #DA291C;}
+.btn-light:hover{border:1px solid #DA291C;}
+.f-left{float:left;}
+
 body.contador{background-image: url(/mundo-javer-2021/images/contador/fondo_contador.jpg);background-size: cover;}
 body.contador .btn-registro{border-radius: 12px; border-color:#EB4141;}
 
 footer{background-color: rgba(0, 0, 0, 0.7);}
 footer .contenido-borde{border-bottom: 6px solid; border-color:#DA291C;}
 footer .container .info-footer{display: flex;align-items: center;}
-footer .container .logo-footer{justify-content: center;}
+footer .container .logo-footer{justify-content: right;}
 
+.desarrollo .location-name{line-height:14px;}
+.desarrollo .img-ingresos{text-align:right;}
+.desarrollo .interes-desarrollo p{text-align:center;}
 
 @media (min-width:320px) and (max-width:480px){
 footer .container .logo-footer{justify-content: left !important;}
