@@ -1,5 +1,6 @@
 [
   {
+  	"id":"alvento",
     "nombre":"Alvento",
 	"descripcion":"Alvento Residencial es un fraccionamiento que combina modernidad, exclusividad y armonía, atributos que destacan de las viviendas residenciales.",
 	"logo":"/images/desarrollo/Nuevo_Leon/alvento/logo_alvento.png",
@@ -19,6 +20,7 @@
     ]
   },
   {
+  	"id":"amaire",
     "nombre":"Amairé",
 	"descripcion":"Amairé combina diversidad, intimidad y naturalidad con los beneficios de las viviendas verticales: seguridad, proximidad, urbanidad y amenidades.",
 	"logo":"/images/desarrollo/Nuevo_Leon/amaire/logo_amaire.png",
@@ -38,6 +40,7 @@
     ]
   },
   {
+  	"id":"los-cantaros",
     "nombre":"Los Cantaros",
 	"descripcion":"Los Cántaros te permitirá vivir en la comodidad de la zona Eloy Cavazos, rodeado por hermosas áreas verdes, a minutos de avenidas principales y centros comerciales.",
 	"logo":"/images/desarrollo/Nuevo_Leon/los_cantaros/los_cantaros.png",
@@ -57,6 +60,7 @@
     ]
   },
   {
+  	"id":"muriel-residencial",
     "nombre":"Muriel Residencial",
 	"descripcion":"Muriel Residencial es un desarrollo exclusivo con casas de 3 recámaras con excelente distribución y acabados de lujo. Cuenta con casa club climatizada, alberca con chapoteadero, asadores con palapa, cancha de pasto sintético, juegos infantiles, áreas verdes y arco de entrada con caseta de acceso controlado.",
 	"logo":"/images/desarrollo/Nuevo_Leon/muriel_residencial/muriel_residencial.png",
@@ -76,6 +80,7 @@
     ]
   },
   {
+  	"id":"paseo-nogales",
     "nombre":"Paseo de los nogales",
 	"descripcion":"Paseo de los Nogales cuenta con la combinación perfecta entre tranquilidad y naturaleza que te permitirán crear una calidad de vida excepcional.",
 	"logo":"/images/desarrollo/Nuevo_Leon/paseo_nogales/paseo_nogales.png",
@@ -95,6 +100,7 @@
     ]
   },
   {
+  	"id":"porto-cumbres",
     "nombre":"Porto Cumbres",
 	"descripcion":"Porto Cumbres Sector Florencia esta ubicado en la exclusiva zona de Dominio Cumbres. Es un desarrollo residencial con casas inteligentes y amenidades de lujo. Cuenta con casa club climatizada, alberca con chapoteadero, asadores con palapa, cancha de pasto sintético, juegos infantiles, áreas verdes y con acceso controlado. Todo lo que necesitas para vivir con elegancia en un hogar inteligente. ",
 	"logo":"/images/desarrollo/Nuevo_Leon/porto_cumbres/porto_cumbres.png",
@@ -114,6 +120,7 @@
     ]
   },
   {
+  	"id":"privadas-masai",
     "nombre":"Privadas Masai",
 	"descripcion":"Privadas Masai es un exclusivo desarrollo con rápidos accesos que te brindará la oportunidad de estar conectado con la modernidad y autenticidad de la zona Guadalupe en Nuevo León.",
 	"logo":"/images/desarrollo/Nuevo_Leon/privadas_masai/privadas_masai.png",
@@ -133,6 +140,7 @@
     ]
   },
   {
+  	"id":"residencial-plazas",
     "nombre":"Residencial Privada las Plazas",
 	"descripcion":"Residencial Privada las Plazas es un proyecto completamente equipado que conectará la comodidad con elegancia, ofreciendo espacios personalizados creando una atmósfera de familiaridad y tranquilidad.",
 	"logo":"/images/desarrollo/Nuevo_Leon/residencial_plazas/residencial_plazas.png",
@@ -152,6 +160,7 @@
     ]
   },
   {
+  	"id":"torre-luna",
     "nombre":"Torre Luna",
 	"descripcion":"Torre Luna es un proyecto con espacios muy atractivos. Fue diseñado para brindarte la mayor comodidad, armonía y amplitud con un estilo contemporáneo elegante.",
 	"logo":"/images/desarrollo/Nuevo_Leon/torre_luna/torre_luna.png",
@@ -171,6 +180,7 @@
     ]
   },
   {
+  	"id":"valle-azul",
     "nombre":"Valle Azul",
 	"descripcion":"Valle Azul te brindará gran satisfacción por su combinación de comodidad, proximidad y tranquilidad. Aquí podrás crear increíbles e inolvidables momentos.",
 	"logo":"/images/desarrollo/Nuevo_Leon/valle_azul/valle_azul.png",
@@ -190,6 +200,7 @@
     ]
   },
   {
+  	"id":"valle-lincoln",
     "nombre":"Valle de Lincoln",
 	"descripcion":"En Valle de Lincoln encontrarás espacios que se adaptan a tu propio estilo de vida. Su equipamiento, ubicación y distribución son la combinación perfecta que te hará disfrutar de tu nuevo hogar.",
 	"logo":"/images/desarrollo/Nuevo_Leon/valle_lincoln/valle_lincoln.png",
@@ -209,6 +220,7 @@
     ]
   },
   {
+  	"id":"valle-santa-elena",
     "nombre":"Valle de Santa Elena",
 	"descripcion":"Valle de Santa Elena brinda la comodidad que necesitas con más espacio, accesibilidad y cercanía, ideal para un nuevo comienzo.",
 	"logo":"/images/desarrollo/Nuevo_Leon/valle_santa_elena/valle_santa_elena.png",
@@ -228,6 +240,7 @@
     ]
   },
   {
+  	"id":"valle-santa-isabel",
     "nombre":"Valle de Santa Isabel",
 	"descripcion":"En Valle Santa Isabel encontrarás armonía, estabilidad y comunidad que te brindan la oportunidad de crear una nueva historia.",
 	"logo":"/images/desarrollo/Nuevo_Leon/valle_santa_isabel/valle_santa_isabel.png",
@@ -247,6 +260,7 @@
     ]
   },
   {
+  	"id":"valle-roble",
     "nombre":"Valle del Roble",
 	"descripcion":"Valle del Roble combina naturaleza y urbanidad, cualidades que lo hicieron uno de los diez desarrollos recomendados por el ISA de Infonavit. Aquí encontrarás todo en el mejor fraccionamiento en Juárez, Nuevo León. ",
 	"logo":"/images/desarrollo/Nuevo_Leon/valle_santa_isabel/valle_santa_isabel.png",
@@ -266,6 +280,7 @@
     ]
   },
   {
+  	"id":"alberi-residencial",
     "nombre":"Alberí Residencial",
 	"descripcion":"Alberí Residencial cuenta con una combinación de exclusividad, tranquilidad y hermosas áreas arboladas; factores que te darán todos los beneficios de un desarrollo residencial en la zona sur de la ciudad. ",
 	"logo":"/images/desarrollo/Jalisco/alberi_residencial/alberi_residencial.png",
@@ -285,6 +300,7 @@
     ]
   },
   {
+  	"id":"arrayanes",
     "nombre":"Arrayanes",
 	"descripcion":"Imagina tener como patio trasero el Bosque de La Primavera, respirar su tranquilidad y aire puro, en un hermoso fraccionamiento en una de las mejores ubicaciones de la zona. Rodeado de todos los servicios en una zona madura pero con crecimiento sustentable para que tu inversión valga la pena disfrutando de tu nuevo hogar.",
 	"logo":"/images/desarrollo/Jalisco/arrayanes/arrayanes.png",
@@ -304,6 +320,7 @@
     ]
   },
   {
+  	"id":"cima-serena",
     "nombre":"Cima Serena",
 	"descripcion":"Cima Serena con su excelente ubicación, accesibilidad y seguridad te da la oportunidad de crear tu patrimonio con una excelente calidad de vida y bienestar para tu familia.",
 	"logo":"/images/desarrollo/Jalisco/cima_serena/cima_serena.png",
@@ -323,6 +340,7 @@
     ]
   },
   {
+  	"id":"loma-real",
     "nombre":"Loma Real",
 	"descripcion":"Loma Real te ofrece contacto con la naturaleza, vistas increíbles y sobre todo comodidad, que serán los causantes de que desees quedarte en casa.",
 	"logo":"/images/desarrollo/Jalisco/loma_real/loma_real.png",
@@ -342,6 +360,7 @@
     ]
   },
   {
+  	"id":"valle-encinos",
     "nombre":"Valle de los Encinos Plus",
 	"descripcion":"Conoce esta nueva etapa, con diseños innovadores adecuados a tu estilo de vida. Valle de los encinos plus te recibe con increíbles áreas verdes, juegos infantiles, terraza para eventos, áreas pergoladas y un asombroso skate park.",
 	"logo":"/images/desarrollo/Jalisco/valle_encinos/valle_encinos.png",
@@ -361,6 +380,7 @@
     ]
   },
   {
+  	"id":"valle-tejada",
     "nombre":"Valle de Tejada",
 	"descripcion":"Valle de Tejeda cuenta con amplios espacios y una distribución inteligente que te permitirá disfrutar al máximo de sus diseños innovadores.",
 	"logo":"/images/desarrollo/Jalisco/valle_tejada/valle_tejada.png",
@@ -380,6 +400,7 @@
     ]
   },
   {
+  	"id":"caranday",
     "nombre":"Caranday",
 	"descripcion":"Caranday te permitirá experimentar la comodidad, exclusividad y plusvalía que brinda un desarrollo residencial y sus hermosas viviendas al sur de Aguascalientes.",
 	"logo":"/images/desarrollo/Aguascalientes/caranday/caranday.png",
@@ -399,6 +420,7 @@
     ]
   },
   {
+  	"id":"paseos-sur",
     "nombre":"Paseos del Sur",
 	"descripcion":"Paseos del Sur, con su ubicación dentro de la zona de mayor crecimiento industrial del estado de Aguascalientes, es la clave principal para brindarte tranquilidad y prosperidad.",
 	"logo":"/images/desarrollo/Aguascalientes/paseos_sur/paseos_sur.png",
@@ -418,6 +440,7 @@
     ]
   },
   {
+  	"id":"villa-montana",
     "nombre":"Villa Montaña",
 	"descripcion":"Villa Montaña con sus elementos principales: arquitectura contemporánea y sustentabilidad, te darán la posibilidad de disfrutar y conectar con su comunidad.",
 	"logo":"/images/desarrollo/Aguascalientes/villa_montana/villa_montana.png",
@@ -437,6 +460,7 @@
     ]
   },
   {
+  	"id":"alboreto-residencial",
     "nombre":"Alboreto Residencial",
 	"descripcion":"Alboreto Residencial destaca por su exclusividad, equipamiento y arquitectura; atributos que, en conjunto, te permitirán descubrir lo maravilloso de Metepec Pueblo Mágico.",
 	"logo":"/images/desarrollo/Estado_mexico/alboreto_residencial/alboreto_residencial.png",
@@ -456,6 +480,7 @@
     ]
   },
   {
+  	"id":"jardines-girasoles",
     "nombre":"Jardines de Girasoles",
 	"descripcion":"Jardines de Girasoles con sus zonas deportivas, áreas verdes y caseta de control hacen de este desarrollo un lugar con gran plusvalía y excelente opción para vivir.",
 	"logo":"/images/desarrollo/Estado_mexico/jardines_girasoles/jardines_girasoles.png",
@@ -475,6 +500,7 @@
     ]
   },
   {
+  	"id":"residenza-privadas",
     "nombre":"Residenza Privadas III",
 	"descripcion":"Residenza Privadas cuenta con el mejor diseño arquitectónico y urbanístico en Coacalco, atributos que lo convierten en el lugar que siempre has soñado.",
 	"logo":"/images/desarrollo/Estado_mexico/residenza_privadas/residenza_privadas.png",
@@ -494,6 +520,7 @@
     ]
   },
   {
+  	"id":"valle-lirios",
     "nombre":"Valle de los Lirios",
 	"descripcion":"Valle de los Lirios es un fraccionamiento que contará con diversas amenidades, en donde podrás disfrutar con toda confianza de tu familia; contará con caseta de control, portones a condominios, escuela primaria, jardín vecinal con juegos y zona deportiva con multicanchas y trota pista. Valle de los Lirios es el complemento ideal para ti y tú familia.",
 	"logo":"/images/desarrollo/Estado_mexico/valle_lirios/valle_lirios.jpg",
@@ -513,6 +540,7 @@
     ]
   },
   {
+  	"id":"bosque-nevado",
     "nombre":"Bosque del Nevado II",
 	"descripcion":"Bosques del Nevado II es un fraccionamiento ubicado en Zinacantepec, en donde podrás disfrutar con toda la confianza a tu familia; cuenta con casas de 3 habitaciones en 2 o 3 niveles, contará con escuela, jardín vecinal y zona deportiva. Bosques del Nevado II es el complemento perfecto para tu vida.",
 	"logo":"/images/desarrollo/Estado_mexico/bosque_nevado/bosque_nevado.jpg",
@@ -532,6 +560,7 @@
     ]
   },
   {
+  	"id":"cumbre-alta",
     "nombre":"Cumbre Alta",
 	"descripcion":"Cumbre Alta en Zizaná te brinda la exclusividad, estilo contemporáneo y equipamiento de un conjunto residencial con 245 mil m2 de áreas verdes y lago central de 11 mil m2 de extensión.",
 	"logo":"/images/desarrollo/Queretaro/cumbre_alta/cumbre_alta.png",
@@ -551,6 +580,7 @@
     ]
   },
   {
+  	"id":"el-manantial",
     "nombre":"El Manantial",
 	"descripcion":"El Manantial es la combinación perfecta entre armonía, exclusividad y naturaleza de los conjuntos residenciales de la más alta calidad. Su equipamiento, ubicación y distribución harán que te quedes a vivir aquí.",
 	"logo":"/images/desarrollo/Queretaro/el_manantial/el_manantial.png",
@@ -570,6 +600,7 @@
     ]
   },
   {
+  	"id":"fuentes-balvanera",
     "nombre":"Fuentes de Balvanera",
 	"descripcion":"Fuentes de Balvanera ofrece comodidad y bienestar para tu familia, atributos que harán de tu hogar la mejor inversión.",
 	"logo":"/images/desarrollo/Queretaro/fuente_balvanera/fuente_balvanera.png",
@@ -589,6 +620,7 @@
     ]
   },
   {
+  	"id":"massaro-residencial",
     "nombre":"Massaro Residencial",
 	"descripcion":"Massaro Residencial es una mezcla de innovación, vanguardia y elegancia, mismos que brindan a este conjunto residencial un mayor prestigio y plusvalía.",
 	"logo":"/images/desarrollo/Queretaro/massaro_residencial/massaro_residencial.png",
@@ -608,6 +640,7 @@
     ]
   },
   {
+  	"id":"paseo-junipero",
     "nombre":"Paseo San Junípero",
 	"descripcion":"En Paseo San Junípero encontrarás: exclusividad, estilo y tranquilidad que brindan los conjuntos residenciales más sofisticados dentro de la ciudad de Querétaro.",
 	"logo":"/images/desarrollo/Queretaro/paseo_junipero/paseo_junipero.png",
@@ -627,6 +660,7 @@
     ]
   },
   {
+  	"id":"pedregal-rio",
     "nombre":"Pedregal del Río",
 	"descripcion":"Pedregal del Río con su estilo contemporáneo expresa armonía, tranquilidad y dinamismo; elementos que hacen de este complejo residencial ideal para vivir o invertir.",
 	"logo":"/images/desarrollo/Queretaro/pedregal_rio/pedregal_rio.png",
@@ -646,6 +680,7 @@
     ]
   },
   {
+  	"id":"privalia-ambienta",
     "nombre":"Privalia Ambienta",
 	"descripcion":"Privalia Ambienta mezcla todas las ventajas de la construcción vertical y los conjuntos residenciales. Ven y conoce la nueva etapa que te ofrece arquitectura de vanguardia, privacidad y equipamiento.",
 	"logo":"/images/desarrollo/Queretaro/privalia_ambienta/privalia_ambienta.png",
@@ -665,6 +700,7 @@
     ]
   },
   {
+  	"id":"arbolada",
     "nombre":"Arbolada",
 	"descripcion":"Arbolada, su diversidad de modelos de vivienda y su privilegiada ubicación elevan la plusvalía de este complejo residencial. Sus más de 7,500 m2 de áreas verdes y parques recreativos lo convierten en una opción única para vivir o invertir.",
 	"logo":"/images/desarrollo/Quintana_roo/arbolada/arbolada.png",
@@ -684,6 +720,7 @@
     ]
   },
   {
+  	"id":"paseo-kusamil",
     "nombre":"Paseo Kusamil",
 	"descripcion":"Paseo Kusamil destaca por su excelente ubicación y plusvalía que te permitirá vivir los mejores años de tu vida en Cancún.",
 	"logo":"/images/desarrollo/Quintana_roo/paseo_kusamil/paseo_kusamil.png",
@@ -703,6 +740,7 @@
     ]
   },
   {
+  	"id":"portoalto",
     "nombre":"Portoalto",
 	"descripcion":"Portoalto, concepto residencial que combina el mejor equipamiento, armonía y tranquilidad. A tan solo 15 minutos de la 5ta avenida en Playa del Carmen.",
 	"logo":"/images/desarrollo/Quintana_roo/Portoalto/Portoalto.png",
@@ -722,6 +760,7 @@
     ]
   },
   {
+  	"id":"privada-altus",
     "nombre":"Privada Altus II",
 	"descripcion":"Privada Altus ll te permitirá experimentar la comodidad, exclusividad y equipamiento del mejor desarrollo residencial al sur de Cancún. Aquí encontrarás amenidades de primer nivel y residencias con una excelente distribución que te brindarán una sensación de tranquilidad y confort.",
 	"logo":"/images/desarrollo/Quintana_roo/privada_altus/privada_altus.png",
@@ -741,6 +780,7 @@
     ]
   },
   {
+  	"id":"punta_estrella",
     "nombre":"Punta Estrella",
 	"descripcion":"Punta Estrella combina armonía, elegancia y plusvalía; atributos que describen cómo es vivir en Playa del Carmen, a 3 kilómetros del mar Caribe.",
 	"logo":"/images/desarrollo/Quintana_roo/punta_estrella/punta_estrella.png",
@@ -760,6 +800,7 @@
     ]
   },
   {
+  	"id":"piramides",
     "nombre":"Pirámides",
 	"descripcion":"Pirámides brinda el bienestar, comodidad y armonía que tu familia necesita. Su excelente ubicación y distribución hacen de este fraccionamiento el mejor lugar para vivir.",
 	"logo":"/images/desarrollo/Tamaulipas/piramides/piramides.png",
