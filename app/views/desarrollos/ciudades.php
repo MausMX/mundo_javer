@@ -28,7 +28,7 @@
                             <div class="row align-items-center justify-content-center">
                             	<? foreach ($info as $key => $value) {?>
 	                                <div class="col-lg-6">
-	                					<img src="<? echo Path?>/images/ciudades/city_01.png"> 
+	                					<img src="<? echo Path.$value->imgciudad?>"> 
 	                					<div class="col-lg-12 text-center">
 	                						<p class="font-30 bold"><?= $value->nombre;?></p>
 	                						<div class="row mb-3">
@@ -47,56 +47,10 @@
 				                                	<p class="mt-0 font-14 location-name text-left"><?= $value->leyenda2;?></p>
 			                                   	</div>             
 		                					</div>
-	                    					<a class="btn btn-danger pl-3 pr-3 text-uppercase font-10 poppins py-2" href="<?=Path?>/desarrollos/"<?= $value->id;?>><strong>VER DETALLE DE FRACCIONAMIENTO</strong></a>
+	                    					<a class="btn btn-danger pl-3 pr-3 text-uppercase font-10 poppins py-2" href="<?=Path?>/desarrollos/<?= $value->id;?>"><strong>VER DETALLE DE FRACCIONAMIENTO</strong></a>
 	                					</div>
 	                                </div>
-	                             <? }?>
-                                <!-- <div class="col-lg-6">
-                					<img src="<? echo Path?>/images/ciudades/city_02.png"> 
-                					<div class="col-lg-12 text-center">
-                						<p class="font-30 bold"> VALLE DE LOS ENCINOS</p>
-                						<div class="row mb-3">
-	                						<div class="col-lg-2 pr-0">
-		                                    	<img src="<?=Path?>/images/desarrollo/alvento/location.png">
-		                                    </div>
-		                                    <div class="col-lg-4 pl-0 pr-0">
-			                                	<p class="mb-0 font-14 bold DA291C text-left">Ubicación:</p>
-			                                	<p class="mt-0 font-14 location-name text-left">Apodaca, Nuevo Leon</p>
-		                                   	</div> 
-		                                   	<div class="col-lg-2 pr-0 pl-0 img-ingresos text-right">
-		                                    	<img src="<?=Path?>/images/desarrollo/alvento/ingresos.png">
-		                                    </div>
-		                                    <div class="col-lg-4 pl-2">
-			                                	<p class="mb-0 font-14 bold DA291C text-left">Ingresos:</p>
-			                                	<p class="mt-0 font-14 location-name text-left">Desde $8,000 Mxn</p>
-		                                   	</div>             
-	                					</div>
-                    					<a class="btn btn-danger pl-3 pr-3 text-uppercase font-10 poppins py-2" href="<?=Path?>"><strong>VER DETALLE DE FRACCIONAMIENTO</strong></a>
-                					</div>
-                                </div> 
-                                 <div class="col-lg-6">
-                					<img src="<? echo Path?>/images/ciudades/city_01.png"> 
-                					<div class="col-lg-12 text-center">
-                						<p class="font-30 bold"> VALLE DE LOS ENCINOS</p>
-                						<div class="row mb-3">
-	                						<div class="col-lg-2 pr-0">
-		                                    	<img src="<?=Path?>/images/desarrollo/alvento/location.png">
-		                                    </div>
-		                                    <div class="col-lg-4 pl-0 pr-0">
-			                                	<p class="mb-0 font-14 bold DA291C text-left">Ubicación:</p>
-			                                	<p class="mt-0 font-14 location-name text-left">Apodaca, Nuevo Leon</p>
-		                                   	</div> 
-		                                   	<div class="col-lg-2 pr-0 pl-0 img-ingresos text-right">
-		                                    	<img src="<?=Path?>/images/desarrollo/alvento/ingresos.png">
-		                                    </div>
-		                                    <div class="col-lg-4 pl-2">
-			                                	<p class="mb-0 font-14 bold DA291C text-left">Ingresos:</p>
-			                                	<p class="mt-0 font-14 location-name text-left">Desde $8,000 Mxn</p>
-		                                   	</div>             
-	                					</div>
-                    					<a class="btn btn-danger pl-3 pr-3 text-uppercase font-10 poppins py-2" href="<?=Path?>"><strong>VER DETALLE DE FRACCIONAMIENTO</strong></a>
-                					</div>
-                                </div>-->
+	                             <? }?>                                
                             </div>
                     </div>
                 </div>
