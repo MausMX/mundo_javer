@@ -1,7 +1,7 @@
 <div class="container font-poppins btn-fraccionamiento mb-5">
     <div class="row" style="position: relative;">
 		<div class="col-6 d-block">
-        	<a class="btn btn-danger pl-2 pr-3 text-uppercase font-10 poppins py-2 prev-frac" href="<?= $nextfrac;?>">
+        	<a class="btn btn-danger pl-2 pr-3 text-uppercase font-10 poppins py-2 prev-frac" href="<?= $prevfrac;?>">
         		<i class="fas fa-caret-left pr-3"></i><strong>Anterior Fraccionamiento</strong>
         	</a>
 		</div>
