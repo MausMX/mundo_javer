@@ -1,15 +1,18 @@
 .font-10{font-size:10px;}
+.font-12{font-size:12px;}
 .font-23{font-size: 23px;}
 .font-30{font-size: 30px;}
 .font-17{font-size: 17px;}
-.font-17{font-size: 16px;}
+/*.font-17{font-size: 16px;}*/
 .c-black{color:#000000 !important;}
 .c-white{color:#FFFFFF !important;}
-.font-sweet-sans-pro {    font-family: sweet-sans-pro, sans-serif;}
+.font-sweet-sans-pro {font-family: sweet-sans-pro, sans-serif;}
 .poppins{font-family: poppins, sans-serif;}
 .bold{font-weight:800;}
 .DA291C{color:#DA291C;}
 .text-center{text-align:center;}
+.text-left{text-align:left;}
+.text-right{text-align:right;}
 .btn-light{border:1px solid #DA291C;}
 .btn-light:hover{border:1px solid #DA291C;}
 .f-left{float:left;}
@@ -47,6 +50,9 @@ a.next-frac::before{      content: "";
     height: 96%;
     width: 1.3px;
 }
+.ciudades .ciudades-detalle{background-image: url(/mundo-javer-2021/images/ciudades/top_banner.png);border-bottom-left-radius: 0rem !important;background-repeat: no-repeat;}
+.ciudades .text-ciudad{letter-spacing:-2.35px;line-height: 50px;}
+.ciudades .text-estado{text-decoration:underline;font-weight: 600;}
 
 @media (min-width:320px) and (max-width:480px){
 footer .container .logo-footer{justify-content: left !important;}
