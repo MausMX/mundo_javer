@@ -2,6 +2,7 @@
 .font-23{font-size: 23px;}
 .font-30{font-size: 30px;}
 .font-17{font-size: 17px;}
+.font-17{font-size: 16px;}
 .c-black{color:#000000 !important;}
 .c-white{color:#FFFFFF !important;}
 .font-sweet-sans-pro {    font-family: sweet-sans-pro, sans-serif;}
@@ -24,6 +25,28 @@ footer .container .logo-footer{justify-content: right;}
 .desarrollo .location-name{line-height:14px;}
 .desarrollo .img-ingresos{text-align:right;}
 .desarrollo .interes-desarrollo p{text-align:center;}
+
+.carousel-control-next span,.carousel-control-prev span{font-size:35px; color:#000000;}
+.logo-location-maps{margin-top:-16px;}
+.logo-wp-btn{margin-top:-20px;}
+a.prev-frac,a.prev-frac:hover{border:1px solid white;}
+a.prev-frac::before{      content: "";
+    background: white;
+    position: absolute;
+    bottom: 1px;
+    left: 37px;
+    height: 96%;
+    width: 1.3px;
+}
+a.next-frac,a.next-frac:hover{border:1px solid white;}
+a.next-frac::before{      content: "";
+    background: white;
+    position: absolute;
+    bottom: 1px;
+    right: 37px;
+    height: 96%;
+    width: 1.3px;
+}
 
 @media (min-width:320px) and (max-width:480px){
 footer .container .logo-footer{justify-content: left !important;}

@@ -22,6 +22,11 @@ window.addEventListener("resize", function(){
 	//location.reload();
 },false);
 
+$('.bxslider_detalle').bxSlider({
+  auto: true,
+  stopAutoOnClick: true,
+  pager: false
+});
 
 function altura_wrapper_fixed(){
     altura_ventana=$(window).height();

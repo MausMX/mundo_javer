@@ -1,0 +1,781 @@
+[
+  {
+    "nombre":"Alvento",
+	"descripcion":"Alvento Residencial es un fraccionamiento que combina modernidad, exclusividad y armonía, atributos que destacan de las viviendas residenciales.",
+	"logo":"/images/desarrollo/Nuevo_Leon/alvento/logo_alvento.png",
+	"ubicacion":"Apodaca, Nuevo Leon",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $38,000 Mxn",
+	"telefono":"81 8000-9059",
+	"calle":"Car. Santa Rosa - Apodaca, Fracc. Alvento, Calle Foresta Lote 3, C.P. 66606, Apodaca, Nuevo León.",
+	"maps":"http://www.google.com/maps/dir//25.808486476947703,-100.21077846087256",
+	"prev-url":"/desarrollos/valle-del-roble",
+	"next-url":"/desarrollos/amaire",
+	"tour_virtual":"https://www.javer.com.mx/tour/alvento/serra-2n/",
+    "slider": [
+      "/images/desarrollo/alvento/main_img_slide_01.jpg",
+      "/images/desarrollo/alvento/main_img_slide_01.jpg",
+      "/images/desarrollo/alvento/main_img_slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Amairé",
+	"descripcion":"Amairé combina diversidad, intimidad y naturalidad con los beneficios de las viviendas verticales: seguridad, proximidad, urbanidad y amenidades.",
+	"logo":"/images/desarrollo/Nuevo_Leon/amaire/logo_amaire.png",
+	"ubicacion":"Monterrey, Nuevo Leon",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $42,000 Mxn",
+	"telefono":"81 2473-95895",
+	"calle":"Av. Cumbres Allegro # 300 Col. Cumbres Allegro, Monterrey, Nuevo León C.P. 64345",
+	"maps":"http://www.google.com/maps/dir//25.743647,-100.428195",
+	"prev-url":"/desarrollos/alvento",
+	"next-url":"/desarrollos/los-cantaros",
+	"tour_virtual":"https://www.javer.com.mx/tour/departamentos-amaire/amaire/",
+    "slider": [
+      "/images/desarrollo/alvento/slide_01.jpg",
+      "/images/desarrollo/alvento/slide_01.jpg",
+      "/images/desarrollo/alvento/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Los Cantaros",
+	"descripcion":"Los Cántaros te permitirá vivir en la comodidad de la zona Eloy Cavazos, rodeado por hermosas áreas verdes, a minutos de avenidas principales y centros comerciales.",
+	"logo":"/images/desarrollo/Nuevo_Leon/los_cantaros/los_cantaros.png",
+	"ubicacion":"Juarez, Nuevo Leon",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $14,000 Mxn",
+	"telefono":"81 5102-5151",
+	"calle":"Av. Los Cántaros # 411 Col. Los Cántaros , Juárez, Nuevo León C.P. 67260",
+	"maps":"http://www.google.com/maps/dir//25.629293,-100.117562",
+	"prev-url":"/desarrollos/amaire",
+	"next-url":"/desarrollos/muriel-residencial",
+	"tour_virtual":"https://www.javer.com.mx/tour/los-cantaros/aguila-con-pasillo/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Muriel Residencial",
+	"descripcion":"Muriel Residencial es un desarrollo exclusivo con casas de 3 recámaras con excelente distribución y acabados de lujo. Cuenta con casa club climatizada, alberca con chapoteadero, asadores con palapa, cancha de pasto sintético, juegos infantiles, áreas verdes y arco de entrada con caseta de acceso controlado.",
+	"logo":"/images/desarrollo/Nuevo_Leon/muriel_residencial/muriel_residencial.png",
+	"ubicacion":"Escobedo, Nuevo Leon",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $45,000 Mxn",
+	"telefono":"81 5102-5151",
+	"calle":"Av. Acueducto No. 607 Col. Quinto Centenario, Escobedo, Nuevo León C.P. 66072",
+	"maps":"http://www.google.com/maps/dir//25.789998496610984,-100.3345709070378",
+	"prev-url":"/desarrollos/los-cantaros",
+	"next-url":"/desarrollos/paseo-nogales",
+	"tour_virtual":"https://www.javer.com.mx/tour/los-cantaros/aguila-con-pasillo/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Paseo de los nogales",
+	"descripcion":"Paseo de los Nogales cuenta con la combinación perfecta entre tranquilidad y naturaleza que te permitirán crear una calidad de vida excepcional.",
+	"logo":"/images/desarrollo/Nuevo_Leon/paseo_nogales/paseo_nogales.png",
+	"ubicacion":"Apodaca, Nuevo Leon",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $19,000 Mxn",
+	"telefono":"81 4774-5888",
+	"calle":"Ave. Enrique Guajardo Villarreal # 600 Col. Paseo de los Nogales, Apodaca, Nuevo León C.P. 66607 ",
+	"maps":"http://www.google.com/maps/dir//25.8276194,-100.2149845",
+	"prev-url":"/desarrollos/muriel-residencial",
+	"next-url":"/desarrollos/porto-cumbres",
+	"tour_virtual":"https://www.javer.com.mx/tour/paseo-de-los-nogales/fenix/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Porto Cumbres",
+	"descripcion":"Porto Cumbres Sector Florencia esta ubicado en la exclusiva zona de Dominio Cumbres. Es un desarrollo residencial con casas inteligentes y amenidades de lujo. Cuenta con casa club climatizada, alberca con chapoteadero, asadores con palapa, cancha de pasto sintético, juegos infantiles, áreas verdes y con acceso controlado. Todo lo que necesitas para vivir con elegancia en un hogar inteligente. ",
+	"logo":"/images/desarrollo/Nuevo_Leon/porto_cumbres/porto_cumbres.png",
+	"ubicacion":"Garcia, Nuevo Leon",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $55,000 Mxn",
+	"telefono":"81 4774-5870",
+	"calle":"Calle. Stilo # 202 Col. Porto Cumbres, Sector Florencia, García, Nuevo León C.P. 66036.",
+	"maps":"http://www.google.com/maps/dir//25.757703620222415,-100.46101411790738",
+	"prev-url":"/desarrollos/paseo-nogales",
+	"next-url":"/desarrollos/privadas-masai",
+	"tour_virtual":"#N/A",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Privadas Masai",
+	"descripcion":"Privadas Masai es un exclusivo desarrollo con rápidos accesos que te brindará la oportunidad de estar conectado con la modernidad y autenticidad de la zona Guadalupe en Nuevo León.",
+	"logo":"/images/desarrollo/Nuevo_Leon/privadas_masai/privadas_masai.png",
+	"ubicacion":"Guadalupe, Nuevo Leon",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $35,000 Mxn",
+	"telefono":"81 4774-5918",
+	"calle":"Calle Hidalgo Col. Privadas Masai , Guadalupe, Nuevo León C.P. 67196",
+	"maps":"http://www.google.com/maps/dir//25.6643525,-100.1469708",
+	"prev-url":"/desarrollos/porto-cumbres",
+	"next-url":"/desarrollos/residencial-las-plazas",
+	"tour_virtual":"https://www.javer.com.mx/tour/privadas-masai/aura-elite/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Residencial Privada las Plazas",
+	"descripcion":"Residencial Privada las Plazas es un proyecto completamente equipado que conectará la comodidad con elegancia, ofreciendo espacios personalizados creando una atmósfera de familiaridad y tranquilidad.",
+	"logo":"/images/desarrollo/Nuevo_Leon/residencial_plazas/residencial_plazas.png",
+	"ubicacion":"Guadalupe, Nuevo Leon",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $48,000 Mxn",
+	"telefono":"81 4774-6116",
+	"calle":"Ave. Amador Garza Martínez, S/N Col. Residencial Privada las Plazas, Guadalupe, Nuevo León C.P. 67134",
+	"maps":"http://www.google.com/maps/dir//25.681076649602453,-100.18327085236423",
+	"prev-url":"/desarrollos/privadas-masai",
+	"next-url":"/desarrollos/torre-luna",
+	"tour_virtual":"#N/A",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Torre Luna",
+	"descripcion":"Torre Luna es un proyecto con espacios muy atractivos. Fue diseñado para brindarte la mayor comodidad, armonía y amplitud con un estilo contemporáneo elegante.",
+	"logo":"/images/desarrollo/Nuevo_Leon/torre_luna/torre_luna.png",
+	"ubicacion":"Salinas Victoria, Nuevo Leon",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $18,000 Mxn",
+	"telefono":"81 8000-9066",
+	"calle":"Car. Salinas Victoria S/N Col. Torre Luna, Salinas Victoria, Nuevo León C.P. 65515",
+	"maps":"http://www.google.com/maps/dir//25.909997890634195,-100.26605732889048",
+	"prev-url":"/desarrollos/residencial-las-plazas",
+	"next-url":"/desarrollos/valle-azul",
+	"tour_virtual":"#N/A",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Valle Azul",
+	"descripcion":"Valle Azul te brindará gran satisfacción por su combinación de comodidad, proximidad y tranquilidad. Aquí podrás crear increíbles e inolvidables momentos.",
+	"logo":"/images/desarrollo/Nuevo_Leon/valle_azul/valle_azul.png",
+	"ubicacion":"Apodaca, Nuevo Leon",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $27,000 Mxn",
+	"telefono":"81 8526-2626",
+	"calle":"Antigua Carretera a Agua Fría Km 2 Col. Valle Azul, Apodaca, Nuevo León C.P. 66620",
+	"maps":"http://www.google.com/maps/dir//25.797761081251288,-100.15646287968237",
+	"prev-url":"/desarrollos/torre-luna",
+	"next-url":"/desarrollos/valle-lincoln",
+	"tour_virtual":"https://www.javer.com.mx/tour/valle-azul/aura/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Valle de Lincoln",
+	"descripcion":"En Valle de Lincoln encontrarás espacios que se adaptan a tu propio estilo de vida. Su equipamiento, ubicación y distribución son la combinación perfecta que te hará disfrutar de tu nuevo hogar.",
+	"logo":"/images/desarrollo/Nuevo_Leon/valle_lincoln/valle_lincoln.png",
+	"ubicacion":"Garcia, Nuevo Leon",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $10,000 Mxn",
+	"telefono":"81 8000-9150",
+	"calle":"Av. Abraham Lincoln S/N Fracc. Valle de Lincoln, García, Nuevo León C.P. 66026",
+	"maps":"http://www.google.com/maps/dir//25.7890864,-100.491554",
+	"prev-url":"/desarrollos/valle-azul",
+	"next-url":"/desarrollos/valle-santa-elena",
+	"tour_virtual":"https://www.javer.com.mx/tour/valle-de-lincoln/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Valle de Santa Elena",
+	"descripcion":"Valle de Santa Elena brinda la comodidad que necesitas con más espacio, accesibilidad y cercanía, ideal para un nuevo comienzo.",
+	"logo":"/images/desarrollo/Nuevo_Leon/valle_santa_elena/valle_santa_elena.png",
+	"ubicacion":"Apodaca, Nuevo Leon",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $13,000 Mxn",
+	"telefono":"81 8000-9090",
+	"calle":"Carr. A General Zuazua KM 5 Col. Valle de Santa Elena, Apodaca, Nuevo León C.P. 65776 ",
+	"maps":"http://www.google.com/maps/dir//25.8512341,-100.1321579",
+	"prev-url":"/desarrollos/valle-lincoln",
+	"next-url":"/desarrollos/valle-santa-isabel",
+	"tour_virtual":"https://www.javer.com.mx/tour/valle-santa-elena/aguila/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Valle de Santa Isabel",
+	"descripcion":"En Valle Santa Isabel encontrarás armonía, estabilidad y comunidad que te brindan la oportunidad de crear una nueva historia.",
+	"logo":"/images/desarrollo/Nuevo_Leon/valle_santa_isabel/valle_santa_isabel.png",
+	"ubicacion":"Juarez, Nuevo Leon",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $10,000 Mxn",
+	"telefono":"81 2270-1990",
+	"calle":"Av. Valle Santa Isabel # 1004 Col. Valle Santa Isabel, Juárez, Nuevo León C.P. 67256",
+	"maps":"http://www.google.com/maps/dir//25.6943838,-100.0891828",
+	"prev-url":"/desarrollos/valle-santa-elena",
+	"next-url":"/desarrollos/valle-roble",
+	"tour_virtual":"https://www.javer.com.mx/tour/santa-isabel/#lista2",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Valle del Roble",
+	"descripcion":"Valle del Roble combina naturaleza y urbanidad, cualidades que lo hicieron uno de los diez desarrollos recomendados por el ISA de Infonavit. Aquí encontrarás todo en el mejor fraccionamiento en Juárez, Nuevo León. ",
+	"logo":"/images/desarrollo/Nuevo_Leon/valle_santa_isabel/valle_santa_isabel.png",
+	"ubicacion":"Juarez, Nuevo Leon",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $10,000 Mxn",
+	"telefono":"81 5102-5102",
+	"calle":"Carr. Monterrey Reynosa KM 13 Fracc. Valle del Roble, Juárez, Nuevo León C.P. 67456",
+	"maps":"http://www.google.com/maps/dir//25.618231,-100.0584313",
+	"prev-url":"/desarrollos/valle-santa-isabel",
+	"next-url":"/desarrollos/alvento",
+	"tour_virtual":"https://www.javer.com.mx/tour/valle-del-roble/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Alberí Residencial",
+	"descripcion":"Alberí Residencial cuenta con una combinación de exclusividad, tranquilidad y hermosas áreas arboladas; factores que te darán todos los beneficios de un desarrollo residencial en la zona sur de la ciudad. ",
+	"logo":"/images/desarrollo/Jalisco/alberi_residencial/alberi_residencial.png",
+	"ubicacion":"Tlajomulco de Zuñiga, Jalisco",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $65,000 Mxn",
+	"telefono":"33 8880-0341",
+	"calle":"Av. Alberí # 244 Col. Bosques de Santa Anita, Tlajomulco de Zuñiga, Jalisco C.P. 45645",
+	"maps":"http://www.google.com/maps/dir//20.568998,-103.483689",
+	"prev-url":"/desarrollos/valle-tejada",
+	"next-url":"/desarrollos/arrayanes",
+	"tour_virtual":"https://www.javer.com.mx/tour/alberi-residencial/modelo-blanc/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Arrayanes",
+	"descripcion":"Imagina tener como patio trasero el Bosque de La Primavera, respirar su tranquilidad y aire puro, en un hermoso fraccionamiento en una de las mejores ubicaciones de la zona. Rodeado de todos los servicios en una zona madura pero con crecimiento sustentable para que tu inversión valga la pena disfrutando de tu nuevo hogar.",
+	"logo":"/images/desarrollo/Jalisco/arrayanes/arrayanes.png",
+	"ubicacion":"Zapopan, Jalisco",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $45,000 Mxn",
+	"telefono":"33 1057-6700",
+	"calle":"Prolongación Av. Camino Nacional No. 1350 Colonia El Fortín, Zapopan, Jalisco C.P. 45066",
+	"maps":"http://www.google.com/maps/dir//20.630032743796743,-103.48198970761132",
+	"prev-url":"/desarrollos/alberi-residencial",
+	"next-url":"/desarrollos/cima-serena",
+	"tour_virtual":"#N/A",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Cima Serena",
+	"descripcion":"Cima Serena con su excelente ubicación, accesibilidad y seguridad te da la oportunidad de crear tu patrimonio con una excelente calidad de vida y bienestar para tu familia.",
+	"logo":"/images/desarrollo/Jalisco/cima_serena/cima_serena.png",
+	"ubicacion":"El Salto, Jalisco",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $6,500 Mxn",
+	"telefono":"33 3550-1859",
+	"calle":"Prolongación Av. Camino Nacional No. 1350 Colonia El Fortín, Zapopan, Jalisco C.P. 45066",
+	"maps":"http://www.google.com/maps/dir//20.5216963,-103.2311152",
+	"prev-url":"/desarrollos/arrayanes",
+	"next-url":"/desarrollos/loma-real",
+	"tour_virtual":"#N/A",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Loma Real",
+	"descripcion":"Loma Real te ofrece contacto con la naturaleza, vistas increíbles y sobre todo comodidad, que serán los causantes de que desees quedarte en casa.",
+	"logo":"/images/desarrollo/Jalisco/loma_real/loma_real.png",
+	"ubicacion":"Tonalá, Jalisco",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $10,000 Mxn",
+	"telefono":"33 8526-2423",
+	"calle":"Calle. Camino a Matatlán # 555 Int. A Col. Coyula , Tonalá, Jalisco C.P. 45410",
+	"maps":"http://www.google.com/maps/dir//20.659741409270453,-103.1899012212861",
+	"prev-url":"/desarrollos/cima-serena",
+	"next-url":"/desarrollos/valle-encinos-plus",
+	"tour_virtual":"https://www.javer.com.mx/tour/loma-real/atria-real/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Valle de los Encinos Plus",
+	"descripcion":"Conoce esta nueva etapa, con diseños innovadores adecuados a tu estilo de vida. Valle de los encinos plus te recibe con increíbles áreas verdes, juegos infantiles, terraza para eventos, áreas pergoladas y un asombroso skate park.",
+	"logo":"/images/desarrollo/Jalisco/valle_encinos/valle_encinos.png",
+	"ubicacion":"Tlajomulco de Zuñiga, Jalisco",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $8,500 Mxn",
+	"telefono":"33 8880-1865",
+	"calle":"Av. Libertad esquina del Peral Col. Valle de los Encinos, Tlajomulco de Zuñiga, Jalisco C.P. 45650",
+	"maps":"http://www.google.com/maps/dir//20.483345017522073,-103.39554417567544",
+	"prev-url":"/desarrollos/loma-real",
+	"next-url":"/desarrollos/valle-tejada",
+	"tour_virtual":"https://www.javer.com.mx/tour/valle-de-los-encinos-plus/verona/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Valle de Tejada",
+	"descripcion":"Valle de Tejeda cuenta con amplios espacios y una distribución inteligente que te permitirá disfrutar al máximo de sus diseños innovadores.",
+	"logo":"/images/desarrollo/Jalisco/valle_tejada/valle_tejada.png",
+	"ubicacion":"Tlajomulco de Zuñiga, Jalisco",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $6,000 Mxn",
+	"telefono":"33 8880-0340",
+	"calle":"Blvd. Distrito federal S/N Col. Valle de Tejeda , Tlajomulco de Zuñiga, Jalisco C.P. 45653",
+	"maps":"http://www.google.com/maps/dir//20.509803674180336,-103.37933110321008",
+	"prev-url":"/desarrollos/valle-encinos-plus",
+	"next-url":"/desarrollos/alberi-residencial",
+	"tour_virtual":"https://www.javer.com.mx/tour/valle-de-tejada/marsella/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Caranday",
+	"descripcion":"Caranday te permitirá experimentar la comodidad, exclusividad y plusvalía que brinda un desarrollo residencial y sus hermosas viviendas al sur de Aguascalientes.",
+	"logo":"/images/desarrollo/Aguascalientes/caranday/caranday.png",
+	"ubicacion":"Aguascalientes, Aguascalientes",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $30,000 Mxn",
+	"telefono":"44 9888-0191",
+	"calle":"Av. Atlántico S/N Fraccionamiento Caranday , Aguascalientes, Aguascalientes C.P. 20286",
+	"maps":"http://www.google.com/maps/dir//21.826595486979603,-102.32120531296485",
+	"prev-url":"/desarrollos/villa-montana",
+	"next-url":"/desarrollos/paseos-sur",
+	"tour_virtual":"https://www.javer.com.mx/tour/caranday/palermo/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Paseos del Sur",
+	"descripcion":"Paseos del Sur, con su ubicación dentro de la zona de mayor crecimiento industrial del estado de Aguascalientes, es la clave principal para brindarte tranquilidad y prosperidad.",
+	"logo":"/images/desarrollo/Aguascalientes/paseos_sur/paseos_sur.png",
+	"ubicacion":"Aguascalientes, Aguascalientes",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $7,000 Mxn",
+	"telefono":"44 9888-0190",
+	"calle":"Calle Trento Manzana 38 Lote 16 # 112 Col. Paseos del Sur , Aguascalientes, Aguascalientes C.P. 20298",
+	"maps":"http://www.google.com/maps/dir//21.810477501954907,-102.27164442724192",
+	"prev-url":"/desarrollos/valle-tejada",
+	"next-url":"/desarrollos/villa-montana",
+	"tour_virtual":"#N/A",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Villa Montaña",
+	"descripcion":"Villa Montaña con sus elementos principales: arquitectura contemporánea y sustentabilidad, te darán la posibilidad de disfrutar y conectar con su comunidad.",
+	"logo":"/images/desarrollo/Aguascalientes/villa_montana/villa_montana.png",
+	"ubicacion":"Aguascalientes, Aguascalientes",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $6,500 Mxn",
+	"telefono":"44 9162-0872",
+	"calle":"Av. Salvador Rangel Lopez #1003 Manzana 73 Lote 19, Aguascalientes, Aguascalientes C.P. 20126 ",
+	"maps":"http://www.google.com/maps/dir//21.942151,-102.257583",
+	"prev-url":"/desarrollos/paseos-sur",
+	"next-url":"/desarrollos/caranday",
+	"tour_virtual":"https://www.javer.com.mx/tour/villa-montana/verona/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Alboreto Residencial",
+	"descripcion":"Alboreto Residencial destaca por su exclusividad, equipamiento y arquitectura; atributos que, en conjunto, te permitirán descubrir lo maravilloso de Metepec Pueblo Mágico.",
+	"logo":"/images/desarrollo/Estado_mexico/alboreto_residencial/alboreto_residencial.png",
+	"ubicacion":"Metepec, Estado de México",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $100,000 Mxn",
+	"telefono":"55 8880-5454",
+	"calle":"Av. Ali Chumacero S/N Col. San Lorenzo Coacalco, Metepec, Estado De México C.P. 52140",
+	"maps":"http://www.google.com/maps/dir//19.239798528275795,-99.59088193940237",
+	"prev-url":"/desarrollos/bosque-nevado",
+	"next-url":"/desarrollos/jardines-girasoles",
+	"tour_virtual":"https://www.javer.com.mx/tour/alboreto-residencial/albero-vi/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Jardines de Girasoles",
+	"descripcion":"Jardines de Girasoles con sus zonas deportivas, áreas verdes y caseta de control hacen de este desarrollo un lugar con gran plusvalía y excelente opción para vivir.",
+	"logo":"/images/desarrollo/Estado_mexico/jardines_girasoles/jardines_girasoles.png",
+	"ubicacion":"Zumapango, Estado de México",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $10,000 Mxn",
+	"telefono":"55 8880-5452",
+	"calle":"Av. Viaducto Paseo Bicentenario Zumpango # 503 Barrio de San Miguel, Zumpango, Estado De México C.P. 55643",
+	"maps":"http://www.google.com/maps/dir//19.822427896608406,-99.06702850770333",
+	"prev-url":"/desarrollos/alboreto-residencial",
+	"next-url":"/desarrollos/residenza-privadas",
+	"tour_virtual":"https://www.javer.com.mx/tour/jardines-de-girasoles/aguila/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Residenza Privadas III",
+	"descripcion":"Residenza Privadas cuenta con el mejor diseño arquitectónico y urbanístico en Coacalco, atributos que lo convierten en el lugar que siempre has soñado.",
+	"logo":"/images/desarrollo/Estado_mexico/residenza_privadas/residenza_privadas.png",
+	"ubicacion":"Coacalco, Estado de México",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $30,000 Mxn",
+	"telefono":"55 2622-2196",
+	"calle":"Av. Resplandor S/N Col. San Francisco, Coacalco, Estado De México C.P. 55712",
+	"maps":"http://www.google.com/maps/dir//19.646656228720833,-99.108715302277735",
+	"prev-url":"/desarrollos/jardines-girasoles",
+	"next-url":"/desarrollos/valle-lirios",
+	"tour_virtual":"https://www.javer.com.mx//tour/residenza-privadas-iii/javer-b/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Valle de los Lirios",
+	"descripcion":"Valle de los Lirios es un fraccionamiento que contará con diversas amenidades, en donde podrás disfrutar con toda confianza de tu familia; contará con caseta de control, portones a condominios, escuela primaria, jardín vecinal con juegos y zona deportiva con multicanchas y trota pista. Valle de los Lirios es el complemento ideal para ti y tú familia.",
+	"logo":"/images/desarrollo/Estado_mexico/valle_lirios/valle_lirios.jpg",
+	"ubicacion":"Zumapango, Estado de México",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $8,000 Mxn",
+	"telefono":"55 8880-5475",
+	"calle":"Av. Ignacio Zaragoza 680 Barrio de Santiago Segunda Sección , Zumpango, Estado De México C.P. 55600",
+	"maps":"http://www.google.com/maps/dir//19.826998368618604,-99.09899731603515",
+	"prev-url":"/desarrollos/residenza-privadas",
+	"next-url":"/desarrollos/bosque-nevado",
+	"tour_virtual":"#N/A",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Bosque del Nevado II",
+	"descripcion":"Bosques del Nevado II es un fraccionamiento ubicado en Zinacantepec, en donde podrás disfrutar con toda la confianza a tu familia; cuenta con casas de 3 habitaciones en 2 o 3 niveles, contará con escuela, jardín vecinal y zona deportiva. Bosques del Nevado II es el complemento perfecto para tu vida.",
+	"logo":"/images/desarrollo/Estado_mexico/bosque_nevado/bosque_nevado.jpg",
+	"ubicacion":"Zinacantepec, Estado de México",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $15,000 Mxn",
+	"telefono":"55 8880-5467",
+	"calle":"Porfirio Días #215 Col. San Juan de las Huertas, Zinacantepec, Estado De México C.P. 51370",
+	"maps":"http://www.google.com/maps/dir//19.246662,-99.749908",
+	"prev-url":"/desarrollos/valle-lirios",
+	"next-url":"/desarrollos/alboreto-residencial",
+	"tour_virtual":"#N/A",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Cumbre Alta",
+	"descripcion":"Cumbre Alta en Zizaná te brinda la exclusividad, estilo contemporáneo y equipamiento de un conjunto residencial con 245 mil m2 de áreas verdes y lago central de 11 mil m2 de extensión.",
+	"logo":"/images/desarrollo/Queretaro/cumbre_alta/cumbre_alta.png",
+	"ubicacion":"El Marqués, Queretaro",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $35,000 Mxn",
+	"telefono":"44 2161-0723",
+	"calle":"Av. Paseo de Zinnia Poniente # 201 Col. Cumbre Alta, El Marqués, Querétaro C.P. 76269",
+	"maps":"http://www.google.com/maps/dir//20.64785267498873,-100.3062706441768",
+	"prev-url":"/desarrollos/privalia-ambienta",
+	"next-url":"/desarrollos/el-manantial",
+	"tour_virtual":"https://www.javer.com.mx/tour/cumbre-alta/bianco/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"El Manantial",
+	"descripcion":"El Manantial es la combinación perfecta entre armonía, exclusividad y naturaleza de los conjuntos residenciales de la más alta calidad. Su equipamiento, ubicación y distribución harán que te quedes a vivir aquí.",
+	"logo":"/images/desarrollo/Queretaro/el_manantial/el_manantial.png",
+	"ubicacion":"Corregidora, Queretaro",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $45,000 Mxn",
+	"telefono":"44 2348-1225",
+	"calle":"Calle Privada Lluvia cond. Privada Batán # 28 Int. 2 Fracc. El Manantial Residencial, Corregidora, Querétaro C.P. 76992",
+	"maps":"http://www.google.com/maps/dir//20.5048161,-100.4000725",
+	"prev-url":"/desarrollos/cumbre-alta",
+	"next-url":"/desarrollos/fuente-balvanera",
+	"tour_virtual":"https://www.javer.com.mx/tour/el-manantial/toscana-plus/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Fuentes de Balvanera",
+	"descripcion":"Fuentes de Balvanera ofrece comodidad y bienestar para tu familia, atributos que harán de tu hogar la mejor inversión.",
+	"logo":"/images/desarrollo/Queretaro/fuente_balvanera/fuente_balvanera.png",
+	"ubicacion":"Queretaro, Queretaro",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $8,000 Mxn",
+	"telefono":"47 7747-0112",
+	"calle":"Av. Paseo Buenos Aires Fraccionamiento Fuentes de Balvanera, Querétaro, Querétaro C.P. 38186",
+	"maps":"http://www.google.com/maps/dir//20.534391481839062,-100.52695824128934",
+	"prev-url":"/desarrollos/el-manantial",
+	"next-url":"/desarrollos/massaro-residencial",
+	"tour_virtual":"https://www.javer.com.mx/tour/fuente-de-balvanera/aguila-duplex/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Massaro Residencial",
+	"descripcion":"Massaro Residencial es una mezcla de innovación, vanguardia y elegancia, mismos que brindan a este conjunto residencial un mayor prestigio y plusvalía.",
+	"logo":"/images/desarrollo/Queretaro/massaro_residencial/massaro_residencial.png",
+	"ubicacion":"El Marqués, Queretaro",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $69,000 Mxn",
+	"telefono":"44 2161-0721",
+	"calle":"Av. Paseo de las Pitahayas S/N Fracc. Massaro Residencial, El Marqués, Querétaro C.P. 76240",
+	"maps":"http://www.google.com/maps/dir//20.68456270578485,-100.34777867434975",
+	"prev-url":"/desarrollos/fuente-balvanera",
+	"next-url":"/desarrollos/paseo-junipero",
+	"tour_virtual":"https://www.javer.com.mx/tour/massaro-residencial/palermo-plus-2/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Paseo San Junípero",
+	"descripcion":"En Paseo San Junípero encontrarás: exclusividad, estilo y tranquilidad que brindan los conjuntos residenciales más sofisticados dentro de la ciudad de Querétaro.",
+	"logo":"/images/desarrollo/Queretaro/paseo_junipero/paseo_junipero.png",
+	"ubicacion":"Queretaro, Queretaro",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $40,000 Mxn",
+	"telefono":"44 2161-0716",
+	"calle":"Blvd. Anillo Vial Fray Junípero Serra S/N Fracc. Paseo San Junípero, Querétaro, Querétaro C.P. 76146 ",
+	"maps":"http://www.google.com/maps/dir//20.658953389461637,-100.35411547126755",
+	"prev-url":"/desarrollos/massaro-residencial",
+	"next-url":"/desarrollos/pedregal-rio",
+	"tour_virtual":"https://www.javer.com.mx/tour/paseo-san-junipero/toscana/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Pedregal del Río",
+	"descripcion":"Pedregal del Río con su estilo contemporáneo expresa armonía, tranquilidad y dinamismo; elementos que hacen de este complejo residencial ideal para vivir o invertir.",
+	"logo":"/images/desarrollo/Queretaro/pedregal_rio/pedregal_rio.png",
+	"ubicacion":"San Juan del Río, Queretaro",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $25,000 Mxn",
+	"telefono":"42 7192-0015",
+	"calle":"Carretera San Juan del Río-Tequisquiapan KM 7.5 Fracc. Pedregal del Río, San Juan del Río, Querétaro C.P. 76800",
+	"maps":"http://www.google.com/maps/dir//20.445386432513235,-99.96105673322876",
+	"prev-url":"/desarrollos/paseo-junipero",
+	"next-url":"/desarrollos/privalia-ambienta",
+	"tour_virtual":"https://www.javer.com.mx/tour/pedregal-del-rio/zafiro-plus/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Privalia Ambienta",
+	"descripcion":"Privalia Ambienta mezcla todas las ventajas de la construcción vertical y los conjuntos residenciales. Ven y conoce la nueva etapa que te ofrece arquitectura de vanguardia, privacidad y equipamiento.",
+	"logo":"/images/desarrollo/Queretaro/privalia_ambienta/privalia_ambienta.png",
+	"ubicacion":"Queretaro, Queretaro",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $25,000 Mxn",
+	"telefono":"42 2161-0720",
+	"calle":"Anillo Vial Fray Junípero Serra KM 13 Col. Privalia Ambienta, Querétaro, Querétaro C.P. 76147",
+	"maps":"http://www.google.com/maps/dir//20.662432726088696,-100.38551729093608",
+	"prev-url":"/desarrollos/pedregal-rio",
+	"next-url":"/desarrollos/cumbre-alta",
+	"tour_virtual":"https://www.javer.com.mx/tour/privalia-ambienta/agave-plus/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Arbolada",
+	"descripcion":"Arbolada, su diversidad de modelos de vivienda y su privilegiada ubicación elevan la plusvalía de este complejo residencial. Sus más de 7,500 m2 de áreas verdes y parques recreativos lo convierten en una opción única para vivir o invertir.",
+	"logo":"/images/desarrollo/Quintana_roo/arbolada/arbolada.png",
+	"ubicacion":"Cancún, Quintana Roo",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $80,000 Mxn",
+	"telefono":"99 8777-0277",
+	"calle":"Av. Huayacan Km 5.5, Sm 336 Mz 12 Lote 17 Plaza Arbolada I, Strip Mall, Local 3 , Cancún, Quintana Roo C.P. 77560",
+	"maps":"http://www.google.com/maps/dir//21.094975384553475,-86.86795242136104",
+	"prev-url":"/desarrollos/punta-estrella",
+	"next-url":"/desarrollos/paseo-kusamil",
+	"tour_virtual":"https://www.javer.com.mx/tour/arbolada/bari/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Paseo Kusamil",
+	"descripcion":"Paseo Kusamil destaca por su excelente ubicación y plusvalía que te permitirá vivir los mejores años de tu vida en Cancún.",
+	"logo":"/images/desarrollo/Quintana_roo/paseo_kusamil/paseo_kusamil.png",
+	"ubicacion":"Cancún, Quintana Roo",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $8,500 Mxn",
+	"telefono":"99 8288-5900",
+	"calle":"Avenida José López Portillo SM 110 MZ 01 LT 1-01 Fracc. Paseo Kusamil , Cancún, Quintana Roo C.P. 77539",
+	"maps":"http://www.google.com/maps/dir//21.123907121993813,-86.92886694625189",
+	"prev-url":"/desarrollos/arbolada",
+	"next-url":"/desarrollos/portoalto",
+	"tour_virtual":"https://www.javer.com.mx/tour/paseo-kusamil/antares/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Portoalto",
+	"descripcion":"Portoalto, concepto residencial que combina el mejor equipamiento, armonía y tranquilidad. A tan solo 15 minutos de la 5ta avenida en Playa del Carmen.",
+	"logo":"/images/desarrollo/Quintana_roo/Portoalto/Portoalto.png",
+	"ubicacion":"Playa del Carmen, Quintana Roo",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $16,000 Mxn",
+	"telefono":"98 4777-0178",
+	"calle":"Av. Flor de Ciruelos S/N Fracc. Porto Alto, Playa del Carmen, Quintana Roo C.P. 77723",
+	"maps":"http://www.google.com/maps/dir//20.6771962,-87.0794263",
+	"prev-url":"/desarrollos/paseo-kusamil",
+	"next-url":"/desarrollos/privada-altus",
+	"tour_virtual":"https://www.javer.com.mx/tour/portoalto/verona/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Privada Altus II",
+	"descripcion":"Privada Altus ll te permitirá experimentar la comodidad, exclusividad y equipamiento del mejor desarrollo residencial al sur de Cancún. Aquí encontrarás amenidades de primer nivel y residencias con una excelente distribución que te brindarán una sensación de tranquilidad y confort.",
+	"logo":"/images/desarrollo/Quintana_roo/privada_altus/privada_altus.png",
+	"ubicacion":"Cancún, Quintana Roo",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $55,000 Mxn",
+	"telefono":"99 8777-0652",
+	"calle":"Sm. 523, mza 11 lote 1-07 Fracc. Privada Altus II, Cancún, Quintana Roo C.P. 77533",
+	"maps":"http://www.google.com/maps/dir//21.133206913200684,-86.84305477986092",
+	"prev-url":"/desarrollos/portoalto",
+	"next-url":"/desarrollos/punta-estrella",
+	"tour_virtual":"https://www.javer.com.mx/tour/privada-altus-ii/aura-elite/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Punta Estrella",
+	"descripcion":"Punta Estrella combina armonía, elegancia y plusvalía; atributos que describen cómo es vivir en Playa del Carmen, a 3 kilómetros del mar Caribe.",
+	"logo":"/images/desarrollo/Quintana_roo/punta_estrella/punta_estrella.png",
+	"ubicacion":"Playa del Carmen, Quintana Roo",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $35,000 Mxn",
+	"telefono":"98 4588-3349",
+	"calle":"Calle Av. Petempich, Av. 58 Nte. &, 77710 , Playa del Carmen, Quintana Roo C.P. 77723",
+	"maps":"http://www.google.com/maps/dir//20.652593326724652,-87.08628474646929",
+	"prev-url":"/desarrollos/privada-altus",
+	"next-url":"/desarrollos/arbolada",
+	"tour_virtual":"https://www.javer.com.mx/tour/punta-estrella/atria-premium/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  },
+  {
+    "nombre":"Pirámides",
+	"descripcion":"Pirámides brinda el bienestar, comodidad y armonía que tu familia necesita. Su excelente ubicación y distribución hacen de este fraccionamiento el mejor lugar para vivir.",
+	"logo":"/images/desarrollo/Tamaulipas/piramides/piramides.png",
+	"ubicacion":"Reynosa, Tamaulipas",
+	"leyenda1":"Ingresos",
+	"leyenda2":"Desde $4,500 Mxn",
+	"telefono":"89 9171-4647",
+	"calle":"Carr. A San Fernando KM 104 Col. Las Pirámides, Reynosa, Tamaulipas C.P. 88799",
+	"maps":"http://www.google.com/maps/dir//25.9464923,-98.2694651",
+	"prevurl":"/desarrollos/piramides",
+	"nexturl":"/desarrollos/piramides",
+	"tour_virtual":"https://www.javer.com.mx/tour/piramides/",
+    "slider": [
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg",
+      "/images/desarrollo/cantaros/slide_01.jpg"
+    ]
+  }
+]
