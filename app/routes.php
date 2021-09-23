@@ -6,4 +6,5 @@
 	//$this->add('files/get/(.+)','files/view/$1');
 	$this->add('gracias','registro/gracias/');
 	$this->add('contador','index/contador/');
+	$this->add('desarrollos/(.+)','desarrollos/index/$1');
 ?>

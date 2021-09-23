@@ -5,15 +5,15 @@
 		parent::__construct();
 	}
 	
-	public function index($page="1"){
+	public function index($fraccionamiento=""){
 		$json = file_get_contents(Path.'/app/libs/js/info_desarrollos.json');
 		// Decode the JSON file
 		$json_data = json_decode($json);
 		$resultados = array();
-		$buscar = "Pirámides";
+		$buscar = $fraccionamiento;
 		$x=0;
 		foreach($json_data as $i => $ciudad) {
-		    if($ciudad->nombre==$buscar) {
+		    if($ciudad->id==$buscar) {
 				$x++;
 		        $this->view->nombre = $ciudad->nombre;
 		        $this->view->descripcion = $ciudad->descripcion;
