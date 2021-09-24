@@ -13,7 +13,11 @@
 		$this->title_for_layout("Contador");
 		$this->render();
 	}
-
+	public function preheat($page="1"){
+		$this->view->setLayout("clean");
+		$this->title_for_layout("preheat");
+		$this->render();
+	}
 	public function whatsapp($estado,$dia=''){
 		switch ($estado) {
 			case 'Tamaulipas':
