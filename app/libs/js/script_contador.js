@@ -154,12 +154,13 @@ $(function() {
 });
 window.addEventListener("resize", function(){
 	altura_wrapper_fixed();
-		console.log($(".flip-clock").css("padding-left"));
+		/*console.log("before"+$(".flip-clock").css("padding-left"));
 	if($(window).width()>480 && $(window).width()<767){
-		var pl=parseFloat($(".flip-clock").css("padding-left").slice(0,-2))+parseFloat(150.0);
-		$(".flip-clock").css("padding-left:", pl+"px");
-		console.log($(".flip-clock").css("padding-left"));
-	}
+		var pl=parseFloat($(".flip-clock").css("padding-left").slice(0,-2))+parseFloat(1.0);
+		console.log("total"+pl);
+		$(".contador .flip-clock").css('padding-left', parseInt(pl));
+		console.log("after"+$(".flip-clock").css("padding-left"));
+	}*/
 	//$(".contador .flip-clock .flip-clock__slot")
 	//location.reload();
 },false);

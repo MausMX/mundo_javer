@@ -58,22 +58,42 @@ a.next-frac::before{      content: "";
 footer .container .logo-footer{justify-content: left !important;}
 
 .contador .flip-clock__piece{display:flex;align-items: center;margin-bottom:20px !important;}
-.contador .flip-clock{padding-left:23vw;}
+/*.contador .flip-clock{padding-left:23vw;}*/
+.contador .flip-clock{width:200px; display:block; margin-left:auto;margin-right:auto;}
 .contador .flip-clock .flip-clock__slot{padding-left:20px;color: #FFF;font-family: sweet-sans-pro, sans-serif;font-weight: bold;}
 .contador #logo-clean{margin-bottom:0px !important;padding-top: 0px !important;}
-.contador #logo-clean img{width:30%;}
+.contador #logo-clean img{width:35%;}
 .contador .contenido-logo-contador{padding-bottom:0px !important;}
 .contador .contenido-contador{padding-bottom:30px !important;}
+.flip-card {
+    font-size: 2.25rem !important;
+}
 
 
 }
 @media (min-width:481px) and (max-width: 767px){
 footer .container .logo-footer{justify-content: left !important;}
 .contador .flip-clock__piece{display:flex;align-items: center;margin-bottom:20px !important;}
-.contador .flip-clock{padding-left:23vw;}
+/*.contador .flip-clock{padding-left:23vw;}*/
+.contador .flip-clock{width:200px; display:block; margin-left:auto;margin-right:auto;}
 .contador .flip-clock .flip-clock__slot{padding-left:20px;color: #FFF;font-family: sweet-sans-pro, sans-serif;font-weight: bold;}
 .contador #logo-clean{margin-bottom:0px !important;padding-top: 0px !important;}
 .contador #logo-clean img{width:30%;}
 .contador .contenido-logo-contador{padding-bottom:0px !important;}
 .contador .contenido-contador{padding-bottom:30px !important;}
+}
+@media (min-width:767px) and (max-width: 991px){
+.contador .flip-card {font-size: 3.5rem !important;}
+.contador .flip-clock__piece {margin: 0 12px;}
+.contador .flip-clock .flip-clock__slot{color: #FFF;font-family: sweet-sans-pro, sans-serif;font-weight: bold;}
+.contador .registrom{margin-top:10px !important;margin-bottom:50px !important;}
+}
+@media (min-width:992px) and (max-width: 1200px){
+.contador .flip-card {font-size: 3.5rem !important;}
+.contador .flip-clock__piece {margin: 0 12px;}
+.contador .flip-clock .flip-clock__slot{color: #FFF;font-family: sweet-sans-pro, sans-serif;font-weight: bold;}
+.contador .registrom{margin-top:10px !important;margin-bottom:100px !important;}
+}
+@media (min-width: 1201px){
+.contador .registrom{margin-top:10px !important;margin-bottom:100px !important;}
 }
