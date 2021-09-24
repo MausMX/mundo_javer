@@ -20,7 +20,7 @@
 	<body id="<?=$controllerName; ?>" class="<?=$function;?> contador">
 		<!--<?=$this->renderElement("header")?>-->
 		<div class="wrapper ">
-			<div class="col-12 text-center py-5">
+			<div class="col-12 text-center py-5 contenido-logo-contador">
 				<div class="col-12 text-center py-5 mb-5" id="logo-clean">
 					<img class="mr-2" id="img-hijo" src="/mundo-javer-2021/images/contador/contador_logo.png">
 				</div>

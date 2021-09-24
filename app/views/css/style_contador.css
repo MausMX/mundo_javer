@@ -176,7 +176,8 @@
   display: block;
   position: relative;
   padding-bottom: 0.72em;
-  font-size: 2.25rem;
+  /*font-size: 2.25rem;*/
+ font-size: 2.8rem;
   line-height: 0.95;
 }
 @media (min-width: 1000px) {
@@ -187,7 +188,8 @@
     font-weight:800;
   }
   .flip-card {
-    font-size: 3rem;
+    font-size: 4rem;
+    /*font-size: 3rem;*/
   }
 }
 /*////////////////////////////////////////*/
