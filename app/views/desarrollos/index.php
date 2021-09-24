@@ -71,9 +71,15 @@
                     </div>
                 </div>
             </div>
+            <?
+            if($tour_virtual!="#N/A"){
+            ?>
             <div class="col-lg-12 bg-white pl-0 pr-0">
             	<iframe style="width:100%;height:700px; border:0px;" src="<?=$tour_virtual;?>"></iframe>
             </div>
+           	<?
+            }
+            ?>
            <div class="col-lg-12 bg-white py-5" style="position: relative;">
            		<div class="col-lg-12 interes-desarrollo mb-5">
 	       			<p class="mb-0 font-30 poppins bold DA291C">¿Te interesa este fraccionamiento?</p>
