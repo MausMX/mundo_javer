@@ -14,7 +14,36 @@
 		$this->render();
 	}
 
-	public function whatsapp($estado,$dia){
+	public function whatsapp($estado,$dia=''){
+		switch ($estado) {
+			case 'Tamaulipas':
+				$estado='tamaulipas';
+				break;
+			case 'Quintana Roo':
+				$estado='quintana_roo';
+				break;
+			case 'Queretaro':
+				$estado='queretaro';
+				break;
+			case 'Estado de México':
+				$estado='estado_de_mexico';
+				break;
+			case 'Aguascalientes':
+				$estado='aguascalientes';
+				break;
+			case 'Jalisco':
+				$estado='jalisco';
+				break;
+			case 'Nuevo León':
+				$estado='nuevo_leon';
+				break;
+			default:
+				break;
+		}
+		if(!$dia){
+			$dia=date("d");
+			//$dia=16;
+		}
 		$lp_files=file_get_contents('./files/lp.json');
 		$lps=json_decode($lp_files,true);
 		$lps_by_day=array();
@@ -87,23 +116,57 @@
 			print_r($lps_by_day[$dia]);
 			echo "</pre>";
 			*/
-			echo $lp_actual=json_encode($lps_by_day[$dia][$current_id]);
+			$lp_actual=json_encode($lps_by_day[$dia][$current_id]);
 	
 			$myfile = fopen('./files/'.$estado.".txt", "a+");
 			fwrite($myfile, "\n".$ahora.' -- '.$lp_actual);
 			fclose($myfile);
+			//header('Location: https://api.whatsapp.com/send?phone=+52'.$lps_by_day[$dia][$current_id]['telefono'].'&text=Hola!%20Quiero%20hacer%20una%20consulta');
+			header('Location: https://web.whatsapp.com/send?phone=+52'.$lps_by_day[$dia][$current_id]['telefono'].'&text=Hola!%20Quiero%20hacer%20una%20consulta');
+			//echo 'Location: https://web.whatsapp.com/send?phone=+52'.$lps_by_day[$dia][$current_id]['telefono'].'&text=Hola!%20Quiero%20hacer%20una%20consulta';
+			exit;
 		}else{
 			http_response_code(401);
 		}
 	}
 
-	public function whatsapp_disponible($estado,$dia){
+	public function whatsapp_disponible($estado,$dia=''){
+		switch ($estado) {
+			case 'Tamaulipas':
+				$estado='tamaulipas';
+				break;
+			case 'Quintana Roo':
+				$estado='quintana_roo';
+				break;
+			case 'Queretaro':
+				$estado='queretaro';
+				break;
+			case 'Estado de México':
+				$estado='estado_de_mexico';
+				break;
+			case 'Aguascalientes':
+				$estado='aguascalientes';
+				break;
+			case 'Jalisco':
+				$estado='jalisco';
+				break;
+			case 'Nuevo León':
+				$estado='nuevo_leon';
+				break;
+			default:
+				break;
+		}
+		if(!$dia){
+			$dia=date("d");
+			//$dia=15;
+		}
+		
 		$lp_files=file_get_contents('./files/lp.json');
 		$lps=json_decode($lp_files,true);
 		$lps_by_day=array();
 		$ahora=date("Y-m-d H:i:s");
 		$hora=date("H:i:s");
-		$hora="23:30";
+		//$hora="13:00";
 		$last_id=0;
 		$current_id=0;
 		foreach ($lps[$estado] as $key => $lps_by_state) {

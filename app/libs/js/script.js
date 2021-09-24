@@ -16,6 +16,19 @@ $(function() {
 			},1000);
 	});
 	altura_wrapper_fixed();
+	if(typeof estado_activo !== typeof undefined){
+		$.ajax({
+			//data:  parametros,
+			type: 'POST',
+			url: Path+"/index/whatsapp_disponible/"+estado_activo+"/",
+			dataType: 'json',
+		}).done(function(data) {
+			$("footer").append('<div class="contacto_whatsapp"><a target="_blank" class="d-inline-block" href="'+Path+'/index/whatsapp/'+estado_activo+'/"><img src="'+Path+'/images/footer/ico_whatsapp.png"></a></div>');
+			console.log(data);
+		}).fail(function() {
+			alert( "error" );
+		});
+	}
 });
 window.addEventListener("resize", function(){
 	altura_wrapper_fixed();
