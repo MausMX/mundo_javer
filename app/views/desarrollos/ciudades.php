@@ -29,23 +29,27 @@
                             	<? foreach ($info as $key => $value) {?>
 	                                <div class="col-lg-6 col-xs-12 col-sm-12 col-md-6">
 	                					<img src="<? echo Path.$value->imgciudad?>"> 
-	                					<div class="col-lg-12 text-center">
+	                					<div class="col-lg-12 text-center pmw-ciudad">
 	                						<p class="font-30 bold"><?= $value->nombre;?></p>
 	                						<div class="row mb-3">
-		                						<div class="col-lg-2 col-sm-2 col-xs-2 pr-0">
-			                                    	<img src="<?=Path?>/images/desarrollo/alvento/location.png">
-			                                    </div>
-			                                    <div class="col-lg-4 col-xs-4 col-sm-4 pl-0 pr-0">
-				                                	<p class="mb-0 font-14 bold DA291C text-left">Ubicación:</p>
-				                                	<p class="mt-0 font-14 location-name text-left"><?= $value->ubicacion;?></p>
-			                                   	</div> 
-			                                   	<div class="col-lg-2 col-xs-4 col-sm-4 col-sm-2 col-xs-2 pr-0 pl-0 img-ingresos text-right">
-			                                    	<img src="<?=Path?>/images/desarrollo/alvento/ingresos.png">
-			                                    </div>
-			                                    <div class="col-lg-4 pl-2">
-				                                	<p class="mb-0 font-14 bold DA291C text-left">Ingresos:</p>
-				                                	<p class="mt-0 font-14 location-name text-left"><?= $value->leyenda2;?></p>
-			                                   	</div>             
+	                							<div class="col-6 d-flex wp-location">
+			                						<div class="col-2 col-lg-2 col-xs-2 pr-0 location-logo">
+				                                    	<img src="<?=Path?>/images/desarrollo/alvento/location.png">
+				                                    </div>
+				                                    <div class="col-10 pr-0 location-info">
+					                                	<p class="mb-0 font-14 bold DA291C text-left">Ubicación:</p>
+					                                	<p class="mt-0 font-14 location-name text-left"><?= $value->ubicacion;?></p>
+				                                   	</div> 
+				                                </div>
+				                                <div class="col-6 d-flex wp-ingresos">
+				                                   	<div class="col-2 col-lg-2  pr-0 pl-0 img-ingresos text-right ingresos-logo">
+				                                    	<img src="<?=Path?>/images/desarrollo/alvento/ingresos.png">
+				                                    </div>
+				                                    <div class="col-10 pl-2 ingresos-info">
+					                                	<p class="mb-0 font-14 bold DA291C text-left">Ingresos:</p>
+					                                	<p class="mt-0 font-14 location-name text-left"><?= $value->leyenda2;?></p>
+				                                   	</div> 
+				                                </div>            
 		                					</div>
 	                    					<a class="btn btn-danger pl-3 pr-3 text-uppercase font-10 poppins py-2" href="<?=Path?>/desarrollos/<?= $value->id;?>"><strong>VER DETALLE DE FRACCIONAMIENTO</strong></a>
 	                					</div>

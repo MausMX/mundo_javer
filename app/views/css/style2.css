@@ -76,8 +76,20 @@ footer .container .logo-footer{justify-content: left !important;}
 .btn-preheat{margin-bottom:90px;}
 .font-50{font-size: 25px;}
 .font-18{font-size: 14px;}
+.font-14{font-size: 2.5vw;}
+.font-30{font-size: 22px;}
+.font-44{font-size: 24px;}
 .img-preheat img{width:40%;margin-right:0px !important;}
 
+.ciudades .contenedor-ciudades{padding-right:0px !important;padding-left:0px !important;}
+.ciudades .ciudades-detalle {background-position: 88% 50%;background-size: cover;}
+.ciudades .title-ciudad{padding-right:30px !important;padding-left:30px !important;padding-top:15px !important;padding-bottom:15px !important;}
+.ciudades .location-logo{padding-left:0px !important;}
+.ciudades .location-logo img{width:80%;}
+.ciudades .location-info{padding-left: .5rem !important;}
+.ciudades .ingresos-info{padding-right:0px !important;}
+.ciudades .wp-location{padding-right:0px !important;}
+/*.ciudades .wp-ingresos{padding-left:0px !important;padding-right:0px !important;}*/
 }
 @media (min-width:481px) and (max-width: 767px){
 footer .container .logo-footer{justify-content: left !important;}
@@ -96,6 +108,15 @@ footer .container .logo-footer{justify-content: left !important;}
 .font-50{font-size: 25px;}
 .font-18{font-size: 14px;}
 
+.ciudades .contenedor-ciudades{padding-right:0px !important;padding-left:0px !important;}
+.ciudades .ciudades-detalle {background-position: 88% 50%;background-size: cover;}
+.ciudades .title-ciudad{padding-right:30px !important;padding-left:30px !important;padding-top:15px !important;padding-bottom:15px !important;}
+.ciudades .location-logo{padding-left:0px !important;}
+.ciudades .location-logo img{width:80%;}
+.ciudades .location-info{padding-left: .5rem !important;}
+.ciudades .ingresos-info{padding-right:0px !important;}
+.ciudades .wp-location{padding-right:0px !important;}
+
 }
 @media (min-width:767px) and (max-width: 991px){
 .contador .flip-card {font-size: 3.5rem !important;}
@@ -107,12 +128,29 @@ footer .container .logo-footer{justify-content: left !important;}
 .btn-preheat{margin-bottom:90px;}
 .font-50{font-size: 45px;}
 .font-18{font-size: 18px;}
+.font-30 {font-size: 22px;}
+.ciudades .contenedor-ciudades{padding-right:0px !important;padding-left:0px !important;}
+.ciudades .ciudades-detalle {background-position: 88% 50%;background-size: cover;}
+.ciudades .title-ciudad{padding-right:30px !important;padding-left:30px !important;padding-top:15px !important;padding-bottom:15px !important;}
+.ciudades .title-ciudad p{text-align:left;}
+.ciudades .location-logo{padding-left:0px !important;}
+.ciudades .location-logo img{width:80%;}
+.ciudades .location-info{padding-left: .5rem !important;}
+.ciudades .ingresos-info{padding-right:0px !important;}
+.ciudades .wp-location{padding-right:0px !important;}
 }
 @media (min-width:992px) and (max-width: 1200px){
 .contador .flip-card {font-size: 3.5rem !important;}
 .contador .flip-clock__piece {margin: 0 12px;}
 .contador .flip-clock .flip-clock__slot{color: #FFF;font-family: sweet-sans-pro, sans-serif;font-weight: bold;}
 .contador .registrom{margin-top:10px !important;margin-bottom:100px !important;}
+
+.ciudades .title-ciudad{padding-right:30px !important;padding-left:30px !important;padding-top:15px !important;padding-bottom:15px !important;}
+.ciudades .location-logo{padding-left:0px !important;}
+.ciudades .location-logo img{width:80%;}
+.ciudades .location-info{padding-left: .5rem !important;}
+.ciudades .ingresos-info{padding-right:0px !important;}
+.ciudades .wp-location{padding-right:0px !important;}
 }
 @media (min-width: 1201px){
 .contador .registrom{margin-top:10px !important;margin-bottom:100px !important;}
