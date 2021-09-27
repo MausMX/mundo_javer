@@ -3,7 +3,7 @@
   	"id":"alvento",
     "nombre":"Alvento",
 	"descripcion":"Alvento Residencial es un fraccionamiento que combina modernidad, exclusividad y armonía, atributos que destacan de las viviendas residenciales.",
-	"logo":"/images/desarrollo/Nuevo_Leon/alvento/logo_alvento.png",
+	"logo":"/images/desarrollo/Nuevo_Leon/Alvento/alvento.png",
 	"ubicacion":"Apodaca, Nuevo León",
 	"imgciudad":"/images/ciudades/nuevo_leon/apodaca/city_01.png",
 	"idciudad":"apodaca",
@@ -400,7 +400,7 @@
 	"maps":"http://www.google.com/maps/dir//20.5216963,-103.2311152",
 	"prevurl":"/desarrollos/arrayanes",
 	"nexturl":"/desarrollos/loma-real",
-	"tour_virtual":"#N/A",
+	"tour_virtual":"https://www.javer.com.mx/tour/cima-serena/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
       "/images/desarrollo/cantaros/slide_01.jpg",

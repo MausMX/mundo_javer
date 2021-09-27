@@ -28,7 +28,7 @@ footer .container .info-footer{display: flex;align-items: center;}
 footer .container .logo-footer{justify-content: right;}
 
 .desarrollo .location-name{line-height:14px;}
-.desarrollo .img-ingresos{text-align:right;}
+/*.desarrollo .img-ingresos{text-align:right;}*/
 .desarrollo .interes-desarrollo p{text-align:center;}
 
 .carousel-control-next span,.carousel-control-prev span{font-size:35px; color:#000000;}
@@ -75,10 +75,12 @@ footer .container .logo-footer{justify-content: left !important;}
 .title-preheat{line-height:31px;}
 .btn-preheat{margin-bottom:90px;}
 .font-50{font-size: 25px;}
-.font-18{font-size: 14px;}
+.font-18{font-size: 16px;}
 .font-14{font-size: 2.5vw;}
+.font-23{font-size: 16px;}/* nuevo*/
 .font-30{font-size: 22px;}
 .font-44{font-size: 24px;}
+.font-10{font-size: 7px;}
 .img-preheat img{width:40%;margin-right:0px !important;}
 
 .ciudades .contenedor-ciudades{padding-right:0px !important;padding-left:0px !important;}
@@ -89,6 +91,48 @@ footer .container .logo-footer{justify-content: left !important;}
 .ciudades .location-info{padding-left: .5rem !important;}
 .ciudades .ingresos-info{padding-right:0px !important;}
 .ciudades .wp-location{padding-right:0px !important;}
+/*nuevo*/
+.desarrollo .div-logo-des{justify-content: center;padding-bottom:30px !important;}
+.desarrollo .desc-desarrollo{text-align: center;}
+.desarrollo .info-ingresos,.desarrollo .info-ubicacion{justify-content: center;padding-top: 15px !important;padding-bottom: 15px !important;}
+.desarrollo .img-ubicacion{padding-left: 0px;justify-content: center;display: flex;}
+.desarrollo .img-ingresos{padding-left: 0px;justify-content: center;display: flex;}
+.desarrollo .oficina-title,.desarrollo .btn-location,.desarrollo .title-asesores,.desarrollo .btn-contacta{text-align:center;margin-bottom: 25px !important;}
+.desarrollo .interes-desarrollo{margin-bottom:20px !important;}
+.desarrollo .info-ingresos, .desarrollo .info-ubicacion{margin-left:0px !important;width:100%;}
+.padding-line{padding-left:15px !important;padding-right:15px !important;padding-top: 20px !important;padding-bottom:0px !important;}
+.padding-extra{padding-left:0px !important;padding-right:0px !important;}
+
+a.prev-frac::before{      content: "";
+    background: white;
+    position: absolute;
+    bottom: 0px;
+	left: 26px;
+	height: 95%;
+	width: 1.3px;
+}
+a.next-frac::before{      content: "";
+    background: white;
+    position: absolute;
+bottom: 0px;
+right: 26px;
+height: 95%;
+width: 1.3px;}
+.icon-previ,.icon-netx{padding-left:5px !important;padding-right:5px !important;}
+.prev-frac{padding-left:0px !important;padding-right: 5px !important;}
+.next-frac{padding-left:5px !important;padding-right: 0px !important;}
+
+.contenido-conferencias{padding:0px !important;}
+.info-conferencias{padding-left:20px !important;padding-right:20px !important;}
+.img-conf{background-position:center !important;}
+body#conferencias .player img{width:80%;}
+body#conferencias .player {
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+}
+.desc-conferencia{padding-left:0px !important;padding-right:0px !important;}
+.title-conf{margin-bottom:0px !important;margin-top:0px !important;}
 /*.ciudades .wp-ingresos{padding-left:0px !important;padding-right:0px !important;}*/
 }
 @media (min-width:481px) and (max-width: 767px){
@@ -106,7 +150,8 @@ footer .container .logo-footer{justify-content: left !important;}
 .title-preheat{line-height:31px;}
 .btn-preheat{margin-bottom:90px;}
 .font-50{font-size: 25px;}
-.font-18{font-size: 14px;}
+.font-18{font-size: 16px;}
+.font-23{font-size: 16px;}/* nuevo*/
 
 .ciudades .contenedor-ciudades{padding-right:0px !important;padding-left:0px !important;}
 .ciudades .ciudades-detalle {background-position: 88% 50%;background-size: cover;}
@@ -116,6 +161,30 @@ footer .container .logo-footer{justify-content: left !important;}
 .ciudades .location-info{padding-left: .5rem !important;}
 .ciudades .ingresos-info{padding-right:0px !important;}
 .ciudades .wp-location{padding-right:0px !important;}
+
+/*nuevo*/
+.desarrollo .div-logo-des{justify-content: center;padding-bottom:30px !important;}
+.desarrollo .desc-desarrollo{text-align: center;}
+.desarrollo .info-ingresos,.desarrollo .info-ubicacion{justify-content: center;padding-top: 15px !important;padding-bottom: 15px !important;}
+.desarrollo .img-ubicacion{padding-left: 0px;justify-content: center;display: flex;}
+.desarrollo .img-ingresos{padding-left: 0px;justify-content: center;display: flex;}
+.desarrollo .oficina-title,.desarrollo .btn-location,.desarrollo .title-asesores,.desarrollo .btn-contacta{text-align:center;margin-bottom: 25px !important;}
+.desarrollo .interes-desarrollo{margin-bottom:20px !important;}
+.desarrollo .info-ingresos, .desarrollo .info-ubicacion{margin-left:0px !important;width:100%;}
+.padding-line{padding-left:15px !important;padding-right:15px !important;padding-top: 20px !important;padding-bottom:0px !important;}
+.padding-extra{padding-left:0px !important;padding-right:0px !important;}
+
+.contenido-conferencias{padding:0px !important;}
+.info-conferencias{padding-left:20px !important;padding-right:20px !important;}
+.img-conf{background-position:center !important;}
+body#conferencias .player img{width:80%;}
+body#conferencias .player {
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+}
+.desc-conferencia{padding-left:0px !important;padding-right:0px !important;}
+.title-conf{margin-bottom:0px !important;margin-top:0px !important;}
 
 }
 @media (min-width:767px) and (max-width: 991px){
@@ -127,8 +196,9 @@ footer .container .logo-footer{justify-content: left !important;}
 .title-preheat{line-height:40px;}
 .btn-preheat{margin-bottom:90px;}
 .font-50{font-size: 45px;}
-.font-18{font-size: 18px;}
+.font-18{font-size: 16px;}
 .font-30 {font-size: 22px;}
+.font-23 {font-size: 18px;}
 .ciudades .contenedor-ciudades{padding-right:0px !important;padding-left:0px !important;}
 .ciudades .ciudades-detalle {background-position: 88% 50%;background-size: cover;}
 .ciudades .title-ciudad{padding-right:30px !important;padding-left:30px !important;padding-top:15px !important;padding-bottom:15px !important;}
@@ -138,6 +208,16 @@ footer .container .logo-footer{justify-content: left !important;}
 .ciudades .location-info{padding-left: .5rem !important;}
 .ciudades .ingresos-info{padding-right:0px !important;}
 .ciudades .wp-location{padding-right:0px !important;}
+
+/* nuevo */
+.desarrollo .info-ingresos .f-left, .desarrollo .info-ubicacion .f-left{float: none;}
+.padding-line{padding-left:15px !important;padding-right:15px !important;padding-top: 20px !important;padding-bottom:0px !important;}
+.padding-extra{padding-left:0px !important;padding-right:0px !important;}
+.desarrollo .img-ingresos,.desarrollo .info-ubicacion{text-align:center;}
+
+.font-44{font-size: 36px;}
+.cont-img-conf{align-items: center;}
+
 }
 @media (min-width:992px) and (max-width: 1200px){
 .contador .flip-card {font-size: 3.5rem !important;}
