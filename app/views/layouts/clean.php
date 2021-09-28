@@ -24,7 +24,8 @@
 			$url =$_SERVER['REQUEST_URI'];
 			$porciones = explode("/", $url);
 			$count=count($porciones);
-			if($porciones[$count-1]!="preheat"){					
+			//contador_active=1			
+			if($contador_active==1){					
 			?>
 				<div class="col-12 text-center py-5 contenido-logo-contador">
 					<div class="col-12 text-center py-5 mb-5" id="logo-clean">
