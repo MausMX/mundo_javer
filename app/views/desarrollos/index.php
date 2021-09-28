@@ -131,7 +131,6 @@
 		            	<p class="mb-0 font-18 poppins bold">Contacta a uno de nuestros asesores</p>
 	                </div>
 		       		<div class="col-lg-11 pl-2 btn-contacta">
-                    	<a class="btn btn-danger pl-3 pr-4 text-uppercase font-10 poppins py-2" href="<?=Path?>"><img class="pr-1 logo-wp-btn" src="<?=Path?>/images/desarrollo/wp-btn.png"><strong>Contactar asesor</strong></a>
 	                </div>
 	            </div>
 	       		
