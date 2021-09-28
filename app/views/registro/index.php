@@ -2,7 +2,7 @@
     <div class="px-3 mb-5">
         <div class="row" style="position: relative;">
             <a id="btn-back" href="<?=Path?>" style="z-index:10;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
-            <div class="col-lg-4 col-md-4 bg-black rounded-left p-0 text-md-center text-lg-left">
+            <div class="col-lg-4 col-md-4 bg-black rounded-left p-0 text-md-center text-lg-left overflow-hidden">
                 <div class="p-5 container-title-registro">
                     <div class="px-3 pt-4">
                         <h1 class="text-danger font-37 line-height-32 font-poppins"><strong>Encuentra tu Nuevo Hogar</strong></h1>
@@ -10,7 +10,7 @@
                     </div>
                 </div>
                 <div style="position: absolute;bottom:0px;" class="img-registro-main">
-                    <img src="<?=Path?>/images/registro/imagen_registro.png">
+                    <img src="<?=Path?>/images/registro/registro-img.jpg">
                 </div>
             </div>
             <div class="col-lg-8 col-md-8 bg-white rounded-right registro-form" style="position: relative;">
@@ -72,7 +72,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 button-registro">
-                                    <button name="submit" class="btn btn-danger text-uppercase py-2 px-5 font-10 letter-spacing-1" type="submit"><strong>Registrarme</strong></button>
+                                    <button name="submit" class="btn btn-success text-uppercase py-2 px-5 font-10 letter-spacing-1" type="submit"><strong>Registrarme</strong></button>
                                     <label class="font-poppins font-12 text-secondary">Politicas de Mundo Javer</label>
                                 </div>
                             </div>
@@ -83,3 +83,11 @@
         </div>
     </div>
 </div>
+<style>
+    .g-recaptcha   {
+        transform: scale(0.80);
+        -webkit-transform:scale(0.80);
+        transform-origin: 0 0;
+        -webkit-transform-origin: 0 0;
+    }
+</style>

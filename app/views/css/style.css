@@ -27,6 +27,9 @@ header .container nav{border-radius: 15px;}
 .bg-danger{background-color: #DA291C !important;}
 .text-danger{color: #DA291C !important;}
 .btn-danger{background-color: #DA291C !important;}
+.bg-success{background-color: #69AF1F !important;}
+.text-success{color: #69AF1F !important;}
+.btn-success{background-color: #69AF1F !important;}
 .font-poppins{font-family:poppins, sans-serif;}
 .font-44{font-size: 44px;}
 .font-37{font-size: 37px;}
