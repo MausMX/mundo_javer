@@ -133,6 +133,10 @@ body#conferencias .player {
 }
 .desc-conferencia{padding-left:0px !important;padding-right:0px !important;}
 .title-conf{margin-bottom:0px !important;margin-top:0px !important;}
+
+.container-title-registro{padding-left:5px !important;padding-right:5px !important;padding-top: 30px !important;padding-bottom: 30px !important;}
+.container-title-registro h1,.container-title-registro h2{text-align:center;line-height: 20px;}
+.font-37 {font-size: 24px;}
 /*.ciudades .wp-ingresos{padding-left:0px !important;padding-right:0px !important;}*/
 }
 @media (min-width:481px) and (max-width: 767px){
