@@ -59,6 +59,8 @@ a.next-frac::before{      content: "";
 .title-preheat{line-height:45px;}
 .btn-preheat{margin-bottom:90px;}
 
+.padding-registro select{height:38px !important;}
+
 @media (min-width:320px) and (max-width:480px){
 footer .container .logo-footer{justify-content: left !important;}
 
@@ -135,8 +137,19 @@ body#conferencias .player {
 .title-conf{margin-bottom:0px !important;margin-top:0px !important;}
 
 .container-title-registro{padding-left:5px !important;padding-right:5px !important;padding-top: 30px !important;padding-bottom: 30px !important;}
+.container-title-registro div{position:relative !important;}
+.img-registro-main{position:relative !important;}
+.img-registro-main img{width:100% !important;}
+.padding-registro{padding-left:5px !important; padding-right:5px !important;}
 .container-title-registro h1,.container-title-registro h2{text-align:center;line-height: 20px;}
+.g-recaptcha{transform: scale(0.80);-webkit-transform:scale(0.80);transform-origin: 0 0;-webkit-transform-origin: 0 0;}
+.containter-captcha{position:relative !important;top:0px !important;}
+.button-registro .text-secondary{display:block;margin-top:5px;}
+.container-title-registro .px-3.pt-4{padding-top:0px !important;}
+.registro-form{border-top-right-radius: 0rem !important;border-bottom-left-radius: 1rem !important;}
+.font-12 {font-size: 9px;}
 .font-37 {font-size: 24px;}
+
 /*.ciudades .wp-ingresos{padding-left:0px !important;padding-right:0px !important;}*/
 }
 @media (min-width:481px) and (max-width: 767px){
@@ -182,16 +195,26 @@ footer .container .logo-footer{justify-content: left !important;}
 .info-conferencias{padding-left:20px !important;padding-right:20px !important;}
 .img-conf{background-position:center !important;}
 body#conferencias .player img{width:80%;}
-body#conferencias .player {
-    position: absolute;
-    bottom: 30px;
-    right: 0px;
-}
+body#conferencias .player {position: absolute;bottom: 30px;right: 0px;}
 .desc-conferencia{padding-left:0px !important;padding-right:0px !important;}
 .title-conf{margin-bottom:0px !important;margin-top:0px !important;}
 
+.container-title-registro{padding-left:5px !important;padding-right:5px !important;padding-top: 30px !important;padding-bottom: 30px !important;}
+.container-title-registro div{position:relative !important;}
+.img-registro-main{position:relative !important;}
+.padding-registro{padding-left:5px !important; padding-right:5px !important;}
+.container-title-registro h1,.container-title-registro h2{text-align:center;line-height: 20px;}
+.g-recaptcha{transform: scale(0.80);-webkit-transform:scale(0.80);transform-origin: 0 0;-webkit-transform-origin: 0 0;}
+.containter-captcha{position:relative !important;top:0px !important;}
+.button-registro .text-secondary{display:block;margin-top:5px;}
+.img-registro-main img{width:100% !important;}
+.container-title-registro .px-3.pt-4{padding-top:0px !important;}
+.registro-form{border-top-right-radius: 0rem !important;border-bottom-left-radius: 1rem !important;}
+
+.font-12 {font-size: 9px;}
+.font-37 {font-size: 27px;}
 }
-@media (min-width:767px) and (max-width: 991px){
+@media (min-width:768px) and (max-width: 991px){
 .contador .flip-card {font-size: 3.5rem !important;}
 .contador .flip-clock__piece {margin: 0 12px;}
 .contador .flip-clock .flip-clock__slot{color: #FFF;font-family: sweet-sans-pro, sans-serif;font-weight: bold;}
@@ -222,6 +245,11 @@ body#conferencias .player {
 .font-44{font-size: 36px;}
 .cont-img-conf{align-items: center;}
 
+.padding-registro{padding-left:2rem !important; padding-right:2rem !important;}
+.px-5.pt-3.padding-registro{padding-left:0px !important; padding-right:0px !important;}
+.g-recaptcha{transform: scale(0.55);-webkit-transform:scale(0.55);transform-origin: 0 0;-webkit-transform-origin: 0 0;}
+.container-title-registro{padding-left: 0px !important;padding-right: 0px !important;padding-bottom: 0px !important;}
+
 }
 @media (min-width:992px) and (max-width: 1200px){
 .contador .flip-card {font-size: 3.5rem !important;}
@@ -235,6 +263,10 @@ body#conferencias .player {
 .ciudades .location-info{padding-left: .5rem !important;}
 .ciudades .ingresos-info{padding-right:0px !important;}
 .ciudades .wp-location{padding-right:0px !important;}
+.padding-registro{padding-left:2rem !important; padding-right:2rem !important;}
+.px-5.pt-3.padding-registro{padding-left:0px !important; padding-right:0px !important;}
+.g-recaptcha{transform: scale(0.80);-webkit-transform:scale(0.80);transform-origin: 0 0;-webkit-transform-origin: 0 0;}
+.container-title-registro{padding-left: 20px !important;padding-right: 20px !important;padding-bottom: 0px !important;}
 }
 @media (min-width: 1201px){
 .contador .registrom{margin-top:10px !important;margin-bottom:100px !important;}
