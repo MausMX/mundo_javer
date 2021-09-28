@@ -10,7 +10,9 @@
                     <div class="px-5 py-4">
                         <div class="px-3">
                             <h1 class="text-danger font-44 line-height-32 font-poppins mb-5"><strong>¡Gracias por tu registro!</strong></h1>
-                            <p class="font-poppins font-18 mb-5"><strong>¡Completa el proceso de compra de tu casa para que puedas elegir un sorprendete regalo!</strong></p>
+                            <p class="font-poppins font-18 mb-5">
+                                <strong>¡Gracias por tu registro y ser parte de Mundo Javer!</strong><br><br>
+                                <strong>En breve serás contactado por uno de nuestros asesores. </strong></p>
                             <a class="btn btn-danger py-2 px-4 font-10 mb-3 mt-2" href="<?=Path?>"><strong>Continuar al mundo javer</strong></a>
                             <img style="position: absolute;bottom: 0px;right: 50px;width: 10%;" src="<?=Path?>/images/conferencias/logo_mundo_javer.png">
                         </div>

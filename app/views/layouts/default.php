@@ -16,6 +16,12 @@
 		<?=$this->html->includeCss("style");?>
 		<?=$this->html->includeCss("style2");?>
 		<script>var Path="<?=Path?>";</script>
+		<?php if($controllerName=='registro' and $function=='index'){ ?>
+			<script src="https://www.google.com/recaptcha/api.js"></script>
+			<script>
+			function timestamp() { var response = document.getElementById("g-recaptcha-response"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500); 
+			</script>
+		<?php } ?>
 	</head>
 	<body id="<?=$controllerName; ?>" class="<?=$function;?>">
 		<?=$this->renderElement("header")?>
