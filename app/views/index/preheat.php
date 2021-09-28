@@ -6,7 +6,7 @@
 			<p class="poppins c-white font-18 mb-4">Durante Mundo Javer, podrás disfrutar de eventos especiales, así como conferencias con temas de interés para cualquier persona con la intención de adquirir un inmueble, pero con muchas dudas y preguntas al respecto. En Mundo Javer encontrarás respuestas a través de una atención personalizada.</p>
 			<p class="poppins c-white font-18 mb-4">Brindarte opciones de acuerdo a tus sueños, facilitarte tu elección, recompensarte con premios ideales y hacer una experiencia memorable es el corazón de Mundo Javer. </p>
 			<p class="poppins c-white bold mb-5">Próximamente sé parte de Mundo Javer, ¡Este es el momento de tu oportunidad!</p>
-            <a class="btn btn-danger pl-3 pr-3 text-uppercase font-10 poppins py-2 letter-spacing-1 btn-preheat" href="<?=Path?>/registro"><strong>Registrarme</strong></a>
+            <a class="btn btn-danger pl-3 pr-3 text-uppercase font-10 poppins py-2 letter-spacing-1 btn-preheat" href="<?=Path?>/preregistro"><strong>Registrarme</strong></a>
 		</div>
 	</div>
 </div>
