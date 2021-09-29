@@ -16,27 +16,16 @@ $(function() {
 			},1000);
 	});
 	altura_wrapper_fixed();
-	if(typeof estado_activo !== typeof undefined){
-		$.ajax({
-			//data:  parametros,
-			type: 'POST',
-			url: Path+"/index/whatsapp_disponible/"+estado_activo+"/",
-			dataType: 'json',
-		}).done(function(data) {
-			$("footer").append('<div class="contacto_whatsapp"><a target="_blank" class="d-inline-block" href="'+Path+'/index/whatsapp/'+estado_activo+'/"><img src="'+Path+'/images/footer/ico_whatsapp.png"></a></div>');
-			$(".btn-contacta").append('<a class="btn btn-danger pl-3 pr-4 text-uppercase font-10 poppins py-2" href="'+Path+'/index/whatsapp/'+estado_activo+'/"><img class="pr-1 logo-wp-btn" src="'+Path+'/images/desarrollo/wp-btn.png"><strong>Contactar asesor</strong></a>');
-		}).fail(function() {
-			console.log("No contamos con asesores este día");
-		});
-	}
 });
 window.addEventListener("resize", function(){
 	altura_wrapper_fixed();
 	//location.reload();
 },false);
+
 $(window).on("load",function(){
 	altura_wrapper_fixed();
 });
+
 $('.bxslider_detalle').bxSlider({
   auto: true,
   stopAutoOnClick: true,
@@ -48,5 +37,6 @@ function altura_wrapper_fixed(){
     altura_footer=$("footer").height();
     altura_header=$("header").height();
     altura_wrapper=altura_ventana-altura_footer-altura_header;
+    console.log(altura_ventana+"----footer"+altura_footer+"-----header:"+altura_header+"----total"+altura_wrapper);
     $(".wrapper").css({'min-height':altura_wrapper});
 }
