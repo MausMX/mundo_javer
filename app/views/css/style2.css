@@ -20,6 +20,7 @@
 .f-left{float:left;}
 .wrapper > .container{margin-bottom:70px !important;}
 
+
 body.contador{background-image: url(/mundo-javer-2021/images/contador/fondo_contador.jpg);background-size: cover;}
 body.contador .btn-registro{border-radius: 12px; border-color:#EB4141;}
 
@@ -65,6 +66,7 @@ a.next-frac::before{      content: "";
 .regalo-footer img{position: absolute;right: 0px;top: -60px;}
 
 @media (min-width:320px) and (max-width:480px){
+body{background-size:cover !important;}
 footer .container .logo-footer{justify-content: left !important;}
 
 .contador .flip-clock__piece{display:flex;align-items: center;margin-bottom:20px !important;}
@@ -158,9 +160,13 @@ body#conferencias .player {
 .contenido-gracias .font-18.mb-5{margin-bottom:2rem !important;}
 .btn-continuar.font-10{font-size:10px !important;}
 .mobile-logo-gracias{margin-left: auto;margin-right: auto;}
+
+#preregistro header{height:55px !important;}
+
 /*.ciudades .wp-ingresos{padding-left:0px !important;padding-right:0px !important;}*/
 }
 @media (min-width:481px) and (max-width: 767px){
+body{background-size:cover !important;}
 footer .container .logo-footer{justify-content: left !important;}
 .contador .flip-clock__piece{display:flex;align-items: center;margin-bottom:20px !important;}
 /*.contador .flip-clock{padding-left:23vw;}*/
@@ -226,8 +232,12 @@ body#conferencias .player {position: absolute;bottom: 30px;right: 0px;}
 .contenido-gracias .font-18.mb-5{margin-bottom:2rem !important;}
 .btn-continuar.font-10{font-size:10px !important;}
 .mobile-logo-gracias{margin-left: auto;margin-right: auto;}
+
+#preregistro header{height:115px !important;}
+
 }
 @media (min-width:768px) and (max-width: 991px){
+body{background-size:cover !important;}
 .contador .flip-card {font-size: 3.5rem !important;}
 .contador .flip-clock__piece {margin: 0 12px;}
 .contador .flip-clock .flip-clock__slot{color: #FFF;font-family: sweet-sans-pro, sans-serif;font-weight: bold;}
@@ -261,7 +271,7 @@ body#conferencias .player {position: absolute;bottom: 30px;right: 0px;}
 /*Registro*/
 .padding-registro{padding-left:2rem !important; padding-right:2rem !important;}
 .px-5.pt-3.padding-registro{padding-left:0px !important; padding-right:0px !important;}
-.g-recaptcha{transform: scale(0.55);-webkit-transform:scale(0.55);transform-origin: 0 0;-webkit-transform-origin: 0 0;}
+.g-recaptcha{transform: scale(0.55) !important;-webkit-transform:scale(0.55) !important;transform-origin: 0 0 !important;-webkit-transform-origin: 0 0 !important;}
 .container-title-registro{padding-left: 0px !important;padding-right: 0px !important;padding-bottom: 0px !important;}
 
 /*gracias*/
@@ -270,8 +280,12 @@ body#conferencias .player {position: absolute;bottom: 30px;right: 0px;}
 .contenido-gracias .font-18{font-size:12px !important;}
 #registro.gracias .bg-white{background-size:30% !important;padding-bottom: 0px !important;}
 
+#preregistro header{height:55px !important;}
+
 }
 @media (min-width:992px) and (max-width: 1200px){
+body{background-size:cover !important;}
+
 .contador .flip-card {font-size: 3.5rem !important;}
 .contador .flip-clock__piece {margin: 0 12px;}
 .contador .flip-clock .flip-clock__slot{color: #FFF;font-family: sweet-sans-pro, sans-serif;font-weight: bold;}
@@ -294,7 +308,13 @@ body#conferencias .player {position: absolute;bottom: 30px;right: 0px;}
 .contenido-gracias h1,.contenido-gracias p{margin-bottom:25px !important;}
 .contenido-gracias .font-18{font-size:15px !important;}
 #registro.gracias .bg-white{background-size:30% !important;}
+
+#preregistro header{height:115px !important;}
 }
 @media (min-width: 1201px){
 .contador .registrom{margin-top:10px !important;margin-bottom:100px !important;}
+
+body{background-size:cover !important;}
+
+#preregistro header{height:115px !important;}
 }
