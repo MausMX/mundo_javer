@@ -25,7 +25,11 @@
 	</head>
 	<body id="<?=$controllerName; ?>" class="<?=$function;?>">
 		<? //=$this->renderElement("header")?>
-		<header class="pre-header text-center"><img src="<?=Path?>/images/general/enredaderas.png"></header>
+		<header class="pre-header text-center">
+			<div class="container mt-0 pl-0">
+				<img src="<?=Path?>/images/general/enredaderas.png">
+			</div>
+		</header>
 		<div class="wrapper"><?=$content_for_layout ?></div>
 		<?=$this->renderElement("footer");?>
 		<div class="modal fade" id="detalle" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"><div class="modal-dialog"><div class="modal-content"></div></div></div>
