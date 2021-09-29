@@ -1,9 +1,9 @@
-<div class="container font-poppins">
+<div class="container font-poppins pb-5">
     <div class="bg-white rounded p-5 mb-5 info-conferencias" style="position: relative;">
         <a id="btn-back" href="<?=Path?>"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
         <div class="row px-4 contenido-conferencias">
             <div class="col-12 col-md-9 col-lg-9 col-xl-9">
-                <h1 class="text-danger font-44 mb-4 mt-3 title-conf"><strong>Conferencias Javer</strong></h1>
+                <h1 class="font-44 mb-4 mt-3 title-conf"><strong>Conferencias Javer</strong></h1>
                 <p class="font-18 d-none d-lg-block d-xl-block d-md-block">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
                 </p>
