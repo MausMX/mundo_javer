@@ -2,10 +2,10 @@
 	<div class="container font-sweet-sans-pro font-10">
 		<a id="logo-principal" class="navbar-brand" href="<?=Path ?>"><img src="<?php echo Path;?>/images/header/logo.png"></a>
 		<nav class="navbar navbar-expand-xl navbar-dark bg-dark pt-0 pb-0 pl-0">
-			<button class="navbar-toggler ml-auto mr-0 py-3 border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler ml-auto mr-0 py-3 border-0" type="button" data-toggle="collapse" data-target="#menu-1" aria-controls="menu-1" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<div id="navbarSupportedContent" class="collapse navbar-collapse text-uppercase">
+			<div id="menu-1" class="collapse navbar-collapse text-uppercase"><!-- navbarSupportedContent -->
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item">
 						<a class="nav-link" href="#">Fraccionamientos</a>
