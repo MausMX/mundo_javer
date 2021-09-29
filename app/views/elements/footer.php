@@ -22,7 +22,7 @@
 					*/ ?>
 				</div>
 				<?php
-				if(($controllerName=='preregistro' and $function=='index') or ($controllerName=='preregistro' and $function=='gracias') or ($controllerName=='index' and $function=='contador') or ($controllerName=='index' and $function=='preheat')){
+				if(($controllerName=='preregistro' and $function=='index') or ($controllerName=='preregistro' and $function=='gracias') or ($controllerName=='index' and $function=='contador') or ($controllerName=='index' and $function=='preheat') or ($controllerName=='index' and $function=='index')){
 				?>
 				<div class="col-xl-4 col-lg-4 col-md-2 col-sm-12 col-xs-12 py-2 font-10 info-footer logo-footer">
 					<span class="c-white"><img class="mr-2" src="/mundo-javer-2021/images/footer/logo_footer.png"></span>

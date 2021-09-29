@@ -35,8 +35,9 @@
 			<?
 			}else{
 			?>
-			<div class="col-12 text-center pt-5 pb-0 contenido-logo-contador">
-					<div class="col-12 text-center py-0 mb-5 img-preheat">
+			<div class="top-planta container mb-0"><img class="mr-2" id="img-hijo" src="/mundo-javer-2021/images/general/verde_top.png"></div>
+			<div class="col-12 text-center pt-0 pb-0 contenido-logo-contador justify-content-center d-flex">
+					<div class="col-9 col-lg-2 col-xl-1 text-center py-0 mb-0 img-preheat">
 						<img class="mr-2" id="img-hijo" src="/mundo-javer-2021/images/contador/contador_logo.png">
 					</div>
 				</div>
