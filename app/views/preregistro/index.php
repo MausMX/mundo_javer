@@ -1,7 +1,6 @@
 <div class="container font-poppins">
     
         <div class="row mb-5 container-gracias-center" style="position: relative;">
-            <a id="btn-back" href="<?=Path?>" style="z-index:10;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
             <div class="col-lg-4 col-md-4 bg-black rounded-left p-0 text-md-center text-lg-left">
                 <div class="p-5 container-title-registro">
                     <div class="pl-5 pr-4">
@@ -16,6 +15,7 @@
                 </div>
             </div>
             <div class="col-lg-8 col-md-8 bg-white rounded-right registro-form" style="position: relative;">
+                <a id="btn-back" href="<?=Path?>" style="z-index:10;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
                 <div class="p-5 padding-registro">
                     <h3 class="font-poppins font-18 text-center mt-5 mb-4"><strong>¡Te avisamos cuando comience Mundo Javer!</strong></h3>
                     <p class="text-center">Compártenos tus datos y sé uno de los primeros en encontrar el hogar de tus sueños y descubrir las recompensas que tenemos para ti.</p>
