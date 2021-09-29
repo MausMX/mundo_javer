@@ -1,12 +1,12 @@
 <div class="container font-poppins btn-fraccionamiento mb-5">
     <div class="row" style="position: relative;">
 		<div class="col-6 d-block">
-        	<a class="btn btn-danger pl-2 pr-3 text-uppercase font-10 poppins py-2 prev-frac" href="<?= $prevfrac;?>">
+        	<a class="btn btn-danger pl-2 pr-3 text-uppercase font-10 poppins py-2 prev-frac" href="<?= Path.$prevfrac;?>">
         		<i class="fas fa-caret-left pr-3 icon-previ"></i><strong>Anterior Fraccionamiento</strong>
         	</a>
 		</div>
 		<div class="col-6 d-flex" style="justify-content:right;">
-			<a class="btn btn-danger pl-3 pr-2 text-uppercase font-10 poppins py-2 next-frac" href="<?= $nextfrac;?>">
+			<a class="btn btn-danger pl-3 pr-2 text-uppercase font-10 poppins py-2 next-frac" href="<?= Path.$nextfrac;?>">
         		<strong>Siguiente Fraccionamiento</strong><i class="fas fa-caret-right pl-3 icon-netx"></i>
         	</a>
 		</div>

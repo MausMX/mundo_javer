@@ -1,10 +1,12 @@
 .font-10{font-size:10px;}
 .font-12{font-size:12px;}
 .font-23{font-size: 23px;}
+.font-21{font-size: 21px;}
 .font-30{font-size: 30px;}
 .font-50{font-size: 50px;}
 .font-17{font-size: 17px;}
 .font-18{font-size: 18px;}
+.font-43{font-size:43px;}
 /*.font-17{font-size: 16px;}*/
 .c-black{color:#000000 !important;}
 .c-white{color:#FFFFFF !important;}
@@ -18,7 +20,8 @@
 .btn-light{border:1px solid #DA291C;}
 .btn-light:hover{border:1px solid #DA291C;}
 .f-left{float:left;}
-.wrapper > .container{margin-bottom:70px !important;}
+.wrapper > .container:not(.top-planta){margin-bottom:70px !important;}
+.contenido-logo-contador{margin-top:-70px !important;}
 
 
 body.contador{background-image: url(/mundo-javer-2021/images/contador/fondo_contador.jpg);background-size: cover;}
@@ -163,6 +166,15 @@ body#conferencias .player {
 
 #preregistro header{height:55px !important;}
 
+.wrapper > .container:not(.top-planta){margin-bottom:70px !important;}
+.contenido-logo-contador{margin-top:0px !important;}
+.regalo-preheat img{width:80%;}
+.regalo-preheat{margin-bottom:10px !important;}
+.txt-momento{margin-bottom: 15px !important;}
+.font-43{font-size: 25px;}
+.font-21{font-size: 15px;}
+.registroms{margin-top: 30px !important;}
+
 /*.ciudades .wp-ingresos{padding-left:0px !important;padding-right:0px !important;}*/
 }
 @media (min-width:481px) and (max-width: 767px){
@@ -235,6 +247,15 @@ body#conferencias .player {position: absolute;bottom: 30px;right: 0px;}
 
 #preregistro header{height:115px !important;}
 
+.wrapper > .container:not(.top-planta){margin-bottom:70px !important;}
+.contenido-logo-contador{margin-top:-20px !important;}
+.regalo-preheat img{width:50%;}
+.regalo-preheat{margin-bottom:10px !important;}
+.txt-momento{margin-bottom: 15px !important;}
+.font-43{font-size: 32px;}
+.font-21{font-size: 17px;}
+.registroms{margin-top: 30px !important;}
+
 }
 @media (min-width:768px) and (max-width: 991px){
 body{background-size:cover !important;}
@@ -281,6 +302,8 @@ body{background-size:cover !important;}
 #registro.gracias .bg-white{background-size:30% !important;padding-bottom: 0px !important;}
 
 #preregistro header{height:55px !important;}
+.wrapper > .container:not(.top-planta){margin-bottom:70px !important;}
+.contenido-logo-contador{margin-top:-20px !important;}
 
 }
 @media (min-width:992px) and (max-width: 1200px){
@@ -310,11 +333,13 @@ body{background-size:cover !important;}
 #registro.gracias .bg-white{background-size:30% !important;}
 
 #preregistro header{height:115px !important;}
+.wrapper > .container:not(.top-planta){margin-bottom:70px !important;}
+.contenido-logo-contador{margin-top:-20px !important;}
 }
 @media (min-width: 1201px){
 .contador .registrom{margin-top:10px !important;margin-bottom:100px !important;}
 
 body{background-size:cover !important;}
 
-#preregistro header{height:115px !important;}
+#preregistro header{height:auto !important;}
 }
