@@ -46,6 +46,8 @@
 				if($x<2){
 		        	$this->view->city = $ciudad->ciudad;
 			        $this->view->estado = $ciudad->estado;
+			        $this->view->prevzon = $ciudad->prevzona;
+			        $this->view->nextzon = $ciudad->nextzona;
 				}	
 		       /* $this->view->ubicacion = $ciudad->ubicacion;
 		        $this->view->leyenda1 = $ciudad->leyenda1;

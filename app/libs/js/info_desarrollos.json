@@ -16,6 +16,8 @@
 	"maps":"https://goo.gl/maps/EHJRquatxoL1dCD78",
 	"prevurl":"/desarrollos/muriel-residencial",
 	"nexturl":"/desarrollos/valle-lincoln",
+	"prevzona":"/desarrollos/ciudades/garcia",
+	"nextzona":"/desarrollos/ciudades/salinas-victoria",
 	"tour_virtual":"#N/A",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -40,6 +42,8 @@
 	"maps":"https://goo.gl/maps/fcWpQC2F816SXTau7",
 	"prevurl":"/desarrollos/residencial-las-plazas",
 	"nexturl":"/desarrollos/alvento",
+	"prevzona":"/desarrollos/ciudades/escobedo",
+	"nextzona":"/desarrollos/ciudades/guadalupe",
 	"tour_virtual":"https://www.javer.com.mx/tour/valle-de-lincoln/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -64,6 +68,8 @@
 	"maps":"https://g.page/r/Ca2pW1RC0ogFEBA",
 	"prevurl":"/desarrollos/valle-lincoln",
 	"nexturl":"/desarrollos/valle-santa-elena",
+	"prevzona":"/desarrollos/ciudades/salinas-victoria",
+	"nextzona":"/desarrollos/ciudades/monterrey",
 	"tour_virtual":"https://www.javer.com.mx/tour/alvento/serra-2n/",
     "slider": [
       "/images/desarrollo/alvento/main_img_slide_01.jpg",
@@ -88,6 +94,8 @@
 	"maps":"https://goo.gl/maps/wPc82ZCkidUQPJ7q8",
 	"prevurl":"/desarrollos/alvento",
 	"nexturl":"/desarrollos/amaire",
+	"prevzona":"/desarrollos/ciudades/salinas-victoria",
+	"nextzona":"/desarrollos/ciudades/monterrey",
 	"tour_virtual":"https://www.javer.com.mx/tour/valle-santa-elena/aguila/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -112,6 +120,8 @@
 	"maps":"https://g.page/r/CSLa9VKxAnZfEBA",
 	"prevurl":"/desarrollos/valle-santa-elena",
 	"nexturl":"/desarrollos/valle-santa-isabel",
+	"prevzona":"/desarrollos/ciudades/apodaca",
+	"nextzona":"/desarrollos/ciudades/juarez",
 	"tour_virtual":"https://www.javer.com.mx/tour/departamentos-amaire/amaire/",
     "slider": [
       "/images/desarrollo/alvento/slide_01.jpg",
@@ -136,6 +146,8 @@
 	"maps":"https://goo.gl/maps/z5SQWjWeKcVYQJ4q6",
 	"prevurl":"/desarrollos/amaire",
 	"nexturl":"/desarrollos/porto-cumbres",
+	"prevzona":"/desarrollos/ciudades/monterrey",
+	"nextzona":"/desarrollos/ciudades/escobedo",
 	"tour_virtual":"https://www.javer.com.mx/tour/santa-isabel/#lista2",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -160,6 +172,8 @@
 	"maps":"https://g.page/r/CcvoJu5x3F-nEBA",
 	"prevurl":"/desarrollos/valle-santa-isabel",
 	"nexturl":"/desarrollos/valle-azul",
+	"prevzona":"/desarrollos/ciudades/escobedo",
+	"nextzona":"/desarrollos/ciudades/guadalupe",
 	"tour_virtual":"#N/A",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -184,6 +198,8 @@
 	"maps":"https://g.page/r/CdZQ9oYeK2uPEBA",
 	"prevurl":"/desarrollos/porto-cumbres",
 	"nexturl":"/desarrollos/privadas-masai",
+	"prevzona":"/desarrollos/ciudades/salinas-victoria",
+	"nextzona":"/desarrollos/ciudades/monterrey",
 	"tour_virtual":"https://www.javer.com.mx/tour/valle-azul/aura/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -208,6 +224,8 @@
 	"maps":"https://g.page/r/CfZY8awzHsfmEBA",
 	"prevurl":"/desarrollos/valle-azul",
 	"nexturl":"/desarrollos/torre-luna",
+	"prevzona":"/desarrollos/ciudades/garcia",
+	"nextzona":"/desarrollos/ciudades/salinas-victoria",
 	"tour_virtual":"https://www.javer.com.mx/tour/privadas-masai/aura-elite/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -232,6 +250,8 @@
 	"maps":"https://goo.gl/maps/mUvcjEmuWjG6mmK77",
 	"prevurl":"/desarrollos/privadas-masai",
 	"nexturl":"/desarrollos/los-cantaros",
+	"prevzona":"/desarrollos/ciudades/guadalupe",
+	"nextzona":"/desarrollos/ciudades/apodaca",
 	"tour_virtual":"#N/A",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -256,6 +276,8 @@
 	"maps":"https://g.page/r/CQKioLDCI8plEBA",
 	"prevurl":"/desarrollos/torre-luna",
 	"nexturl":"/desarrollos/muriel-residencial",
+	"prevzona":"/desarrollos/ciudades/monterrey",
+	"nextzona":"/desarrollos/ciudades/escobedo",
 	"tour_virtual":"https://www.javer.com.mx/tour/los-cantaros/aguila-con-pasillo/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -280,6 +302,8 @@
 	"maps":"https://g.page/r/CYlc0kmXnWSqEBA",
 	"prevurl":"/desarrollos/los-cantaros",
 	"nexturl":"/desarrollos/valle-roble",
+	"prevzona":"/desarrollos/ciudades/juarez",
+	"nextzona":"/desarrollos/ciudades/garcia",
 	"tour_virtual":"https://www.javer.com.mx/tour/los-cantaros/aguila-con-pasillo/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -304,6 +328,8 @@
 	"maps":"https://goo.gl/maps/2PR43qQk5pPwhDyT7",
 	"prevurl":"/desarrollos/muriel-residencial",
 	"nexturl":"/desarrollos/residencial-las-plazas",
+	"prevzona":"/desarrollos/ciudades/monterrey",
+	"nextzona":"/desarrollos/ciudades/escobedo",
 	"tour_virtual":"https://www.javer.com.mx/tour/valle-del-roble/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -328,6 +354,8 @@
 	"maps":"https://goo.gl/maps/ET9m8Q28YmcRmfRx8",
 	"prevurl":"/desarrollos/arrayanes",
 	"nexturl":"/desarrollos/cima-serena",
+	"prevzona":"/desarrollos/ciudades/tonala",
+	"nextzona":"/desarrollos/ciudades/zapopan",
 	"tour_virtual":"https://www.javer.com.mx/tour/valle-de-los-encinos-plus/verona/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -352,6 +380,8 @@
 	"maps":"https://g.page/r/CfGLvCAy2bI6EBA",
 	"prevurl":"/desarrollos/valle-encinos-plus",
 	"nexturl":"/desarrollos/loma-real",
+	"prevzona":"/desarrollos/ciudades/zapopan",
+	"nextzona":"/desarrollos/ciudades/tonala",
 	"tour_virtual":"https://www.javer.com.mx/tour/cima-serena/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -376,6 +406,8 @@
 	"maps":"http://www.google.com/maps/dir//20.659741409270453,-103.1899012212861",
 	"prevurl":"/desarrollos/cima-serena",
 	"nexturl":"/desarrollos/valle-tejada",
+	"prevzona":"/desarrollos/ciudades/el-salto",
+	"nextzona":"/desarrollos/ciudades/tlajomulco-zuniga",
 	"tour_virtual":"https://www.javer.com.mx/tour/loma-real/atria-real/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -400,6 +432,8 @@
 	"maps":"https://goo.gl/maps/gQ2XN5Le99r57rtWA",
 	"prevurl":"/desarrollos/loma-real",
 	"nexturl":"/desarrollos/alberi-residencial",
+	"prevzona":"/desarrollos/ciudades/tonala",
+	"nextzona":"/desarrollos/ciudades/zapopan",
 	"tour_virtual":"https://www.javer.com.mx/tour/valle-de-tejada/marsella/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -424,6 +458,8 @@
 	"maps":"https://g.page/r/CZ0TcY__KujWEBA",
 	"prevurl":"/desarrollos/valle-tejada",
 	"nexturl":"/desarrollos/arrayanes",
+	"prevzona":"/desarrollos/ciudades/tonala",
+	"nextzona":"/desarrollos/ciudades/zapopan",
 	"tour_virtual":"https://www.javer.com.mx/tour/alberi-residencial/modelo-blanc/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -448,6 +484,8 @@
 	"maps":"https://goo.gl/maps/DZfWArTHYGHLJNr56",
 	"prevurl":"/desarrollos/alberi-residencial",
 	"nexturl":"/desarrollos/valle-encinos-plus",
+	"prevzona":"/desarrollos/ciudades/tlajomulco-zuniga",
+	"nextzona":"/desarrollos/ciudades/el-salto",
 	"tour_virtual":"#N/A",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -472,6 +510,8 @@
 	"maps":"https://goo.gl/maps/dKHKhLTXeNZKqH9c7",
 	"prevurl":"/desarrollos/villa-montana",
 	"nexturl":"/desarrollos/paseos-sur",
+	"prevzona":"/desarrollos/ciudades/aguascalientes",
+	"nextzona":"/desarrollos/ciudades/aguascalientes",
 	"tour_virtual":"https://www.javer.com.mx/tour/caranday/palermo/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -496,6 +536,8 @@
 	"maps":"https://goo.gl/maps/3XQgX3PbduN6UddB9",
 	"prevurl":"/desarrollos/caranday",
 	"nexturl":"/desarrollos/villa-montana",
+	"prevzona":"/desarrollos/ciudades/aguascalientes",
+	"nextzona":"/desarrollos/ciudades/aguascalientes",
 	"tour_virtual":"#N/A",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -520,6 +562,8 @@
 	"maps":"https://goo.gl/maps/bQAksKXjQmhHBYEaA",
 	"prevurl":"/desarrollos/paseos-sur",
 	"nexturl":"/desarrollos/caranday",
+	"prevzona":"/desarrollos/ciudades/aguascalientes",
+	"nextzona":"/desarrollos/ciudades/aguascalientes",
 	"tour_virtual":"https://www.javer.com.mx/tour/villa-montana/verona/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -544,6 +588,8 @@
 	"maps":"https://g.page/r/CXBtX2W0mHJkEBA",
 	"prevurl":"/desarrollos/valle-lirios",
 	"nexturl":"/desarrollos/bosque-nevado",
+	"prevzona":"/desarrollos/ciudades/zumpango",
+	"nextzona":"/desarrollos/ciudades/zinacantepec",
 	"tour_virtual":"https://www.javer.com.mx/tour/alboreto-residencial/albero-vi/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -568,6 +614,8 @@
 	"maps":"https://g.page/r/CevzU1ZQuxgxEBA",
 	"prevurl":"/desarrollos/valle-lirios",
 	"nexturl":"/desarrollos/alboreto-residencial",
+	"prevzona":"/desarrollos/ciudades/metepec",
+	"nextzona":"/desarrollos/ciudades/zumpango",
 	"tour_virtual":"#N/A",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -592,6 +640,8 @@
 	"maps":"http://www.google.com/maps/dir//19.822427896608406,-99.06702850770333",
 	"prevurl":"/desarrollos/bosque-nevado",
 	"nexturl":"/desarrollos/valle-lirios",
+	"prevzona":"/desarrollos/ciudades/zinacantepec",
+	"nextzona":"/desarrollos/ciudades/metepec",
 	"tour_virtual":"https://www.javer.com.mx/tour/jardines-de-girasoles/aguila/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -616,6 +666,8 @@
 	"maps":"https://goo.gl/maps/typvdguySTjumJzR7",
 	"prevurl":"/desarrollos/jardines-girasoles",
 	"nexturl":"/desarrollos/alboreto-residencial",
+	"prevzona":"/desarrollos/ciudades/zinacantepec",
+	"nextzona":"/desarrollos/ciudades/metepec",
 	"tour_virtual":"#N/A",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -640,6 +692,8 @@
 	"maps":"https://g.page/r/CaiI3xyKYlnoEBA",
 	"prevurl":"/desarrollos/el-manantial",
 	"nexturl":"/desarrollos/paseo-junipero",
+	"prevzona":"/desarrollos/ciudades/corregidora",
+	"nextzona":"/desarrollos/ciudades/san-juan-rio",
 	"tour_virtual":"https://www.javer.com.mx/tour/privalia-ambienta/agave-plus/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -664,6 +718,8 @@
 	"maps":"https://g.page/r/Cd5li1w_8LfxEAE",
 	"prevurl":"/desarrollos/privalia-ambienta",
 	"nexturl":"/desarrollos/cumbre-alta",
+	"prevzona":"/desarrollos/ciudades/corregidora",
+	"nextzona":"/desarrollos/ciudades/san-juan-rio",
 	"tour_virtual":"https://www.javer.com.mx/tour/paseo-san-junipero/toscana/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -688,6 +744,8 @@
 	"maps":"http://www.google.com/maps/dir//20.64785267498873,-100.3062706441768",
 	"prevurl":"/desarrollos/paseo-junipero",
 	"nexturl":"/desarrollos/massaro-residencial",
+	"prevzona":"/desarrollos/ciudades/san-juan-rio",
+	"nextzona":"/desarrollos/ciudades/corregidora",
 	"tour_virtual":"https://www.javer.com.mx/tour/cumbre-alta/bianco/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -712,6 +770,8 @@
 	"maps":"https://g.page/r/CUvUwyw12lnHEBA",
 	"prevurl":"/desarrollos/cumbre-alta",
 	"nexturl":"/desarrollos/pedregal-rio",
+	"prevzona":"/desarrollos/ciudades/san-juan-rio",
+	"nextzona":"/desarrollos/ciudades/corregidora",
 	"tour_virtual":"https://www.javer.com.mx/tour/massaro-residencial/palermo-plus-2/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -736,6 +796,8 @@
 	"maps":"https://g.page/r/CSqic18m_-vHEBA",
 	"prevurl":"/desarrollos/massaro-residencial",
 	"nexturl":"/desarrollos/fuente-balvanera",
+	"prevzona":"/desarrollos/ciudades/queretaro",
+	"nextzona":"/desarrollos/ciudades/el-marques",
 	"tour_virtual":"https://www.javer.com.mx/tour/pedregal-del-rio/zafiro-plus/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -760,6 +822,8 @@
 	"maps":"http://www.google.com/maps/dir//20.534391481839062,-100.52695824128934",
 	"prevurl":"/desarrollos/pedregal-rio",
 	"nexturl":"/desarrollos/el-manantial",
+	"prevzona":"/desarrollos/ciudades/corregidora",
+	"nextzona":"/desarrollos/ciudades/san-juan-rio",
 	"tour_virtual":"https://www.javer.com.mx/tour/fuente-de-balvanera/aguila-duplex/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -784,6 +848,8 @@
 	"maps":"https://g.page/r/CYxC1hvQaDFHEBA",
 	"prevurl":"/desarrollos/fuente-balvanera",
 	"nexturl":"/desarrollos/privalia-ambienta",
+	"prevzona":"/desarrollos/ciudades/el-marques",
+	"nextzona":"/desarrollos/ciudades/queretaro",
 	"tour_virtual":"https://www.javer.com.mx/tour/el-manantial/toscana-plus/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -808,6 +874,8 @@
 	"maps":"https://goo.gl/maps/tT95cfSsYqDwP6Pc8",
 	"prevurl":"/desarrollos/punta-estrella",
 	"nexturl":"/desarrollos/arbolada",
+	"prevzona":"/desarrollos/ciudades/playa-del-carmen",
+	"nextzona":"/desarrollos/ciudades/playa-del-carmen",
 	"tour_virtual":"https://www.javer.com.mx/tour/privada-altus-ii/aura-elite/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -832,6 +900,8 @@
 	"maps":"https://goo.gl/maps/hQY24YtGwxarXhmk6",
 	"prevurl":"/desarrollos/privada-altus",
 	"nexturl":"/desarrollos/paseo-kusamil",
+	"prevzona":"/desarrollos/ciudades/playa-del-carmen",
+	"nextzona":"/desarrollos/ciudades/playa-del-carmen",
 	"tour_virtual":"https://www.javer.com.mx/tour/arbolada/bari/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -856,6 +926,8 @@
 	"maps":"http://www.google.com/maps/dir//21.123907121993813,-86.92886694625189",
 	"prevurl":"/desarrollos/arbolada",
 	"nexturl":"/desarrollos/portoalto",
+	"prevzona":"/desarrollos/ciudades/playa-del-carmen",
+	"nextzona":"/desarrollos/ciudades/playa-del-carmen",
 	"tour_virtual":"https://www.javer.com.mx/tour/paseo-kusamil/antares/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -880,6 +952,8 @@
 	"maps":"https://g.page/r/CQevHX34mRfpEBA",
 	"prevurl":"/desarrollos/paseo-kusamil",
 	"nexturl":"/desarrollos/punta-estrella",
+	"prevzona":"/desarrollos/ciudades/cancun",
+	"nextzona":"/desarrollos/ciudades/cancun",
 	"tour_virtual":"https://www.javer.com.mx/tour/portoalto/verona/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -904,6 +978,8 @@
 	"maps":"https://goo.gl/maps/AtJyfU7aUxSmvbmt8",
 	"prevurl":"/desarrollos/portoalto",
 	"nexturl":"/desarrollos/privada-altus",
+	"prevzona":"/desarrollos/ciudades/cancun",
+	"nextzona":"/desarrollos/ciudades/cancun",
 	"tour_virtual":"https://www.javer.com.mx/tour/punta-estrella/atria-premium/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
@@ -928,6 +1004,8 @@
 	"maps":"https://g.page/r/Cez9HjB2lCWJEBA",
 	"prevurl":"/desarrollos/piramides",
 	"nexturl":"/desarrollos/piramides",
+	"prevzona":"/desarrollos/ciudades/piramides",
+	"nextzona":"/desarrollos/ciudades/piramides",
 	"tour_virtual":"https://www.javer.com.mx/tour/piramides/",
     "slider": [
       "/images/desarrollo/cantaros/slide_01.jpg",
