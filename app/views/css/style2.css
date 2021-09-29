@@ -18,6 +18,7 @@
 .btn-light{border:1px solid #DA291C;}
 .btn-light:hover{border:1px solid #DA291C;}
 .f-left{float:left;}
+.wrapper > .container{margin-bottom:70px !important;}
 
 body.contador{background-image: url(/mundo-javer-2021/images/contador/fondo_contador.jpg);background-size: cover;}
 body.contador .btn-registro{border-radius: 12px; border-color:#EB4141;}
@@ -60,6 +61,8 @@ a.next-frac::before{      content: "";
 .btn-preheat{margin-bottom:90px;}
 
 .padding-registro select{height:38px !important;}
+
+.regalo-footer img{position: absolute;right: 0px;top: -60px;}
 
 @media (min-width:320px) and (max-width:480px){
 footer .container .logo-footer{justify-content: left !important;}
