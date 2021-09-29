@@ -5,7 +5,7 @@
 			<button class="navbar-toggler ml-auto mr-0 py-3 border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<div id="menu-1" class="collapse navbar-collapse text-uppercase" id="navbarSupportedContent">
+			<div id="navbarSupportedContent" class="collapse navbar-collapse text-uppercase">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item">
 						<a class="nav-link" href="#">Fraccionamientos</a>
