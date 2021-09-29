@@ -16,7 +16,10 @@
                 "25":{"dia":25,"horario_inicio":"","horario_fin":""},
                 "26":{"dia":26,"horario_inicio":"18:00","horario_fin":"23:00"},
                 "27":{"dia":27,"horario_inicio":"13:00","horario_fin":"19:00"},
-                "28":{"dia":28,"horario_inicio":"13:00","horario_fin":"19:00"}
+                "28":{"dia":28,"horario_inicio":"13:00","horario_fin":"19:00"},
+                "29":{"dia":29,"horario_inicio":"08:00","horario_fin":"14:00"},
+                "30":{"dia":30,"horario_inicio":"15:00","horario_fin":"23:00"},
+                "31":{"dia":31,"horario_inicio":"08:00","horario_fin":"14:00"}
             }
         },
         "2":{"idLP":2,"nombre":"Karen Janette Tapia Gutierrez","telefono":"3324501570","correo":"ktapia@javer.com.mx","horario":
@@ -34,7 +37,10 @@
                 "25":{"dia":25,"horario_inicio":"15:00","horario_fin":"23:00"},
                 "26":{"dia":26,"horario_inicio":"13:00","horario_fin":"19:00"},
                 "27":{"dia":27,"horario_inicio":"18:00","horario_fin":"23:00"},
-                "28":{"dia":28,"horario_inicio":"08:00","horario_fin":"14:00"}
+                "28":{"dia":28,"horario_inicio":"08:00","horario_fin":"14:00"},
+                "29":{"dia":29,"horario_inicio":"18:00","horario_fin":"23:00"},
+                "30":{"dia":30,"horario_inicio":"08:00","horario_fin":"14:00"},
+                "31":{"dia":31,"horario_inicio":"","horario_fin":""}
             }},
         "3":{"idLP":3,"nombre":"Gustavo Enrique Medellin Orozco","telefono":"3318103711","correo":"gmedellin@javer.com.mx","horario":
             {
@@ -51,7 +57,10 @@
                 "25":{"dia":25,"horario_inicio":"08:00","horario_fin":"14:00"},
                 "26":{"dia":26,"horario_inicio":"08:00","horario_fin":"14:00"},
                 "27":{"dia":27,"horario_inicio":"08:00","horario_fin":"14:00"},
-                "28":{"dia":28,"horario_inicio":"18:00","horario_fin":"23:00"}
+                "28":{"dia":28,"horario_inicio":"18:00","horario_fin":"23:00"},
+                "29":{"dia":29,"horario_inicio":"13:00","horario_fin":"19:00"},
+                "30":{"dia":30,"horario_inicio":"","horario_fin":""},
+                "31":{"dia":31,"horario_inicio":"15:00","horario_fin":"23:00"}
             }}
         },
     "nuevo_leon":
@@ -71,7 +80,10 @@
                 "25":{"dia":25,"horario_inicio":"13:00","horario_fin":"19:00"},
                 "26":{"dia":26,"horario_inicio":"13:00","horario_fin":"19:00"},
                 "27":{"dia":27,"horario_inicio":"08:00","horario_fin":"14:00"},
-                "28":{"dia":28,"horario_inicio":"18:00","horario_fin":"23:00"}
+                "28":{"dia":28,"horario_inicio":"18:00","horario_fin":"23:00"},
+                "29":{"dia":29,"horario_inicio":"13:00","horario_fin":"19:00"},
+                "30":{"dia":30,"horario_inicio":"","horario_fin":""},
+                "31":{"dia":31,"horario_inicio":"","horario_fin":""}
             }},
         "5":{"idLP":5,"nombre":"Jorge Isaac Cruz Manzanero","telefono":"8116785296","correo":"jorge.cruz@javer.com.mx","horario":
             {
@@ -88,7 +100,10 @@
                 "25":{"dia":25,"horario_inicio":"","horario_fin":""},
                 "26":{"dia":26,"horario_inicio":"18:00","horario_fin":"23:00"},
                 "27":{"dia":27,"horario_inicio":"13:00","horario_fin":"19:00"},
-                "28":{"dia":28,"horario_inicio":"08:00","horario_fin":"14:00"}
+                "28":{"dia":28,"horario_inicio":"08:00","horario_fin":"14:00"},
+                "29":{"dia":29,"horario_inicio":"08:00","horario_fin":"14:00"},
+                "30":{"dia":30,"horario_inicio":"16:00","horario_fin":"23:00"},
+                "31":{"dia":31,"horario_inicio":"","horario_fin":""}
             }},
         "6":{"idLP":6,"nombre":"Gilberto Cabrera Vera","telefono":"8126817839","correo":"gcabrera@javer.com.mx","horario":
             {
@@ -105,7 +120,10 @@
                 "25":{"dia":25,"horario_inicio":"","horario_fin":""},
                 "26":{"dia":26,"horario_inicio":"18:00","horario_fin":"23:00"},
                 "27":{"dia":27,"horario_inicio":"13:00","horario_fin":"19:00"},
-                "28":{"dia":28,"horario_inicio":"08:00","horario_fin":"14:00"}
+                "28":{"dia":28,"horario_inicio":"08:00","horario_fin":"14:00"},
+                "29":{"dia":29,"horario_inicio":"08:00","horario_fin":"14:00"},
+                "30":{"dia":30,"horario_inicio":"08:00","horario_fin":"15:00"},
+                "31":{"dia":31,"horario_inicio":"","horario_fin":""}
             }},
         "7":{"idLP":7,"nombre":"Hernan Jahir Villa Saldaña","telefono":"8117618276","correo":"hvilla@javer.com.mx","horario":
             {
@@ -122,7 +140,10 @@
                 "25":{"dia":25,"horario_inicio":"18:00","horario_fin":"23:00"},
                 "26":{"dia":26,"horario_inicio":"13:00","horario_fin":"19:00"},
                 "27":{"dia":27,"horario_inicio":"08:00","horario_fin":"14:00"},
-                "28":{"dia":28,"horario_inicio":"18:00","horario_fin":"23:00"}
+                "28":{"dia":28,"horario_inicio":"18:00","horario_fin":"23:00"},
+                "29":{"dia":29,"horario_inicio":"18:00","horario_fin":"23:00"},
+                "30":{"dia":30,"horario_inicio":"","horario_fin":""},
+                "31":{"dia":31,"horario_inicio":"","horario_fin":""}
             }},
         "8":{"idLP":8,"nombre":"Eduardo David Salazar Saldaña","telefono":"8125165758","correo":"esa@javer.com.mx","horario":
             {
@@ -139,7 +160,10 @@
                 "25":{"dia":25,"horario_inicio":"08:00","horario_fin":"14:00"},
                 "26":{"dia":26,"horario_inicio":"08:00","horario_fin":"14:00"},
                 "27":{"dia":27,"horario_inicio":"18:00","horario_fin":"23:00"},
-                "28":{"dia":28,"horario_inicio":"13:00","horario_fin":"19:00"}
+                "28":{"dia":28,"horario_inicio":"13:00","horario_fin":"19:00"},
+                "29":{"dia":29,"horario_inicio":"","horario_fin":""},
+                "30":{"dia":30,"horario_inicio":"","horario_fin":""},
+                "31":{"dia":31,"horario_inicio":"16:00","horario_fin":"23:00"}
             }},
         "9":{"idLP":9,"nombre":"Sergio Ramon Perez Sauceda","telefono":"8126817838","correo":"srp@javer.com.mx","horario":
             {
@@ -156,7 +180,10 @@
                 "25":{"dia":25,"horario_inicio":"08:00","horario_fin":"14:00"},
                 "26":{"dia":26,"horario_inicio":"08:00","horario_fin":"14:00"},
                 "27":{"dia":27,"horario_inicio":"18:00","horario_fin":"23:00"},
-                "28":{"dia":28,"horario_inicio":"13:00","horario_fin":"19:00"}
+                "28":{"dia":28,"horario_inicio":"13:00","horario_fin":"19:00"},
+                "29":{"dia":29,"horario_inicio":"","horario_fin":""},
+                "30":{"dia":30,"horario_inicio":"","horario_fin":""},
+                "31":{"dia":31,"horario_inicio":"08:00","horario_fin":"15:00"}
             }}
     },
     "tamaulipas":
@@ -176,7 +203,10 @@
                 "25":{"dia":25,"horario_inicio":"13:00","horario_fin":"19:00"},
                 "26":{"dia":26,"horario_inicio":"13:00","horario_fin":"19:00"},
                 "27":{"dia":27,"horario_inicio":"08:00","horario_fin":"14:00"},
-                "28":{"dia":28,"horario_inicio":"18:00","horario_fin":"23:00"}
+                "28":{"dia":28,"horario_inicio":"18:00","horario_fin":"23:00"},
+                "29":{"dia":29,"horario_inicio":"13:00","horario_fin":"19:00"},
+                "30":{"dia":30,"horario_inicio":"","horario_fin":""},
+                "31":{"dia":31,"horario_inicio":"","horario_fin":""}
             }},
         "5":{"idLP":5,"nombre":"Jorge Isaac Cruz Manzanero","telefono":"8116785296","correo":"jorge.cruz@javer.com.mx","horario":
             {
@@ -193,7 +223,10 @@
                 "25":{"dia":25,"horario_inicio":"","horario_fin":""},
                 "26":{"dia":26,"horario_inicio":"18:00","horario_fin":"23:00"},
                 "27":{"dia":27,"horario_inicio":"13:00","horario_fin":"19:00"},
-                "28":{"dia":28,"horario_inicio":"08:00","horario_fin":"14:00"}
+                "28":{"dia":28,"horario_inicio":"08:00","horario_fin":"14:00"},
+                "29":{"dia":29,"horario_inicio":"08:00","horario_fin":"14:00"},
+                "30":{"dia":30,"horario_inicio":"16:00","horario_fin":"23:00"},
+                "31":{"dia":31,"horario_inicio":"","horario_fin":""}
             }},
         "6":{"idLP":6,"nombre":"Gilberto Cabrera Vera","telefono":"8126817839","correo":"gcabrera@javer.com.mx","horario":
             {
@@ -210,7 +243,10 @@
                 "25":{"dia":25,"horario_inicio":"","horario_fin":""},
                 "26":{"dia":26,"horario_inicio":"18:00","horario_fin":"23:00"},
                 "27":{"dia":27,"horario_inicio":"13:00","horario_fin":"19:00"},
-                "28":{"dia":28,"horario_inicio":"08:00","horario_fin":"14:00"}
+                "28":{"dia":28,"horario_inicio":"08:00","horario_fin":"14:00"},
+                "29":{"dia":29,"horario_inicio":"08:00","horario_fin":"14:00"},
+                "30":{"dia":30,"horario_inicio":"08:00","horario_fin":"15:00"},
+                "31":{"dia":31,"horario_inicio":"","horario_fin":""}
             }},
         "7":{"idLP":7,"nombre":"Hernan Jahir Villa Saldaña","telefono":"8117618276","correo":"hvilla@javer.com.mx","horario":
             {
@@ -227,7 +263,10 @@
                 "25":{"dia":25,"horario_inicio":"18:00","horario_fin":"23:00"},
                 "26":{"dia":26,"horario_inicio":"13:00","horario_fin":"19:00"},
                 "27":{"dia":27,"horario_inicio":"08:00","horario_fin":"14:00"},
-                "28":{"dia":28,"horario_inicio":"18:00","horario_fin":"23:00"}
+                "28":{"dia":28,"horario_inicio":"18:00","horario_fin":"23:00"},
+                "29":{"dia":29,"horario_inicio":"18:00","horario_fin":"23:00"},
+                "30":{"dia":30,"horario_inicio":"","horario_fin":""},
+                "31":{"dia":31,"horario_inicio":"","horario_fin":""}
             }},
         "8":{"idLP":8,"nombre":"Eduardo David Salazar Saldaña","telefono":"8125165758","correo":"esa@javer.com.mx","horario":
             {
@@ -244,7 +283,10 @@
                 "25":{"dia":25,"horario_inicio":"08:00","horario_fin":"14:00"},
                 "26":{"dia":26,"horario_inicio":"08:00","horario_fin":"14:00"},
                 "27":{"dia":27,"horario_inicio":"18:00","horario_fin":"23:00"},
-                "28":{"dia":28,"horario_inicio":"13:00","horario_fin":"19:00"}
+                "28":{"dia":28,"horario_inicio":"13:00","horario_fin":"19:00"},
+                "29":{"dia":29,"horario_inicio":"","horario_fin":""},
+                "30":{"dia":30,"horario_inicio":"","horario_fin":""},
+                "31":{"dia":31,"horario_inicio":"16:00","horario_fin":"23:00"}
             }},
         "9":{"idLP":9,"nombre":"Sergio Ramon Perez Sauceda","telefono":"8126817838","correo":"srp@javer.com.mx","horario":
             {
@@ -261,7 +303,10 @@
                 "25":{"dia":25,"horario_inicio":"08:00","horario_fin":"14:00"},
                 "26":{"dia":26,"horario_inicio":"08:00","horario_fin":"14:00"},
                 "27":{"dia":27,"horario_inicio":"18:00","horario_fin":"23:00"},
-                "28":{"dia":28,"horario_inicio":"13:00","horario_fin":"19:00"}
+                "28":{"dia":28,"horario_inicio":"13:00","horario_fin":"19:00"},
+                "29":{"dia":29,"horario_inicio":"","horario_fin":""},
+                "30":{"dia":30,"horario_inicio":"","horario_fin":""},
+                "31":{"dia":31,"horario_inicio":"08:00","horario_fin":"15:00"}
             }}
     },
     "estado_de_mexico":
@@ -278,10 +323,13 @@
                 "22":{"dia":22,"horario_inicio":"","horario_fin":""},
                 "23":{"dia":23,"horario_inicio":"","horario_fin":""},
                 "24":{"dia":24,"horario_inicio":"08:00","horario_fin":"23:00"},
-                "25":{"dia":25,"horario_inicio":"08:00","horario_fin":"19:00"},
-                "26":{"dia":26,"horario_inicio":"08:00","horario_fin":"19:00"},
-                "27":{"dia":27,"horario_inicio":"08:00","horario_fin":"19:00"},
-                "28":{"dia":28,"horario_inicio":"08:00","horario_fin":"19:00"}
+                "25":{"dia":25,"horario_inicio":"08:00","horario_fin":"17:30"},
+                "26":{"dia":26,"horario_inicio":"08:00","horario_fin":"17:30"},
+                "27":{"dia":27,"horario_inicio":"08:00","horario_fin":"17:30"},
+                "28":{"dia":28,"horario_inicio":"08:00","horario_fin":"17:30"},
+                "29":{"dia":29,"horario_inicio":"","horario_fin":""},
+                "30":{"dia":30,"horario_inicio":"","horario_fin":""},
+                "31":{"dia":31,"horario_inicio":"08:00","horario_fin":"23:00"}
             }},
         "11":{"idLP":11,"nombre":"Marco Alberto Zavala Cardona","telefono":"5530129397","correo":"mzc@javer.com.mx","horario":
             {
@@ -298,7 +346,10 @@
                 "25":{"dia":25,"horario_inicio":"12:00","horario_fin":"23:00"},
                 "26":{"dia":26,"horario_inicio":"12:00","horario_fin":"23:00"},
                 "27":{"dia":27,"horario_inicio":"12:00","horario_fin":"23:00"},
-                "28":{"dia":28,"horario_inicio":"12:00","horario_fin":"23:00"}
+                "28":{"dia":28,"horario_inicio":"12:00","horario_fin":"23:00"},
+                "29":{"dia":29,"horario_inicio":"12:00","horario_fin":"23:00"},
+                "30":{"dia":30,"horario_inicio":"","horario_fin":""},
+                "31":{"dia":31,"horario_inicio":"","horario_fin":""}
             }},
         "12":{"idLP":12,"nombre":"Rodrigo Torres Diaz","telefono":"5572482209","correo":"rtd@javer.com.mx","horario":
             {
@@ -315,7 +366,10 @@
                 "25":{"dia":25,"horario_inicio":"10:00","horario_fin":"21:00"},
                 "26":{"dia":26,"horario_inicio":"10:00","horario_fin":"21:00"},
                 "27":{"dia":27,"horario_inicio":"10:00","horario_fin":"21:00"},
-                "28":{"dia":28,"horario_inicio":"10:00","horario_fin":"21:00"}
+                "28":{"dia":28,"horario_inicio":"10:00","horario_fin":"21:00"},
+                "29":{"dia":29,"horario_inicio":"10:00","horario_fin":"21:00"},
+                "30":{"dia":30,"horario_inicio":"","horario_fin":""},
+                "31":{"dia":31,"horario_inicio":"","horario_fin":""}
             }},
         "13":{"idLP":13,"nombre":"Jose Juan Suarez Hernandez","telefono":"5572486488","correo":"jsuarez@javer.com.mx","horario":
             {
@@ -330,11 +384,11 @@
                 "23":{"dia":23,"horario_inicio":"08:00","horario_fin":"23:00"},
                 "24":{"dia":24,"horario_inicio":"","horario_fin":""},
                 "25":{"dia":25,"horario_inicio":"","horario_fin":""},
-                "26":{"dia":26,"horario_inicio":"08:00","horario_fin":"19:00"},
-                "27":{"dia":27,"horario_inicio":"08:00","horario_fin":"19:00"},
-                "28":{"dia":28,"horario_inicio":"08:00","horario_fin":"19:00"},
-                "29":{"dia":29,"horario_inicio":"08:00","horario_fin":"19:00"},
-                "30":{"dia":30,"horario_inicio":"10:00","horario_fin":"15:00"},
+                "26":{"dia":26,"horario_inicio":"08:00","horario_fin":"17:30"},
+                "27":{"dia":27,"horario_inicio":"08:00","horario_fin":"17:30"},
+                "28":{"dia":28,"horario_inicio":"08:00","horario_fin":"17:30"},
+                "29":{"dia":29,"horario_inicio":"08:00","horario_fin":"17:30"},
+                "30":{"dia":30,"horario_inicio":"08:00","horario_fin":"23:00"},
                 "31":{"dia":31,"horario_inicio":"","horario_fin":""}
             }}
     },
@@ -355,7 +409,10 @@
                 "25":{"dia":25,"horario_inicio":"08:00","horario_fin":"19:00"},
                 "26":{"dia":26,"horario_inicio":"08:00","horario_fin":"19:00"},
                 "27":{"dia":27,"horario_inicio":"08:00","horario_fin":"19:00"},
-                "28":{"dia":28,"horario_inicio":"","horario_fin":""}
+                "28":{"dia":28,"horario_inicio":"","horario_fin":""},
+                "29":{"dia":29,"horario_inicio":"","horario_fin":""},
+                "30":{"dia":30,"horario_inicio":"14:00","horario_fin":"23:00"},
+                "31":{"dia":31,"horario_inicio":"08:00","horario_fin":"15:00"}
             }},
         "15":{"idLP":15,"nombre":"Viridiana Estefania Estrello Martinez","telefono":"5530068948","correo":"vestrello@javer.com.mx","horario":
             {
@@ -372,7 +429,10 @@
                 "25":{"dia":25,"horario_inicio":"","horario_fin":""},
                 "26":{"dia":26,"horario_inicio":"","horario_fin":""},
                 "27":{"dia":27,"horario_inicio":"08:00","horario_fin":"19:00"},
-                "28":{"dia":28,"horario_inicio":"08:00","horario_fin":"19:00"}
+                "28":{"dia":28,"horario_inicio":"08:00","horario_fin":"19:00"},
+                "29":{"dia":29,"horario_inicio":"08:00","horario_fin":"19:00"},
+                "30":{"dia":30,"horario_inicio":"08:00","horario_fin":"15:00"},
+                "31":{"dia":31,"horario_inicio":"14:00","horario_fin":"23:00"}
             }},
         "16":{"idLP":16,"nombre":"Eduardo Camacho Basutista","telefono":"5530338786","correo":"ecamacho@javer.com.mx","horario":
             {
@@ -389,7 +449,10 @@
                 "25":{"dia":25,"horario_inicio":"10:00","horario_fin":"23:00"},
                 "26":{"dia":26,"horario_inicio":"10:00","horario_fin":"23:00"},
                 "27":{"dia":27,"horario_inicio":"10:00","horario_fin":"23:00"},
-                "28":{"dia":28,"horario_inicio":"10:00","horario_fin":"23:00"}
+                "28":{"dia":28,"horario_inicio":"10:00","horario_fin":"23:00"},
+                "29":{"dia":29,"horario_inicio":"10:00","horario_fin":"23:00"},
+                "30":{"dia":30,"horario_inicio":"","horario_fin":""},
+                "31":{"dia":31,"horario_inicio":"","horario_fin":""}
             }}
     },
     "aguascalientes":
@@ -409,7 +472,10 @@
                 "25":{"dia":25,"horario_inicio":"08:00","horario_fin":"23:00"},
                 "26":{"dia":26,"horario_inicio":"08:00","horario_fin":"15:30"},
                 "27":{"dia":27,"horario_inicio":"08:00","horario_fin":"15:30"},
-                "28":{"dia":28,"horario_inicio":"08:00","horario_fin":"15:30"}
+                "28":{"dia":28,"horario_inicio":"08:00","horario_fin":"15:30"},
+                "29":{"dia":29,"horario_inicio":"","horario_fin":""},
+                "30":{"dia":30,"horario_inicio":"","horario_fin":""},
+                "31":{"dia":31,"horario_inicio":"08:00","horario_fin":"23:00"}
             }},
         "18":{"idLP":18,"nombre":"Yadira Gisela Hernandez Sotelo","telefono":"4492730561","correo":"yhernandez@javer.com.mx","horario":
             {
@@ -426,7 +492,10 @@
                 "25":{"dia":25,"horario_inicio":"","horario_fin":""},
                 "26":{"dia":26,"horario_inicio":"15:30","horario_fin":"23:00"},
                 "27":{"dia":27,"horario_inicio":"15:30","horario_fin":"23:00"},
-                "28":{"dia":28,"horario_inicio":"15:30","horario_fin":"23:00"}
+                "28":{"dia":28,"horario_inicio":"15:30","horario_fin":"23:00"},
+                "29":{"dia":29,"horario_inicio":"08:00","horario_fin":"23:00"},
+                "30":{"dia":30,"horario_inicio":"08:00","horario_fin":"23:00"},
+                "31":{"dia":31,"horario_inicio":"","horario_fin":""}
             }}
     },
     "quintana_roo":
@@ -446,7 +515,10 @@
                 "25":{"dia":25,"horario_inicio":"08:00","horario_fin":"14:00"},
                 "26":{"dia":26,"horario_inicio":"13:00","horario_fin":"19:00"},
                 "27":{"dia":27,"horario_inicio":"13:00","horario_fin":"19:00"},
-                "28":{"dia":28,"horario_inicio":"13:00","horario_fin":"19:00"}
+                "28":{"dia":28,"horario_inicio":"13:00","horario_fin":"19:00"},
+                "29":{"dia":29,"horario_inicio":"08:00","horario_fin":"14:00"},
+                "30":{"dia":30,"horario_inicio":"15:00","horario_fin":"23:00"},
+                "31":{"dia":31,"horario_inicio":"","horario_fin":""}
             }},
         "20":{"idLP":20,"nombre":"Diana Victoria Sanchez Miravete","telefono":"9982808989","correo":"dsm@javer.com.mx","horario":
             {
@@ -463,7 +535,10 @@
                 "25":{"dia":25,"horario_inicio":"","horario_fin":""},
                 "26":{"dia":26,"horario_inicio":"08:00","horario_fin":"14:00"},
                 "27":{"dia":27,"horario_inicio":"08:00","horario_fin":"14:00"},
-                "28":{"dia":28,"horario_inicio":"08:00","horario_fin":"14:00"}
+                "28":{"dia":28,"horario_inicio":"08:00","horario_fin":"14:00"},
+                "29":{"dia":29,"horario_inicio":"13:00","horario_fin":"19:00"},
+                "30":{"dia":30,"horario_inicio":"08:00","horario_fin":"14:00"},
+                "31":{"dia":31,"horario_inicio":"15:00","horario_fin":"23:00"}
             }},
         "21":{"idLP":21,"nombre":"Jose Noe Lugo Morales","telefono":"9982775207","correo":"jlugo@javer.com.mx","horario":
             {
@@ -480,7 +555,10 @@
                 "25":{"dia":25,"horario_inicio":"15:00","horario_fin":"23:00"},
                 "26":{"dia":26,"horario_inicio":"18:00","horario_fin":"23:00"},
                 "27":{"dia":27,"horario_inicio":"18:00","horario_fin":"23:00"},
-                "28":{"dia":28,"horario_inicio":"18:00","horario_fin":"23:00"}
+                "28":{"dia":28,"horario_inicio":"18:00","horario_fin":"23:00"},
+                "29":{"dia":29,"horario_inicio":"18:00","horario_fin":"23:00"},
+                "30":{"dia":30,"horario_inicio":"","horario_fin":""},
+                "31":{"dia":31,"horario_inicio":"08:00","horario_fin":"14:00"}
             }}
     }
 }
