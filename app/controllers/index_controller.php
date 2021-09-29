@@ -178,7 +178,6 @@
 			$dia=date("d");
 			//$dia=15;
 		}
-		
 		$lp_files=file_get_contents('./files/lp.json');
 		$lps=json_decode($lp_files,true);
 		$lps_by_day=array();
