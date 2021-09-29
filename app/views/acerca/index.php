@@ -16,23 +16,23 @@
                     </div>
                 </div>
             </div>
-            <div class="pt-5 pb-4 px-5">
+            <div class="pt-4 pb-4 px-5">
                 <div class="px-4">
-                    <h1 class="font-poppins font-44 text-danger mb-5"><strong>El mundo de las oportunidades</strong></h1>
-                    <p class="text-justify mb-4"><strong>Mundo Javer es una experiencia única e interactiva, sin dejar de lado la atención personalizada que requieras, donde te acompañamos en todos los procesos para realizar una compra inmobiliaria con ventajas adicionales.</strong></p>
+                    <h1 class="font-poppins font-44 text-danger mb-4"><strong>El mundo de las oportunidades</strong></h1>
+                    <p class="text-justify mb-4 pt-2"><strong>Mundo Javer es una experiencia única e interactiva, sin dejar de lado la atención personalizada que requieras, donde te acompañamos en todos los procesos para realizar una compra inmobiliaria con ventajas adicionales.</strong></p>
                     <p class="text-justify">Cada una de las compras realizadas, ofrecen recompensas especiales que complementan tu experiencia al adquirir una nueva vivienda, como premios comprometidos con el cuidado de nuestro medio ambiente y más sorpresas, lo que hace a Mundo Javer el mundo de las oportunidades.</p>
                 </div>
             </div>
-            <div class="row py-5 px-5">
+            <div class="row pt-3 pb-4 px-5">
                 <div class="col-md-6">
                     <div class="px-4">
-                        <h1 class="font-poppins font-30 text-danger mb-5"><strong>Experiencias interactivas</strong></h1>
+                        <h1 class="font-poppins font-30 text-danger mb-4"><strong>Experiencias interactivas</strong></h1>
                         <p class="text-justify">La expo Mundo Javer es como cualquier otra expo inmobiliaria, pero disponible en cualquier parte donde estés. Su mapa interactivo te permite visualizar todos nuestros desarrollos disponibles y los estados donde se encuentran. Como una expo física, también podrás disfrutar de eventos especiales y conferencias para facilitarte el proceso de elección de acuerdo a lo que estás buscando.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="px-4">
-                        <h1 class="font-poppins font-30 text-danger mb-5"><strong>Opciones para ti</strong></h1>
+                        <h1 class="font-poppins font-30 text-danger mb-4"><strong>Opciones para ti</strong></h1>
                         <p class="text-justify">Ofrecemos desarrollos de diversas características, donde encontrarás el inmueble perfecto para ti, de acuerdo a lo que estés buscando: espacios designados para el home office, zonas de áreas verdes y de actividades, etc.</p>
                     </div>
                 </div>
