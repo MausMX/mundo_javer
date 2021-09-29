@@ -36,9 +36,10 @@ function altura_wrapper_fixed(){
     altura_ventana=$(window).height();
     altura_footer=$("footer").height();
     altura_header=$("header").height();
-    contenedor=((altura_ventana/2)-($(".container-gracias-center").height()));
+    //contenedor=((altura_ventana/2)-($(".container-gracias-center").height()));
+	contenedor=((altura_ventana-$(".container-gracias-center").height())/2)-altura_header;
     altura_wrapper=altura_ventana-altura_footer-altura_header;
-    console.log(altura_ventana+"----footer"+altura_footer+"-----header:"+altura_header+"----container"+$(".container-gracias-center").height());
+  	console.log(altura_ventana+"----footer"+altura_footer+"-----header:"+altura_header+"----container"+$(".container-gracias-center").height());
     $(".wrapper").css({'min-height':altura_wrapper});
     $(".container-gracias-center").css({'padding-top':contenedor});
 }
