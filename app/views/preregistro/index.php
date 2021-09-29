@@ -1,6 +1,6 @@
 <div class="container font-poppins">
     
-        <div class="row mb-5" style="position: relative;">
+        <div class="row mb-5 container-gracias-center" style="position: relative;">
             <a id="btn-back" href="<?=Path?>" style="z-index:10;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
             <div class="col-lg-4 col-md-4 bg-black rounded-left p-0 text-md-center text-lg-left">
                 <div class="p-5 container-title-registro">
