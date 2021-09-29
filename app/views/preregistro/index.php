@@ -241,7 +241,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <button name="submit" class="btn btn-danger text-uppercase py-2 px-5 font-10 letter-spacing-1" type="submit"><strong>Registrarme</strong></button>
+                                    <button name="submit" class="btn btn-success text-uppercase py-2 px-5 font-10 letter-spacing-1" type="submit"><strong>Registrarme</strong></button>
                                     <label class="font-poppins font-10 text-secondary">Politicas de Mundo Javer</label>
                                 </div>
                             </div>
