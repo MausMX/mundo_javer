@@ -24,7 +24,7 @@
 .contenido-logo-contador{margin-top:-70px !important;}
 .top-planta{position:relative;}
 
-body.contador{background-image: url(/mundo-javer-2021/images/contador/fondo_contador.jpg);background-size: cover;}
+body.contador{background-image: url(../../../images/general/back_mapa.jpg);background-size: cover;}
 body.contador .btn-registro{border-radius: 12px; border-color:#EB4141;}
 
 footer{background-color: rgba(0, 0, 0, 0.7);}
