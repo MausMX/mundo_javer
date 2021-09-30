@@ -16,7 +16,7 @@
 	                                <strong class="d-block mb-3">¡Gracias por tu registro y ser parte de Mundo Javer!</strong>
 	                                <strong>En breve serás contactado por uno de nuestros asesores. </strong>
 								</p>
-	                            <a class="btn btn-success py-2 px-4 font-10 mt-2 btn-continuar text-uppercase" href="<?=Path?>"><strong>Continuar al mundo javer</strong></a>
+	                            <a class="btn btn-success py-2 px-4 font-10 mt-2 btn-continuar text-uppercase" href="<?=Path?>"><strong>Continuar a mundo javer</strong></a>
 	                            <img class="d-none d-lg-block d-xl-block" style="position: absolute;bottom: -15px;right: 50px;width: 10%;" src="<?=Path?>/images/conferencias/logo_mundo_javer.png">
 	                        </div>
 	                    </div>
