@@ -92,7 +92,7 @@ footer .container .logo-footer{justify-content: left !important;}
 .font-30{font-size: 22px;}
 .font-44{font-size: 24px;}
 .font-10{font-size: 7px;}
-.img-preheat img{width:40%;margin-right:0px !important;}
+.img-preheat img{/*width:40%;*/margin-right:0px !important;}
 
 .ciudades .contenedor-ciudades{padding-right:0px !important;padding-left:0px !important;}
 .ciudades .ciudades-detalle {background-position: 88% 50%;background-size: cover;}
@@ -196,7 +196,7 @@ footer .container .logo-footer{justify-content: left !important;}
 .contador .contenido-logo-contador{padding-bottom:0px !important;}
 .contador .contenido-contador{padding-bottom:30px !important;}
 
-.img-preheat img{width:30%;margin-right:0px !important;}
+.img-preheat img{/*width:30%;*/margin-right:0px !important;}
 .title-preheat{line-height:31px;}
 .btn-preheat{margin-bottom:90px;}
 .font-50{font-size: 25px;}
@@ -279,7 +279,7 @@ body{background-size:cover !important;}
 .contador .flip-clock__piece {margin: 0 12px;}
 .contador .flip-clock .flip-clock__slot{color: #FFF;font-family: sweet-sans-pro, sans-serif;font-weight: bold;}
 .contador .registrom{margin-top:10px !important;margin-bottom:50px !important;}
-.img-preheat img{width:20%;margin-right:0px !important;}
+.img-preheat img{/*width:20%;*/margin-right:0px !important;}
 .title-preheat{line-height:40px;}
 .btn-preheat{margin-bottom:90px;}
 .font-50{font-size: 45px;}
