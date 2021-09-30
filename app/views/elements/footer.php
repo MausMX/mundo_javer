@@ -2,7 +2,7 @@
 	<div class="contenido-borde">
 		<div class="container">
 			<div class="row py-2">
-				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 py-2 font-10 info-footer"> <span class="c-white font-sweet-sans- text-uppercase">Copyright © casa javer 2020. Todos los derechos reservados</span></div>
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 py-2 font-10 info-footer"> <span class="c-white font-sweet-sans- text-uppercase">Copyright © casas javer 2021. Todos los derechos reservados</span></div>
 				<div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-xs-12 py-3 font-10 info-footer">
 					<?php /*
 					<div class="list-group">

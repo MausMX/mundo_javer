@@ -13,7 +13,7 @@
 	                            <div class="">
 	                                <h1 class="text-success font-44 line-height-32 font-poppins mb-5"><strong>¡Gracias por tu registro!</strong></h1>
 	                                <p class="font-poppins font-18 mb-3">
-	                                    <strong>Estás un paso más cerca de encontrar tu nuevo hogar con increíbles regalos sustentables y ecológicos.</strong>
+	                                    <strong>Estás un paso más cerca de encontrar tu nuevo hogar con increíbles regalos sustentables.</strong>
 	                                </p>
 	                                <p>Te notificaremos el día del inicio de Mundo Javer.</p>
 	                                <img class="d-none d-lg-block d-xl-block" style="position: absolute;bottom: -25px;right: 50px;width: 10%;" src="<?=Path?>/images/conferencias/logo_mundo_javer.png">
