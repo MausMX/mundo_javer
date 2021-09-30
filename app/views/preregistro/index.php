@@ -14,9 +14,9 @@
                 <h3 class="font-poppins font-18 text-center mt-5 mb-4"><strong>¡Te avisaremos cuando comience Mundo Javer!</strong></h3>
                 <p class="text-center">Compártenos tus datos, sé uno de los primeros en encontrar el hogar de tus sueños y descubrir todos los regalos ecológicos que tendremos para ti.</p>
                 <div class="px-5 pt-4 padding-registro">
-                    <form method="post" action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8">
-                        <input type="hidden" name='captcha_settings' value='{"keyname":"CAPTCHAJAVER","fallback":"true","orgId":"00D530000008hIx","ts":""}'>
-                        <input type="hidden" name="oid" value="00D530000008hIx">
+                    <form method="post" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8">
+                        <input type="hidden" name='captcha_settings' value='{"keyname":"CAPTCHAJAVER","fallback":"true","orgId":"00Do0000000b6Io","ts":""}'>
+                        <input type="hidden" name="oid" value="00Do0000000b6Io">
                         <input type="hidden" name="retURL" value="<?=Path?>/preregistro/gracias">
                         <input type="hidden" name="00N3l00000Q7A57" id="00N3l00000Q7A57" placeholder="Fuente" required value="Mundo Javer">
                         <!--  ----------------------------------------------------------------------  -->
@@ -35,7 +35,7 @@
                             <div class="col-lg-6 col-md-6"><div class="containter-captcha" style="position:absolute;top:-30px;"><div class="g-recaptcha" data-sitekey="6Lcg2vQZAAAAAHpqmf6Pj_-t-doxKr1iwLWfQuWQ"></div></div></div>
                             <div class="col-lg-6 col-md-6 button-registro">
                                 <button name="submit" class="btn btn-success text-uppercase py-2 px-5 font-10 letter-spacing-1" type="submit"><strong>Regístrate</strong></button>
-                                <label class="font-poppins font-10 text-secondary">Políticas de Mundo Javer</label>
+                                <a class="font-poppins font-10 text-secondary d-block mt-2" href="https://www.javer.com.mx/avisos-de-privacidad#clientes">Ver Aviso de Privacidad</a>
                             </div>
                         </div>
                     </form>

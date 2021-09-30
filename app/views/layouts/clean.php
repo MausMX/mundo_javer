@@ -71,5 +71,12 @@
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js'></script>
 		<?=$this->html->includeJs("script");?>
 		<?=$this->html->includeJs("script_contador");?>
+		<script async src=https://www.googletagmanager.com/gtag/js?id=G-GSMHZV3KJJ></script>
+		<script>
+  			window.dataLayer = window.dataLayer || [];
+  			function gtag(){dataLayer.push(arguments);}
+  			gtag('js', new Date());
+  			gtag('config', 'G-GSMHZV3KJJ');
+		</script>
 	</body>
 </html>

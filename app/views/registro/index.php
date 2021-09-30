@@ -65,7 +65,7 @@
                                 </div>
                                 <div class="col-lg-6 col-md-6 button-registro">
                                     <button name="submit" class="btn btn-success text-uppercase py-2 px-5 font-10 letter-spacing-1" type="submit"><strong>Regístrate</strong></button>
-                                    <label class="font-poppins font-12 text-secondary">Politicas de Mundo Javer</label>
+                                    <a class="font-poppins font-10 text-secondary d-block mt-2" href="https://www.javer.com.mx/avisos-de-privacidad#clientes">Ver Aviso de Privacidad</a>
                                 </div>
                             </div>
                         </form>
