@@ -5,8 +5,8 @@
 	                <div class="row bg-white rounded py-3 align-items-center" style="position: relative;">
 	                    <a id="btn-back" href="<?=Path?>"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
 	                    <div class="col-8 offset-2 offset-md-0 offset-lg-0 offset-xl-0 col-xl-4 col-lg-4 col-md-3 p-0">
-	                        <img class="d-none d-lg-block d-xl-block d-md-block" src="<?=Path?>/images/registro/img_gracias.png">
-		                    <img class="d-block d-lg-none d-xl-none d-md-none mobile-logo-gracias" src="<?=Path?>/images/registro/logo_gracias_mobile.png">
+	                        <img class="d-none d-lg-block d-xl-block d-md-block" src="<?=Path?>/images/preregistro/img_gracias.png">
+		                    <img class="d-block d-lg-none d-xl-none d-md-none mobile-logo-gracias" src="<?=Path?>/images/preregistro/gracias_mobile.png">
 	                    </div>
 	                    <div class="col-md-9 col-xl-8 col-lg-8" style="position: relative;">
 	                        <div class="pr-5 py-4 contenido-gracias">
