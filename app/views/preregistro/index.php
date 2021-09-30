@@ -18,7 +18,7 @@
                 <a id="btn-back" href="<?=Path?>" style="z-index:10;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
                 <div class="p-5 padding-registro">
                     <h3 class="font-poppins font-18 text-center mt-5 mb-4"><strong>¡Te avisamos cuando comience Mundo Javer!</strong></h3>
-                    <p class="text-center">Compártenos tus datos y sé uno de los primeros en encontrar el hogar de tus sueños y descubrir las recompensas que tenemos para ti.</p>
+                    <p class="text-center">Compártenos tus datos y sé uno de los primeros en encontrar el hogar de tus sueños y descubre todos los regalos ecológicos que tendremos para ti.</p>
                     <div class="px-5 pt-4 padding-registro">
                         <form method="post" action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8">
                             <input type="hidden" name='captcha_settings' value='{"keyname":"CAPTCHAJAVER","fallback":"true","orgId":"00D530000008hIx","ts":""}'>
