@@ -7,6 +7,7 @@
 .font-17{font-size: 17px;}
 .font-18{font-size: 18px;}
 .font-43{font-size:43px;}
+.font-19{font-size:19px;}
 /*.font-17{font-size: 16px;}*/
 .c-black{color:#000000 !important;}
 .c-white{color:#FFFFFF !important;}
@@ -178,6 +179,9 @@ body#conferencias .player {
 .font-21{font-size: 15px;}
 .registroms{margin-top: 30px !important;}
 
+.font-19{font-size:13px !important;}
+.regalo-contador img{width:40%;}
+
 /*.ciudades .wp-ingresos{padding-left:0px !important;padding-right:0px !important;}*/
 }
 @media (min-width:481px) and (max-width: 767px){
@@ -264,6 +268,9 @@ body#conferencias .player {position: absolute;bottom: 30px;right: 0px;}
 .font-43{font-size: 32px;}
 .font-21{font-size: 17px;}
 .registroms{margin-top: 30px !important;}
+
+.font-19{font-size:15px !important;}
+.regalo-contador img{width:30%;}
 
 }
 @media (min-width:768px) and (max-width: 991px){
