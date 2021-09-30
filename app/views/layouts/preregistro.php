@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="es-MX">
 	<head>
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-P3LPRCH');</script>
+		<!-- End Google Tag Manager -->
         <?=$this->html->charsetTag("UTF-8"); ?>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title><?=$title_for_layout; ?></title>
@@ -24,6 +31,10 @@
 		<?php } ?>
 	</head>
 	<body id="<?=$controllerName; ?>" class="<?=$function;?>">
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P3LPRCH"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
 		<? //=$this->renderElement("header")?>
 		<header class="pre-header text-center">
 			<div class="container mt-0 pl-0">
