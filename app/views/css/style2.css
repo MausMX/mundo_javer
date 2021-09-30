@@ -145,10 +145,13 @@ body#conferencias .player {
 .title-conf{margin-bottom:0px !important;margin-top:0px !important;}
 
 .container-title-registro{padding-left:5px !important;padding-right:5px !important;padding-top: 30px !important;padding-bottom: 30px !important;}
-.container-title-registro div{position:relative !important;}
+.container-title-registro div{position:relative !important;padding-left: 1.5rem !important;}
+#preregistro.index .img-registro-main{margin-top:-50px !important;}
+#preregistro.index .container-gracias-center{padding-left:15px !important;padding-right:15px !important;}
+#preregistro.index .container-gracias-center .rounded-left{border-top-right-radius: 1rem !important;}
 .img-registro-main{position:relative !important;}
 .img-registro-main img{width:100% !important;}
-.padding-registro{padding-left:5px !important; padding-right:5px !important;}
+.padding-registro{padding-left:5px !important; padding-right:5px !important;padding-top: 0px !important;}
 .container-title-registro h1,.container-title-registro h2{text-align:center;line-height: 20px;}
 .g-recaptcha{transform: scale(0.80);-webkit-transform:scale(0.80);transform-origin: 0 0;-webkit-transform-origin: 0 0;}
 .containter-captcha{position:relative !important;top:0px !important;}
@@ -225,11 +228,17 @@ body#conferencias .player {position: absolute;bottom: 30px;right: 0px;}
 .desc-conferencia{padding-left:0px !important;padding-right:0px !important;}
 .title-conf{margin-bottom:0px !important;margin-top:0px !important;}
 
+
+
 .container-title-registro{padding-left:5px !important;padding-right:5px !important;padding-top: 30px !important;padding-bottom: 30px !important;}
-.container-title-registro div{position:relative !important;}
+.container-title-registro div{position:relative !important;padding-left: 1.5rem !important;}
 .img-registro-main{position:relative !important;}
-.padding-registro{padding-left:5px !important; padding-right:5px !important;}
-.container-title-registro h1,.container-title-registro h2{text-align:center;line-height: 20px;}
+#preregistro.index .img-registro-main{margin-top:-40px !important;}
+#preregistro.index .container-gracias-center{padding-left:15px !important;padding-right:15px !important;}
+#preregistro.index .container-gracias-center .rounded-left{border-top-right-radius: 1rem !important;}
+.padding-registro{padding-left:5px !important; padding-right:5px !important;padding-top:0px !important;}
+.container-title-registro h1,.container-title-registro h2{text-align:center;line-height: 25px;}
+.font-30{font-size: 24px;}
 .g-recaptcha{transform: scale(0.80);-webkit-transform:scale(0.80);transform-origin: 0 0;-webkit-transform-origin: 0 0;}
 .containter-captcha{position:relative !important;top:0px !important;}
 .button-registro .text-secondary{display:block;margin-top:5px;}
@@ -290,10 +299,14 @@ body{background-size:cover !important;}
 .cont-img-conf{align-items: center;}
 
 /*Registro*/
-.padding-registro{padding-left:2rem !important; padding-right:2rem !important;}
+.padding-registro{padding-left:1rem !important; padding-right:1rem !important;padding-top:0px !important;}
 .px-5.pt-3.padding-registro{padding-left:0px !important; padding-right:0px !important;}
 .g-recaptcha{transform: scale(0.55) !important;-webkit-transform:scale(0.55) !important;transform-origin: 0 0 !important;-webkit-transform-origin: 0 0 !important;}
 .container-title-registro{padding-left: 0px !important;padding-right: 0px !important;padding-bottom: 0px !important;}
+#preregistro.index .img-registro-main {
+    margin-top: 0px;
+}
+#preregistro.index .container-title-registro .pl-5{padding-left:1.5rem !important;}
 
 /*gracias*/
 .contenido-gracias{padding-left:0px !important;padding-right:0px !important;padding-bottom: 0px !important;}
@@ -320,7 +333,10 @@ body{background-size:cover !important;}
 .ciudades .location-info{padding-left: .5rem !important;}
 .ciudades .ingresos-info{padding-right:0px !important;}
 .ciudades .wp-location{padding-right:0px !important;}
-.padding-registro{padding-left:2rem !important; padding-right:2rem !important;}
+.padding-registro{padding-left:2rem !important; padding-right:2rem !important;padding-top:0px !important;}
+#preregistro.index .img-registro-main {
+    margin-top: -10px;
+}
 .px-5.pt-3.padding-registro{padding-left:0px !important; padding-right:0px !important;}
 .g-recaptcha{transform: scale(0.80);-webkit-transform:scale(0.80);transform-origin: 0 0;-webkit-transform-origin: 0 0;}
 .container-title-registro{padding-left: 20px !important;padding-right: 20px !important;padding-bottom: 0px !important;}
