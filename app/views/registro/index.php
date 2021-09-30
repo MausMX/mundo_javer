@@ -39,7 +39,7 @@
                                     <input class="form-control mb-4" type="text" name="last_name" id="last_name" placeholder="Apellidos" required maxlength="80">
                                 </div>
                                 <div class="col-lg-6 col-md-6">
-                                    <input class="form-control mb-4" type="text" name="phone" id="phone" placeholder="Teléfono" required maxlength="40">
+                                    <input class="form-control mb-4" type="text" name="phone" id="phone" placeholder="Teléfono" required minlength="10" maxlength="10">
                                 </div>
                                 <div class="col-lg-6 col-md-6">
                                     <input class="form-control mb-4" type="email" name="email" id="email" placeholder="Correo" required maxlength="80">
