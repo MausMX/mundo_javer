@@ -166,7 +166,7 @@ body#conferencias .player {
 
 #preregistro header{height:55px !important;}
 
-.wrapper > .container:not(.top-planta){margin-bottom:70px !important;}
+/*.wrapper > .container:not(.top-planta){margin-bottom:70px !important;}*/
 .contenido-logo-contador{margin-top:0px !important;}
 .regalo-preheat img{width:80%;}
 .regalo-preheat{margin-bottom:10px !important;}
@@ -296,13 +296,13 @@ body{background-size:cover !important;}
 .container-title-registro{padding-left: 0px !important;padding-right: 0px !important;padding-bottom: 0px !important;}
 
 /*gracias*/
-.contenido-gracias{padding-left:0px !important;padding-right:0px !important;padding-top:0px !important;}
+.contenido-gracias{padding-left:0px !important;padding-right:0px !important;padding-bottom: 0px !important;}
 .contenido-gracias h1,.contenido-gracias p{margin-bottom:25px !important;}
 .contenido-gracias .font-18{font-size:12px !important;}
 #registro.gracias .bg-white{background-size:30% !important;padding-bottom: 0px !important;}
 
-#preregistro header{height:55px !important;}
-.wrapper > .container:not(.top-planta){margin-bottom:70px !important;}
+/*#preregistro header{height:55px !important;}*/
+/*.wrapper > .container:not(.top-planta){margin-bottom:70px !important;}*/
 .contenido-logo-contador{margin-top:-20px !important;}
 
 }
@@ -327,8 +327,9 @@ body{background-size:cover !important;}
 
 
 /*gracias*/
-.contenido-gracias{padding-left:0px !important;padding-right:0px !important;padding-top:0px !important;}
-.contenido-gracias h1,.contenido-gracias p{margin-bottom:25px !important;}
+.contenido-gracias{padding-left:0px !important;padding-right:0px !important;padding-bottom: 0px !important;}
+.contenido-gracias img{bottom: 5px !important;right: 30px !important;;}
+.contenido-gracias h1,.contenido-gracias p{margin-bottom:25px !important;line-height: 40px;}
 .contenido-gracias .font-18{font-size:15px !important;}
 #registro.gracias .bg-white{background-size:30% !important;}
 

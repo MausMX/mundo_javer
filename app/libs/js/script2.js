@@ -40,5 +40,9 @@ function altura_wrapper_fixed(){
 	contenedor=((altura_ventana-$(".container-gracias-center").height())/2)-altura_header;
     altura_wrapper=altura_ventana-altura_footer-altura_header;
     $(".wrapper").css({'min-height':altura_wrapper});
+    if ($(window).width() > 767){
     $(".container-gracias-center").css({'padding-top':contenedor});
+    }else{
+    $(".container-gracias-center").css({'padding-top':"0px"});
+    }
 }
