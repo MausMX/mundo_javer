@@ -7,11 +7,11 @@
 	public function index($page="1"){
 		$this->title_for_layout("Empresa");
 		$hoy=date("Y-m-d H:i:s");
-		if($hoy<='2021-10-01 00:00'){
+		/*if($hoy<='2021-10-01 00:00'){
 			$this->view->contador_active=0;
 			$this->view->setLayout("clean");
 			$this->render('preheat');
-		}elseif($hoy<='2021-10-08 09:00'){
+		}else*/if($hoy<='2021-10-08 09:00'){
 			$this->view->contador_active=1;
 			$this->view->setLayout("clean");
 			$this->render('contador');
