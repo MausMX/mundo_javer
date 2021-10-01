@@ -14,7 +14,7 @@
                 <h3 class="font-poppins font-18 text-center mt-5 mb-4"><strong>¡Te avisaremos cuando comience Mundo Javer!</strong></h3>
                 <p class="text-center">Compártenos tus datos, sé uno de los primeros en encontrar el hogar de tus sueños y descubrir todos los regalos ecológicos que tendremos para ti.</p>
                 <div class="px-5 pt-4 padding-registro">
-                    <form method="post" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8">
+                    <form method="post" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" onsubmit="return validar(this)">
                         <input type="hidden" name='captcha_settings' value='{"keyname":"CAPTCHAJAVER","fallback":"true","orgId":"00Do0000000b6Io","ts":""}'>
                         <input type="hidden" name="oid" value="00Do0000000b6Io">
                         <input type="hidden" name="retURL" value="<?=Path?>/preregistro/gracias">
@@ -52,3 +52,16 @@
         -webkit-transform-origin: 0 0;
     }
 </style>
+<script>
+    function validar(a) {
+        var response = grecaptcha.getResponse();
+        if(response.length == 0){
+            alert("Captcha no verificado");
+            return false;
+            event.preventDefault();
+        } else {
+            //alert("Captcha verificado");
+            return true;
+        }
+    }
+</script>

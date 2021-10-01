@@ -18,7 +18,7 @@
                     <h3 class="font-poppins font-18 text-center mb-3"><strong>¿Encontraste el hogar de tus sueños?</strong></h3>
                     <p class="text-center font-18">Llena el formulario para ser contactado por uno de nuestros asesores, brindarte atención personalizada y continuar con el proceso.</p>
                     <div class="px-5 pt-3 padding-registro">
-                        <form method="post" action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8">
+                        <form method="post" action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" onsubmit="return validar(this)">
                             <input type="hidden" name='captcha_settings' value='{"keyname":"CAPTCHAJAVER","fallback":"true","orgId":"00D530000008hIx","ts":""}'>
                             <input type="hidden" name="oid" value="00D530000008hIx">
                             <input type="hidden" name="retURL" value="<?=Path?>/registro/gracias">
@@ -32,18 +32,10 @@
                             <!--  value="adminsalesforce@javer.com.mx">                                   -->
                             <!--  ----------------------------------------------------------------------  -->
                             <div class="row align-items-center">
-                                <div class="col-lg-6 col-md-6">
-                                    <input class="form-control mb-4" type="text" name="first_name" id="first_name" placeholder="Nombre" required maxlength="40">
-                                </div>
-                                <div class="col-lg-6 col-md-6">
-                                    <input class="form-control mb-4" type="text" name="last_name" id="last_name" placeholder="Apellidos" required maxlength="80">
-                                </div>
-                                <div class="col-lg-6 col-md-6">
-                                    <input class="form-control mb-4" type="text" name="phone" id="phone" placeholder="Teléfono" required minlength="10" maxlength="10">
-                                </div>
-                                <div class="col-lg-6 col-md-6">
-                                    <input class="form-control mb-4" type="email" name="email" id="email" placeholder="Correo" required maxlength="80">
-                                </div>
+                                <div class="col-lg-6 col-md-6"><input class="form-control mb-4" type="text" name="first_name" id="first_name" placeholder="Nombre" required maxlength="40"></div>
+                                <div class="col-lg-6 col-md-6"><input class="form-control mb-4" type="text" name="last_name" id="last_name" placeholder="Apellidos" required maxlength="80"></div>
+                                <div class="col-lg-6 col-md-6"><input class="form-control mb-4" type="text" name="phone" id="phone" placeholder="Teléfono" required minlength="10" maxlength="10"></div>
+                                <div class="col-lg-6 col-md-6"><input class="form-control mb-4" type="email" name="email" id="email" placeholder="Correo" required maxlength="80"></div>
                                 <div class="col-lg-6 col-md-6 align-self-start">
                                     <select class="form-control mb-4 font-10" name="00N3l00000Q7A5X" id="00N3l00000Q7A5X" required>
                                         <option>Zona de interés</option>
@@ -83,3 +75,16 @@
         -webkit-transform-origin: 0 0;
     }
 </style>
+<script>
+    function validar(a) {
+        var response = grecaptcha.getResponse();
+        if(response.length == 0){
+            alert("Captcha no verificado");
+            return false;
+            event.preventDefault();
+        } else {
+            //alert("Captcha verificado");
+            return true;
+        }
+    }
+</script>
