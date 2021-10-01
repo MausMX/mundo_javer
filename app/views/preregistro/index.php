@@ -6,12 +6,12 @@
                 <div class="pl-5 pr-4"><h1 class="text-danger font-30 line-height-32 font-poppins"><strong>Encuentra tu nuevo hogar</strong></h1></div>
                 <div class="pl-5 pr-4"><h2 class="font-30 line-height-32 text-white font-poppins" style="font-weight: 300;">y gana regalos increíbles</h2><br></div>
             </div>
-            <div class="img-registro-main"><img src="<?=Path?>/images/registro/imagen_preregistro.png"></div>
+            <div class="img-registro-main" style="position: absolute;bottom:0px;"><img src="<?=Path?>/images/registro/imagen_preregistro.png"></div>
         </div>
         <div class="col-lg-8 col-md-8 bg-white rounded-right registro-form" style="position: relative;">
             <a id="btn-back" class="d-none d-lg-block d-md-block d-xl-block" href="<?=Path?>" style="z-index:10;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
             <div class="p-5 padding-registro">
-                <h3 class="font-poppins font-18 text-center mt-5 mb-4"><strong>¡Te avisaremos cuando comience Mundo Javer!</strong></h3>
+                <h3 class="font-poppins font-18 text-center mb-4"><strong>¡Te avisaremos cuando comience Mundo Javer!</strong></h3>
                 <p class="text-center">Compártenos tus datos, sé uno de los primeros en encontrar el hogar de tus sueños y descubrir todos los regalos ecológicos que tendremos para ti.</p>
                 <div class="px-5 pt-4 padding-registro">
                     <form method="post" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" onsubmit="return validar(this)">
@@ -36,6 +36,11 @@
                             <div class="col-lg-6 col-md-6 button-registro">
                                 <button name="submit" class="btn btn-success text-uppercase py-2 px-5 font-10 letter-spacing-1" type="submit"><strong>Regístrate</strong></button>
                                 <a class="font-poppins font-10 text-secondary d-block mt-2" href="https://www.javer.com.mx/avisos-de-privacidad#clientes">Ver Aviso de Privacidad</a>
+                            </div>
+                            <div class="col-lg-12 mt-4">
+                                <p class="text-secondary font-10" style="line-height:12px;">
+                                    <span class="text-danger">*</span> Los beneficios de Mundo Javer aplican para nuevos registros a partir del 1ro de octubre 2021. Si ya cuentas con un registro previo a esta fecha o estás en contacto con un asesor para tu vivienda, regístrate en Mundo Javer y recibirás un regalo especial de ahorro energético para tu vivienda.
+                                </p>
                             </div>
                         </div>
                     </form>

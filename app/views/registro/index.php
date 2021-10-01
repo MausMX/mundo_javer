@@ -59,6 +59,11 @@
                                     <button name="submit" class="btn btn-success text-uppercase py-2 px-5 font-10 letter-spacing-1" type="submit"><strong>Regístrate</strong></button>
                                     <a class="font-poppins font-10 text-secondary d-block mt-2" href="https://www.javer.com.mx/avisos-de-privacidad#clientes">Ver Aviso de Privacidad</a>
                                 </div>
+                                <div class="col-lg-12 mt-4">
+                                    <p class="text-secondary font-10" style="line-height:12px;">
+                                        <span class="text-danger">*</span> Los beneficios de Mundo Javer aplican para nuevos registros a partir del 1ro de octubre 2021. Si ya cuentas con un registro previo a esta fecha o estás en contacto con un asesor para tu vivienda, regístrate en Mundo Javer y recibirás un regalo especial de ahorro energético para tu vivienda.
+                                    </p>
+                                </div>
                             </div>
                         </form>
                     </div>
