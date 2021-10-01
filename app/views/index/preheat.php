@@ -3,7 +3,7 @@
 		<div class="col-lg-8 col-xl-8 col-sm-12 col-md-10 col-xs-12 text-center contenido-contador">
 			<p class="poppins c-white bold font-43 title-preheat mb-4">EL MUNDO DE LAS OPORTUNIDADES</p>
 			<p class="poppins c-white font-21 mb-4 bold">Es el momento perfecto para adquirir tu nuevo hogar ¡No esperes más!</p>
-			<p class="poppins c-white font-21 mb-0">Sé parte de nuestra expo virtual, llena de experiencias únicas, regalos especiales que acompañarán tu compra, trato personalizado y mucho más</p>
+			<p class="poppins c-white font-21 mb-3">Sé parte de nuestra expo virtual, llena de experiencias únicas, regalos especiales que acompañarán tu compra, trato personalizado y mucho más.</p>
 			<p class="poppins c-white font-21 mb-2 regalo-preheat" style="margin-top:-15px;"><img class="mr-2" id="img-hijo" src="/mundo-javer-2021/images/preregistro/regalo_preheat.png"></p>
 			<p class="poppins c-white font-21 mb-1 txt-momento">Por el momento, el único paso que tienes que realizar es registrarte.</p>
 			<p class="poppins c-white font-21 mb-4" style="margin-top:-15px;"><img class="mr-2" id="img-hijo" src="/mundo-javer-2021/images/preregistro/pasos_preheat.png"></p>

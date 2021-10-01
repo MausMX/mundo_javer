@@ -5,7 +5,7 @@
 	}
 	
 	public function index($page="1"){
-		$this->title_for_layout("Empresa");
+		$this->title_for_layout("Mundo Javer");
 		$hoy=date("Y-m-d H:i:s");
 		if($hoy>='2021-10-01 00:00' and $hoy<'2021-10-08 09:00'){
 			$this->view->contador_active=0;
@@ -23,13 +23,15 @@
 		}
 	}
 	public function contador($page="1"){
+		$this->view->contador_active=1;
 		$this->view->setLayout("clean");
-		$this->title_for_layout("Contador");
+		$this->title_for_layout("Contador - Javer");
 		$this->render();
 	}
 	public function preheat($page="1"){
+		$this->view->contador_active=0;
 		$this->view->setLayout("clean");
-		$this->title_for_layout("preheat");
+		$this->title_for_layout("Preheat - Javer");
 		$this->render();
 	}
 	public function whatsapp($estado,$dia=''){

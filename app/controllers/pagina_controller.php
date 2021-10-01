@@ -1,8 +1,8 @@
 <?php class pagina_controller extends appcontroller{
 	
 	public function index($page=null){
-		$this->title_for_layout("Empresa");
-		$this->redirect();
+		$this->title_for_layout("Mundo Javer");
+		$this->redirect('/');
 	}
 	
 	public function detalle($pagina){
@@ -12,7 +12,7 @@
 		}else{
 			$this->view->pagina=$paginas->findBy("url", $pagina);
 		}
-		$this->title_for_layout("Empresa - ".$paginas->nombre);
+		$this->title_for_layout("Mundo Javer - ".$paginas->nombre);
         $this->render();
 	}
 		

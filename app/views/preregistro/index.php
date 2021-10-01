@@ -4,7 +4,7 @@
             <a id="btn-back" class="d-block d-lg-none d-md-none d-xl-none" href="<?=Path?>" style="z-index:10;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
             <div class="p-5 container-title-registro">
                 <div class="pl-5 pr-4"><h1 class="text-danger font-30 line-height-32 font-poppins"><strong>Encuentra tu nuevo hogar</strong></h1></div>
-                <div class="pl-5 pr-4"><h2 class="font-30 line-height-32 text-white font-poppins" style="font-weight: 300;">en nuestra Expo Virtual y gana regalos ecológicos</h2></div>
+                <div class="pl-5 pr-4"><h2 class="font-30 line-height-32 text-white font-poppins" style="font-weight: 300;">y gana regalos increíbles</h2><br></div>
             </div>
             <div class="img-registro-main"><img src="<?=Path?>/images/registro/imagen_preregistro.png"></div>
         </div>
