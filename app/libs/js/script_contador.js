@@ -149,7 +149,7 @@ var Countdown = new Vue({
 $(function() {
 	altura_wrapper_fixed();
 	$(".btn-registro").click(function(){
-			document.location.href="/mundo-javer-2021/registro";
+			document.location.href=Path+"/registro";
 	});
 });
 window.addEventListener("resize", function(){

@@ -58,7 +58,7 @@ a.next-frac::before{      content: "";
     height: 96%;
     width: 1.3px;
 }
-.ciudades .ciudades-detalle{background-image: url(/mundo-javer-2021/images/ciudades/top_banner.png);border-bottom-left-radius: 0rem !important;background-repeat: no-repeat;}
+.ciudades .ciudades-detalle{background-image: url(./images/ciudades/top_banner.png);border-bottom-left-radius: 0rem !important;background-repeat: no-repeat;}
 .ciudades .text-ciudad{letter-spacing:-2.35px;line-height: 50px;}
 .ciudades .text-estado{text-decoration:underline;font-weight: 600;}
 
