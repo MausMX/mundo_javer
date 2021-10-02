@@ -32,6 +32,20 @@
                             <div class="col-lg-6 col-md-6"><input class="form-control mb-4" type="text" name="last_name" id="last_name" placeholder="Apellidos" required maxlength="80"></div>
                             <div class="col-lg-6 col-md-6"><input class="form-control mb-4" type="text" name="phone" id="phone" placeholder="WhatsApp" required minlength="10" maxlength="10"></div>
                             <div class="col-lg-6 col-md-6"><input class="form-control mb-4" type="email" name="email" id="email" placeholder="Correo" required maxlength="80"></div>
+                            <div class="col-lg-6 col-md-6 align-self-start">
+                                <select class="form-control mb-4 font-10" name="00N3l00000Q7A5X" id="00N3l00000Q7A5X" required>
+                                    <option>Zona de interés</option>
+                                    <option value="UEN1 - NUEVO LEON">NUEVO LEON</option>
+                                    <option value="UEN3 - JALISCO">JALISCO</option>
+                                    <option value="UEN4 - AGUASCALIENTES">AGUASCALIENTES</option>
+                                    <option value="UEN4 - DISTRITO FEDERAL">DISTRITO FEDERAL</option>
+                                    <option value="UEN4 - ESTADO DE MEXICO">ESTADO DE MEXICO</option>
+                                    <option value="UEN4 - QUERETARO">QUERETARO</option>
+                                    <option value="UEN4 - GUANAJUATO">GUANAJUATO</option>
+                                    <option value="UEN4 - QUINTANA ROO">QUINTANA ROO</option>
+                                    <option value="UEN4 - TAMAULIPAS">TAMAULIPAS</option>
+                                </select>
+                            </div>
                             <div class="col-lg-6 col-md-6"><div class="containter-captcha" style="position:absolute;top:-30px;"><div class="g-recaptcha" data-sitekey="6Lcg2vQZAAAAAHpqmf6Pj_-t-doxKr1iwLWfQuWQ"></div></div></div>
                             <div class="col-lg-6 col-md-6 button-registro">
                                 <button name="submit" class="btn btn-success text-uppercase py-2 px-5 font-10 letter-spacing-1" type="submit"><strong>Regístrate</strong></button>
