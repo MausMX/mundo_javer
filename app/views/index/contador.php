@@ -5,7 +5,7 @@
 			<p class="poppins c-white font-21 mb-3 regalo-contador" style="margin-top:-15px;"><img class="mr-2" id="img-hijo" src="<?=Path?>/images/preregistro/regalo_preheat.png"></p>
 			<p class="poppins c-white font-19 mb-0">Encuentra el hogar de tus sueños, increíbles regalos ecológicos y conferencias especiales.</p>
 			<p class="poppins c-white font-19 mb-4">Regístrate y sé de los primeros en descubrir las sorpresas que tenemos para ti en este mundo de oportunidad.</p>
-            <a class="btn btn-success pl-4 pr-4 text-uppercase font-10 poppins py-2 letter-spacing-1" href="<?=Path?>/preregistro"><strong>Registrate</strong></a>
+            <a id="btn-registro-contador" class="btn btn-success pl-4 pr-4 text-uppercase font-10 poppins py-2 letter-spacing-1" href="<?=Path?>/preregistro"><strong>Registrate</strong></a>
 		</div>
 	</div>
 </div>
