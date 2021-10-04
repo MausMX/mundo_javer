@@ -19,6 +19,7 @@
                         <input type="hidden" name="oid" value="00Do0000000b6Io">
                         <input type="hidden" name="retURL" value="<?=Path?>/preregistro/gracias">
                         <input type="hidden" name="00N3l00000Q7A57" id="00N3l00000Q7A57" placeholder="Fuente" required value="Mundo Javer">
+                        <input type="hidden" name="00N3l00000Q7A5X" id="00N3l00000Q7A5X" class="form-control" placeholder="Zona de interés">
                         <!--  ----------------------------------------------------------------------  -->
                         <!--  NOTA: Estos campos son elementos de depuración opcionales. Elimine      -->
                         <!--  los comentarios de estas líneas si desea realizar una prueba en el      -->
@@ -33,17 +34,17 @@
                             <div class="col-lg-6 col-md-6"><input class="form-control mb-4" type="text" name="phone" id="phone" placeholder="WhatsApp" required minlength="10" maxlength="10"></div>
                             <div class="col-lg-6 col-md-6"><input class="form-control mb-4" type="email" name="email" id="email" placeholder="Correo" required maxlength="80"></div>
                             <div class="col-lg-6 col-md-6 align-self-start">
-                                <select class="form-control mb-4 font-10" name="00N3l00000Q7A5X" id="00N3l00000Q7A5X" required>
-                                    <option>Zona de interés</option>
-                                    <option value="UEN1 - NUEVO LEON">NUEVO LEON</option>
-                                    <option value="UEN3 - JALISCO">JALISCO</option>
-                                    <option value="UEN4 - AGUASCALIENTES">AGUASCALIENTES</option>
-                                    <option value="UEN4 - DISTRITO FEDERAL">DISTRITO FEDERAL</option>
-                                    <option value="UEN4 - ESTADO DE MEXICO">ESTADO DE MEXICO</option>
-                                    <option value="UEN4 - QUERETARO">QUERETARO</option>
-                                    <option value="UEN4 - GUANAJUATO">GUANAJUATO</option>
-                                    <option value="UEN4 - QUINTANA ROO">QUINTANA ROO</option>
-                                    <option value="UEN4 - TAMAULIPAS">TAMAULIPAS</option>
+                                <select class="form-control mb-4 font-10" name="estado" id="estado" required>
+                                    <option>Estado</option>
+                                    <option value="NUEVO LEON">NUEVO LEON</option>
+                                    <option value="JALISCO">JALISCO</option>
+                                    <option value="AGUASCALIENTES">AGUASCALIENTES</option>
+                                    <option value="DISTRITO FEDERAL">DISTRITO FEDERAL</option>
+                                    <option value="ESTADO DE MEXICO">ESTADO DE MEXICO</option>
+                                    <option value="QUERETARO">QUERETARO</option>
+                                    <option value="GUANAJUATO">GUANAJUATO</option>
+                                    <option value="QUINTANA ROO">QUINTANA ROO</option>
+                                    <option value="TAMAULIPAS">TAMAULIPAS</option>
                                 </select>
                             </div>
                             <div class="col-lg-6 col-md-6"><div class="containter-captcha" style="position:absolute;top:-30px;"><div class="g-recaptcha" data-sitekey="6Lcg2vQZAAAAAHpqmf6Pj_-t-doxKr1iwLWfQuWQ"></div></div></div>

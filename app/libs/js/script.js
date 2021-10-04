@@ -29,6 +29,39 @@ $(function() {
 			console.log("No contamos con asesores este día");
 		});
 	}
+	$("#estado").on('change',function(){
+		switch ($(this).val()) {
+			case 'NUEVO LEON':
+				$('#00N3l00000Q7A5X').val('UEN1 - NUEVO LEON');
+				break;
+			case 'JALISCO':
+				$('#00N3l00000Q7A5X').val('UEN3 - JALISCO');
+				break;
+			case 'AGUASCALIENTES':
+				$('#00N3l00000Q7A5X').val('UEN4 - AGUASCALIENTES');
+				break;
+			case 'DISTRITO FEDERAL':
+				$('#00N3l00000Q7A5X').val('UEN4 - DISTRITO FEDERAL');
+				break;
+			case 'ESTADO DE MEXICO':
+				$('#00N3l00000Q7A5X').val('UEN4 - ESTADO DE MEXICO');
+				break;
+			case 'QUERETARO':
+				$('#00N3l00000Q7A5X').val('UEN4 - QUERETARO');
+				break;
+			case 'GUANAJUATO':
+				$('#00N3l00000Q7A5X').val('UEN4 - GUANAJUATO');
+				break;
+			case 'QUINTANA ROO':
+				$('#00N3l00000Q7A5X').val('UEN4 - QUINTANA ROO');
+				break;
+				case 'TAMAULIPAS':
+				$('#00N3l00000Q7A5X').val('UEN4 - TAMAULIPAS');
+				break;
+			default:
+				break;
+		}
+	});
 });
 window.addEventListener("resize", function(){
 	altura_wrapper_fixed();
