@@ -69,7 +69,7 @@
 		<script src='https://cdn.rawgit.com/vuejs/vue/v1.0.24/dist/vue.js'></script>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js'></script>
-		<?=$this->html->includeJs("script");?>
+		<script type="text/javascript" src="<?=Path?>/app/libs/js/script.js?202110041400"></script>
 		<?=$this->html->includeJs("script_contador");?>
 		<script async src=https://www.googletagmanager.com/gtag/js?id=G-GSMHZV3KJJ></script>
 		<script>
