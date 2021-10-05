@@ -8,6 +8,11 @@
 		$this->title_for_layout("Registro - Javer");
 		$this->render();
 	}
+	
+	public function pasos_regalo($page="1"){
+		$this->title_for_layout("Pasos - Javer");
+		$this->render();
+	}
 
 	public function gracias($page="1"){
 		$this->title_for_layout("Gracias - Javer");
