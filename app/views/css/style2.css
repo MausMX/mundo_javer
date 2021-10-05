@@ -78,7 +78,7 @@ a.next-frac::before{      content: "";
 /*NUEVO*/
 
 
-@media (min-width:320px) and (max-width:480px){
+@media (min-width:320px) and (max-width:480px){	
 body{background-size:cover !important;}
 footer .container .logo-footer{justify-content: left !important;}
 
@@ -86,7 +86,7 @@ footer .container .logo-footer{justify-content: left !important;}
 /*.contador .flip-clock{padding-left:23vw;}*/
 .contador .flip-clock{width:200px; display:block; margin-left:auto;margin-right:auto;}
 .contador .flip-clock .flip-clock__slot{padding-left:20px;color: #FFF;font-family: sweet-sans-pro, sans-serif;font-weight: bold;}
-.contador #logo-clean{margin-bottom:0px !important;padding-top: 0px !important;}
+.contador #logo-clean{padding-top: 0px !important;}
 .contador #logo-clean img{width:35%;}
 .contador .contenido-logo-contador{padding-bottom:0px !important;}
 .contador .contenido-contador{padding-bottom:30px !important;}
@@ -161,7 +161,7 @@ body#conferencias .player {
 #preregistro.index .container-gracias-center .rounded-left{border-top-right-radius: 1rem !important;}
 .img-registro-main{position:relative !important;}
 .img-registro-main img{width:100% !important;}
-.padding-registro{padding-left:5px !important; padding-right:5px !important;padding-top: 0px !important;}
+.padding-registro{padding-left:5px !important; padding-right:5px !important;padding-top: 30px !important;}
 .container-title-registro h1,.container-title-registro h2{text-align:center;line-height: 20px;}
 .g-recaptcha{transform: scale(0.80);-webkit-transform:scale(0.80);transform-origin: 0 0;-webkit-transform-origin: 0 0;}
 .containter-captcha{position:relative !important;top:0px !important;}
@@ -191,6 +191,26 @@ body#conferencias .player {
 .font-19{font-size:13px !important;}
 .regalo-contador img{width:40%;}
 
+/*header*/
+#logo-principalm img{width:auto !important;} 
+#logo-principalm{padding-left:15px !important;}
+header:not(.pre-header) .container{margin-top:0px !important;padding-left:0px !important;padding-right:0px !important;border-bottom: 1px solid #fff;}
+header .container nav{border-radius:0px !important;padding-right: 0px !important;z-index:1;}
+.title-expo-header{text-align:center; background-color:#DA291C;margin-bottom: 0px !important;}
+button.navbar-toggler.ml-auto{margin-left:0px !important;}
+header div.container.font-sweet-sans-pro.font-10 {font-size:12px !important;}
+.navbar-dark .navbar-toggler {color: rgba(255,255,255,1);}
+header{background: url(../../../images/header/enredadera_mobile.png) no-repeat;background-position: 0px 70px !important;background-size: contain;}
+header:not(.pre-header){height: 139px;position:relative;}
+#menu-1 ul:first-child li:first-child{padding-left:0px !important;background-color: transparent !important;}
+.navbar-dark .navbar-nav .nav-link{margin-left:auto;margin-right:auto;}
+#menu-1 ul:first-child li a::after,#menu-1 ul:first-child li a::before{border-right:0px !important;}
+.social-redes{flex-direction: row;padding-left: 15px !important;padding-right: 15px !important;justify-content: center;}
+#menu-1 i.fa-spotify {right: -29px;}
+/*registro*/
+.bg-radial{border-top-right-radius: 1rem !important;border-bottom-left-radius: 0rem !important;}
+.font-28 {font-size: 24px;}
+
 /*.ciudades .wp-ingresos{padding-left:0px !important;padding-right:0px !important;}*/
 }
 @media (min-width:481px) and (max-width: 767px){
@@ -200,7 +220,7 @@ footer .container .logo-footer{justify-content: left !important;}
 /*.contador .flip-clock{padding-left:23vw;}*/
 .contador .flip-clock{width:200px; display:block; margin-left:auto;margin-right:auto;}
 .contador .flip-clock .flip-clock__slot{padding-left:20px;color: #FFF;font-family: sweet-sans-pro, sans-serif;font-weight: bold;}
-.contador #logo-clean{margin-bottom:0px !important;padding-top: 0px !important;}
+.contador #logo-clean{padding-top: 0px !important;}
 .contador #logo-clean img{width:30%;}
 .contador .contenido-logo-contador{padding-bottom:0px !important;}
 .contador .contenido-contador{padding-bottom:30px !important;}
@@ -280,6 +300,9 @@ body#conferencias .player {position: absolute;bottom: 30px;right: 0px;}
 
 .font-19{font-size:15px !important;}
 .regalo-contador img{width:30%;}
+
+/*header*/
+#logo-principal img{width:auto !important;} 
 
 }
 @media (min-width:768px) and (max-width: 991px){
