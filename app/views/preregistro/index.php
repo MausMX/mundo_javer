@@ -17,7 +17,7 @@
                     <form method="post" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" onsubmit="return validar(this)">
                         <input type="hidden" name='captcha_settings' value='{"keyname":"CAPTCHAJAVER","fallback":"true","orgId":"00Do0000000b6Io","ts":""}'>
                         <input type="hidden" name="oid" value="00Do0000000b6Io">
-                        <input type="hidden" name="retURL" value="<?=Path?>/preregistro/gracias?id=34567">
+                        <input type="hidden" name="retURL" value="<?=Path?>/preregistro/gracias?id=<?=date("YmdHis")?>">
                         <input type="hidden" name="00N3l00000Q7A57" id="00N3l00000Q7A57" placeholder="Fuente" required value="Mundo Javer">
                         <input type="hidden" name="00N3l00000Q7A5X" id="00N3l00000Q7A5X" class="form-control" placeholder="Zona de interés">
                         <!--  ----------------------------------------------------------------------  -->
