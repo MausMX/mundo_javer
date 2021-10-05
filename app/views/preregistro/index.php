@@ -17,7 +17,7 @@
                     <form method="post" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" onsubmit="return validar(this)">
                         <input type="hidden" name='captcha_settings' value='{"keyname":"CAPTCHAJAVER","fallback":"true","orgId":"00Do0000000b6Io","ts":""}'>
                         <input type="hidden" name="oid" value="00Do0000000b6Io">
-                        <input type="hidden" name="retURL" value="<?=Path?>/preregistro/gracias">
+                        <input type="hidden" name="retURL" value="<?=Path?>/preregistro/gracias?id=34567">
                         <input type="hidden" name="00N3l00000Q7A57" id="00N3l00000Q7A57" placeholder="Fuente" required value="Mundo Javer">
                         <input type="hidden" name="00N3l00000Q7A5X" id="00N3l00000Q7A5X" class="form-control" placeholder="Zona de interés">
                         <!--  ----------------------------------------------------------------------  -->
@@ -34,17 +34,17 @@
                             <div class="col-lg-6 col-md-6"><input class="form-control mb-4" type="text" name="phone" id="phone" placeholder="WhatsApp" required minlength="10" maxlength="10"></div>
                             <div class="col-lg-6 col-md-6"><input class="form-control mb-4" type="email" name="email" id="email" placeholder="Correo" required maxlength="80"></div>
                             <div class="col-lg-6 col-md-6 align-self-start">
-                                <select class="form-control mb-4 font-10" name="estado" id="estado" required>
+                                <select class="form-control mb-4 font-10" name="00N3l00000Q7A4v" id="00N3l00000Q7A4v" required>
                                     <option>Estado</option>
-                                    <option value="NUEVO LEON">NUEVO LEON</option>
-                                    <option value="JALISCO">JALISCO</option>
-                                    <option value="AGUASCALIENTES">AGUASCALIENTES</option>
-                                    <option value="DISTRITO FEDERAL">DISTRITO FEDERAL</option>
-                                    <option value="ESTADO DE MEXICO">ESTADO DE MEXICO</option>
-                                    <option value="QUERETARO">QUERETARO</option>
-                                    <option value="GUANAJUATO">GUANAJUATO</option>
-                                    <option value="QUINTANA ROO">QUINTANA ROO</option>
-                                    <option value="TAMAULIPAS">TAMAULIPAS</option>
+                                    <option value="Aguascalientes">Aguascalientes</option>
+                                    <option value="Ciudad de México">Ciudad de México</option>
+                                    <option value="Estado de México">Estado de México</option>
+                                    <option value="Guanajuato">Guanajuato</option>
+                                    <option value="Jalisco">Jalisco</option>
+                                    <option value="Nuevo León">Nuevo León</option>
+                                    <option value="Querétaro">Querétaro</option>
+                                    <option value="Quintana Roo">Quintana Roo</option>
+                                    <option value="Tamaulipas">Tamaulipas</option>
                                 </select>
                             </div>
                             <div class="col-lg-6 col-md-6"><div class="containter-captcha" style="position:absolute;top:-30px;"><div class="g-recaptcha" data-sitekey="6Lcg2vQZAAAAAHpqmf6Pj_-t-doxKr1iwLWfQuWQ"></div></div></div>
