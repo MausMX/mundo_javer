@@ -8,6 +8,8 @@
 .font-18{font-size: 18px;}
 .font-43{font-size:43px;}
 .font-19{font-size:19px;}
+.font-28{font-size:28px;}
+.line-height-26{line-height: 26px;}
 /*.font-17{font-size: 16px;}*/
 .c-black{color:#000000 !important;}
 .c-white{color:#FFFFFF !important;}
@@ -24,6 +26,7 @@
 /*.wrapper > .container:not(.top-planta){margin-bottom:70px !important;}*/
 .contenido-logo-contador{margin-top:-70px !important;}
 .top-planta{position:relative;}
+.bg-radial{background: top right radial-gradient(#42A6EF, #254DA7);}
 
 body.contador{background-image: url(../../../images/general/back_mapa.jpg);background-size: cover;}
 body.contador .btn-registro{border-radius: 12px; border-color:#EB4141;}
@@ -58,7 +61,7 @@ a.next-frac::before{      content: "";
     height: 96%;
     width: 1.3px;
 }
-.ciudades .ciudades-detalle{background-image: url(./images/ciudades/top_banner.png);border-bottom-left-radius: 0rem !important;background-repeat: no-repeat;}
+.ciudades .ciudades-detalle{background-image: url(../../../images/ciudades/top_banner.png);border-bottom-left-radius: 0rem !important;background-repeat: no-repeat;}
 .ciudades .text-ciudad{letter-spacing:-2.35px;line-height: 50px;}
 .ciudades .text-estado{text-decoration:underline;font-weight: 600;}
 
@@ -68,6 +71,10 @@ a.next-frac::before{      content: "";
 .padding-registro select{height:38px !important;}
 
 .regalo-footer img{position: absolute;right: 0px;top: -60px;}
+
+
+/*NUEVO*/
+
 
 @media (min-width:320px) and (max-width:480px){
 body{background-size:cover !important;}
