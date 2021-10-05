@@ -6,8 +6,8 @@
                 <div class="col-lg-7">
                     <div class="px-4">
                         <h1 class="font-poppins font-44 line-height-44 text-danger mb-5"><strong>Mundo Javer<br> Es el momento de<br> tu oportunidad</strong></h1>
-                        <p class="text-justify mb-4"><strong>La situación actual nos ha permitido adaptarnos a un sinfín de nuevas tecnologías, auxiliares de nuestra nueva realidad.</strong></p>
-                        <p class="text-justify">En Mundo Javer apostamos por las nuevas experiencias virtuales. Adaptándonos a tus necesidades, te presentamos la nueva edición de Mundo Javer: una expo inmobiliaria completamente virtual.</p>
+                        <p class="text-justify mb-4"><strong>La situación actual nos ha permitido adaptarnos a un sinfín de nuevas tecnologías, auxiliares a nuestra nueva realidad.</strong></p>
+                        <p class="text-justify">En Mundo Javer apostamos por las nuevas experiencias virtuales. Adaptándonos a tus necesidades te presentamos la nueva edición de Mundo Javer; una expo inmobiliaria completamente virtual. ¡Regístrate, escritura y gana!</p>
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-4 offset-xl-2 col-xl-3">
@@ -27,27 +27,27 @@
                 <div class="col-md-6">
                     <div class="px-4">
                         <h1 class="font-poppins font-30 text-danger mb-4"><strong>Experiencias interactivas</strong></h1>
-                        <p class="text-justify">La expo Mundo Javer es como cualquier otra expo inmobiliaria, pero disponible en cualquier parte donde estés. Su mapa interactivo te permite visualizar todos nuestros desarrollos disponibles y los estados donde se encuentran. Como una expo física, también podrás disfrutar de eventos especiales y conferencias para facilitarte el proceso de elección de acuerdo a lo que estás buscando.</p>
+                        <p class="text-justify">La expo Mundo Javer es una expo inmobiliaria, pero disponible en cualquier lugar donde te encuentres. Su mapa interactivo te permite visualizar todos nuestros desarrollos disponibles y los estados donde se encuentran. Como una expo física, también podrás disfrutar de eventos especiales y conferencias para facilitarte el proceso de elección de acuerdo con lo que estás buscando, y una asesoría inmediata con horarios extendidos.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="px-4">
                         <h1 class="font-poppins font-30 text-danger mb-4"><strong>Opciones para ti</strong></h1>
-                        <p class="text-justify">Ofrecemos desarrollos de diversas características, donde encontrarás el inmueble perfecto para ti, de acuerdo a lo que estés buscando: espacios designados para el home office, zonas de áreas verdes y de actividades, etc.</p>
+                        <p class="text-justify">Ofrecemos desarrollos de diversas características donde encontrarás el inmueble perfecto para ti, de acuerdo con lo que estés buscando: espacios designados para el home office, zonas de áreas verdes y todo tipo de actividades.</p>
                     </div>
                 </div>
             </div>
             <div class="row px-5 pb-5 align-items-center">
                 <div class="col-lg-5">
                     <div class="pl-4">
-                        <img src="<?=Path?>/images/acerca/acerca_de_javer.jpg">
+                        <img src="<?=Path?>/images/acerca/img_acerca_de.jpg">
                     </div>
                 </div>
                 <div class="col-lg-7">
                     <div class="pr-4">
                         <h1 class="font-37 line-height-44 font-poppins mb-4"><strong>Acerca de Javer</strong></h1>
-                        <p class="mb-4 font-poppins font-18">Somos la empresa desarrolladora de vivienda con más prestigio en el norte de México con sede en Monterrey, Nuevo León. Iniciamos operaciones en 1973 a cargo del Ing. Salomón Marcuschamer y hoy, contamos con más de 47 años de experiencia en desarrollo inmobiliario.</p>
-                        <p class="font-poppins font-18">Nos especializamos en desarrollos de alta calidad para diferentes segmentos del mercado.</p>
+                        <p class="mb-4 font-poppins font-18">Somos la desarrolladora de vivienda con más prestigio en el norte de México con sede en Monterrey, Nuevo León. Iniciamos operaciones en 1973 a cargo del Ing. Salomón Marcuschamer y hoy, contamos con más de 47 años de experiencia en desarrollo inmobiliario.</p>
+                        <p class="font-poppins font-18">Nos especializamos en desarrollos de alta calidad y tenemos los mejores asesores inmobiliarios del país.</p>
                     </div>
                 </div>
             </div>
