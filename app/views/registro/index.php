@@ -1,22 +1,20 @@
 <div class="container font-poppins">
     <div class="px-3 mb-5">
         <div class="row" style="position: relative;">
-            <div class="col-lg-4 col-md-4 bg-black rounded-left p-0 text-md-center text-lg-left overflow-hidden">
-                <div class="p-5 container-title-registro">
-                    <div class="pl-5 pr-4">
-                        <h1 class="text-danger font-30 line-height-32 font-poppins"><strong>Encuentra tu nuevo hogar</strong></h1>
-                        <h2 class="font-30 line-height-32 text-white font-poppins" style="font-weight: 300;">en nuestra Expo Virtual y gana regalos ecológicos</h2>
+            <div class="col-lg-4 col-md-4 bg-black rounded-left p-0 text-md-center text-lg-left overflow-hidden bg-radial">
+                <div class="pt-5 pb-0 px-3 container-title-registro">
+                    <div class="pl-0 pr-0">
+                        <h1 class="text-white text-center font-28 line-height-32 font-poppins"><strong>1. Regístrate 2. Escritura 3. ¡Gana!</strong></h1>
                     </div>
                 </div>
-                <div class="img-registro-main">
-                    <img src="<?=Path?>/images/registro/imagen_preregistro.png">
+                <div class="img-registro-main px-3">
+                    <img src="<?=Path?>/images/registro/regalo_registro.png">
                 </div>
             </div>
             <div class="col-lg-8 col-md-8 bg-white rounded-right registro-form" style="position: relative;">
                 <a id="btn-back" href="<?=Path?>" style="z-index:10;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
                 <div class="p-5 padding-registro">
-                    <h3 class="font-poppins font-18 text-center mb-3"><strong>¿Encontraste el hogar de tus sueños?</strong></h3>
-                    <p class="text-center font-18">Llena el formulario para ser contactado por uno de nuestros asesores, brindarte atención personalizada y continuar con el proceso.</p>
+                    <h3 class="font-poppins font-18 text-center mb-3"><strong>Llena el formulario para ser contactado por uno de nuestros asesores y brindarte atención personalizada. ¡Escritura y gana!</strong></h3>
                     <div class="px-5 pt-3 padding-registro">
                         <form method="post" action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" onsubmit="return validar(this)">
                             <input type="hidden" name='captcha_settings' value='{"keyname":"CAPTCHAJAVER","fallback":"true","orgId":"00D530000008hIx","ts":""}'>

@@ -128,7 +128,7 @@
 	            </div>
 	            <div class="col-lg-4 f-left offset-lg-0 col-md-6 col-xl-4">
 	       			<div class="col-lg-12 pr-0 pl-0 mb-4 title-asesores">
-		            	<p class="mb-0 font-18 poppins bold">Contacta a uno de nuestros asesores</p>
+		            	<p class="mb-0 font-30 poppins bold line-height-26">Contacta a uno de nuestros asesores</p>
 	                </div>
 		       		<div class="col-lg-11 pl-2 btn-contacta">
 	                </div>

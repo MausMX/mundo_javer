@@ -63,12 +63,11 @@
                         <div class="px-4 mt-4">
                             <ul class="row">
                                 <li class="col-lg-6 pl-0">Nuevo León</li>
-                                <li class="col-lg-6 pl-0">Ciudad de México</li>
                                 <li class="col-lg-6 pl-0">Aguascalientes</li>
-                                <li class="col-lg-6 pl-0">Querétaro</li>
                                 <li class="col-lg-6 pl-0">Jalisco</li>
-                                <li class="col-lg-6 pl-0">Quintana Roo</li>
                                 <li class="col-lg-6 pl-0">Estado de México</li>
+                                <li class="col-lg-6 pl-0">Querétaro</li>
+                                <li class="col-lg-6 pl-0">Quintana Roo</li>
                                 <li class="col-lg-6 pl-0">Tamaulipas</li>
                             </ul>
                         </div>
@@ -77,18 +76,27 @@
             </div>
             <section id="responsabilidad_social" class="pt-5 px-5">
                 <div class="p-3">
-                    <h1 class="font-poppins font-44 mb-4"><strong>Responsabilidad Social</strong></h1>
                     <div class="row">
                         <div class="col-lg-8">
-                            <p class="font-poppins font-18 pr-3 text-justify">Somos una Empresa Socialmente Responsable desde 2017, labor reflejada a través de nuestro fiel compromiso con el cuidado del medio ambiente; es por eso que nuestras opciones de regalos al adquirir tu hogar en Mundo Javer, son completamente ecológicas. Fuimos reconocidos por Great Place To Work con el 4to lugar en su ranking 2020 Región Noreste.</p>
+                    		<h1 class="font-poppins font-44 mb-4"><strong>Responsabilidad Social</strong></h1>
+                            <p class="font-poppins font-18 pr-3 text-justify">Javer está comprometido con ser un agente de cambio y líder en la industria, buscando continuamente innovar y mejorar para mitigar y disminuir su impacto en el entorno, así como crear valor en sus comunidades.<br>
+								<br>Somos una Empresa Socialmente Responsable desde el 2017, labor reflejada a través de nuestro fiel compromiso con el cuidado del medio ambiente; es por esto que nuestras opciones de regalos al adquirir tu hogar en Mundo Javer son en gran parte ecológicas. También contamos con el reconocimiento por parte de Great Place to Work con el 4to lugar en su ranking 2020 Región Noreste.                            	
+                            </p>
                         </div>
-                        <div class="col-lg-4 text-right">
+                        <div class="col-lg-4 text-center">
                             <table width="100%">
                                 <tr>
                                     <td width="40%">
                                         <img src="<?=Path?>/images/acerca/img_responsabilidad.png">
+                                    </td>                                   
+                                </tr>
+                                <tr>
+                                 	<td>
+                                 		&nbsp;
                                     </td>
-                                    <td>
+                                </tr>
+                                <tr>
+                                 	<td>
                                         <img src="<?=Path?>/images/acerca/logo_empresa_socialmente_responsable.jpg">
                                     </td>
                                 </tr>
