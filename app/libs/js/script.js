@@ -31,31 +31,31 @@ $(function() {
 	}
 	$("#estado").on('change',function(){
 		switch ($(this).val()) {
-			case 'NUEVO LEON':
+			case 'Nuevo León':
 				$('#00N3l00000Q7A5X').val('UEN1 - NUEVO LEON');
 				break;
-			case 'JALISCO':
+			case 'Jalisco':
 				$('#00N3l00000Q7A5X').val('UEN3 - JALISCO');
 				break;
-			case 'AGUASCALIENTES':
+			case 'Aguascalientes':
 				$('#00N3l00000Q7A5X').val('UEN4 - AGUASCALIENTES');
 				break;
-			case 'DISTRITO FEDERAL':
+			case 'Ciudad de México':
 				$('#00N3l00000Q7A5X').val('UEN4 - DISTRITO FEDERAL');
 				break;
-			case 'ESTADO DE MEXICO':
+			case 'Estado de México':
 				$('#00N3l00000Q7A5X').val('UEN4 - ESTADO DE MEXICO');
 				break;
-			case 'QUERETARO':
+			case 'Querétaro':
 				$('#00N3l00000Q7A5X').val('UEN4 - QUERETARO');
 				break;
-			case 'GUANAJUATO':
+			case 'Guanajuato':
 				$('#00N3l00000Q7A5X').val('UEN4 - GUANAJUATO');
 				break;
-			case 'QUINTANA ROO':
+			case 'Quintana Roo':
 				$('#00N3l00000Q7A5X').val('UEN4 - QUINTANA ROO');
 				break;
-				case 'TAMAULIPAS':
+				case 'Tamaulipas':
 				$('#00N3l00000Q7A5X').val('UEN4 - TAMAULIPAS');
 				break;
 			default:
