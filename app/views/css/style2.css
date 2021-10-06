@@ -30,7 +30,7 @@
 .top-planta{position:relative;}
 .bg-radial{background: top right radial-gradient(#42A6EF, #254DA7);}
 
-body.contador{background-image: url(../../../images/general/back_mapa.jpg);background-size: cover;}
+body.contador{background-image: url(../../../images/general/back_mapa.jpg);background-size: cover !important;}
 body.contador .btn-registro{border-radius: 12px; border-color:#EB4141;}
 
 footer{background-color: rgba(0, 0, 0, 0.7);}

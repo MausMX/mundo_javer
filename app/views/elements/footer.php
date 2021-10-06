@@ -3,23 +3,8 @@
 		<div class="container">
 			<div class="row py-2">
 				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 py-2 font-10 info-footer"> <span class="c-white font-sweet-sans- text-uppercase">Copyright © casas javer 2021. Todos los derechos reservados</span></div>
-				<div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-xs-12 py-3 font-10 info-footer">
-					<?php /*
-					<div class="list-group">
-						<a class="c-white" href="tel:800 1234 567" title="Correo Contacto Javer">
-							<span class="c-white font-sweet-sans-pro"><img class="mr-2" src="<?=Path?>/images/footer/email_footer.png"> info@javer.com.mx</span>
-						</a>						
-					</div>
-					*/ ?>
-				</div>
-				<div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-xs-12 py-2 font-10 info-footer">
-					<?php /*	
-					<div class="list-group">
-						<a class="c-white" href="mailto:info@javer.com.mx" title="Teléfono Javer">
-							<span class="c-white font-sweet-sans-pro"><img class="mr-2" src="<?=Path?>/images/footer/phone.png"> 800 1234 567</span>
-						</a>						
-					</div>
-					*/ ?>
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 py-3 font-10 info-footer">
+					<a class="text-secondary" href="https://www.javer.com.mx/avisos-de-privacidad#clientes" target="_blank"><span class="c-white font-sweet-sans- text-uppercase">Aviso de privacidad</span></a>
 				</div>
 				<?php
 				if(($controllerName=='preregistro' and $function=='index') or ($controllerName=='preregistro' and $function=='gracias') or ($controllerName=='index' and $function=='contador') or ($controllerName=='index' and $function=='preheat') or ($controllerName=='index' and $function=='index')){
