@@ -56,11 +56,74 @@ input[type=text],input[type=email]{/*background: url(../../../images/registro/bg
 #registro.gracias .bg-white{background: url(../../../images/registro/bg_registro.png) 40px bottom no-repeat;}
 #preregistro.index .bg-white{background: url(../../../images/registro/bg_registro.png) bottom right no-repeat;}
 #preregistro.gracias .bg-white{background: url(../../../images/registro/bg_registro.png) 40px bottom no-repeat;}
-header{background: url(../../../images/general/enredaderas_menu.png) no-repeat center -20px;background-size: 1380px;}
+header{background: url(../../../images/general/enredaderas_menu.png) no-repeat center -20px;background-size: 1380px;z-index: 10;position: relative;}
 #preregistro.index .img-registro-main{margin-top: -100px;}
 #preregistro header{background:none;}
 footer{position:relative;z-index: 10;}
 .contacto_whatsapp{position: absolute;top:-50%;right: 25px;}
+.animation{
+    -webkit-transition: 1.0s;
+    -o-transition: 1.0s;
+    -moz-transition: 1.0s;
+    -ms-transition: 1.0s;
+    transition: 1.0s;
+}
+#area_mapa{
+    position: relative;
+    margin-top: -222px;
+    width: 100%;
+    overflow: auto;
+}
+#mapa{
+    /*background: url('../../../images/mapa/mapa.png') center -150px;*/
+    position: relative;
+    width: 2398px;
+    /*height: 1545px;*/
+    height: 1150px;
+}
+#entorno{
+    background: url('../../../images/mapa/entorno.png') center -150px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#edif_agu_jal{
+    background: url('../../../images/mapa/edif_agu_jal.png');
+    width:153px;
+    height:114px;
+    top:715px;
+    left:350px;
+    position:absolute;
+}
+
+#jalisco{background: url('../../../images/mapa/jal.png');width:538px;height:351px;top:739px;left:439px;position:absolute;opacity:0;}
+#edomex{background: url('../../../images/mapa/edommex.png');width:521px;height:299px;top:634px;left:754px;position:absolute;opacity:0;}
+#aguascalientes{background: url('../../../images/mapa/aguascalientes.png');width:397px;height:198px;top:639px;left:418px;position:absolute;opacity:0;}
+#quintanaroo{background: url('../../../images/mapa/quintana_roo.png');width:565px;height:348px;top:674px;left:1505px;position:absolute;opacity:0;}
+#queretaro{background: url('../../../images/mapa/queretaro.png');width:575px;height:371px;top:488px;left:1174px;position:absolute;opacity:0;}
+#tamaulipas{background: url('../../../images/mapa/tamaulipas.png');width:335px;height:167px;top:305px;left:1425px;position:absolute;opacity:0;}
+#regalo{background: url('../../../images/mapa/regalo.png');width:229px;height:224px;top:467px;left:1008px;position:absolute;opacity:0;}
+#nuevoleon{background: url('../../../images/mapa/nuevo_leon.png');width:890px;height:477px;top:157px;left:663px;position:absolute;opacity:0;}
+#corporativo{background: url('../../../images/mapa/corporativo.png');width:515px;height:427px;top:291px;left:585px;position:absolute;opacity:0;}
+#globo{background: url('../../../images/mapa/globo.png');width:163px;height:349px;top:372px;left:690px;position:absolute;opacity:0;animation: move_globe 5s infinite;}
+
+.animation.active{
+    opacity: 1 !important;
+}
+
+@keyframes move_globe {
+    0% {
+        top:372px;left:690px;
+    }
+    50%{
+        top:375px;left:670px;
+    }
+    100% {
+        top:370px;left:695px;
+    }
+}
+
+
 @media (min-width: 1250px){
     .container, .container-lg, .container-md, .container-sm, .container-xl{max-width: 1200px;}
 }

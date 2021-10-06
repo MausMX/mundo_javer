@@ -1,3 +1,5 @@
+var myVar;
+var contador=0;
 $(function() {
 	$('#detalle').on('hidden.bs.modal',function(){location.hash='';$("#detalle .modal-body").html("");$(this).removeData('bs.modal');});
 	$('#detalle').on('show.bs.modal', function(event){var href=$(event.relatedTarget).attr("href");$('#detalle .modal-content').load(href,function(){$("#loading").hide();});});
@@ -62,6 +64,12 @@ $(function() {
 				break;
 		}
 	});
+	var area_mapa=$('#area_mapa').width();
+	var mapa=$('#mapa').width();
+	if(mapa>area_mapa){
+		var scrollPosition = (mapa - area_mapa)/2;
+		$('#area_mapa').scrollLeft(scrollPosition);
+	}
 });
 window.addEventListener("resize", function(){
 	altura_wrapper_fixed();
@@ -69,17 +77,61 @@ window.addEventListener("resize", function(){
 },false);
 $(window).on("load",function(){
 	altura_wrapper_fixed();
+	myVar = setInterval(animacion_inicial, 300);
 });
 $('.bxslider_detalle').bxSlider({
-  auto: true,
-  stopAutoOnClick: true,
-  pager: false
+	auto: true,
+	stopAutoOnClick: true,
+	pager: false
 });
 
 function altura_wrapper_fixed(){
-    altura_ventana=$(window).height();
+	altura_ventana=$(window).height();
     altura_footer=$("footer").height();
     altura_header=$("header").height();
     altura_wrapper=altura_ventana-altura_footer-altura_header;
     $(".wrapper").css({'min-height':altura_wrapper});
+	if($('body').is('#index')){
+		altura_mapa=altura_ventana-altura_footer;
+		$('#area_mapa').css({'height':altura_mapa});
+	}
+}
+
+function animacion_inicial() {
+	contador++;
+	switch (contador) {
+		case 1:
+			$('#regalo').addClass('active');
+			break;
+		case 3:
+			$('#corporativo').addClass('active');
+			break;
+		case 5:
+			$('#nuevoleon').addClass('active');
+			break;
+		case 6:
+			$('#queretaro').addClass('active');
+			break;
+		case 7:
+			$('#edomex').addClass('active');
+			break;
+		case 8:
+			$('#tamaulipas').addClass('active');
+			break;
+		case 9:
+			$('#aguascalientes').addClass('active');
+			break;
+		case 10:
+			$('#jalisco').addClass('active');
+			break;
+		case 11:
+			$('#quintanaroo').addClass('active');
+			break;
+		case 12:
+			$('#globo').addClass('active');
+			break;
+	
+		default:
+			break;
+	}
 }
