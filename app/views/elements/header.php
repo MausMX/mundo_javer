@@ -1,7 +1,9 @@
 <header>
 	<div class="container font-sweet-sans-pro font-10">
-		<a id="logo-principal" class="navbar-brand" href="<?=Path ?>"><img src="<?php echo Path;?>/images/header/logo.png"></a>
-		<nav class="navbar navbar-expand-xl navbar-dark bg-dark pt-0 pb-0 pl-0">
+		<a id="logo-principal" class="navbar-brand d-none d-lg-block d-xl-block" href="<?=Path ?>"><img src="<?php echo Path;?>/images/header/logo.png"></a>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-0 pb-0 pl-0">
+		<a id="logo-principalm" class="navbar-brand d-block d-lg-none d-xl-none" href="<?=Path ?>"><img src="<?php echo Path;?>/images/header/logo_menu_mobile.png"></a>
+		<div class="py-3 d-block d-lg-none d-xl-none"><p class="title-expo-header p-2 poppins font-12-header">EXPO VIRTUAL</p></div>
 			<button class="navbar-toggler ml-auto mr-0 py-3 border-0" type="button" data-toggle="collapse" data-target="#menu-1" aria-controls="menu-1" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -20,7 +22,7 @@
 						<a class="nav-link" href="<?=Path?>/registro">Registro para premio</a>
 					</li>
 				</ul>
-				<ul class="navbar-nav ml-auto pr-3">
+				<ul class="navbar-nav ml-auto pr-3 social-redes">
 					<li class="navbar-text">
 						<span class="nav-text text-white">Siguenos</span>
 					</li>

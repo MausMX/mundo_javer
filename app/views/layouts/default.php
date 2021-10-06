@@ -36,7 +36,7 @@
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<!-- End Google Tag Manager (noscript) -->
 		<?=$this->renderElement("header")?>
-		<div class="wrapper "><?=$content_for_layout ?></div>
+		<div class="wrapper contenido-global"><?=$content_for_layout ?></div>
 		<?=$this->renderElement("footer");?>
 		<div class="modal fade" id="detalle" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"><div class="modal-dialog"><div class="modal-content"></div></div></div>
 		<div class="modal fade" id="youtube" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
