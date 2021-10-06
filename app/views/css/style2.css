@@ -200,7 +200,7 @@ header .container nav{border-radius:0px !important;padding-right: 0px !important
 button.navbar-toggler.ml-auto{margin-left:0px !important;}
 header div.container.font-sweet-sans-pro.font-10 {font-size:12px !important;}
 .navbar-dark .navbar-toggler {color: rgba(255,255,255,1);}
-header{background: url(../../../images/header/enredadera_mobile.png) no-repeat;background-position: 0px 70px !important;background-size: contain;}
+header{background: url(../../../images/header/enredadera_mobile_v2.png) no-repeat;background-position: 0px 70px !important;background-size: contain;}
 header:not(.pre-header){height: 160px;position:relative; z-index: 9;}
 #menu-1 ul:first-child li:first-child{padding-left:0px !important;background-color: transparent !important;}
 .navbar-dark .navbar-nav .nav-link{margin-left:auto;margin-right:auto;}
@@ -221,7 +221,20 @@ header:not(.pre-header){height: 160px;position:relative; z-index: 9;}
 .contenedor-pasos,.contenedor-pasos .wrapper-pasos{padding-left:0px !important;padding-right:0px !important;}
 .wrapper-pasos .bt-w{text-align:center;}
 
-
+/*acerca de */
+.acerca-de .title-acerca,.acerca-de .padding-acerca p{text-align:center !important;line-height: 26px;}
+.acerca-de .txt-info-acerca{margin-bottom:1.5rem !important;}
+.acerca-de .padding-acerca{padding:0px !important;}
+/*.acerca-de div.pt-4, .acerca-de div.pt-3{padding-top:0px !important;}*/
+.acerca-de .padding-acerca p.pr-5,.acerca-de .padding-acerca p.pr-3{padding:0px !important;}
+.acerca-de .interactivas .padding-acerca{padding-bottom:1.5rem !important;}
+.acerca-de .col-padding-acerca{padding:0px !important;}
+.acerca-de .p-mundo-acerca,.acerca-de .interactivas{padding-bottom:0px !important;}
+.acerca-de .title-acerca{margin-bottom:1.5rem !important;}
+.acerca-de .padding-acerca .pt-2{padding-top:0rem !important;}
+.acerca-de #responsabilidad_social{padding-top:0px !important;}
+.acerca-de tr{display:contents;}
+.acerca-de .img-acerca-de{width:100%;}
 
 /*.ciudades .wp-ingresos{padding-left:0px !important;padding-right:0px !important;}*/
 }
@@ -325,7 +338,7 @@ header .container nav{border-radius:0px !important;padding-right: 0px !important
 button.navbar-toggler.ml-auto{margin-left:0px !important;}
 header div.container.font-sweet-sans-pro.font-10 {font-size:12px !important;margin-left: 0px !important; margin-right:0px !important;width: 100%;max-width: 100%;}
 .navbar-dark .navbar-toggler {color: rgba(255,255,255,1);}
-header{background: url(../../../images/header/enredadera_mobile.png) no-repeat;background-position: 0px 70px !important;background-size: contain;}
+header{background: url(../../../images/header/enredadera_mobile_v2.png) no-repeat;background-position: 0px 70px !important;background-size: contain;}
 header:not(.pre-header){height: 219px;position:relative;z-index:9;}
 #menu-1 ul:first-child li:first-child{padding-left:0px !important;background-color: transparent !important;}
 .navbar-dark .navbar-nav .nav-link{margin-left:auto;margin-right:auto;}
@@ -347,6 +360,25 @@ header:not(.pre-header){height: 219px;position:relative;z-index:9;}
 .pasos-regalo .padding-registro .px-5 .text-success.font-30,.pasos-regalo .padding-registro .px-5 p{font-size:20px !important;text-align:center;line-height:20px !important;}
 .contenedor-pasos,.contenedor-pasos .wrapper-pasos{padding-left:0px !important;padding-right:0px !important;}
 .wrapper-pasos .bt-w{text-align:center;}
+
+/*acerca de */
+.acerca-de .title-acerca,.acerca-de .padding-acerca p{text-align:center !important;}
+.acerca-de .txt-info-acerca{margin-bottom:1.5rem !important;}
+.acerca-de .padding-acerca{padding:0px !important;}
+.acerca-de .line-height-44{line-height:36px}
+/*.acerca-de div.pt-4, .acerca-de div.pt-3{padding-top:0px !important;}*/
+.acerca-de .padding-acerca p.pr-5,.acerca-de .padding-acerca p.pr-3{padding:0px !important;}
+.acerca-de .interactivas .padding-acerca{padding-bottom:1.5rem !important;}
+.acerca-de .col-padding-acerca{padding:0px !important;}
+.acerca-de .p-mundo-acerca,.acerca-de .interactivas{padding-bottom:0px !important;}
+.acerca-de .title-acerca{margin-bottom:1.5rem !important;}
+.acerca-de .padding-acerca .pt-2{padding-top:0rem !important;}
+.acerca-de #responsabilidad_social{padding-top:0px !important;}
+.acerca-de tr{display:contents;}
+.acerca-de .img-acerca-de{width:100%;}
+.acerca-de .state-acerca{padding-left:40px !important;}
+body div.acerca-de .presencia-estado{font-size:16px !important;}
+.font-44 {font-size: 34px;}
 }
 @media (min-width:768px) and (max-width: 991px){
 body{background-size:cover !important;}
@@ -433,6 +465,13 @@ header:not(.pre-header){height: 219px;position:relative;z-index:9;}
 .contenido-global{margin-top: -50px;}
 .img-regalo-pasos{position: absolute !important;z-index: 8 !important;left: -68px !important;top: 142px !important;width: 50% !important;}
 
+/* acerca de */
+.acerca-de .font-44{font-size:30px !important;}
+.acerca-de .line-height-44{line-height:30px !important;}
+.acerca-de .bg-mapa-acerca{padding-top:0px !important;padding-left:1.5rem !important;background-position:top !important;padding-bottom:0px !important;background-size: cover !important;}
+.lista-estado li{font-size:14px !important;}
+.acerca-de .bg-mapa-acerca .font-18{font-size:18px !important;}
+
 }
 @media (min-width:992px) and (max-width: 1200px){
 body{background-size:cover !important;}
@@ -473,6 +512,12 @@ header div.container.font-sweet-sans-pro.font-10 {font-size:9px !important;}
 
 .img-regalo-pasos{position: absolute !important;z-index: 8 !important;left: -68px !important;top: 109px !important;width: 45% !important;}
 
+/* acerca de */
+.acerca-de .font-44{font-size:30px !important;}
+.acerca-de .line-height-44{line-height:30px !important;}
+.acerca-de .bg-mapa-acerca{padding-top:0px !important;padding-left:1.5rem !important;background-position:top !important;padding-bottom:0px !important;background-size: cover !important;}
+.lista-estado li{font-size:14px !important;}
+.acerca-de .bg-mapa-acerca .font-18{font-size:18px !important;}
 }
 @media (min-width: 1201px){
 .contador .registrom{margin-top:10px !important;margin-bottom:100px !important;}
