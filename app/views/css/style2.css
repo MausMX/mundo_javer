@@ -201,7 +201,7 @@ button.navbar-toggler.ml-auto{margin-left:0px !important;}
 header div.container.font-sweet-sans-pro.font-10 {font-size:12px !important;}
 .navbar-dark .navbar-toggler {color: rgba(255,255,255,1);}
 header{background: url(../../../images/header/enredadera_mobile.png) no-repeat;background-position: 0px 70px !important;background-size: contain;}
-header:not(.pre-header){height: 139px;position:relative;}
+header:not(.pre-header){height: 160px;position:relative; z-index: 9;}
 #menu-1 ul:first-child li:first-child{padding-left:0px !important;background-color: transparent !important;}
 .navbar-dark .navbar-nav .nav-link{margin-left:auto;margin-right:auto;}
 #menu-1 ul:first-child li a::after,#menu-1 ul:first-child li a::before{border-right:0px !important;}
@@ -210,6 +210,11 @@ header:not(.pre-header){height: 139px;position:relative;}
 /*registro*/
 .bg-radial{border-top-right-radius: 1rem !important;border-bottom-left-radius: 0rem !important;}
 .font-28 {font-size: 24px;}
+.reg-complete .container-title-registro div{padding-left:0px !important;}
+.reg-complete .container-title-registro h1,.reg-complete .container-title-registro h2{line-height:24px !important;}
+.reg-complete .img-registro-main{margin-top:-50px !important;}
+
+.contenido-global{margin-top: -20px;}
 
 /*.ciudades .wp-ingresos{padding-left:0px !important;padding-right:0px !important;}*/
 }
@@ -304,6 +309,33 @@ body#conferencias .player {position: absolute;bottom: 30px;right: 0px;}
 /*header*/
 #logo-principal img{width:auto !important;} 
 
+/*header*/
+#logo-principalm img{width:auto !important;} 
+#logo-principalm{padding-left:15px !important;}
+header:not(.pre-header) .container{margin-top:0px !important;padding-left:0px !important;padding-right:0px !important;border-bottom: 1px solid #fff;}
+header .container nav{border-radius:0px !important;padding-right: 0px !important;z-index:1;}
+.title-expo-header{text-align:center; background-color:#DA291C;margin-bottom: 0px !important;}
+button.navbar-toggler.ml-auto{margin-left:0px !important;}
+header div.container.font-sweet-sans-pro.font-10 {font-size:12px !important;margin-left: 0px !important; margin-right:0px !important;width: 100%;max-width: 100%;}
+.navbar-dark .navbar-toggler {color: rgba(255,255,255,1);}
+header{background: url(../../../images/header/enredadera_mobile.png) no-repeat;background-position: 0px 70px !important;background-size: contain;}
+header:not(.pre-header){height: 219px;position:relative;z-index:9;}
+#menu-1 ul:first-child li:first-child{padding-left:0px !important;background-color: transparent !important;}
+.navbar-dark .navbar-nav .nav-link{margin-left:auto;margin-right:auto;}
+#menu-1 ul:first-child li a::after,#menu-1 ul:first-child li a::before{border-right:0px !important;}
+.social-redes{flex-direction: row;padding-left: 15px !important;padding-right: 15px !important;justify-content: center;}
+#menu-1 i.fa-spotify {right: -29px;}
+/*registro*/
+.bg-radial{border-top-right-radius: 1rem !important;border-bottom-left-radius: 0rem !important;}
+.font-28 {font-size: 24px;}
+.reg-complete .container-title-registro div{padding-left:0px !important;}
+.reg-complete .padding-registro{padding-left:30px !important;padding-right:30px !important;padding-top:30px !important;}
+.reg-complete .container-title-registro h1,.reg-complete .container-title-registro h2{line-height:24px !important;}
+.reg-complete .img-registro-main{margin-top:-50px !important;text-align:center}
+.reg-complete .img-registro-main img{width:60% !important;}
+.contenido-global{margin-top: -50px;}
+
+
 }
 @media (min-width:768px) and (max-width: 991px){
 body{background-size:cover !important;}
@@ -357,6 +389,37 @@ body{background-size:cover !important;}
 /*.wrapper > .container:not(.top-planta){margin-bottom:70px !important;}*/
 .contenido-logo-contador{margin-top:-20px !important;}
 
+
+/*header*/
+#logo-principalm img{width:auto !important;} 
+#logo-principalm{padding-left:15px !important;}
+header:not(.pre-header) .container{margin-top:0px !important;padding-left:0px !important;padding-right:0px !important;border-bottom: 1px solid #fff;}
+header .container nav{border-radius:0px !important;padding-right: 0px !important;z-index:1;}
+.title-expo-header{text-align:center; background-color:#DA291C;margin-bottom: 0px !important;}
+button.navbar-toggler.ml-auto{margin-left:0px !important;}
+header div.container.font-sweet-sans-pro.font-10 {font-size:12px !important;margin-left: 0px !important; margin-right:0px !important;width: 100%;max-width: 100%;}
+.navbar-dark .navbar-toggler {color: rgba(255,255,255,1);}
+header {
+    background-position: center -70px;
+        background-size: auto;
+    background-size: 1280px;
+}
+header:not(.pre-header){height: 219px;position:relative;z-index:9;}
+#menu-1 ul:first-child li:first-child{padding-left:0px !important;background-color: transparent !important;}
+.navbar-dark .navbar-nav .nav-link{margin-left:auto;margin-right:auto;}
+#menu-1 ul:first-child li a::after,#menu-1 ul:first-child li a::before{border-right:0px !important;}
+.social-redes{flex-direction: row;padding-left: 15px !important;padding-right: 15px !important;justify-content: center;}
+#menu-1 i.fa-spotify {right: -29px;}
+/*registro*/
+.bg-radial{border-bottom-left-radius: 1rem !important;border-top-right-radius: 0rem !important;}
+.font-28 {font-size: 24px;}
+.reg-complete .container-title-registro div{padding-left:20px !important;padding-right:20px !important;}
+.reg-complete .padding-registro{padding-left:30px !important;padding-right:30px !important;padding-top:30px !important;padding-bottom:10px !important;}
+.reg-complete .container-title-registro h1,.reg-complete .container-title-registro h2{line-height:24px !important;}
+.reg-complete .img-registro-main{margin-top:-50px !important;text-align:center}
+.reg-complete .img-registro-main img{width: 100%;position: absolute;left: 0;bottom: 40px;}
+.contenido-global{margin-top: -50px;}
+
 }
 @media (min-width:992px) and (max-width: 1200px){
 body{background-size:cover !important;}
@@ -391,6 +454,10 @@ body{background-size:cover !important;}
 #preregistro header{height:115px !important;}
 .wrapper > .container:not(.top-planta){margin-bottom:70px !important;}
 .contenido-logo-contador{margin-top:-20px !important;}
+
+header div.container.font-sweet-sans-pro.font-10 {font-size:9px !important;}
+.reg-complete .padding-registro{padding-top:30px !important;padding-bottom:10px !important;}
+
 }
 @media (min-width: 1201px){
 .contador .registrom{margin-top:10px !important;margin-bottom:100px !important;}
