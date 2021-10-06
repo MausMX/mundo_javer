@@ -106,6 +106,14 @@ footer{position:relative;z-index: 10;}
 #nuevoleon{background: url('../../../images/mapa/nuevo_leon.png');width:890px;height:477px;top:157px;left:663px;position:absolute;opacity:0;}
 #corporativo{background: url('../../../images/mapa/corporativo.png');width:515px;height:427px;top:291px;left:585px;position:absolute;opacity:0;}
 #globo{background: url('../../../images/mapa/globo.png');width:163px;height:349px;top:372px;left:690px;position:absolute;opacity:0;animation: move_globe 5s infinite;}
+#globo a{
+    display: block;
+    width: 106px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
 
 .animation.active{
     opacity: 1 !important;
