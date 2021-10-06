@@ -213,8 +213,15 @@ header:not(.pre-header){height: 160px;position:relative; z-index: 9;}
 .reg-complete .container-title-registro div{padding-left:0px !important;}
 .reg-complete .container-title-registro h1,.reg-complete .container-title-registro h2{line-height:24px !important;}
 .reg-complete .img-registro-main{margin-top:-50px !important;}
-
 .contenido-global{margin-top: -20px;}
+
+/*pasos regalo*/
+.pasos-regalo .padding-registro .px-5{padding-left:0px !important; padding-right:0px !important;}
+.pasos-regalo .padding-registro .px-5 .text-success.font-30,.pasos-regalo .padding-registro .px-5 p{font-size:18px !important;text-align:center;line-height:20px !important;}
+.contenedor-pasos,.contenedor-pasos .wrapper-pasos{padding-left:0px !important;padding-right:0px !important;}
+.wrapper-pasos .bt-w{text-align:center;}
+
+
 
 /*.ciudades .wp-ingresos{padding-left:0px !important;padding-right:0px !important;}*/
 }
@@ -335,7 +342,11 @@ header:not(.pre-header){height: 219px;position:relative;z-index:9;}
 .reg-complete .img-registro-main img{width:60% !important;}
 .contenido-global{margin-top: -50px;}
 
-
+/*pasos regalo*/
+.pasos-regalo .padding-registro .px-5{padding-left:0px !important; padding-right:0px !important;}
+.pasos-regalo .padding-registro .px-5 .text-success.font-30,.pasos-regalo .padding-registro .px-5 p{font-size:20px !important;text-align:center;line-height:20px !important;}
+.contenedor-pasos,.contenedor-pasos .wrapper-pasos{padding-left:0px !important;padding-right:0px !important;}
+.wrapper-pasos .bt-w{text-align:center;}
 }
 @media (min-width:768px) and (max-width: 991px){
 body{background-size:cover !important;}
@@ -420,6 +431,7 @@ header:not(.pre-header){height: 219px;position:relative;z-index:9;}
 .reg-complete .img-registro-main{margin-top:-50px !important;text-align:center}
 .reg-complete .img-registro-main img{width: 100%;position: absolute;left: 0;bottom: 40px;}
 .contenido-global{margin-top: -50px;}
+.img-regalo-pasos{position: absolute !important;z-index: 8 !important;left: -68px !important;top: 142px !important;width: 50% !important;}
 
 }
 @media (min-width:992px) and (max-width: 1200px){
@@ -458,6 +470,8 @@ body{background-size:cover !important;}
 
 header div.container.font-sweet-sans-pro.font-10 {font-size:9px !important;}
 .reg-complete .padding-registro{padding-top:30px !important;padding-bottom:10px !important;}
+
+.img-regalo-pasos{position: absolute !important;z-index: 8 !important;left: -68px !important;top: 109px !important;width: 45% !important;}
 
 }
 @media (min-width: 1201px){
