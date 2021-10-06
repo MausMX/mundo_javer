@@ -381,6 +381,7 @@ body{background-size:cover !important;}
 
 /*gracias*/
 .contenido-gracias{padding-left:0px !important;padding-right:0px !important;padding-bottom: 0px !important;}
+.contenido-gracias .btn-success{margin-bottom:30px !important;}
 .contenido-gracias h1,.contenido-gracias p{margin-bottom:25px !important;}
 .contenido-gracias .font-18{font-size:12px !important;}
 #registro.gracias .bg-white{background-size:30% !important;padding-bottom: 0px !important;}
