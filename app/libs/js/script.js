@@ -29,7 +29,7 @@ $(function() {
 			console.log("No contamos con asesores este día");
 		});
 	}
-	$("#estado").on('change',function(){
+	$(".estado").on('change',function(){
 		switch ($(this).val()) {
 			case 'Nuevo León':
 				$('#00N3l00000Q7A5X').val('UEN1 - NUEVO LEON');

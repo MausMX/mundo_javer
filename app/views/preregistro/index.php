@@ -1,3 +1,4 @@
+<?php $ahora=date("YmdHis")?>
 <div class="container font-poppins">
     <div class="row mb-5 container-gracias-center" style="position: relative;">
         <div class="col-lg-4 col-md-4 bg-black rounded-left p-0 text-md-center text-lg-left">
@@ -17,9 +18,10 @@
                     <form method="post" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" onsubmit="return validar(this)">
                         <input type="hidden" name='captcha_settings' value='{"keyname":"CAPTCHAJAVER","fallback":"true","orgId":"00Do0000000b6Io","ts":""}'>
                         <input type="hidden" name="oid" value="00Do0000000b6Io">
-                        <input type="hidden" name="retURL" value="<?=Path?>/preregistro/gracias?id=<?=date("YmdHis")?>">
+                        <input type="hidden" name="retURL" value="<?=Path?>/preregistro/gracias?id=<?=$ahora?>">
                         <input type="hidden" name="00N3l00000Q7A57" id="00N3l00000Q7A57" placeholder="Fuente" required value="Mundo Javer">
                         <input type="hidden" name="00N3l00000Q7A5X" id="00N3l00000Q7A5X" class="form-control" placeholder="Zona de interés">
+                        <input type="hidden" name="programas" id="programas" class="form-control" placeholder="Zona de interés" value="<?=$ahora?>">
                         <!--  ----------------------------------------------------------------------  -->
                         <!--  NOTA: Estos campos son elementos de depuración opcionales. Elimine      -->
                         <!--  los comentarios de estas líneas si desea realizar una prueba en el      -->
@@ -31,10 +33,10 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 col-md-6"><input class="form-control mb-4" type="text" name="first_name" id="first_name" placeholder="Nombre" required maxlength="40"></div>
                             <div class="col-lg-6 col-md-6"><input class="form-control mb-4" type="text" name="last_name" id="last_name" placeholder="Apellidos" required maxlength="80"></div>
-                            <div class="col-lg-6 col-md-6"><input class="form-control mb-4" type="text" name="phone" id="phone" placeholder="WhatsApp" required minlength="10" maxlength="10"></div>
+                            <div class="col-lg-6 col-md-6"><input class="form-control mb-4" type="text" name="mobile" id="mobile" placeholder="WhatsApp" required minlength="10" maxlength="10"></div>
                             <div class="col-lg-6 col-md-6"><input class="form-control mb-4" type="email" name="email" id="email" placeholder="Correo" required maxlength="80"></div>
                             <div class="col-lg-6 col-md-6 align-self-start">
-                                <select class="form-control mb-4 font-10" name="00N3l00000Q7A4v" id="00N3l00000Q7A4v" required>
+                                <select class="form-control mb-4 font-10 estado" name="00N3l00000Q7A4v" id="00N3l00000Q7A4v" required>
                                     <option>Estado</option>
                                     <option value="Aguascalientes">Aguascalientes</option>
                                     <option value="Ciudad de México">Ciudad de México</option>
