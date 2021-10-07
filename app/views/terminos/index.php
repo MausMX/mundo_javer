@@ -5,6 +5,7 @@
             <div class="row pt-5 pb-4 px-5">
                 <div class="col-12">
                     <div class="px-4 space-termino">
+                    	<h1 class="text-danger font-44 line-height-32 font-poppins bold mb-5">Términos y condiciones</h1>
                         <p class="text-justify font-18">Para ganar un regalo en la compra de tu vivienda deberás cumplir con los siguientes requisitos:</p> 
 						<ol>
 							<li>Registrarte en <a style="color:#000000; !important;" href="http://mundojaver.com.mx/registro">MundoJaver.com.mx</a> entre el 1 y 31 de octubre de 2021 e iniciar el proceso de compra de tu vivienda en alguno de los desarrollos de Javer dentro de dicho periodo.</li>

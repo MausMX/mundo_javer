@@ -1,5 +1,6 @@
 .font-10{font-size:10px;}
 .font-12{font-size:12px;}
+.font-13{font-size:13px;}
 .font-23{font-size: 23px;}
 .font-21{font-size: 21px;}
 .font-30{font-size: 30px;}
@@ -15,6 +16,7 @@
 /*.font-17{font-size: 16px;}*/
 .c-black{color:#000000 !important;}
 .c-white{color:#FFFFFF !important;}
+.flip-clock{position:relative;z-index: 9999999999;}
 .font-sweet-sans-pro {font-family: sweet-sans-pro, sans-serif;}
 .poppins{font-family: poppins, sans-serif;}
 .bold{font-weight:800;}
@@ -101,6 +103,7 @@ footer .container .logo-footer{justify-content: left !important;}
 .font-30{font-size: 22px;}
 .font-44{font-size: 24px;}
 .font-10{font-size: 7px;}
+.font-13{font-size: 11px;}
 .img-preheat img{/*width:40%;*/margin-right:0px !important;}
 
 .ciudades .contenedor-ciudades{padding-right:0px !important;padding-left:0px !important;}

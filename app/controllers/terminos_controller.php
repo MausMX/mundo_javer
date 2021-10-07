@@ -6,6 +6,7 @@
 	
 	public function index($page="1"){
 		$this->title_for_layout("Términos y Condiciones - Javer");
+		$this->view->setLayout("preregistro");
 		$this->render();
 	}
 	
