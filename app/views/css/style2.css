@@ -550,11 +550,13 @@ header div.container.font-sweet-sans-pro.font-10 {font-size:9px !important;}
 .lista-estado li{font-size:14px !important;}
 .acerca-de .bg-mapa-acerca .font-18{font-size:18px !important;}
 .contenido-conferencias .contenido {height: 350px;}
+body#conferencias .imagen{background-position:center center !important;}
+
 }
 @media (min-width: 1201px){
 .contador .registrom{margin-top:10px !important;margin-bottom:100px !important;}
 
 body{background-size:cover !important;}
-
+.contenido-conferencias .contenido {height: 300px;}
 /*#preregistro header{height:auto !important;}*/
 }

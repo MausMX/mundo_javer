@@ -21,8 +21,8 @@
 				<div class="col-xl-3 col-lg-3 col-md-2 col-sm-12 col-xs-12 py-2 font-10 info-footer logo-footer">
 					<span class="c-white"><img class="mr-2" src="<?=Path?>/images/footer/logo_footer.png"></span>
 				</div>
-				<div class="col-xl-1 col-lg-1 col-md-2 col-sm-12 col-xs-12 py-2 font-10 info-footer regalo-footer">
-						<a target="_blank" class="d-inline-block" href="#"><img src="<?=Path?>/images/footer/regalo.png"></a>
+				<div class="col-xl-1 col-lg-1 col-md-2 col-sm-12 col-xs-12 py-2 font-10 info-footer regalo-footer d-none d-md-block d-lg-block d-xl-block">
+						<a target="_blank" class="d-inline-block" href="#"><img src="<?=Path?>/images/preregistro/regalo_preheat.png"></a>
 				</div>
 				<?}?>
 			</div>
