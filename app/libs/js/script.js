@@ -1,5 +1,6 @@
 var myVar;
 var contador=0;
+var camion_1={top:973,left:1728,paso:1};
 $(function() {
 	$('#detalle').on('hidden.bs.modal',function(){location.hash='';$("#detalle .modal-body").html("");$(this).removeData('bs.modal');});
 	$('#detalle').on('show.bs.modal', function(event){var href=$(event.relatedTarget).attr("href");$('#detalle .modal-content').load(href,function(){$("#loading").hide();});});
@@ -77,7 +78,7 @@ window.addEventListener("resize", function(){
 },false);
 $(window).on("load",function(){
 	altura_wrapper_fixed();
-	myVar = setInterval(animacion_inicial, 300);
+	myVar = setInterval(animacion_inicial, 100);
 });
 $('.bxslider_detalle').bxSlider({
 	auto: true,
@@ -100,38 +101,113 @@ function altura_wrapper_fixed(){
 function animacion_inicial() {
 	contador++;
 	switch (contador) {
-		case 1:
+		case 3:
 			$('#regalo').addClass('active');
 			break;
-		case 3:
+		case 9:
 			$('#corporativo').addClass('active');
 			break;
-		case 5:
+		case 15:
 			$('#nuevoleon').addClass('active');
 			break;
-		case 6:
+		case 18:
 			$('#queretaro').addClass('active');
 			break;
-		case 7:
+		case 21:
 			$('#edomex').addClass('active');
 			break;
-		case 8:
+		case 24:
 			$('#tamaulipas').addClass('active');
 			break;
-		case 9:
+		case 27:
 			$('#aguascalientes').addClass('active');
 			break;
-		case 10:
+		case 30:
 			$('#jalisco').addClass('active');
 			break;
-		case 11:
+		case 33:
 			$('#quintanaroo').addClass('active');
 			break;
-		case 12:
+		case 36:
 			$('#globo').addClass('active');
 			break;
 	
 		default:
+			break;
+	}
+	camion_1_animacion();
+}
+
+function camion_1_animacion() {
+	$('#camion').addClass('active');
+	
+	if(camion_1.paso==1 && camion_1.top<=671 && camion_1.left<=1124){
+		camion_1.paso=2;
+		$('#camion').css({'background':'url("'+Path+'/images/mapa/vehiculos/camion-1/camion-4.png")','z-index':'15'});
+	}else if(camion_1.paso==2 && camion_1.top<=607 && camion_1.left>=1220){
+		camion_1.paso=3;
+		$('#camion').css({'background':'url("'+Path+'/images/mapa/vehiculos/camion-1/camion-1.png")'});
+	}else if(camion_1.paso==3 && camion_1.top<=289 && camion_1.left<=606){
+		camion_1.paso=4;
+		$('#camion').css({'background':'url("'+Path+'/images/mapa/vehiculos/camion-1/camion-4.png")','z-index':'5'});
+	}else if(camion_1.paso==4 && camion_1.top<=533 && camion_1.left>=910){
+		camion_1.paso=5;
+		$('#camion').css({'background':'url("'+Path+'/images/mapa/vehiculos/camion-1/camion-3.png")'});
+	}else if(camion_1.paso==5 && camion_1.top>=443 && camion_1.left>=1540){
+		camion_1.paso=6;
+		$('#camion').css({'background':'url("'+Path+'/images/mapa/vehiculos/camion-1/camion-2.png")','z-index':'15'});
+	}else if(camion_1.paso==6 && camion_1.top>=507 && camion_1.left<=1412){
+		camion_1.paso=7;
+		$('#camion').css({'background':'url("'+Path+'/images/mapa/vehiculos/camion-1/camion-3.png")','z-index':'5'});
+	}else if(camion_1.paso==7 && camion_1.top>=829 && camion_1.left>=2040){
+		camion_1.paso=8;
+		$('#camion').css({'background':'url("'+Path+'/images/mapa/vehiculos/camion-1/camion-2.png")','z-index':'15'});
+	}else if(camion_1.paso==8 && camion_1.top>=973 && camion_1.left<=1728){
+		camion_1.paso=1;
+		camion_1.top=973;
+		camion_1.left=1728;
+		$('#camion').css({'background':'url("'+Path+'/images/mapa/vehiculos/camion-1/camion-1.png")','z-index':'15'});
+	}
+	switch (camion_1.paso) {
+		case 1:
+			camion_1.top=camion_1.top-2;
+			camion_1.left=camion_1.left-4;
+			$('#camion').css({'top':camion_1.top+'px','left':camion_1.left+'px','z-index':'25'});
+			break;
+		case 2:
+			camion_1.top=camion_1.top-2;
+			camion_1.left=camion_1.left+4;
+			$('#camion').css({'top':camion_1.top+'px','left':camion_1.left+'px'});
+			break;
+		case 3:
+			camion_1.top=camion_1.top-2;
+			camion_1.left=camion_1.left-4;
+			$('#camion').css({'top':camion_1.top+'px','left':camion_1.left+'px'});
+			break;
+		case 4:
+			camion_1.top=camion_1.top-2;
+			camion_1.left=camion_1.left+4;
+			$('#camion').css({'top':camion_1.top+'px','left':camion_1.left+'px'});
+			break;
+		case 5:
+			camion_1.top=camion_1.top+2;
+			camion_1.left=camion_1.left+4;
+			$('#camion').css({'top':camion_1.top+'px','left':camion_1.left+'px'});
+			break;
+		case 6:
+			camion_1.top=camion_1.top+2;
+			camion_1.left=camion_1.left-4;
+			$('#camion').css({'top':camion_1.top+'px','left':camion_1.left+'px'});
+			break;
+		case 7:
+			camion_1.top=camion_1.top+2;
+			camion_1.left=camion_1.left+4;
+			$('#camion').css({'top':camion_1.top+'px','left':camion_1.left+'px'});
+			break;
+		case 8:
+			camion_1.top=camion_1.top+2;
+			camion_1.left=camion_1.left-4;
+			$('#camion').css({'top':camion_1.top+'px','left':camion_1.left+'px'});
 			break;
 	}
 }

@@ -13,5 +13,6 @@
         <div class="animation" id="regalo"></div>
         <div class="animation" id="tamaulipas"></div>
         <div class="animation" id="edif_agu_jal"></div>
+        <div class="" id="camion"></div>
     </div>
 </div>

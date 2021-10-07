@@ -45,7 +45,7 @@ header .container nav{border-radius: 15px;}
 .rounded-right{border-top-right-radius: 1rem!important;border-bottom-right-radius: 1rem!important;}
 body#conferencias .player{position: absolute;bottom: 20px;right: 20px;}
 body#conferencias .imagen{min-height: 220px;}
-body{background: url(../../../images/general/back_mapa.jpg) no-repeat top center fixed #4F7CCB;background-size:100%;}
+body{background: url(../../../images/general/back_mapa.jpg) no-repeat top center fixed #000000;background-size:100%;}
 /*body#index{background-image:none ;}*/
 body::before{content: '';width: 100%;height: 100%;position: fixed;background: rgba(0,0,0,0.4);}
 #btn-back{position: absolute;right: -10px;top: -20px;}
@@ -56,7 +56,7 @@ input[type=text],input[type=email]{/*background: url(../../../images/registro/bg
 #registro.gracias .bg-white{background: url(../../../images/registro/bg_registro.png) 40px bottom no-repeat;}
 #preregistro.index .bg-white{background: url(../../../images/registro/bg_registro.png) bottom right no-repeat;}
 #preregistro.gracias .bg-white{background: url(../../../images/registro/bg_registro.png) 40px bottom no-repeat;}
-header{background: url(../../../images/general/enredaderas_menu.png) no-repeat center -20px;background-size: 1380px;z-index: 10;position: relative;}
+header{background: url(../../../images/general/enredaderas_menu.png) no-repeat center -20px;background-size: 1380px;z-index: 100;position: relative;}
 #preregistro.index .img-registro-main{margin-top: -100px;}
 #preregistro header{background:none;}
 footer{position:relative;z-index: 10;}
@@ -80,6 +80,7 @@ footer{position:relative;z-index: 10;}
     width: 2398px;
     /*height: 1545px;*/
     height: 1150px;
+    margin: 0 auto;
 }
 #entorno{
     background: url('../../../images/mapa/entorno.png') center -150px;
@@ -94,18 +95,19 @@ footer{position:relative;z-index: 10;}
     top:715px;
     left:350px;
     position:absolute;
+    z-index: 20;
 }
 
-#jalisco{background: url('../../../images/mapa/jal.png');width:538px;height:351px;top:739px;left:439px;position:absolute;opacity:0;}
-#edomex{background: url('../../../images/mapa/edommex.png');width:521px;height:299px;top:634px;left:754px;position:absolute;opacity:0;}
-#aguascalientes{background: url('../../../images/mapa/aguascalientes.png');width:397px;height:198px;top:639px;left:418px;position:absolute;opacity:0;}
-#quintanaroo{background: url('../../../images/mapa/quintana_roo.png');width:565px;height:348px;top:674px;left:1505px;position:absolute;opacity:0;}
-#queretaro{background: url('../../../images/mapa/queretaro.png');width:575px;height:371px;top:488px;left:1174px;position:absolute;opacity:0;}
-#tamaulipas{background: url('../../../images/mapa/tamaulipas.png');width:335px;height:167px;top:305px;left:1425px;position:absolute;opacity:0;}
-#regalo{background: url('../../../images/mapa/regalo.png');width:229px;height:224px;top:467px;left:1008px;position:absolute;opacity:0;}
-#nuevoleon{background: url('../../../images/mapa/nuevo_leon.png');width:890px;height:477px;top:157px;left:663px;position:absolute;opacity:0;}
-#corporativo{background: url('../../../images/mapa/corporativo.png');width:515px;height:427px;top:291px;left:585px;position:absolute;opacity:0;}
-#globo{background: url('../../../images/mapa/globo.png');width:163px;height:349px;top:372px;left:690px;position:absolute;opacity:0;animation: move_globe 5s infinite;}
+#jalisco{background: url('../../../images/mapa/jal.png');width:538px;height:351px;top:739px;left:439px;position:absolute;opacity:0;z-index: 10;}
+#edomex{background: url('../../../images/mapa/edommex.png');width:521px;height:299px;top:634px;left:754px;position:absolute;opacity:0;z-index: 10;}
+#aguascalientes{background: url('../../../images/mapa/aguascalientes.png');width:397px;height:198px;top:639px;left:418px;position:absolute;opacity:0;z-index: 10;}
+#quintanaroo{background: url('../../../images/mapa/quintana_roo.png');width:565px;height:348px;top:674px;left:1505px;position:absolute;opacity:0;z-index: 10;}
+#queretaro{background: url('../../../images/mapa/queretaro.png');width:575px;height:371px;top:488px;left:1174px;position:absolute;opacity:0;z-index: 20;}
+#tamaulipas{background: url('../../../images/mapa/tamaulipas.png');width:335px;height:167px;top:305px;left:1425px;position:absolute;opacity:0;z-index: 10;}
+#regalo{background: url('../../../images/mapa/regalo.png');width:229px;height:224px;top:467px;left:1008px;position:absolute;opacity:0;z-index: 20;}
+#nuevoleon{background: url('../../../images/mapa/nuevo_leon.png');width:890px;height:477px;top:157px;left:663px;position:absolute;opacity:0;z-index: 10;}
+#corporativo{background: url('../../../images/mapa/corporativo.png');width:515px;height:427px;top:291px;left:585px;position:absolute;opacity:0;z-index: 20;}
+#globo{background: url('../../../images/mapa/globo.png');width:163px;height:349px;top:372px;left:690px;position:absolute;opacity:0;animation: move_globe 5s infinite;z-index:20;}
 #globo a{
     display: block;
     width: 106px;
@@ -114,8 +116,10 @@ footer{position:relative;z-index: 10;}
     right: 0;
     top: 0;
 }
+#camion{background: url('../../../images/mapa/vehiculos/camion-1/camion-1.png');width:80px;height:80px;top:973px;left:1728px;position:absolute;/*opacity:0;animation: move_camion_1 50s infinite;*/}
 
-.animation.active{
+.animation.active,
+#camion.active{
     opacity: 1 !important;
 }
 
@@ -130,7 +134,38 @@ footer{position:relative;z-index: 10;}
         top:370px;left:695px;
     }
 }
-
+/*
+@keyframes move_camion_1 {
+    0% {
+        top:973px;left:1728px;
+        z-index: 15;
+    }
+    20% {
+        background: url('../../../images/mapa/vehiculos/camion-1/camion-1.png');
+        top:673px;left:1128px;
+        z-index: 15;
+    }
+    21%{
+        background: url('../../../images/mapa/vehiculos/camion-1/camion-4.png');
+        z-index: 5;
+    }
+    25%{
+        background: url('../../../images/mapa/vehiculos/camion-1/camion-4.png');
+        z-index: 5;
+    }
+    26%{
+        background: url('../../../images/mapa/vehiculos/camion-1/camion-1.png');
+        top:603px;left:1246px;
+    }
+    40%{
+        z-index: 15;
+    }
+    100%{
+        top:293px;left:614px;
+        z-index: 15;
+    }
+}
+*/
 
 @media (min-width: 1250px){
     .container, .container-lg, .container-md, .container-sm, .container-xl{max-width: 1200px;}
