@@ -43,7 +43,7 @@ header .container nav{border-radius: 15px;}
 .rounded-left{border-top-left-radius: 1rem!important;border-bottom-left-radius: 1rem!important;}
 .rounded-bottom{border-bottom-right-radius: 1rem!important;border-bottom-left-radius: 1rem!important;}
 .rounded-right{border-top-right-radius: 1rem!important;border-bottom-right-radius: 1rem!important;}
-body#conferencias .player{position: absolute;bottom: 20px;right: 20px;}
+body#conferencias .player{position: absolute;bottom: 20px;left: 20px;}
 body#conferencias .imagen{min-height: 220px;}
 body{background: url(../../../images/general/back_mapa.jpg) no-repeat top center fixed #000000;background-size:100%;}
 /*body#index{background-image:none ;}*/
