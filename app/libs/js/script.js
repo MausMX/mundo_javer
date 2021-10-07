@@ -143,30 +143,60 @@ function camion_1_animacion() {
 	
 	if(camion_1.paso==1 && camion_1.top<=671 && camion_1.left<=1124){
 		camion_1.paso=2;
-		$('#camion').css({'background':'url("'+Path+'/images/mapa/vehiculos/camion-1/camion-4.png")','z-index':'15'});
+		$('#camion').css({'z-index':'15'});
+		$('#camion1').css({'opacity':'0'});
+		$('#camion2').css({'opacity':'0'});
+		$('#camion3').css({'opacity':'0'});
+		$('#camion4').css({'opacity':'1'});
 	}else if(camion_1.paso==2 && camion_1.top<=607 && camion_1.left>=1220){
 		camion_1.paso=3;
-		$('#camion').css({'background':'url("'+Path+'/images/mapa/vehiculos/camion-1/camion-1.png")'});
+		$('#camion1').css({'opacity':'1'});
+		$('#camion2').css({'opacity':'0'});
+		$('#camion3').css({'opacity':'0'});
+		$('#camion4').css({'opacity':'0'});
 	}else if(camion_1.paso==3 && camion_1.top<=289 && camion_1.left<=606){
 		camion_1.paso=4;
-		$('#camion').css({'background':'url("'+Path+'/images/mapa/vehiculos/camion-1/camion-4.png")','z-index':'5'});
+		$('#camion').css({'z-index':'5'});
+		$('#camion1').css({'opacity':'0'});
+		$('#camion2').css({'opacity':'0'});
+		$('#camion3').css({'opacity':'0'});
+		$('#camion4').css({'opacity':'1'});
 	}else if(camion_1.paso==4 && camion_1.top<=533 && camion_1.left>=910){
 		camion_1.paso=5;
-		$('#camion').css({'background':'url("'+Path+'/images/mapa/vehiculos/camion-1/camion-3.png")'});
+		$('#camion1').css({'opacity':'0'});
+		$('#camion2').css({'opacity':'0'});
+		$('#camion3').css({'opacity':'1'});
+		$('#camion4').css({'opacity':'0'});
 	}else if(camion_1.paso==5 && camion_1.top>=443 && camion_1.left>=1540){
 		camion_1.paso=6;
-		$('#camion').css({'background':'url("'+Path+'/images/mapa/vehiculos/camion-1/camion-2.png")','z-index':'15'});
+		$('#camion').css({'z-index':'15'});
+		$('#camion1').css({'opacity':'0'});
+		$('#camion2').css({'opacity':'1'});
+		$('#camion3').css({'opacity':'0'});
+		$('#camion4').css({'opacity':'0'});
 	}else if(camion_1.paso==6 && camion_1.top>=507 && camion_1.left<=1412){
 		camion_1.paso=7;
-		$('#camion').css({'background':'url("'+Path+'/images/mapa/vehiculos/camion-1/camion-3.png")','z-index':'5'});
+		$('#camion').css({'z-index':'5'});
+		$('#camion1').css({'opacity':'0'});
+		$('#camion2').css({'opacity':'0'});
+		$('#camion3').css({'opacity':'1'});
+		$('#camion4').css({'opacity':'0'});
 	}else if(camion_1.paso==7 && camion_1.top>=829 && camion_1.left>=2040){
 		camion_1.paso=8;
-		$('#camion').css({'background':'url("'+Path+'/images/mapa/vehiculos/camion-1/camion-2.png")','z-index':'15'});
+		$('#camion').css({'z-index':'15'});
+		$('#camion1').css({'opacity':'0'});
+		$('#camion2').css({'opacity':'1'});
+		$('#camion3').css({'opacity':'0'});
+		$('#camion4').css({'opacity':'0'});
 	}else if(camion_1.paso==8 && camion_1.top>=973 && camion_1.left<=1728){
 		camion_1.paso=1;
 		camion_1.top=973;
 		camion_1.left=1728;
-		$('#camion').css({'background':'url("'+Path+'/images/mapa/vehiculos/camion-1/camion-1.png")','z-index':'15'});
+		$('#camion').css({'z-index':'15'});
+		$('#camion1').css({'opacity':'1'});
+		$('#camion2').css({'opacity':'0'});
+		$('#camion3').css({'opacity':'0'});
+		$('#camion4').css({'opacity':'0'});
 	}
 	switch (camion_1.paso) {
 		case 1:
