@@ -29,7 +29,7 @@
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P3LPRCH"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<!-- End Google Tag Manager (noscript) -->
-		<!--<?=$this->renderElement("header")?>-->
+		<?/*=$this->renderElement("header")*/?>
 		<div class="wrapper ">
 			<?
 			$url =$_SERVER['REQUEST_URI'];
