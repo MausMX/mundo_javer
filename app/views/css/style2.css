@@ -172,6 +172,7 @@ background-size: cover;}
 #preregistro.index .container-gracias-center .rounded-left{border-top-right-radius: 1rem !important;}
 .img-registro-main{position:relative !important;}
 .img-registro-main img{width:100% !important;}
+.pre-regis .padding-registro{padding-top:20px !important;}
 .padding-registro{padding-left:5px !important; padding-right:5px !important;padding-top: 30px !important;}
 .container-title-registro h1,.container-title-registro h2{text-align:center;line-height: 20px;}
 .g-recaptcha{transform: scale(0.80);-webkit-transform:scale(0.80);transform-origin: 0 0;-webkit-transform-origin: 0 0;}
@@ -313,6 +314,9 @@ background-size: cover;}
 #preregistro.index .img-registro-main{margin-top:-40px !important;}
 #preregistro.index .container-gracias-center{padding-left:15px !important;padding-right:15px !important;}
 #preregistro.index .container-gracias-center .rounded-left{border-top-right-radius: 1rem !important;}
+.pre-regis .padding-registro{padding-top:20px !important;}
+.pre-regis .container-title-registro{padding-bottom:10px !important;}
+.pre-regis .container-title-registro .font-30{font-size:28px !important;}
 .padding-registro{padding-left:5px !important; padding-right:5px !important;padding-top:0px !important;}
 .container-title-registro h1,.container-title-registro h2{text-align:center;line-height: 25px;}
 .font-30{font-size: 24px;}
@@ -433,6 +437,8 @@ body{background-size:cover !important;}
 
 /*Registro*/
 .padding-registro{padding-left:1rem !important; padding-right:1rem !important;padding-top:0px !important;}
+.pre-regis .padding-registro{padding-top:40px !important;}
+.pre-regis .container-title-registro .font-30{font-size:31px !important;}
 .px-5.pt-3.padding-registro{padding-left:0px !important; padding-right:0px !important;}
 .g-recaptcha{transform: scale(0.55) !important;-webkit-transform:scale(0.55) !important;transform-origin: 0 0 !important;-webkit-transform-origin: 0 0 !important;}
 .container-title-registro{padding-left: 0px !important;padding-right: 0px !important;padding-bottom: 0px !important;}
@@ -507,6 +513,9 @@ body{background-size:cover !important;}
 .ciudades .ingresos-info{padding-right:0px !important;}
 .ciudades .wp-location{padding-right:0px !important;}
 .padding-registro{padding-left:2rem !important; padding-right:2rem !important;padding-top:0px !important;}
+.pre-regis .padding-registro{padding-top:40px !important;}
+.pre-regis .container-title-registro .font-30{font-size:31px !important;}
+.pre-regis .container-title-registro .pl-5{padding-left:1.5rem !important;}
 #preregistro.index .img-registro-main {
     margin-top: -10px;
 }
