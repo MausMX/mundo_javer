@@ -247,6 +247,7 @@ header:not(.pre-header){height: 160px;position:relative; z-index: 9;}
 .acerca-de tr{display:contents;}
 .acerca-de .img-acerca-de{width:100%;}
 
+.space-termino{padding-left:0px !important;padding-right:0px !important;}
 
 /*.ciudades .wp-ingresos{padding-left:0px !important;padding-right:0px !important;}*/
 }
