@@ -80,11 +80,7 @@ $(window).on("load",function(){
 	altura_wrapper_fixed();
 	myVar = setInterval(animacion_inicial, 100);
 });
-$('.bxslider_detalle').bxSlider({
-	auto: true,
-	stopAutoOnClick: true,
-	pager: false
-});
+
 
 function altura_wrapper_fixed(){
 	altura_ventana=$(window).height();
