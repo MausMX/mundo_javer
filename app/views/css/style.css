@@ -58,7 +58,8 @@ input[type=text],input[type=email]{/*background: url(../../../images/registro/bg
 #preregistro.gracias .bg-white{background: url(../../../images/registro/bg_registro.png) 40px bottom no-repeat;}
 header{background: url(../../../images/general/enredaderas_menu.png) no-repeat center -20px;background-size: 1380px;z-index: 100;position: relative;}
 #preregistro.index .img-registro-main{margin-top: -100px;}
-#preregistro header{background:none;}
+#preregistro header,
+#terminos header{background:none;}
 footer{position:relative;z-index: 10;}
 .contacto_whatsapp{position: absolute;top:-50%;right: 25px;}
 .animation{
