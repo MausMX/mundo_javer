@@ -7,19 +7,23 @@
 	public function index($page="1"){
 		$this->title_for_layout("Mundo Javer");
 		$hoy=date("Y-m-d H:i:s");
-		if($hoy>='2021-10-01 00:00' and $hoy<'2021-10-08 09:00'){
-			$this->view->contador_active=0;
-			$this->view->setLayout("clean");
-			$this->render('preheat');
-		}elseif($hoy>='2021-10-08 09:00' and $hoy<'2021-10-15 00:00'){
-			$this->view->contador_active=1;
-			$this->view->setLayout("clean");
-			$this->render('contador');
-		}elseif($hoy>='2021-11-01 00:00'){
-			$this->view->setLayout("preregistro");
+		if($_SERVER['REMOTE_ADDR']=='189.181.204.198' or $_SERVER['REMOTE_ADDR']=='187.188.64.214'){
 			$this->render();
 		}else{
-			$this->render();
+			if($hoy>='2021-10-01 00:00' and $hoy<'2021-10-08 09:00'){
+				$this->view->contador_active=0;
+				$this->view->setLayout("clean");
+				$this->render('preheat');
+			}elseif($hoy>='2021-10-08 09:00' and $hoy<'2021-10-15 00:00'){
+				$this->view->contador_active=1;
+				$this->view->setLayout("clean");
+				$this->render('contador');
+			}elseif($hoy>='2021-11-01 00:00'){
+				$this->view->setLayout("preregistro");
+				$this->render();
+			}else{
+				$this->render();
+			}
 		}
 	}
 	public function contador($page="1"){
