@@ -71,7 +71,12 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js'></script>
 		<script type="text/javascript" src="<?=Path?>/app/libs/js/script.js?202110051256"></script>
-		<?=$this->html->includeJs("script_contador");?>
+		<?
+			if($contador_active!=0){
+				echo $this->html->includeJs("script_contador");
+			}
+			
+		?>
 		<script async src=https://www.googletagmanager.com/gtag/js?id=G-GSMHZV3KJJ></script>
 		<script>
   			window.dataLayer = window.dataLayer || [];
