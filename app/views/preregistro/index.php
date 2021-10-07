@@ -1,5 +1,5 @@
 <?php $ahora=date("YmdHis")?>
-<div class="container font-poppins">
+<div class="container font-poppins pre-regis">
     <div class="row mb-5 container-gracias-center" style="position: relative;">
         <div class="col-lg-4 col-md-4 bg-black rounded-left p-0 text-md-center text-lg-left">
             <a id="btn-back" class="d-block d-lg-none d-md-none d-xl-none" href="<?=Path?>" style="z-index:10;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
