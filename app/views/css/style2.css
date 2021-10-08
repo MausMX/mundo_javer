@@ -86,7 +86,6 @@ a.next-frac::before{      content: "";
   position:relative;
   width: 100%;
   max-width: auto;
-      display: flex !important;
     align-items: end;
   /*height: 90vh;
   max-height: auto;*/
@@ -102,7 +101,7 @@ a.next-frac::before{      content: "";
   width: 100%;
   height: 50px; 
   padding: 1.5em;
-  border-radius: 2em;
+  border-radius: 1em;
   font-family: sans-serif;
   z-index: 1; 
   background-color: white;
@@ -124,6 +123,8 @@ margin-bottom: 8%;
   background-color: white;
   transform: skewX(45deg);
 }
+
+.img-conf .player img{width:80px;height:80px;}
 
 @media (min-width:320px) and (max-width:480px){	
 body{background-size:cover !important;}
@@ -298,6 +299,11 @@ header:not(.pre-header){height: 160px;position:relative; z-index: 9;}
 
 .space-termino{padding-left:0px !important;padding-right:0px !important;}
 
+.container.pb-5{padding-bottom:0px !important;}
+
+.img-conf .player img{width:50%;}
+
+.globo{height:43px !important;top: 6px !important;}
 
 /*.ciudades .wp-ingresos{padding-left:0px !important;padding-right:0px !important;}*/
 }
@@ -451,6 +457,8 @@ header:not(.pre-header){height: 219px;position:relative;z-index:9;}
 .acerca-de .state-acerca{padding-left:40px !important;}
 body div.acerca-de .presencia-estado{font-size:16px !important;}
 .font-44 {font-size: 34px;}
+
+.img-conf .player img{width:40%;}
 }
 @media (min-width:768px) and (max-width: 991px){
 body{background-size:cover !important;}

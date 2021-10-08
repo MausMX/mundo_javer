@@ -103,7 +103,7 @@
             </div>
             <div class="bg-white text-black p-0 d-block d-md-none d-lg-none d-xl-none">
             	<div class="col-12 p-0 col-padding-acerca">
-                	<img class="w-100" src="<?=Path?>/images/acerca/mapa_mobile.png">
+                	<img class="w-100" src="<?=Path?>/images/acerca/acerca_mapa_mobile.png">
                 </div>
             </div>
             <div class="bg-white text-black pt-0 pb-0 pl-4 pr-4 d-block d-md-none d-lg-none d-xl-none">
@@ -137,7 +137,7 @@
                             <table width="100%">
                                 <tr>
                                     <td width="40%">
-                                        <img src="<?=Path?>/images/acerca/img_responsabilidad.png">
+                                        <img src="<?=Path?>/images/acerca/greatplace.jpg">
                                     </td>                                   
                                 </tr>
                                 <tr>
