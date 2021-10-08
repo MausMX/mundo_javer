@@ -19,7 +19,7 @@
 						<a class="nav-link" href="<?=Path?>/conferencias">Conferencias</a>
 					</li>
 					<li class="nav-item <?=$controllerName=='registro'?'active':'';?>">
-						<a class="nav-link" href="<?=Path?>/registro">Registro para premio</a>
+						<a class="nav-link" href="<?=Path?>/registro/pasos_regalo">Registro para premio</a>
 					</li>
 				</ul>
 				<ul class="navbar-nav ml-auto pr-3 social-redes">
