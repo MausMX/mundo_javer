@@ -7,8 +7,8 @@
 		<div class="col-xl-1 col-lg-1 col-md-2 col-4 py-2 font-10 info-footer regalo-footer-m d-block d-md-none d-lg-none d-xl-none">
 			<a target="_blank" class="d-inline-block" href="#"><img src="<?=Path?>/images/preregistro/regalo_preheat.png"></a>
 		</div>
-		<div class="col-xl-1 col-lg-1 col-md-2 col-7 pl-0 py-2 font-10 info-footer vineta d-block d-md-none d-lg-none d-xl-none">
-			<p class="globo">Conoce los regalos que tenemos para ti</p>
+		<div class="col-xl-1 col-lg-1 col-md-2 col-7 pl-0 py-2 font-10 info-footer vineta d-flex d-md-none d-lg-none d-xl-none">
+			<p class="globo font-sweet-sans-pro bold">REGÍSTRATE, ESCRITURA Y ¡GANA!</p>
 		</div>
 	</div>
 </div>
