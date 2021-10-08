@@ -108,7 +108,15 @@
            	<?
             }
             ?>
+
            <div class="col-lg-12 bg-white py-5 rounded-bottom" style="position: relative;">
+           	    <div class="col-12 d-lg-none f-left d-md-none d-xl-none">
+	       			<div class="col-lg-12 pr-0 pl-0 mb-4 title-asesores">
+		            	<p class="mb-0 font-30 poppins bold line-height-26">Contacta a uno de nuestros asesores</p>
+	                </div>
+		       		<div class="col-lg-11 pl-2 btn-contacta">
+	                </div>
+	            </div>
            		<div class="col-lg-12 interes-desarrollo mb-5">
 	       			<p class="mb-0 font-30 poppins bold DA291C">¿Te interesa este fraccionamiento?</p>
 	       		</div>
@@ -126,7 +134,7 @@
                     <a class="btn btn-danger pl-3 pr-4 text-uppercase font-10 poppins py-2" target="_blank" href="<?= $maps?>"><img class="pr-1 logo-location-maps" src="<?=Path?>/images/desarrollo/location_google.png"><strong>Abrir en google maps</strong></a>
 	                </div>
 	            </div>
-	            <div class="col-lg-4 f-left offset-lg-0 col-md-6 col-xl-4">
+	            <div class="d-none col-lg-4 f-left offset-lg-0 col-md-6 col-xl-4 d-lg-block d-xl-block">
 	       			<div class="col-lg-12 pr-0 pl-0 mb-4 title-asesores">
 		            	<p class="mb-0 font-30 poppins bold line-height-26">Contacta a uno de nuestros asesores</p>
 	                </div>

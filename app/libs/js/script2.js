@@ -23,7 +23,7 @@ window.addEventListener("resize", function(){
 },false);
 
 $(window).on("load",function(){
-	altura_wrapper_fixed();
+	altura_wrapper_fixed();	
 });
 
 $('.bxslider_detalle').bxSlider({
@@ -31,6 +31,7 @@ $('.bxslider_detalle').bxSlider({
   stopAutoOnClick: true,
   pager: false
 });
+
 
 function altura_wrapper_fixed(){
     altura_ventana=$(window).height();
@@ -46,3 +47,21 @@ function altura_wrapper_fixed(){
     $(".container-gracias-center").css({'padding-top':"0px"});
     }
 }
+$(document).ready(function(){
+	if(typeof estado_activo !== typeof undefined){
+		$.ajax({
+			//data:  parametros,
+			type: 'POST',
+			url: Path+"/index/whatsapp_disponible/"+estado_activo+"/",
+			dataType: 'json',
+		}).done(function(data) {
+			console.log("No contamos con asesores este díasssssssss");
+			$("footer").append('<div class="contacto_whatsapp"><a target="_blank" class="d-inline-block" href="'+Path+'/index/whatsapp/'+estado_activo+'/"><img src="'+Path+'/images/footer/ico_whatsapp.png"></a></div>');
+			$(".btn-contacta").append('<a class="btn btn-danger pl-3 pr-4 text-uppercase font-10 poppins py-2" href="'+Path+'/index/whatsapp/'+estado_activo+'/"><img class="pr-1 logo-wp-btn" src="'+Path+'/images/desarrollo/wp-btn.png"><strong>Contactar asesor</strong></a>');
+		}).fail(function() {
+			console.log("No contamos con asesores este díasssssssssss");
+			$(".btn-contacta").append('<a class="btn btn-danger pl-3 pr-4 text-uppercase font-10 poppins py-2" href="'+Path+'/index/whatsapp/'+estado_activo+'/"><img class="pr-1 logo-wp-btn" src="'+Path+'/images/desarrollo/WhatsApp_Icon_72x72.png"><strong>Contactar asesor</strong></a>');
+		}); 
+	} 
+});
+
