@@ -117,6 +117,15 @@ footer{position:relative;z-index: 10;}
     right: 0;
     top: 0;
 }
+#edificio_7{
+    background: url('../../../images/mapa/edificios_entorno/edificio_7.png');
+    width:313px;
+    height:163px;
+    top:474px;
+    left:1508px;
+    position:absolute;
+    z-index: 20;
+}
 #edificio_8{
     background: url('../../../images/mapa/edificios_entorno/edificio_8.png');
     width:221px;
