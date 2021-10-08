@@ -2,8 +2,9 @@
 <div id="area_mapa">
     <div id="mapa">
         <div class="animation" id="entorno"></div>
-        <div id="edificio_8"></div>
+        <div id="edificio_2"></div>
         <div id="edificio_7"></div>
+        <div id="edificio_8"></div>
         <div class="animation" id="nuevoleon"></div>
         <div class="animation" id="aguascalientes"></div>
         <div class="animation" id="corporativo"></div>
