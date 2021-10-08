@@ -117,11 +117,21 @@ footer{position:relative;z-index: 10;}
     right: 0;
     top: 0;
 }
+#edificio_8{
+    background: url('../../../images/mapa/edificios_entorno/edificio_8.png');
+    width:221px;
+    height:149px;
+    top:785px;
+    left:1202px;
+    position:absolute;
+    z-index: 30;
+}
 #camion{width:80px;height:80px;top:973px;left:1728px;position:absolute;opacity:0;}
 #camion1{background: url('../../../images/mapa/vehiculos/camion-1/camion-1.png');width:100%;height:100%;display:block;opacity:1;position:absolute;left:0;top:0;}
 #camion2{background: url('../../../images/mapa/vehiculos/camion-1/camion-2.png');width:100%;height:100%;display:block;opacity:0;position:absolute;left:0;top:0;}
 #camion3{background: url('../../../images/mapa/vehiculos/camion-1/camion-3.png');width:100%;height:100%;display:block;opacity:0;position:absolute;left:0;top:0;}
 #camion4{background: url('../../../images/mapa/vehiculos/camion-1/camion-4.png');width:100%;height:100%;display:block;opacity:0;position:absolute;left:0;top:0;}
+
 
 
 .animation.active,
