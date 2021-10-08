@@ -80,6 +80,51 @@ a.next-frac::before{      content: "";
 /*NUEVO*/
 .contenido-conferencias .contenido{height: 280px;}
 
+
+
+.vineta{
+  position:relative;
+  width: 100%;
+  max-width: auto;
+      display: flex !important;
+    align-items: end;
+  /*height: 90vh;
+  max-height: auto;*/
+  /*Opcionalmente con box-shadow, creamos varias sombras, para simular un marco*/
+  /*box-shadow: 
+    0 0 0 1px black,
+    0 0 0 6px white,
+    0 0 0 7px black;*/
+}
+
+.globo{
+  position: relative;
+  width: 100%;
+  height: 50px; 
+  padding: 1.5em;
+  border-radius: 2em;
+  font-family: sans-serif;
+  z-index: 1; 
+  background-color: white;
+  filter: drop-shadow(0px 0px 1px black) ;
+  display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 8%;
+}
+
+.globo::before{
+  content: '';
+  position: absolute; 
+  z-index: -1;
+  width: 10px;
+  height: 10px;
+  left: -5px;
+  top: 20px;
+  background-color: white;
+  transform: skewX(45deg);
+}
+
 @media (min-width:320px) and (max-width:480px){	
 body{background-size:cover !important;}
 footer .container .logo-footer{justify-content: left !important;}
@@ -252,6 +297,7 @@ header:not(.pre-header){height: 160px;position:relative; z-index: 9;}
 .acerca-de .img-acerca-de{width:100%;}
 
 .space-termino{padding-left:0px !important;padding-right:0px !important;}
+
 
 /*.ciudades .wp-ingresos{padding-left:0px !important;padding-right:0px !important;}*/
 }
