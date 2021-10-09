@@ -46,9 +46,9 @@ footer .container .logo-footer{justify-content: right;}
 
 .carousel-control-next span,.carousel-control-prev span{font-size:35px; color:#000000;}
 .logo-location-maps{margin-top:-16px;}
-.logo-wp-btn{margin-top:-20px;}
+.logo-wp-btn{margin-top:-20px;width:52px !important;}
 a.prev-frac,a.prev-frac:hover{border:1px solid white;}
-a.prev-frac::before{      content: "";
+a.prev-frac::before{content: "";
     background: white;
     position: absolute;
     bottom: 1px;
