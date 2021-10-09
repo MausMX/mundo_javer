@@ -96,27 +96,28 @@ footer{position:relative;z-index: 10;}
     top:715px;
     left:350px;
     position:absolute;
-    z-index: 20;
+    z-index: 40;
 }
 
 #jalisco{background: url('../../../images/mapa/jal.png');width:538px;height:351px;top:739px;left:439px;position:absolute;opacity:0;z-index: 20;}
+#jalisco .pin{background:url('../../../images/mapa/pin.png');width:48px;height:49px;top:224px;left:354px;position:absolute;}
 #edomex{background: url('../../../images/mapa/edommex.png');width:521px;height:299px;top:634px;left:754px;position:absolute;opacity:0;z-index: 10;}
-#aguascalientes{background: url('../../../images/mapa/aguascalientes.png');width:397px;height:198px;top:639px;left:418px;position:absolute;opacity:0;z-index: 10;}
+#edomex .pin{background:url('../../../images/mapa/pin.png');width:48px;height:49px;top:154px;left:354px;position:absolute;}
+#aguascalientes{background: url('../../../images/mapa/aguascalientes.png');width:397px;height:198px;top:639px;left:418px;position:absolute;opacity:0;z-index: 30;}
+#aguascalientes .pin{background:url('../../../images/mapa/pin.png');width:48px;height:49px;top:11px;left:167px;position:absolute;}
 #quintanaroo{background: url('../../../images/mapa/quintana_roo.png');width:565px;height:348px;top:674px;left:1505px;position:absolute;opacity:0;z-index: 10;}
+#quintanaroo .pin{background:url('../../../images/mapa/pin.png');width:48px;height:49px;top:205px;left:205px;position:absolute;}
 #queretaro{background: url('../../../images/mapa/queretaro.png');width:575px;height:371px;top:488px;left:1174px;position:absolute;opacity:0;z-index: 20;}
+#queretaro .pin{background:url('../../../images/mapa/pin.png');width:48px;height:49px;top:225px;left:405px;position:absolute;}
 #tamaulipas{background: url('../../../images/mapa/tamaulipas.png');width:335px;height:167px;top:305px;left:1425px;position:absolute;opacity:0;z-index: 10;}
+#tamaulipas .pin{background:url('../../../images/mapa/pin.png');width:48px;height:49px;top:40px;left:75px;position:absolute;}
 #regalo{background: url('../../../images/mapa/regalo.png');width:229px;height:224px;top:467px;left:1008px;position:absolute;opacity:0;z-index: 20;}
 #nuevoleon{background: url('../../../images/mapa/nuevo_leon.png');width:890px;height:477px;top:157px;left:663px;position:absolute;opacity:0;z-index: 10;}
+#nuevoleon .pin{background:url('../../../images/mapa/pin.png');width:48px;height:49px;top:265px;left:494px;position:absolute;}
 #corporativo{background: url('../../../images/mapa/corporativo.png');width:515px;height:427px;top:291px;left:585px;position:absolute;opacity:0;z-index: 20;}
+#corporativo .pin{background:url('../../../images/mapa/pin.png');width:48px;height:49px;top:85px;left:75px;position:absolute;}
 #globo{background: url('../../../images/mapa/globo.png');width:163px;height:349px;top:372px;left:690px;position:absolute;opacity:0;animation: move_globe 5s infinite;z-index:20;}
-#globo a{
-    display: block;
-    width: 106px;
-    height: 150px;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
+#globo a{display:block;width:106px;height:150px;position:absolute;right:0;top:0;}
 #edificio_2{background:url('../../../images/mapa/edificios_entorno/edificio_2.png');width:358px;height:356px;opacity:0;top:175px;left:441px;position:absolute;z-index:19;}
 #edificio_3{background:url('../../../images/mapa/edificios_entorno/edificio_3.png');width:443px;height:278px;opacity:0;top:442px;left:123px;position:absolute;z-index:18;}
 #edificio_4{background:url('../../../images/mapa/edificios_entorno/edificio_4.png');width:311px;height:481px;opacity:0;top:349px;left:24px;position:absolute;z-index:19;}
@@ -144,6 +145,8 @@ footer{position:relative;z-index: 10;}
 #edificio_8.active{
     opacity: 1 !important;
 }
+.pin{z-index:50;}
+.pin:hover{margin-top:-10px;}
 
 @keyframes move_globe {
     0% {
