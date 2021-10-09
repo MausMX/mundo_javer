@@ -138,7 +138,7 @@ function animacion_inicial() {
 			break;
 	}
 	camion_1_animacion();
-	if(contador>28){
+	if(contador>28 && carro_1.paso<13){
 		carro_1_animacion();
 	}
 }
