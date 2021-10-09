@@ -3,6 +3,7 @@
     <div id="mapa">
         <div class="animation" id="entorno"></div>
         <div id="edificio_2"></div>
+        <div id="edificio_3"></div>
         <div id="edificio_7"></div>
         <div id="edificio_8"></div>
         <div class="animation" id="nuevoleon"></div>

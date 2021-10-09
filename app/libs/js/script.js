@@ -100,6 +100,10 @@ function animacion_inicial() {
 	switch (contador) {
 		case 3:
 			$('#regalo').addClass('active');
+			$('#edificio_2').addClass('active');
+			$('#edificio_3').addClass('active');
+			$('#edificio_7').addClass('active');
+			$('#edificio_8').addClass('active');
 			break;
 		case 9:
 			$('#corporativo').addClass('active');
