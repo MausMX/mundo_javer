@@ -119,6 +119,7 @@ footer{position:relative;z-index: 10;}
 }
 #edificio_2{background:url('../../../images/mapa/edificios_entorno/edificio_2.png');width:358px;height:356px;opacity:0;top:175px;left:441px;position:absolute;z-index:19;}
 #edificio_3{background:url('../../../images/mapa/edificios_entorno/edificio_3.png');width:443px;height:278px;opacity:0;top:442px;left:123px;position:absolute;z-index:18;}
+#edificio_4{background:url('../../../images/mapa/edificios_entorno/edificio_4.png');width:311px;height:481px;opacity:0;top:349px;left:24px;position:absolute;z-index:19;}
 #edificio_7{background:url('../../../images/mapa/edificios_entorno/edificio_7.png');width:313px;height:163px;opacity:0;top:474px;left:1508px;position:absolute;z-index:20;}
 #edificio_8{background:url('../../../images/mapa/edificios_entorno/edificio_8.png');width:221px;height:149px;opacity:0;top:785px;left:1202px;position:absolute;z-index:30;}
 #camion{width:80px;height:80px;top:973px;left:1728px;position:absolute;opacity:0;}
@@ -138,6 +139,7 @@ footer{position:relative;z-index: 10;}
 #carro_1.active,
 #edificio_2.active,
 #edificio_3.active,
+#edificio_4.active,
 #edificio_7.active,
 #edificio_8.active{
     opacity: 1 !important;

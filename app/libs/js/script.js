@@ -102,6 +102,7 @@ function animacion_inicial() {
 			$('#regalo').addClass('active');
 			$('#edificio_2').addClass('active');
 			$('#edificio_3').addClass('active');
+			$('#edificio_4').addClass('active');
 			$('#edificio_7').addClass('active');
 			$('#edificio_8').addClass('active');
 			break;
@@ -137,7 +138,9 @@ function animacion_inicial() {
 			break;
 	}
 	camion_1_animacion();
-	carro_1_animacion();
+	if(contador>28){
+		carro_1_animacion();
+	}
 }
 
 function camion_1_animacion() {
