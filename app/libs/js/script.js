@@ -1,6 +1,7 @@
 var myVar;
 var contador=0;
 var camion_1={top:973,left:1728,paso:1};
+var carro_1={top:248,left:914,paso:1};
 $(function() {
 	$('#detalle').on('hidden.bs.modal',function(){location.hash='';$("#detalle .modal-body").html("");$(this).removeData('bs.modal');});
 	$('#detalle').on('show.bs.modal', function(event){var href=$(event.relatedTarget).attr("href");$('#detalle .modal-content').load(href,function(){$("#loading").hide();});});
@@ -19,7 +20,7 @@ $(function() {
 			},1000);
 	});
 	altura_wrapper_fixed();
-	if(typeof estado_activo !== typeof undefined){
+	/*if(typeof estado_activo !== typeof undefined){
 		$.ajax({
 			//data:  parametros,
 			type: 'POST',
@@ -31,7 +32,7 @@ $(function() {
 		}).fail(function() {
 			console.log("No contamos con asesores este día");
 		});
-	}
+	}*/
 	$(".estado").on('change',function(){
 		switch ($(this).val()) {
 			case 'Nuevo León':
@@ -132,6 +133,7 @@ function animacion_inicial() {
 			break;
 	}
 	camion_1_animacion();
+	carro_1_animacion();
 }
 
 function camion_1_animacion() {
@@ -236,4 +238,133 @@ function camion_1_animacion() {
 			$('#camion').css({'top':camion_1.top+'px','left':camion_1.left+'px'});
 			break;
 	}
+}
+
+function carro_1_animacion() {
+	$('#carro_1').addClass('active');
+	if(carro_1.paso==1 && carro_1.top>=258 && carro_1.left>=934){
+		carro_1.paso=2;
+		$('#carro_1_1').css({'opacity':'0'});
+		$('#carro_1_2').css({'opacity':'1'});
+		$('#carro_1_3').css({'opacity':'0'});
+		$('#carro_1_4').css({'opacity':'0'});
+	}else if(carro_1.paso==2 && carro_1.top<=200 && carro_1.left>=1050){
+		carro_1.paso=3;
+		$('#carro_1_1').css({'opacity':'1'});
+		$('#carro_1_2').css({'opacity':'0'});
+		$('#carro_1_3').css({'opacity':'0'});
+		$('#carro_1_4').css({'opacity':'0'});
+	}else if(carro_1.paso==3 && carro_1.top<=140 && carro_1.left<=930){
+		carro_1.paso=4;
+		$('#carro_1_1').css({'opacity':'0'});
+		$('#carro_1_2').css({'opacity':'0'});
+		$('#carro_1_3').css({'opacity':'0'});
+		$('#carro_1_4').css({'opacity':'1'});
+	}else if(carro_1.paso==4 && carro_1.top>=422 && carro_1.left<=366){
+		carro_1.paso=5;
+		$('#carro_1_1').css({'opacity':'0'});
+		$('#carro_1_2').css({'opacity':'0'});
+		$('#carro_1_3').css({'opacity':'1'});
+		$('#carro_1_4').css({'opacity':'0'});
+	}else if(carro_1.paso==5 && carro_1.top>=530 && carro_1.left>=582){
+		carro_1.paso=6;
+		//$('#carro_1').css({'z-index':'15'});
+		$('#carro_1_1').css({'opacity':'0'});
+		$('#carro_1_2').css({'opacity':'0'});
+		$('#carro_1_3').css({'opacity':'0'});
+		$('#carro_1_4').css({'opacity':'1'});
+	}else if(carro_1.paso==6 && carro_1.top>=570 && carro_1.left<=502){
+		carro_1.paso=7;
+		$('#carro_1_1').css({'opacity':'0'});
+		$('#carro_1_2').css({'opacity':'0'});
+		$('#carro_1_3').css({'opacity':'1'});
+		$('#carro_1_4').css({'opacity':'0'});
+	}else if(carro_1.paso==7 && carro_1.top>=606 && carro_1.left>=574){
+		carro_1.paso=8;
+		$('#carro_1_1').css({'opacity':'0'});
+		$('#carro_1_2').css({'opacity':'0'});
+		$('#carro_1_3').css({'opacity':'0'});
+		$('#carro_1_4').css({'opacity':'1'});
+	}else if(carro_1.paso==8 && carro_1.top>=722 && carro_1.left<=342){
+		carro_1.paso=9;
+		$('#carro_1_1').css({'opacity':'0'});
+		$('#carro_1_2').css({'opacity':'0'});
+		$('#carro_1_3').css({'opacity':'1'});
+		$('#carro_1_4').css({'opacity':'0'});
+	}else if(carro_1.paso==9 && carro_1.top>=838 && carro_1.left>=574){
+		carro_1.paso=10;
+		$('#carro_1_1').css({'opacity':'0'});
+		$('#carro_1_2').css({'opacity':'0'});
+		$('#carro_1_3').css({'opacity':'0'});
+		$('#carro_1_4').css({'opacity':'1'});
+	}else if(carro_1.paso==10 && carro_1.top>=936 && carro_1.left<=378){
+		carro_1.paso=11;
+		$('#carro_1_1').css({'opacity':'0'});
+		$('#carro_1_2').css({'opacity':'0'});
+		$('#carro_1_3').css({'opacity':'1'});
+		$('#carro_1_4').css({'opacity':'0'});
+	}else if(carro_1.paso==11 && carro_1.top>=1084 && carro_1.left>=674){
+		carro_1.paso=12;
+		$('#carro_1_1').css({'opacity':'0'});
+		$('#carro_1_2').css({'opacity':'0'});
+		$('#carro_1_3').css({'opacity':'0'});
+		$('#carro_1_4').css({'opacity':'1'});
+	}else if(carro_1.paso==12 && carro_1.top>=1120 && carro_1.left<=602){
+		carro_1.paso=13;
+		$('#carro_1_1').css({'opacity':'0'});
+		$('#carro_1_2').css({'opacity':'0'});
+		$('#carro_1_3').css({'opacity':'0'});
+		$('#carro_1_4').css({'opacity':'0'});
+	}
+	switch (carro_1.paso) {
+		case 1:
+			carro_1.top=carro_1.top+2;
+			carro_1.left=carro_1.left+4;
+			break;
+		case 2:
+			carro_1.top=carro_1.top-2;
+			carro_1.left=carro_1.left+4;
+			break;
+		case 3:
+			carro_1.top=carro_1.top-2;
+			carro_1.left=carro_1.left-4;
+			break;
+		case 4:
+			carro_1.top=carro_1.top+2;
+			carro_1.left=carro_1.left-4;
+			break;
+		case 5:
+			carro_1.top=carro_1.top+2;
+			carro_1.left=carro_1.left+4;
+			break;
+		case 6:
+			carro_1.top=carro_1.top+2;
+			carro_1.left=carro_1.left-4;
+			break;
+		case 7:
+			carro_1.top=carro_1.top+2;
+			carro_1.left=carro_1.left+4;
+			break;
+		case 8:
+			carro_1.top=carro_1.top+2;
+			carro_1.left=carro_1.left-4;
+			break;
+		case 9:
+			carro_1.top=carro_1.top+2;
+			carro_1.left=carro_1.left+4;
+			break;
+		case 10:
+			carro_1.top=carro_1.top+2;
+			carro_1.left=carro_1.left-4;
+			break;
+		case 11:
+			carro_1.top=carro_1.top+2;
+			carro_1.left=carro_1.left+4;
+			break;
+		case 12:
+			carro_1.top=carro_1.top+2;
+			carro_1.left=carro_1.left-4;
+			break;
+	}
+	$('#carro_1').css({'top':carro_1.top+'px','left':carro_1.left+'px'});
 }

@@ -99,7 +99,7 @@ footer{position:relative;z-index: 10;}
     z-index: 20;
 }
 
-#jalisco{background: url('../../../images/mapa/jal.png');width:538px;height:351px;top:739px;left:439px;position:absolute;opacity:0;z-index: 10;}
+#jalisco{background: url('../../../images/mapa/jal.png');width:538px;height:351px;top:739px;left:439px;position:absolute;opacity:0;z-index: 20;}
 #edomex{background: url('../../../images/mapa/edommex.png');width:521px;height:299px;top:634px;left:754px;position:absolute;opacity:0;z-index: 10;}
 #aguascalientes{background: url('../../../images/mapa/aguascalientes.png');width:397px;height:198px;top:639px;left:418px;position:absolute;opacity:0;z-index: 10;}
 #quintanaroo{background: url('../../../images/mapa/quintana_roo.png');width:565px;height:348px;top:674px;left:1505px;position:absolute;opacity:0;z-index: 10;}
@@ -126,10 +126,17 @@ footer{position:relative;z-index: 10;}
 #camion3{background: url('../../../images/mapa/vehiculos/camion-1/camion-3.png');width:100%;height:100%;display:block;opacity:0;position:absolute;left:0;top:0;}
 #camion4{background: url('../../../images/mapa/vehiculos/camion-1/camion-4.png');width:100%;height:100%;display:block;opacity:0;position:absolute;left:0;top:0;}
 
+#carro_1{width:30px;height:30px;top:248px;left:914px;position:absolute;opacity:0;z-index:15;}
+#carro_1_1{background: url('../../../images/mapa/vehiculos/carro-1/carro-1.png');width:100%;height:100%;display:block;opacity:0;position:absolute;left:0;top:0;}
+#carro_1_2{background: url('../../../images/mapa/vehiculos/carro-1/carro-2.png');width:100%;height:100%;display:block;opacity:0;position:absolute;left:0;top:0;}
+#carro_1_3{background: url('../../../images/mapa/vehiculos/carro-1/carro-3.png');width:100%;height:100%;display:block;opacity:1;position:absolute;left:0;top:0;}
+#carro_1_4{background: url('../../../images/mapa/vehiculos/carro-1/carro-4.png');width:100%;height:100%;display:block;opacity:0;position:absolute;left:0;top:0;}
+
 
 
 .animation.active,
-#camion.active{
+#camion.active,
+#carro_1.active{
     opacity: 1 !important;
 }
 

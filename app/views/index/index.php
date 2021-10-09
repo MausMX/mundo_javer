@@ -16,6 +16,7 @@
         <div class="animation" id="regalo"></div>
         <div class="animation" id="tamaulipas"></div>
         <div class="animation" id="edif_agu_jal"></div>
-        <div class="" id="camion"><div id="camion1"></div><div id="camion2"></div><div id="camion3"></div><div id="camion4"></div></div>
+        <div id="camion"><div id="camion1"></div><div id="camion2"></div><div id="camion3"></div><div id="camion4"></div></div>
+        <div id="carro_1"><div id="carro_1_1"></div><div id="carro_1_2"></div><div id="carro_1_3"></div><div id="carro_1_4"></div></div>
     </div>
 </div>
