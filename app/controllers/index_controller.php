@@ -7,7 +7,7 @@
 	public function index($page="1"){
 		$this->title_for_layout("Mundo Javer");
 		$hoy=date("Y-m-d H:i:s");
-		if($_SERVER['REMOTE_ADDR']=='189.181.204.198' or $_SERVER['REMOTE_ADDR']=='187.188.64.214'){
+		if($_SERVER['REMOTE_ADDR']=='189.181.204.198' or $_SERVER['REMOTE_ADDR']=='187.188.64.214' or $_SERVER['REMOTE_ADDR']=='189.178.230.34' or $_SERVER['REMOTE_ADDR']=='189.203.205.83' or $_SERVER['REMOTE_ADDR']=='189.213.0.38'){
 			$this->render();
 		}else{
 			if($hoy>='2021-10-01 00:00' and $hoy<'2021-10-08 09:00'){
