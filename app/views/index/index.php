@@ -15,7 +15,7 @@
         <div class="animation" id="jalisco"><div class="pin animation"></div></div>
         <div class="animation" id="queretaro"><div class="pin animation"></div></div>
         <div class="animation" id="quintanaroo"><div class="pin animation"></div></div>
-        <div class="animation" id="regalo"></div>
+        <div class="animation" id="regalo"><a class="d-block w-100" style="height: 100%;" href="<?=Path?>/registro/pasos_regalo"></a></div>
         <div class="animation" id="tamaulipas"><div class="pin animation"></div></div>
         <div class="animation" id="edif_agu_jal"></div>
         <div id="camion"><div id="camion1"></div><div id="camion2"></div><div id="camion3"></div><div id="camion4"></div></div>
