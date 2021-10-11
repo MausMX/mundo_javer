@@ -299,8 +299,7 @@ public function estados_disponibles($estado,$dia=''){
 				}
 			}
 		}
-			var_dump($e_disponibles);die();
-			echo $lp_actual=json_encode($lps_by_day[$dia]);
+			echo $lp_actual=json_encode($e_disponibles);
 	}
 	
 } ?>

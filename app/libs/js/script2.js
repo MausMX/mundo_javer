@@ -46,6 +46,10 @@ function altura_wrapper_fixed(){
     }else{
     $(".container-gracias-center").css({'padding-top':"0px"});
     }
+    if($('body').is('#index')){
+		altura_mapa=altura_ventana-altura_footer;
+		$('#area_mapa').css({'height':altura_mapa});
+	}
 }
 $(document).ready(function(){
 	if(typeof estado_activo !== typeof undefined){
