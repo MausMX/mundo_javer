@@ -73,17 +73,18 @@ $(function() {
 		$('#area_mapa').scrollLeft(scrollPosition);
 	}
 });
-window.addEventListener("resize", function(){
-	altura_wrapper_fixed();
+/*window.addEventListener("resize", function(){
+	altura_wrapper_fixed2();
 	//location.reload();
 },false);
+*/
 $(window).on("load",function(){
-	altura_wrapper_fixed();
+//	altura_wrapper_fixed2();
 	myVar = setInterval(animacion_inicial, 100);
 });
 
-
-function altura_wrapper_fixed(){
+/*
+function altura_wrapper_fixed2(){
 	altura_ventana=$(window).height();
     altura_footer=$("footer").height();
     altura_header=$("header").height();
@@ -93,7 +94,7 @@ function altura_wrapper_fixed(){
 		altura_mapa=altura_ventana-altura_footer;
 		$('#area_mapa').css({'height':altura_mapa});
 	}
-}
+}*/
 
 function animacion_inicial() {
 	contador++;
