@@ -33,7 +33,7 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 col-md-6"><input class="form-control mb-4" type="text" name="first_name" id="first_name" placeholder="Nombre" required maxlength="40"></div>
                             <div class="col-lg-6 col-md-6"><input class="form-control mb-4" type="text" name="last_name" id="last_name" placeholder="Apellidos" required maxlength="80"></div>
-                            <div class="col-lg-6 col-md-6"><input class="form-control mb-4" type="text" name="mobile" id="mobile" placeholder="WhatsApp" required minlength="10" maxlength="10"></div>
+                            <div class="col-lg-6 col-md-6"><input class="form-control mb-4" type="text" name="phone" id="phone" placeholder="WhatsApp" required minlength="10" maxlength="10"></div>
                             <div class="col-lg-6 col-md-6"><input class="form-control mb-4" type="email" name="email" id="email" placeholder="Correo" required maxlength="80"></div>
                             <div class="col-lg-6 col-md-6 align-self-start">
                                 <select class="form-control mb-4 font-10 estado" name="00N3l00000Q7A4v" id="00N3l00000Q7A4v" required>
