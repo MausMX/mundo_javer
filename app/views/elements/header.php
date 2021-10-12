@@ -9,7 +9,7 @@
 			</button>
 			<div id="menu-1" class="collapse navbar-collapse text-uppercase">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item">
+					<li>
 						<a class="nav-link" href="#">Fraccionamientos</a>
 					</li>
 					<li class="nav-item <?=$controllerName=='acerca'?'active':'';?>">

@@ -14,6 +14,16 @@
 .line-height-22{line-height: 22px;}
 .line-height-44{line-height: 44px;}
 .contacto_whatsappf{position: absolute;text-align: right;right: 62px;z-index: 11;width: 200px;margin-top: -100px;}
+.numE_6{top:-175px !important;}
+.numE_5{top:-145px !important;}
+.numE_4{top:-125px !important;}
+.numE_3{top:-105px !important;}
+.numE_2{top:-85px !important;}
+.numE_1{top:-65px !important;}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
 .contacto_whatsappf .detalle .contenido ul li {
     list-style: none;
 }
@@ -40,7 +50,7 @@ position: absolute;
 height: auto;
 width: 250px;
 display: block;
-top: -150px;
+top: -200px;
 right: 124px;
 z-index: 100;
 opacity: 0;
@@ -331,7 +341,7 @@ button.navbar-toggler.ml-auto{margin-left:0px !important;}
 header div.container.font-sweet-sans-pro.font-10 {font-size:12px !important;}
 .navbar-dark .navbar-toggler {color: rgba(255,255,255,1);}
 header{background: url(../../../images/header/enredadera_mobile_v2.png) no-repeat;background-position: 0px 70px !important;background-size: contain;}
-header:not(.pre-header){height: 160px;position:relative; z-index: 9;}
+header:not(.pre-header){height: 160px;position:relative; z-index: 51;}
 #menu-1 ul:first-child li:first-child{padding-left:0px !important;background-color: transparent !important;}
 .navbar-dark .navbar-nav .nav-link{margin-left:auto;margin-right:auto;}
 #menu-1 ul:first-child li a::after,#menu-1 ul:first-child li a::before{border-right:0px !important;}
@@ -490,7 +500,7 @@ button.navbar-toggler.ml-auto{margin-left:0px !important;}
 header div.container.font-sweet-sans-pro.font-10 {font-size:12px !important;margin-left: 0px !important; margin-right:0px !important;width: 100%;max-width: 100%;}
 .navbar-dark .navbar-toggler {color: rgba(255,255,255,1);}
 header{background: url(../../../images/header/enredadera_mobile_v2.png) no-repeat;background-position: 0px 70px !important;background-size: contain;}
-header:not(.pre-header){height: 219px;position:relative;z-index:9;}
+header:not(.pre-header){height: 219px;position:relative;z-index:51;}
 #menu-1 ul:first-child li:first-child{padding-left:0px !important;background-color: transparent !important;}
 .navbar-dark .navbar-nav .nav-link{margin-left:auto;margin-right:auto;}
 #menu-1 ul:first-child li a::after,#menu-1 ul:first-child li a::before{border-right:0px !important;}
@@ -603,7 +613,7 @@ header {
         background-size: auto;
     background-size: 1280px;
 }
-header:not(.pre-header){height: 219px;position:relative;z-index:9;}
+header:not(.pre-header){height: 219px;position:relative;z-index:51;}
 #menu-1 ul:first-child li:first-child{padding-left:0px !important;background-color: transparent !important;}
 .navbar-dark .navbar-nav .nav-link{margin-left:auto;margin-right:auto;}
 #menu-1 ul:first-child li a::after,#menu-1 ul:first-child li a::before{border-right:0px !important;}

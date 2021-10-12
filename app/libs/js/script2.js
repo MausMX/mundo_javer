@@ -64,6 +64,7 @@ $(document).ready(function(){
 			$(".btn-contacta").append('<a class="btn btn-danger pl-3 pr-4 text-uppercase font-10 poppins py-2" href="'+Path+'/index/whatsapp/'+estado_activo+'/"><img class="pr-1 logo-wp-btn" src="'+Path+'/images/desarrollo/WhatsApp_Icon_72x72.png"><strong>Contactar asesor</strong></a>');
 		}).fail(function() {
 			console.log("No contamos con asesores este díasssssssssss");
+			$(".btn-contacta").append('<a class="btn btn-danger pl-3 pr-4 text-uppercase font-10 poppins py-2" href="'+Path+'/index/whatsapp/'+estado_activo+'/"><img class="pr-1 logo-wp-btn" src="'+Path+'/images/desarrollo/WhatsApp_Icon_72x72.png"><strong>Contactar asesor</strong></a>');
 		}); 
 	} 
 	//if(typeof estado_activo !== typeof undefined){
@@ -73,10 +74,11 @@ $(document).ready(function(){
 			dataType: 'json',
 		}).done(function(data2) {
 			if(data2.length==0){
-				$("footer").before("<script>(function () {let js = document.createElement('script');js.type = 'text/javascript';js.async = 1;js.src = 'https://go.botmaker.com/rest/webchat/p/PQ2XODBE2N/init.js';document.body.appendChild(js);})();</script>)");               
+				$("footer").before("<script>(function () {let js = document.createElement('script');js.type = 'text/javascript';js.async = 1;js.src = 'https://go.botmaker.com/rest/webchat/p/PQ2XODBE2N/init.js';document.body.appendChild(js);})();</script>");               
 			}else{
-				if(wp_active!=0){								
-					$("footer").after('<div class="contacto_whatsappf"><div class="detalle animation"><div class="cerrar"><i class="fa fa-close text-danger" aria-hidden="true"></i></div><div class="titulo">Selecciona un Estado:</div><div class="contenido"><ul class="tel-wp"></ul></div></div><a target="_blank" class="d-inline-block" href="'+Path+'/index/whatsapp/"><img src="'+Path+'/images/footer/ico_whatsapp.png"></a></div>');
+				if(wp_active!=0){
+													
+					$("footer").after('<div class="contacto_whatsappf"><div class="detalle animation numE_'+data2.length+'"><div class="cerrar"><i class="fa fa-close text-danger" aria-hidden="true"></i></div><div class="titulo">Selecciona un Estado:</div><div class="contenido"><ul class="tel-wp"></ul></div></div><a target="_blank" class="d-inline-block" href="'+Path+'/index/whatsapp/"><img src="'+Path+'/images/footer/ico_whatsapp.png"></a></div>');
 					var name="";
 					for(var i=0;i<data2.length;i++){
 						switch (data2[i].nombre) {
@@ -92,6 +94,15 @@ $(document).ready(function(){
 						  case 'aguascalientes':
 						    	name="Aguascalientes";
 						    break;
+						  case 'Jalisco':
+						    	name="jalisco";
+						  break;
+						  case 'jalisco':
+						    	name="Jalisco";
+						  break;
+						   case 'quintana_roo':
+						    	name="Quintana Roo";
+						  break;
 						  case 'nuevo_leon':
 						    	name="Nuevo León";
 						    break;
