@@ -72,29 +72,32 @@ $(document).ready(function(){
 			url: Path+"/index/estados_disponibles/",
 			dataType: 'json',
 		}).done(function(data2) {
-			if(wp_active==0){
+			if(data2.length==0){
+				$("footer").before("<script>(function () {let js = document.createElement('script');js.type = 'text/javascript';js.async = 1;js.src = 'https://go.botmaker.com/rest/webchat/p/PQ2XODBE2N/init.js';document.body.appendChild(js);})();</script>)");               
 			}else{
-				$("footer").before('<div class="container contacto_whatsappf"><div class="detalle animation"><div class="cerrar"><i class="fa fa-close text-danger" aria-hidden="true"></i></div><div class="titulo">Selecciona una zona:</div><div class="contenido"><ul class="tel-wp"></ul></div></div><a target="_blank" class="d-inline-block" href="'+Path+'/index/whatsapp/"><img src="'+Path+'/images/footer/ico_whatsapp.png"></a></div>');
-				var name="";
-				for(var i=0;i<data2.length;i++){
-					switch (data2[i].nombre) {
-					  case 'tamaulipas':
-					    	name="Tamaulipas";
-					    break;
-					  case 'queretaro':
-					   		 name="Querétaro";
-					    break;
-					  case 'estado_de_mexico':
-					    	name="Estado de México";
-					    break;
-					  case 'aguascalientes':
-					    	name="Aguascalientes";
-					    break;
-					  case 'nuevo_leon':
-					    	name="Nuevo León";
-					    break;
+				if(wp_active!=0){								
+					$("footer").after('<div class="contacto_whatsappf"><div class="detalle animation"><div class="cerrar"><i class="fa fa-close text-danger" aria-hidden="true"></i></div><div class="titulo">Selecciona un Estado:</div><div class="contenido"><ul class="tel-wp"></ul></div></div><a target="_blank" class="d-inline-block" href="'+Path+'/index/whatsapp/"><img src="'+Path+'/images/footer/ico_whatsapp.png"></a></div>');
+					var name="";
+					for(var i=0;i<data2.length;i++){
+						switch (data2[i].nombre) {
+						  case 'tamaulipas':
+						    	name="Tamaulipas";
+						    break;
+						  case 'queretaro':
+						   		 name="Querétaro";
+						    break;
+						  case 'estado_de_mexico':
+						    	name="Estado de México";
+						    break;
+						  case 'aguascalientes':
+						    	name="Aguascalientes";
+						    break;
+						  case 'nuevo_leon':
+						    	name="Nuevo León";
+						    break;
+						}
+						$(".tel-wp").append("<li><a target='_blank' href='"+Path+"/index/whatsapp/"+data2[i].nombre+"/'>"+name+"</a></li>");
 					}
-					$(".tel-wp").append("<li><a target='_blank' href='"+Path+"/index/whatsapp/"+data2[i].nombre+"/'>"+name+"</a></li>");
 				}
 			}
 		}).fail(function(xhr, status, error) {

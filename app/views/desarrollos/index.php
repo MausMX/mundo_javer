@@ -72,7 +72,7 @@
 	                                </div>                                     
                                 </div>--> 
                                 <div class="col-12 col-lg-8 offset-lg-4 col-xl-8 offset-xl-4 col-md-8 offset-md-4 d-md-flex d-lg-flex d-xl-flex d-block pt-5">
-                                	<div class="col-12 col-lg-6 col-xl-6 col-md-6 p-0 d-flex info-ubicacion">                                    
+                                	<div class="col-12 col-lg-7 col-xl-7 col-md-7 p-0 d-flex info-ubicacion">                                    
 	                                    <div class="col-12 col-lg-12 pr-0 img-ubicacion">
 	                                    	<div class="f-left">
 	                                    		<img src="<?=Path?>/images/desarrollo/alvento/location.png">
@@ -83,7 +83,7 @@
 			                                </div>
 	                                   	</div> 
 	                                </div>
-                                	<div class="col-12 col-lg-6 col-xl-6 col-md-6 p-0 d-flex info-ingresos">                                    
+                                	<div class="col-12 col-lg-5 col-xl-5 col-md-5 p-0 d-flex info-ingresos">                                    
 	                                   	<div class="col-12 col-lg-12 pr-0 pl-0 img-ingresos">
 	                                    	<div class="f-left">
 	                                    		<img src="<?=Path?>/images/desarrollo/alvento/ingresos.png">

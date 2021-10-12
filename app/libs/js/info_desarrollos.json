@@ -204,14 +204,14 @@
 	"nextzona":"/desarrollos/ciudades/guadalupe",
 	"tour_virtual":"#N/A",
     "slider": [
-      "/images/desarrollo/Nuevo_Leon/porto_cumbres/SantaIsabel_slide_01.png",
-      "/images/desarrollo/Nuevo_Leon/porto_cumbres/SantaIsabel_slide_02.png",
-      "/images/desarrollo/Nuevo_Leon/porto_cumbres/SantaIsabel_slide_03.png",
-      "/images/desarrollo/Nuevo_Leon/porto_cumbres/SantaIsabel_slide_04.png",
-      "/images/desarrollo/Nuevo_Leon/porto_cumbres/SantaIsabel_slide_05.png",
-      "/images/desarrollo/Nuevo_Leon/porto_cumbres/SantaIsabel_slide_06.png",
-      "/images/desarrollo/Nuevo_Leon/porto_cumbres/SantaIsabel_slide_07.png",
-      "/images/desarrollo/Nuevo_Leon/porto_cumbres/SantaIsabel_slide_08.png"
+      "/images/desarrollo/Nuevo_Leon/porto_cumbres/Porto_slide_01.png",
+      "/images/desarrollo/Nuevo_Leon/porto_cumbres/Porto_slide_02.png",
+      "/images/desarrollo/Nuevo_Leon/porto_cumbres/Porto_slide_03.png",
+      "/images/desarrollo/Nuevo_Leon/porto_cumbres/Porto_slide_04.png",
+      "/images/desarrollo/Nuevo_Leon/porto_cumbres/Porto_slide_05.png",
+      "/images/desarrollo/Nuevo_Leon/porto_cumbres/Porto_slide_06.png",
+      "/images/desarrollo/Nuevo_Leon/porto_cumbres/Porto_slide_07.png",
+      "/images/desarrollo/Nuevo_Leon/porto_cumbres/Porto_slide_08.png"
     ]
   },  
   {
@@ -386,14 +386,14 @@
 	"nextzona":"/desarrollos/ciudades/tlajomulco-zuniga",
 	"tour_virtual":"https://www.javer.com.mx/tour/loma-real/atria-real/",
     "slider": [
-      	"/images/desarrollo/Jalisco/loma_real/LomaReal_slide_01.jpg",
-      	"/images/desarrollo/Jalisco/loma_real/LomaReal_slide_02.jpg",
-      	"/images/desarrollo/Jalisco/loma_real/LomaReal_slide_03.jpg",
-      	"/images/desarrollo/Jalisco/loma_real/LomaReal_slide_04.jpg",
-      	"/images/desarrollo/Jalisco/loma_real/LomaReal_slide_05.jpg",
-      	"/images/desarrollo/Jalisco/loma_real/LomaReal_slide_06.jpg",
-      	"/images/desarrollo/Jalisco/loma_real/LomaReal_slide_07.jpg",
-      	"/images/desarrollo/Jalisco/loma_real/LomaReal_slide_08.jpg"
+      	"/images/desarrollo/Jalisco/loma_real/LomaReal_slide_01.png",
+      	"/images/desarrollo/Jalisco/loma_real/LomaReal_slide_02.png",
+      	"/images/desarrollo/Jalisco/loma_real/LomaReal_slide_03.png",
+      	"/images/desarrollo/Jalisco/loma_real/LomaReal_slide_04.png",
+      	"/images/desarrollo/Jalisco/loma_real/LomaReal_slide_05.png",
+      	"/images/desarrollo/Jalisco/loma_real/LomaReal_slide_06.png",
+      	"/images/desarrollo/Jalisco/loma_real/LomaReal_slide_07.png",
+      	"/images/desarrollo/Jalisco/loma_real/LomaReal_slide_08.png"
     ]
   },
   {
@@ -667,7 +667,7 @@
   	"id":"privalia-ambienta",
     "nombre":"Privalia Ambienta",
 	"descripcion":"Privalia Ambienta mezcla todas las ventajas de la construcción vertical y los conjuntos residenciales. Ven y conoce la nueva etapa que te ofrece arquitectura de vanguardia, privacidad y equipamiento.",
-	"logo":"/images/desarrollo/Queretaro/privalia_ambienta/PRIVALIA_AMBIENTA.png",
+	"logo":"/images/desarrollo/Queretaro/privalia_ambienta/privalia_ambienta.png",
 	"ubicacion":"Queretaro, Queretaro",
 	"imgciudad":"/images/ciudades/queretaro/queretaro/PRIVALIA_AMBIENTA.png",
 	"idciudad":"queretaro",
@@ -941,7 +941,7 @@
   	"id":"portoalto",
     "nombre":"Portoalto",
 	"descripcion":"Portoalto, concepto residencial que combina el mejor equipamiento, armonía y tranquilidad. A tan solo 15 minutos de la 5ta avenida en Playa del Carmen.",
-	"logo":"/images/desarrollo/Quintana_roo/Portoalto/Portoalto.png",
+	"logo":"/images/desarrollo/Quintana_roo/portoalto/portoalto.png",
 	"ubicacion":"Playa del Carmen, Quintana Roo",
 	"imgciudad":"/images/ciudades/quintana/playa_carmen/PORTOALTO.png",
 	"idciudad":"playa-del-carmen",
