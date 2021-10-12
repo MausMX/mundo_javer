@@ -141,6 +141,9 @@ function animacion_inicial() {
 			$('#globo').addClass('active');
 			break;
 		case 39:
+			$('.nombre').addClass('active');
+			break;
+		case 45:
 			$('.pin').addClass('active');
 			break;
 	
