@@ -20,9 +20,12 @@
 	"nextzona":"/desarrollos/ciudades/salinas-victoria",
 	"tour_virtual":"#N/A",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      "/images/desarrollo/Nuevo_Leon/residencial_plazas/LasPlazas_slide_01.png",
+      "/images/desarrollo/Nuevo_Leon/residencial_plazas/LasPlazas_slide_02.png",
+      "/images/desarrollo/Nuevo_Leon/residencial_plazas/LasPlazas_slide_03.png",
+      "/images/desarrollo/Nuevo_Leon/residencial_plazas/LasPlazas_slide_04.png",
+      "/images/desarrollo/Nuevo_Leon/residencial_plazas/LasPlazas_slide_05.png",
+      "/images/desarrollo/Nuevo_Leon/residencial_plazas/LasPlazas_slide_06.png"
     ]
   },
   {
@@ -46,9 +49,14 @@
 	"nextzona":"/desarrollos/ciudades/guadalupe",
 	"tour_virtual":"https://www.javer.com.mx/tour/valle-de-lincoln/",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      "/images/desarrollo/Nuevo_Leon/valle_lincoln/Lincoln_slide_01.png",
+      "/images/desarrollo/Nuevo_Leon/valle_lincoln/Lincoln_slide_02.png",
+      "/images/desarrollo/Nuevo_Leon/valle_lincoln/Lincoln_slide_03.png",
+      "/images/desarrollo/Nuevo_Leon/valle_lincoln/Lincoln_slide_04.png",
+      "/images/desarrollo/Nuevo_Leon/valle_lincoln/Lincoln_slide_05.png",
+      "/images/desarrollo/Nuevo_Leon/valle_lincoln/Lincoln_slide_06.png",
+      "/images/desarrollo/Nuevo_Leon/valle_lincoln/Lincoln_slide_07.png",
+      "/images/desarrollo/Nuevo_Leon/valle_lincoln/Lincoln_slide_08.png"
     ]
   },
   {
@@ -62,7 +70,7 @@
 	"ciudad":"Apodaca",
 	"estado":"Nuevo León",
 	"leyenda1":"Ingresos",
-	"leyenda2":"Desde $38,000 Mxn",
+	"leyenda2":"Desde $45,000 Mxn",
 	"telefono":"81 8000-9059",
 	"calle":"Car. Santa Rosa - Apodaca, Fracc. Alvento, Calle Foresta Lote 3, C.P. 66606, Apodaca, Nuevo León.",
 	"maps":"https://g.page/r/Ca2pW1RC0ogFEBA",
@@ -72,9 +80,14 @@
 	"nextzona":"/desarrollos/ciudades/monterrey",
 	"tour_virtual":"https://www.javer.com.mx/tour/alvento/serra-2n/",
     "slider": [
-      "/images/desarrollo/alvento/main_img_slide_01.jpg",
-      "/images/desarrollo/alvento/main_img_slide_01.jpg",
-      "/images/desarrollo/alvento/main_img_slide_01.jpg"
+      "/images/desarrollo/Nuevo_Leon/Alvento/Alvento_slide_01.png",
+      "/images/desarrollo/Nuevo_Leon/Alvento/Alvento_slide_02.png",
+      "/images/desarrollo/Nuevo_Leon/Alvento/Alvento_slide_03.png",
+      "/images/desarrollo/Nuevo_Leon/Alvento/Alvento_slide_04.png",
+      "/images/desarrollo/Nuevo_Leon/Alvento/Alvento_slide_05.png",
+      "/images/desarrollo/Nuevo_Leon/Alvento/Alvento_slide_06.png",
+      "/images/desarrollo/Nuevo_Leon/Alvento/Alvento_slide_07.png",
+      "/images/desarrollo/Nuevo_Leon/Alvento/Alvento_slide_08.png"
     ]
   },
   {
@@ -98,9 +111,14 @@
 	"nextzona":"/desarrollos/ciudades/monterrey",
 	"tour_virtual":"https://www.javer.com.mx/tour/valle-santa-elena/aguila/",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      "/images/desarrollo/Nuevo_Leon/valle_santa_elena/SantaElena_slide_01.png",
+      "/images/desarrollo/Nuevo_Leon/valle_santa_elena/SantaElena_slide_02.png",
+      "/images/desarrollo/Nuevo_Leon/valle_santa_elena/SantaElena_slide_03.png",
+      "/images/desarrollo/Nuevo_Leon/valle_santa_elena/SantaElena_slide_04.png",
+      "/images/desarrollo/Nuevo_Leon/valle_santa_elena/SantaElena_slide_05.png",
+      "/images/desarrollo/Nuevo_Leon/valle_santa_elena/SantaElena_slide_06.png",
+      "/images/desarrollo/Nuevo_Leon/valle_santa_elena/SantaElena_slide_07.png",
+      "/images/desarrollo/Nuevo_Leon/valle_santa_elena/SantaElena_slide_08.png"
     ]
   },
   {
@@ -124,9 +142,14 @@
 	"nextzona":"/desarrollos/ciudades/juarez",
 	"tour_virtual":"https://www.javer.com.mx/tour/departamentos-amaire/amaire/",
     "slider": [
-      "/images/desarrollo/alvento/slide_01.jpg",
-      "/images/desarrollo/alvento/slide_01.jpg",
-      "/images/desarrollo/alvento/slide_01.jpg"
+      "/images/desarrollo/Nuevo_Leon/Amaire/Aimare_slide_01.png",
+      "/images/desarrollo/Nuevo_Leon/Amaire/Aimare_slide_02.png",
+      "/images/desarrollo/Nuevo_Leon/Amaire/Aimare_slide_03.png",
+      "/images/desarrollo/Nuevo_Leon/Amaire/Aimare_slide_04.png",
+      "/images/desarrollo/Nuevo_Leon/Amaire/Aimare_slide_05.png",
+      "/images/desarrollo/Nuevo_Leon/Amaire/Aimare_slide_06.png",
+      "/images/desarrollo/Nuevo_Leon/Amaire/Aimare_slide_07.png",
+      "/images/desarrollo/Nuevo_Leon/Amaire/Aimare_slide_08.png"
     ]
   },
   {
@@ -176,42 +199,21 @@
 	"calle":"Calle. Stilo # 202 Col. Porto Cumbres, Sector Florencia, García, Nuevo León C.P. 66036.",
 	"maps":"https://g.page/r/CcvoJu5x3F-nEBA",
 	"prevurl":"/desarrollos/valle-santa-isabel",
-	"nexturl":"/desarrollos/valle-azul",
+	"nexturl":"/desarrollos/privadas-masai",
 	"prevzona":"/desarrollos/ciudades/escobedo",
 	"nextzona":"/desarrollos/ciudades/guadalupe",
 	"tour_virtual":"#N/A",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      "/images/desarrollo/Nuevo_Leon/porto_cumbres/SantaIsabel_slide_01.png",
+      "/images/desarrollo/Nuevo_Leon/porto_cumbres/SantaIsabel_slide_02.png",
+      "/images/desarrollo/Nuevo_Leon/porto_cumbres/SantaIsabel_slide_03.png",
+      "/images/desarrollo/Nuevo_Leon/porto_cumbres/SantaIsabel_slide_04.png",
+      "/images/desarrollo/Nuevo_Leon/porto_cumbres/SantaIsabel_slide_05.png",
+      "/images/desarrollo/Nuevo_Leon/porto_cumbres/SantaIsabel_slide_06.png",
+      "/images/desarrollo/Nuevo_Leon/porto_cumbres/SantaIsabel_slide_07.png",
+      "/images/desarrollo/Nuevo_Leon/porto_cumbres/SantaIsabel_slide_08.png"
     ]
-  },
-  {
-  	"id":"valle-azul",
-    "nombre":"Valle Azul",
-	"descripcion":"Valle Azul te brindará gran satisfacción por su combinación de comodidad, proximidad y tranquilidad. Aquí podrás crear increíbles e inolvidables momentos.",
-	"logo":"/images/desarrollo/Nuevo_Leon/valle_azul/valle_azul.png",
-	"ubicacion":"Apodaca, Nuevo León",
-	"imgciudad":"/images/ciudades/nuevo_leon/apodaca/VALLE_AZUL.png",
-	"idciudad":"apodaca",
-	"ciudad":"Apodaca",
-	"estado":"Nuevo León",
-	"leyenda1":"Ingresos",
-	"leyenda2":"Desde $27,000 Mxn",
-	"telefono":"81 8526-2626",
-	"calle":"Antigua Carretera a Agua Fría Km 2 Col. Valle Azul, Apodaca, Nuevo León C.P. 66620",
-	"maps":"https://g.page/r/CdZQ9oYeK2uPEBA",
-	"prevurl":"/desarrollos/porto-cumbres",
-	"nexturl":"/desarrollos/privadas-masai",
-	"prevzona":"/desarrollos/ciudades/salinas-victoria",
-	"nextzona":"/desarrollos/ciudades/monterrey",
-	"tour_virtual":"https://www.javer.com.mx/tour/valle-azul/aura/",
-    "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
-    ]
-  },
+  },  
   {
   	"id":"privadas-masai",
     "nombre":"Privadas Masai",
@@ -227,15 +229,19 @@
 	"telefono":"81 4774-5918",
 	"calle":"Calle Hidalgo Col. Privadas Masai , Guadalupe, Nuevo León C.P. 67196",
 	"maps":"https://g.page/r/CfZY8awzHsfmEBA",
-	"prevurl":"/desarrollos/valle-azul",
+	"prevurl":"/desarrollos/porto-cumbres",
 	"nexturl":"/desarrollos/torre-luna",
 	"prevzona":"/desarrollos/ciudades/garcia",
 	"nextzona":"/desarrollos/ciudades/salinas-victoria",
 	"tour_virtual":"https://www.javer.com.mx/tour/privadas-masai/aura-elite/",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      "/images/desarrollo/Nuevo_Leon/privadas_masai/Masai_slide_01.png",
+      "/images/desarrollo/Nuevo_Leon/privadas_masai/Masai_slide_02.png",
+      "/images/desarrollo/Nuevo_Leon/privadas_masai/Masai_slide_03.png",
+      "/images/desarrollo/Nuevo_Leon/privadas_masai/Masai_slide_04.png",
+      "/images/desarrollo/Nuevo_Leon/privadas_masai/Masai_slide_05.png",
+      "/images/desarrollo/Nuevo_Leon/privadas_masai/Masai_slide_06.png",
+      "/images/desarrollo/Nuevo_Leon/privadas_masai/Masai_slide_07.png"
     ]
   },
   {
@@ -254,40 +260,17 @@
 	"calle":"Car. Salinas Victoria S/N Col. Torre Luna, Salinas Victoria, Nuevo León C.P. 65515",
 	"maps":"https://goo.gl/maps/mUvcjEmuWjG6mmK77",
 	"prevurl":"/desarrollos/privadas-masai",
-	"nexturl":"/desarrollos/los-cantaros",
+	"nexturl":"/desarrollos/muriel-residencial",
 	"prevzona":"/desarrollos/ciudades/guadalupe",
 	"nextzona":"/desarrollos/ciudades/apodaca",
 	"tour_virtual":"#N/A",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
-    ]
-  },
-  {
-  	"id":"los-cantaros",
-    "nombre":"Los Cantaros",
-	"descripcion":"Los Cántaros te permitirá vivir en la comodidad de la zona Eloy Cavazos, rodeado por hermosas áreas verdes, a minutos de avenidas principales y centros comerciales.",
-	"logo":"/images/desarrollo/Nuevo_Leon/los_cantaros/los_cantaros.png",
-	"ubicacion":"Juarez, Nuevo León",
-	"imgciudad":"/images/ciudades/nuevo_leon/juarez/LOS_CANTAROS.png",
-	"idciudad":"juarez",
-	"ciudad":"Juarez",
-	"estado":"Nuevo León",
-	"leyenda1":"Ingresos",
-	"leyenda2":"Desde $14,000 Mxn",
-	"telefono":"81 5102-5151",
-	"calle":"Av. Los Cántaros # 411 Col. Los Cántaros , Juárez, Nuevo León C.P. 67260",
-	"maps":"https://g.page/r/CQKioLDCI8plEBA",
-	"prevurl":"/desarrollos/torre-luna",
-	"nexturl":"/desarrollos/muriel-residencial",
-	"prevzona":"/desarrollos/ciudades/monterrey",
-	"nextzona":"/desarrollos/ciudades/escobedo",
-	"tour_virtual":"https://www.javer.com.mx/tour/los-cantaros/aguila-con-pasillo/",
-    "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      "/images/desarrollo/Nuevo_Leon/torre_luna/TorreLuna_slide_01.png",
+      "/images/desarrollo/Nuevo_Leon/torre_luna/TorreLuna_slide_02.png",
+      "/images/desarrollo/Nuevo_Leon/torre_luna/TorreLuna_slide_03.png",
+      "/images/desarrollo/Nuevo_Leon/torre_luna/TorreLuna_slide_04.png",
+      "/images/desarrollo/Nuevo_Leon/torre_luna/TorreLuna_slide_05.png",
+      "/images/desarrollo/Nuevo_Leon/torre_luna/TorreLuna_slide_06.png"
     ]
   },
   {
@@ -305,43 +288,22 @@
 	"telefono":"81 5102-5151",
 	"calle":"Av. Acueducto No. 607 Col. Quinto Centenario, Escobedo, Nuevo León C.P. 66072",
 	"maps":"https://g.page/r/CYlc0kmXnWSqEBA",
-	"prevurl":"/desarrollos/los-cantaros",
-	"nexturl":"/desarrollos/valle-roble",
+	"prevurl":"/desarrollos/torre-luna",
+	"nexturl":"/desarrollos/residencial-plazas",
 	"prevzona":"/desarrollos/ciudades/juarez",
 	"nextzona":"/desarrollos/ciudades/garcia",
 	"tour_virtual":"https://www.javer.com.mx/tour/los-cantaros/aguila-con-pasillo/",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      "/images/desarrollo/Nuevo_Leon/muriel_residencial/Muriel_slide_01.png",
+      "/images/desarrollo/Nuevo_Leon/muriel_residencial/Muriel_slide_02.png",
+      "/images/desarrollo/Nuevo_Leon/muriel_residencial/Muriel_slide_03.png",
+      "/images/desarrollo/Nuevo_Leon/muriel_residencial/Muriel_slide_04.png",
+      "/images/desarrollo/Nuevo_Leon/muriel_residencial/Muriel_slide_05.png",
+      "/images/desarrollo/Nuevo_Leon/muriel_residencial/Muriel_slide_06.png",
+      "/images/desarrollo/Nuevo_Leon/muriel_residencial/Muriel_slide_07.png",
+      "/images/desarrollo/Nuevo_Leon/muriel_residencial/Muriel_slide_08.png"
     ]
-  },
-  {
-  	"id":"valle-roble",
-    "nombre":"Valle del Roble",
-	"descripcion":"Valle del Roble combina naturaleza y urbanidad, cualidades que lo hicieron uno de los diez desarrollos recomendados por el ISA de Infonavit. Aquí encontrarás todo en el mejor fraccionamiento en Juárez, Nuevo León. ",
-	"logo":"/images/desarrollo/Nuevo_Leon/valle_santa_isabel/valle_santa_isabel.png",
-	"ubicacion":"Juarez, Nuevo León",
-	"imgciudad":"/images/ciudades/nuevo_leon/juarez/VALLE_DEL_ROBLE.png",
-	"idciudad":"juarez",
-	"ciudad":"Juarez",
-	"estado":"Nuevo León",
-	"leyenda1":"Ingresos",
-	"leyenda2":"Desde $10,000 Mxn",
-	"telefono":"81 5102-5102",
-	"calle":"Carr. Monterrey Reynosa KM 13 Fracc. Valle del Roble, Juárez, Nuevo León C.P. 67456",
-	"maps":"https://goo.gl/maps/2PR43qQk5pPwhDyT7",
-	"prevurl":"/desarrollos/muriel-residencial",
-	"nexturl":"/desarrollos/residencial-las-plazas",
-	"prevzona":"/desarrollos/ciudades/monterrey",
-	"nextzona":"/desarrollos/ciudades/escobedo",
-	"tour_virtual":"https://www.javer.com.mx/tour/valle-del-roble/",
-    "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
-    ]
-  },
+  },  
   {
   	"id":"valle-encinos",
     "nombre":"Valle de los Encinos Plus",
@@ -363,9 +325,14 @@
 	"nextzona":"/desarrollos/ciudades/zapopan",
 	"tour_virtual":"https://www.javer.com.mx/tour/valle-de-los-encinos-plus/verona/",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      	"/images/desarrollo/Jalisco/valle_encinos/Encinos_slide_01.jpg",
+      	"/images/desarrollo/Jalisco/valle_encinos/Encinos_slide_02.jpg",
+      	"/images/desarrollo/Jalisco/valle_encinos/Encinos_slide_03.jpg",
+      	"/images/desarrollo/Jalisco/valle_encinos/Encinos_slide_04.jpg",
+      	"/images/desarrollo/Jalisco/valle_encinos/Encinos_slide_05.jpg",
+      	"/images/desarrollo/Jalisco/valle_encinos/Encinos_slide_06.jpg",
+      	"/images/desarrollo/Jalisco/valle_encinos/Encinos_slide_07.jpg",
+      	"/images/desarrollo/Jalisco/valle_encinos/Encinos_slide_08.jpg"
     ]
   },
   {
@@ -381,7 +348,7 @@
 	"leyenda1":"Ingresos",
 	"leyenda2":"Desde $6,500 Mxn",
 	"telefono":"33 3550-1859",
-	"calle":"Prolongación Av. Camino Nacional No. 1350 Colonia El Fortín, Zapopan, Jalisco C.P. 45066",
+	"calle":"Av. Cima Serena S/N Col. El Verde , El Salto, Jalisco C.P. 45685",
 	"maps":"https://g.page/r/CfGLvCAy2bI6EBA",
 	"prevurl":"/desarrollos/valle-encinos-plus",
 	"nexturl":"/desarrollos/loma-real",
@@ -389,9 +356,13 @@
 	"nextzona":"/desarrollos/ciudades/tonala",
 	"tour_virtual":"https://www.javer.com.mx/tour/cima-serena/",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+     	"/images/desarrollo/Jalisco/cima_serena/Cima_slide_01.jpg",
+      	"/images/desarrollo/Jalisco/cima_serena/Cima_slide_02.jpg",
+      	"/images/desarrollo/Jalisco/cima_serena/Cima_slide_03.jpg",
+      	"/images/desarrollo/Jalisco/cima_serena/Cima_slide_04.jpg",
+      	"/images/desarrollo/Jalisco/cima_serena/Cima_slide_05.jpg",
+      	"/images/desarrollo/Jalisco/cima_serena/Cima_slide_06.jpg",
+      	"/images/desarrollo/Jalisco/cima_serena/Cima_slide_07.jpg"
     ]
   },
   {
@@ -407,7 +378,7 @@
 	"leyenda1":"Ingresos",
 	"leyenda2":"Desde $10,000 Mxn",
 	"telefono":"33 8526-2423",
-	"calle":"Calle. Camino a Matatlán # 555 Int. A Col. Coyula , Tonalá, Jalisco C.P. 45410",
+	"calle":"Camino a Matatlán # 555 Int. A Col. Coyula , Tonalá, Jalisco C.P. 45410",
 	"maps":"http://www.google.com/maps/dir//20.659741409270453,-103.1899012212861",
 	"prevurl":"/desarrollos/cima-serena",
 	"nexturl":"/desarrollos/valle-tejada",
@@ -415,9 +386,14 @@
 	"nextzona":"/desarrollos/ciudades/tlajomulco-zuniga",
 	"tour_virtual":"https://www.javer.com.mx/tour/loma-real/atria-real/",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      	"/images/desarrollo/Jalisco/loma_real/LomaReal_slide_01.jpg",
+      	"/images/desarrollo/Jalisco/loma_real/LomaReal_slide_02.jpg",
+      	"/images/desarrollo/Jalisco/loma_real/LomaReal_slide_03.jpg",
+      	"/images/desarrollo/Jalisco/loma_real/LomaReal_slide_04.jpg",
+      	"/images/desarrollo/Jalisco/loma_real/LomaReal_slide_05.jpg",
+      	"/images/desarrollo/Jalisco/loma_real/LomaReal_slide_06.jpg",
+      	"/images/desarrollo/Jalisco/loma_real/LomaReal_slide_07.jpg",
+      	"/images/desarrollo/Jalisco/loma_real/LomaReal_slide_08.jpg"
     ]
   },
   {
@@ -426,7 +402,7 @@
 	"descripcion":"Valle de Tejeda cuenta con amplios espacios y una distribución inteligente que te permitirá disfrutar al máximo de sus diseños innovadores.",
 	"logo":"/images/desarrollo/Jalisco/valle_tejada/VALLE_DE_TEJEDA.png",
 	"ubicacion":"Tlajomulco de Zuñiga, Jalisco",
-	"imgciudad":"/images/ciudades/jalisco/tlajomulco-zuniga/city_02.png",
+	"imgciudad":"/images/ciudades/jalisco/tlajomulco-zuniga/VALLE_DE_TEJEDA.png",
 	"idciudad":"tlajomulco-zuniga",
 	"ciudad":"Tlajomulco de Zuñiga",
 	"estado":"Jalisco",
@@ -441,9 +417,14 @@
 	"nextzona":"/desarrollos/ciudades/zapopan",
 	"tour_virtual":"https://www.javer.com.mx/tour/valle-de-tejada/marsella/",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      	"/images/desarrollo/Jalisco/valle_tejada/Tejeda_slide_01.jpg",
+      	"/images/desarrollo/Jalisco/valle_tejada/Tejeda_slide_02.jpg",
+      	"/images/desarrollo/Jalisco/valle_tejada/Tejeda_slide_03.jpg",
+      	"/images/desarrollo/Jalisco/valle_tejada/Tejeda_slide_04.jpg",
+      	"/images/desarrollo/Jalisco/valle_tejada/Tejeda_slide_05.jpg",
+      	"/images/desarrollo/Jalisco/valle_tejada/Tejeda_slide_06.jpg",
+      	"/images/desarrollo/Jalisco/valle_tejada/Tejeda_slide_07.jpg",
+      	"/images/desarrollo/Jalisco/valle_tejada/Tejeda_slide_08.jpg"
     ]
   },
   {
@@ -467,9 +448,14 @@
 	"nextzona":"/desarrollos/ciudades/zapopan",
 	"tour_virtual":"https://www.javer.com.mx/tour/alberi-residencial/modelo-blanc/",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      	"/images/desarrollo/Jalisco/alberi_residencial/Alberi_slide_01.jpg",
+      	"/images/desarrollo/Jalisco/alberi_residencial/Alberi_slide_02.jpg",
+      	"/images/desarrollo/Jalisco/alberi_residencial/Alberi_slide_03.jpg",
+      	"/images/desarrollo/Jalisco/alberi_residencial/Alberi_slide_04.jpg",
+      	"/images/desarrollo/Jalisco/alberi_residencial/Alberi_slide_05.jpg",
+      	"/images/desarrollo/Jalisco/alberi_residencial/Alberi_slide_06.jpg",
+      	"/images/desarrollo/Jalisco/alberi_residencial/Alberi_slide_07.jpg",
+      	"/images/desarrollo/Jalisco/alberi_residencial/Alberi_slide_08.jpg"
     ]
   },
   {
@@ -493,9 +479,8 @@
 	"nextzona":"/desarrollos/ciudades/el-salto",
 	"tour_virtual":"#N/A",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      "/images/desarrollo/Jalisco/arrayanes/Arrayanes_slide_01.png"
+      
     ]
   },
   {
@@ -503,7 +488,7 @@
     "nombre":"Caranday",
 	"descripcion":"Caranday te permitirá experimentar la comodidad, exclusividad y plusvalía que brinda un desarrollo residencial y sus hermosas viviendas al sur de Aguascalientes.",
 	"logo":"/images/desarrollo/Aguascalientes/caranday/caranday.png",
-	"ubicacion":"Aguascalientes, Aguascalientes",
+	"ubicacion":"Aguascalientes, Ags",
 	"imgciudad":"/images/ciudades/aguascalientes/aguascalientes/CARANDAY.png",
 	"idciudad":"aguascalientes",
 	"ciudad":"Aguascalientes",
@@ -519,23 +504,28 @@
 	"nextzona":"/desarrollos/ciudades/aguascalientes",
 	"tour_virtual":"https://www.javer.com.mx/tour/caranday/palermo/",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
-    ]
-  },
+      	"/images/desarrollo/Aguascalientes/caranday/Caranday_slide_01.png",
+      	"/images/desarrollo/Aguascalientes/caranday/Caranday_slide_02.png",
+      	"/images/desarrollo/Aguascalientes/caranday/Caranday_slide_03.png",
+       	"/images/desarrollo/Aguascalientes/caranday/Caranday_slide_04.png",
+      	"/images/desarrollo/Aguascalientes/caranday/Caranday_slide_05.png",
+       	"/images/desarrollo/Aguascalientes/caranday/Caranday_slide_06.png", 
+      	"/images/desarrollo/Aguascalientes/caranday/Caranday_slide_07.png",  
+      	"/images/desarrollo/Aguascalientes/caranday/Caranday_slide_08.png" 
+    ] 
+  }, 
   {
-  	"id":"paseos-sur",
+  	"id":"paseos-sur", 
     "nombre":"Paseos del Sur",
 	"descripcion":"Paseos del Sur, con su ubicación dentro de la zona de mayor crecimiento industrial del estado de Aguascalientes, es la clave principal para brindarte tranquilidad y prosperidad.",
 	"logo":"/images/desarrollo/Aguascalientes/paseos_sur/paseos_sur.png",
-	"ubicacion":"Aguascalientes, Aguascalientes",
+	"ubicacion":"Aguascalientes, Ags",
 	"imgciudad":"/images/ciudades/aguascalientes/aguascalientes/PASEOS_DEL_SUR.png",
 	"idciudad":"aguascalientes",
-	"ciudad":"Aguascalientes",
+	"ciudad":"Aguascalientes", 
 	"estado":"Aguascalientes",
 	"leyenda1":"Ingresos",
-	"leyenda2":"Desde $7,000 Mxn",
+	"leyenda2":"Desde $7,000 Mxn", 
 	"telefono":"44 9888-0190",
 	"calle":"Calle Trento Manzana 38 Lote 16 # 112 Col. Paseos del Sur , Aguascalientes, Aguascalientes C.P. 20298",
 	"maps":"https://goo.gl/maps/3XQgX3PbduN6UddB9",
@@ -544,10 +534,15 @@
 	"prevzona":"/desarrollos/ciudades/aguascalientes",
 	"nextzona":"/desarrollos/ciudades/aguascalientes",
 	"tour_virtual":"#N/A",
-    "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+    "slider": [ 
+      "/images/desarrollo/Aguascalientes/paseos_sur/Paseos_slide_01.png",
+      "/images/desarrollo/Aguascalientes/paseos_sur/Paseos_slide_02.png",
+      "/images/desarrollo/Aguascalientes/paseos_sur/Paseos_slide_03.png",
+      "/images/desarrollo/Aguascalientes/paseos_sur/Paseos_slide_04.png",
+      "/images/desarrollo/Aguascalientes/paseos_sur/Paseos_slide_05.png",
+      "/images/desarrollo/Aguascalientes/paseos_sur/Paseos_slide_06.png",
+      "/images/desarrollo/Aguascalientes/paseos_sur/Paseos_slide_07.png",
+      "/images/desarrollo/Aguascalientes/paseos_sur/Paseos_slide_08.png"
     ]
   },
   {
@@ -555,7 +550,7 @@
     "nombre":"Villa Montaña",
 	"descripcion":"Villa Montaña con sus elementos principales: arquitectura contemporánea y sustentabilidad, te darán la posibilidad de disfrutar y conectar con su comunidad.",
 	"logo":"/images/desarrollo/Aguascalientes/villa_montana/villa_montana.png",
-	"ubicacion":"Aguascalientes, Aguascalientes",
+	"ubicacion":"Aguascalientes, Ags",
 	"imgciudad":"/images/ciudades/aguascalientes/aguascalientes/VILLA_MONTANA.png",
 	"idciudad":"aguascalientes",
 	"ciudad":"Aguascalientes",
@@ -571,9 +566,14 @@
 	"nextzona":"/desarrollos/ciudades/aguascalientes",
 	"tour_virtual":"https://www.javer.com.mx/tour/villa-montana/verona/",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      "/images/desarrollo/Aguascalientes/villa_montana/Montana_slide_01.png",
+      "/images/desarrollo/Aguascalientes/villa_montana/Montana_slide_02.png",
+      "/images/desarrollo/Aguascalientes/villa_montana/Montana_slide_03.png",
+      "/images/desarrollo/Aguascalientes/villa_montana/Montana_slide_04.png",
+      "/images/desarrollo/Aguascalientes/villa_montana/Montana_slide_05.png",
+      "/images/desarrollo/Aguascalientes/villa_montana/Montana_slide_06.png",
+      "/images/desarrollo/Aguascalientes/villa_montana/Montana_slide_07.png",
+      "/images/desarrollo/Aguascalientes/villa_montana/Montana_slide_08.png"
     ]
   },
   {
@@ -597,9 +597,14 @@
 	"nextzona":"/desarrollos/ciudades/zinacantepec",
 	"tour_virtual":"https://www.javer.com.mx/tour/alboreto-residencial/albero-vi/",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      "/images/desarrollo/Estado_mexico/alboreto_residencial/Alboreto_slide_01.png",
+      "/images/desarrollo/Estado_mexico/alboreto_residencial/Alboreto_slide_02.png",
+      "/images/desarrollo/Estado_mexico/alboreto_residencial/Alboreto_slide_03.png",
+      "/images/desarrollo/Estado_mexico/alboreto_residencial/Alboreto_slide_04.png",
+      "/images/desarrollo/Estado_mexico/alboreto_residencial/Alboreto_slide_05.png",
+      "/images/desarrollo/Estado_mexico/alboreto_residencial/Alboreto_slide_06.png",
+      "/images/desarrollo/Estado_mexico/alboreto_residencial/Alboreto_slide_07.png",
+      "/images/desarrollo/Estado_mexico/alboreto_residencial/Alboreto_slide_08.png"
     ]
   },
   {
@@ -615,69 +620,47 @@
 	"leyenda1":"Ingresos",
 	"leyenda2":"Desde $15,000 Mxn",
 	"telefono":"55 8880-5467",
-	"calle":"Porfirio Días #215 Col. San Juan de las Huertas, Zinacantepec, Estado De México C.P. 51370",
+	"calle":"Porfirio Díaz #215 Col. San Juan de las Huertas, Zinacantepec, Estado De México C.P. 51370",
 	"maps":"https://g.page/r/CevzU1ZQuxgxEBA",
 	"prevurl":"/desarrollos/valle-lirios",
-	"nexturl":"/desarrollos/alboreto-residencial",
+	"nexturl":"/desarrollos/valle-lirios",
 	"prevzona":"/desarrollos/ciudades/metepec",
 	"nextzona":"/desarrollos/ciudades/zumpango",
 	"tour_virtual":"#N/A",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      "/images/desarrollo/Estado_mexico/bosque_nevado/Nevado_slide_01.png",
+      "/images/desarrollo/Estado_mexico/bosque_nevado/Nevado_slide_02.png",
+      "/images/desarrollo/Estado_mexico/bosque_nevado/Nevado_slide_03.png",
+      "/images/desarrollo/Estado_mexico/bosque_nevado/Nevado_slide_04.png",
+      "/images/desarrollo/Estado_mexico/bosque_nevado/Nevado_slide_05.png",
+      "/images/desarrollo/Estado_mexico/bosque_nevado/Nevado_slide_06.png" 
     ]
-  },
-  {
-  	"id":"jardines-girasoles",
-    "nombre":"Jardines de Girasoles",
-	"descripcion":"Jardines de Girasoles con sus zonas deportivas, áreas verdes y caseta de control hacen de este desarrollo un lugar con gran plusvalía y excelente opción para vivir.",
-	"logo":"/images/desarrollo/Estado_mexico/jardines_girasoles/jardines_girasoles.png",
-	"ubicacion":"Zumapango, Estado de México",
-	"imgciudad":"/images/ciudades/estado_mexico/zumapango/LOS_GIRASOLES.png",
-	"idciudad":"zumapango",
-	"ciudad":"Zumapango",
-	"estado":"Estado de México",
-	"leyenda1":"Ingresos",
-	"leyenda2":"Desde $10,000 Mxn",
-	"telefono":"55 8880-5452",
-	"calle":"Av. Viaducto Paseo Bicentenario Zumpango # 503 Barrio de San Miguel, Zumpango, Estado De México C.P. 55643",
-	"maps":"http://www.google.com/maps/dir//19.822427896608406,-99.06702850770333",
-	"prevurl":"/desarrollos/bosque-nevado",
-	"nexturl":"/desarrollos/valle-lirios",
-	"prevzona":"/desarrollos/ciudades/zinacantepec",
-	"nextzona":"/desarrollos/ciudades/metepec",
-	"tour_virtual":"https://www.javer.com.mx/tour/jardines-de-girasoles/aguila/",
-    "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
-    ]
-  },
+  },  
   {
   	"id":"valle-lirios",
     "nombre":"Valle de los Lirios",
 	"descripcion":"Valle de los Lirios es un fraccionamiento que contará con diversas amenidades, en donde podrás disfrutar con toda confianza de tu familia; contará con caseta de control, portones a condominios, escuela primaria, jardín vecinal con juegos y zona deportiva con multicanchas y trota pista. Valle de los Lirios es el complemento ideal para ti y tú familia.",
 	"logo":"/images/desarrollo/Estado_mexico/valle_lirios/valle_lirios.jpg",
-	"ubicacion":"Zumapango, Estado de México",
+	"ubicacion":"Zumpango, Estado de México",
 	"imgciudad":"/images/ciudades/estado_mexico/zumapango/VALLE_DE_LOS_LIRIOS.png",
-	"idciudad":"zumapango",
-	"ciudad":"Zumapango",
+	"idciudad":"zumpango",
+	"ciudad":"Zumpango",
 	"estado":"Estado de México",
 	"leyenda1":"Ingresos",
 	"leyenda2":"Desde $8,000 Mxn",
 	"telefono":"55 8880-5475",
 	"calle":"Av. Ignacio Zaragoza 680 Barrio de Santiago Segunda Sección , Zumpango, Estado De México C.P. 55600",
 	"maps":"https://goo.gl/maps/typvdguySTjumJzR7",
-	"prevurl":"/desarrollos/jardines-girasoles",
+	"prevurl":"/desarrollos/bosque-nevado",
 	"nexturl":"/desarrollos/alboreto-residencial",
 	"prevzona":"/desarrollos/ciudades/zinacantepec",
 	"nextzona":"/desarrollos/ciudades/metepec",
 	"tour_virtual":"#N/A",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      "/images/desarrollo/Estado_mexico/valle_lirios/Lirios_slide_01.png",
+      "/images/desarrollo/Estado_mexico/valle_lirios/Lirios_slide_02.png",
+      "/images/desarrollo/Estado_mexico/valle_lirios/Lirios_slide_03.png",
+      "/images/desarrollo/Estado_mexico/valle_lirios/Lirios_slide_04.png"
     ]
   },
   {
@@ -686,7 +669,7 @@
 	"descripcion":"Privalia Ambienta mezcla todas las ventajas de la construcción vertical y los conjuntos residenciales. Ven y conoce la nueva etapa que te ofrece arquitectura de vanguardia, privacidad y equipamiento.",
 	"logo":"/images/desarrollo/Queretaro/privalia_ambienta/PRIVALIA_AMBIENTA.png",
 	"ubicacion":"Queretaro, Queretaro",
-	"imgciudad":"/images/ciudades/queretaro/queretaro/city_01.png",
+	"imgciudad":"/images/ciudades/queretaro/queretaro/PRIVALIA_AMBIENTA.png",
 	"idciudad":"queretaro",
 	"ciudad":"Queretaro",
 	"estado":"Queretaro",
@@ -697,13 +680,17 @@
 	"maps":"https://g.page/r/CaiI3xyKYlnoEBA",
 	"prevurl":"/desarrollos/el-manantial",
 	"nexturl":"/desarrollos/paseo-junipero",
-	"prevzona":"/desarrollos/ciudades/corregidora",
+	"prevzona":"/desarrollos/ciudades/el-marques",
 	"nextzona":"/desarrollos/ciudades/san-juan-rio",
 	"tour_virtual":"https://www.javer.com.mx/tour/privalia-ambienta/agave-plus/",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      "/images/desarrollo/Queretaro/privalia_ambienta/Privalia_slide_01.png",
+      "/images/desarrollo/Queretaro/privalia_ambienta/Privalia_slide_02.png",
+      "/images/desarrollo/Queretaro/privalia_ambienta/Privalia_slide_03.png",
+      "/images/desarrollo/Queretaro/privalia_ambienta/Privalia_slide_04.png",
+      "/images/desarrollo/Queretaro/privalia_ambienta/Privalia_slide_05.png",
+      "/images/desarrollo/Queretaro/privalia_ambienta/Privalia_slide_06.png",
+      "/images/desarrollo/Queretaro/privalia_ambienta/Privalia_slide_07.png"
     ]
   },
   {
@@ -723,13 +710,17 @@
 	"maps":"https://g.page/r/Cd5li1w_8LfxEAE",
 	"prevurl":"/desarrollos/privalia-ambienta",
 	"nexturl":"/desarrollos/cumbre-alta",
-	"prevzona":"/desarrollos/ciudades/corregidora",
+	"prevzona":"/desarrollos/ciudades/el-marques",
 	"nextzona":"/desarrollos/ciudades/san-juan-rio",
 	"tour_virtual":"https://www.javer.com.mx/tour/paseo-san-junipero/toscana/",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      "/images/desarrollo/Queretaro/paseo_junipero/SanJunipero_slide_01.png",
+      "/images/desarrollo/Queretaro/paseo_junipero/SanJunipero_slide_02.png",
+      "/images/desarrollo/Queretaro/paseo_junipero/SanJunipero_slide_03.png",
+      "/images/desarrollo/Queretaro/paseo_junipero/SanJunipero_slide_04.png",
+      "/images/desarrollo/Queretaro/paseo_junipero/SanJunipero_slide_05.png",
+      "/images/desarrollo/Queretaro/paseo_junipero/SanJunipero_slide_06.png",
+      "/images/desarrollo/Queretaro/paseo_junipero/SanJunipero_slide_07.png"
     ]
   },
   {
@@ -750,12 +741,15 @@
 	"prevurl":"/desarrollos/paseo-junipero",
 	"nexturl":"/desarrollos/massaro-residencial",
 	"prevzona":"/desarrollos/ciudades/san-juan-rio",
-	"nextzona":"/desarrollos/ciudades/corregidora",
+	"nextzona":"/desarrollos/ciudades/queretaro",
 	"tour_virtual":"https://www.javer.com.mx/tour/cumbre-alta/bianco/",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      "/images/desarrollo/Queretaro/cumbre_alta/CumbreAlta_slide_01.png",
+      "/images/desarrollo/Queretaro/cumbre_alta/CumbreAlta_slide_02.png",
+      "/images/desarrollo/Queretaro/cumbre_alta/CumbreAlta_slide_03.png",
+      "/images/desarrollo/Queretaro/cumbre_alta/CumbreAlta_slide_04.png",
+      "/images/desarrollo/Queretaro/cumbre_alta/CumbreAlta_slide_05.png",
+      "/images/desarrollo/Queretaro/cumbre_alta/CumbreAlta_slide_06.png"
     ]
   },
   {
@@ -776,12 +770,17 @@
 	"prevurl":"/desarrollos/cumbre-alta",
 	"nexturl":"/desarrollos/pedregal-rio",
 	"prevzona":"/desarrollos/ciudades/san-juan-rio",
-	"nextzona":"/desarrollos/ciudades/corregidora",
+	"nextzona":"/desarrollos/ciudades/queretaro",
 	"tour_virtual":"https://www.javer.com.mx/tour/massaro-residencial/palermo-plus-2/",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      "/images/desarrollo/Queretaro/massaro_residencial/Massaro_slide_01.png",
+      "/images/desarrollo/Queretaro/massaro_residencial/Massaro_slide_02.png",
+      "/images/desarrollo/Queretaro/massaro_residencial/Massaro_slide_03.png",
+      "/images/desarrollo/Queretaro/massaro_residencial/Massaro_slide_04.png",
+      "/images/desarrollo/Queretaro/massaro_residencial/Massaro_slide_05.png",
+      "/images/desarrollo/Queretaro/massaro_residencial/Massaro_slide_06.png",
+      "/images/desarrollo/Queretaro/massaro_residencial/Massaro_slide_07.png",
+      "/images/desarrollo/Queretaro/massaro_residencial/Massaro_slide_08.png"
     ]
   },
   {
@@ -805,9 +804,13 @@
 	"nextzona":"/desarrollos/ciudades/el-marques",
 	"tour_virtual":"https://www.javer.com.mx/tour/pedregal-del-rio/zafiro-plus/",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      "/images/desarrollo/Queretaro/pedregal_rio/Pedregal_slide_01.png",
+      "/images/desarrollo/Queretaro/pedregal_rio/Pedregal_slide_02.png",
+      "/images/desarrollo/Queretaro/pedregal_rio/Pedregal_slide_03.png",
+      "/images/desarrollo/Queretaro/pedregal_rio/Pedregal_slide_04.png",
+      "/images/desarrollo/Queretaro/pedregal_rio/Pedregal_slide_05.png",
+      "/images/desarrollo/Queretaro/pedregal_rio/Pedregal_slide_06.png",
+      "/images/desarrollo/Queretaro/pedregal_rio/Pedregal_slide_07.png"
     ]
   },
   {
@@ -826,40 +829,19 @@
 	"calle":"Av. Paseo Buenos Aires Fraccionamiento Fuentes de Balvanera, Querétaro, Querétaro C.P. 38186",
 	"maps":"http://www.google.com/maps/dir//20.534391481839062,-100.52695824128934",
 	"prevurl":"/desarrollos/pedregal-rio",
-	"nexturl":"/desarrollos/el-manantial",
-	"prevzona":"/desarrollos/ciudades/corregidora",
+	"nexturl":"/desarrollos/privalia-ambienta",
+	"prevzona":"/desarrollos/ciudades/el-marques",
 	"nextzona":"/desarrollos/ciudades/san-juan-rio",
 	"tour_virtual":"https://www.javer.com.mx/tour/fuente-de-balvanera/aguila-duplex/",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
-    ]
-  },
-  {
-  	"id":"el-manantial",
-    "nombre":"El Manantial",
-	"descripcion":"El Manantial es la combinación perfecta entre armonía, exclusividad y naturaleza de los conjuntos residenciales de la más alta calidad. Su equipamiento, ubicación y distribución harán que te quedes a vivir aquí.",
-	"logo":"/images/desarrollo/Queretaro/el_manantial/el_manantial.png",
-	"ubicacion":"Corregidora, Queretaro",
-	"imgciudad":"/images/ciudades/queretaro/corregidora/EL_MANANTIAL.png",
-	"idciudad":"corregidora",
-	"ciudad":"Corregidora",
-	"estado":"Queretaro",
-	"leyenda1":"Ingresos",
-	"leyenda2":"Desde $45,000 Mxn",
-	"telefono":"44 2348-1225",
-	"calle":"Calle Privada Lluvia cond. Privada Batán # 28 Int. 2 Fracc. El Manantial Residencial, Corregidora, Querétaro C.P. 76992",
-	"maps":"https://g.page/r/CYxC1hvQaDFHEBA",
-	"prevurl":"/desarrollos/fuente-balvanera",
-	"nexturl":"/desarrollos/privalia-ambienta",
-	"prevzona":"/desarrollos/ciudades/el-marques",
-	"nextzona":"/desarrollos/ciudades/queretaro",
-	"tour_virtual":"https://www.javer.com.mx/tour/el-manantial/toscana-plus/",
-    "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      "/images/desarrollo/Queretaro/fuente_balvanera/Balvarena_slide_01.png",
+      "/images/desarrollo/Queretaro/fuente_balvanera/Balvarena_slide_02.png",
+      "/images/desarrollo/Queretaro/fuente_balvanera/Balvarena_slide_03.png",
+      "/images/desarrollo/Queretaro/fuente_balvanera/Balvarena_slide_04.png",
+      "/images/desarrollo/Queretaro/fuente_balvanera/Balvarena_slide_05.png",
+      "/images/desarrollo/Queretaro/fuente_balvanera/Balvarena_slide_06.png",
+      "/images/desarrollo/Queretaro/fuente_balvanera/Balvarena_slide_07.png",
+      "/images/desarrollo/Queretaro/fuente_balvanera/Balvarena_slide_08.png"
     ]
   },
   {
@@ -883,9 +865,14 @@
 	"nextzona":"/desarrollos/ciudades/playa-del-carmen",
 	"tour_virtual":"https://www.javer.com.mx/tour/privada-altus-ii/aura-elite/",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      "/images/desarrollo/Quintana_roo/privada_altus/Altus_slide_01.png",
+      "/images/desarrollo/Quintana_roo/privada_altus/Altus_slide_02.png",
+      "/images/desarrollo/Quintana_roo/privada_altus/Altus_slide_03.png",
+      "/images/desarrollo/Quintana_roo/privada_altus/Altus_slide_04.png",
+      "/images/desarrollo/Quintana_roo/privada_altus/Altus_slide_05.png",
+      "/images/desarrollo/Quintana_roo/privada_altus/Altus_slide_06.png",
+      "/images/desarrollo/Quintana_roo/privada_altus/Altus_slide_07.png",
+      "/images/desarrollo/Quintana_roo/privada_altus/Altus_slide_08.png"
     ]
   },
   {
@@ -909,9 +896,14 @@
 	"nextzona":"/desarrollos/ciudades/playa-del-carmen",
 	"tour_virtual":"https://www.javer.com.mx/tour/arbolada/bari/",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      "/images/desarrollo/Quintana_roo/arbolada/Bari_slide_01.png",
+      "/images/desarrollo/Quintana_roo/arbolada/Bari_slide_02.png",
+      "/images/desarrollo/Quintana_roo/arbolada/Bari_slide_03.png",
+      "/images/desarrollo/Quintana_roo/arbolada/Bari_slide_04.png",
+      "/images/desarrollo/Quintana_roo/arbolada/Bari_slide_05.png",
+      "/images/desarrollo/Quintana_roo/arbolada/Bari_slide_06.png",
+      "/images/desarrollo/Quintana_roo/arbolada/Bari_slide_07.png",
+      "/images/desarrollo/Quintana_roo/arbolada/Bari_slide_08.png"
     ]
   },
   {
@@ -935,9 +927,14 @@
 	"nextzona":"/desarrollos/ciudades/playa-del-carmen",
 	"tour_virtual":"https://www.javer.com.mx/tour/paseo-kusamil/antares/",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      "/images/desarrollo/Quintana_roo/paseo_kusamil/Kusamil_slide_01.png",
+      "/images/desarrollo/Quintana_roo/paseo_kusamil/Kusamil_slide_02.png",
+      "/images/desarrollo/Quintana_roo/paseo_kusamil/Kusamil_slide_03.png",
+      "/images/desarrollo/Quintana_roo/paseo_kusamil/Kusamil_slide_04.png",
+      "/images/desarrollo/Quintana_roo/paseo_kusamil/Kusamil_slide_05.png",
+      "/images/desarrollo/Quintana_roo/paseo_kusamil/Kusamil_slide_06.png",
+      "/images/desarrollo/Quintana_roo/paseo_kusamil/Kusamil_slide_07.png",
+      "/images/desarrollo/Quintana_roo/paseo_kusamil/Kusamil_slide_08.png"
     ]
   },
   {
@@ -961,9 +958,14 @@
 	"nextzona":"/desarrollos/ciudades/cancun",
 	"tour_virtual":"https://www.javer.com.mx/tour/portoalto/verona/",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      "/images/desarrollo/Quintana_roo/portoalto/Portoalto_slide_01.png",
+      "/images/desarrollo/Quintana_roo/portoalto/Portoalto_slide_02.png",
+      "/images/desarrollo/Quintana_roo/portoalto/Portoalto_slide_03.png",
+      "/images/desarrollo/Quintana_roo/portoalto/Portoalto_slide_04.png",
+      "/images/desarrollo/Quintana_roo/portoalto/Portoalto_slide_05.png",
+      "/images/desarrollo/Quintana_roo/portoalto/Portoalto_slide_06.png",
+      "/images/desarrollo/Quintana_roo/portoalto/Portoalto_slide_07.png",
+      "/images/desarrollo/Quintana_roo/portoalto/Portoalto_slide_08.png"
     ]
   },
   {
@@ -987,9 +989,14 @@
 	"nextzona":"/desarrollos/ciudades/cancun",
 	"tour_virtual":"https://www.javer.com.mx/tour/punta-estrella/atria-premium/",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      "/images/desarrollo/Quintana_roo/punta_estrella/PuntaEstrella_slide_01.png",
+      "/images/desarrollo/Quintana_roo/punta_estrella/PuntaEstrella_slide_02.png",
+      "/images/desarrollo/Quintana_roo/punta_estrella/PuntaEstrella_slide_03.png",
+      "/images/desarrollo/Quintana_roo/punta_estrella/PuntaEstrella_slide_04.png",
+      "/images/desarrollo/Quintana_roo/punta_estrella/PuntaEstrella_slide_05.png",
+      "/images/desarrollo/Quintana_roo/punta_estrella/PuntaEstrella_slide_06.png",
+      "/images/desarrollo/Quintana_roo/punta_estrella/PuntaEstrella_slide_07.png",
+      "/images/desarrollo/Quintana_roo/punta_estrella/PuntaEstrella_slide_08.png"
     ]
   },
   {
@@ -1013,9 +1020,13 @@
 	"nextzona":"/desarrollos/ciudades/piramides",
 	"tour_virtual":"https://www.javer.com.mx/tour/piramides/",
     "slider": [
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg",
-      "/images/desarrollo/cantaros/slide_01.jpg"
+      "/images/desarrollo/Tamaulipas/piramides/Piramides_slide_01.png",
+      "/images/desarrollo/Tamaulipas/piramides/Piramides_slide_02.png",
+      "/images/desarrollo/Tamaulipas/piramides/Piramides_slide_03.png",
+      "/images/desarrollo/Tamaulipas/piramides/Piramides_slide_04.png",
+      "/images/desarrollo/Tamaulipas/piramides/Piramides_slide_05.png",
+      "/images/desarrollo/Tamaulipas/piramides/Piramides_slide_06.png",
+      "/images/desarrollo/Tamaulipas/piramides/Piramides_slide_07.png"
     ]
   }
 ]
