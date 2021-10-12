@@ -67,6 +67,11 @@ $(document).ready(function(){
 			$(".btn-contacta").append('<a class="btn btn-danger pl-3 pr-4 text-uppercase font-10 poppins py-2" href="'+Path+'/index/whatsapp/'+estado_activo+'/"><img class="pr-1 logo-wp-btn" src="'+Path+'/images/desarrollo/WhatsApp_Icon_72x72.png"><strong>Contactar asesor</strong></a>');
 		}); 
 	} 
+	function ordenarAsc(p_array_json, p_key) {
+	   p_array_json.sort(function (a, b) {
+	      return a[p_key] > b[p_key];
+	   });
+	}
 	//if(typeof estado_activo !== typeof undefined){
 		$.ajax({
 			type: 'POST',
@@ -77,7 +82,7 @@ $(document).ready(function(){
 				$("footer").before("<script>(function () {let js = document.createElement('script');js.type = 'text/javascript';js.async = 1;js.src = 'https://go.botmaker.com/rest/webchat/p/PQ2XODBE2N/init.js';document.body.appendChild(js);})();</script>");               
 			}else{
 				if(wp_active!=0){
-													
+					ordenarAsc(data2, 'nombre');
 					$("footer").after('<div class="contacto_whatsappf"><div class="detalle animation numE_'+data2.length+'"><div class="cerrar"><i class="fa fa-close text-danger" aria-hidden="true"></i></div><div class="titulo">Selecciona un Estado:</div><div class="contenido"><ul class="tel-wp"></ul></div></div><a target="_blank" class="d-inline-block" href="'+Path+'/index/whatsapp/"><img src="'+Path+'/images/footer/ico_whatsapp.png"></a></div>');
 					var name="";
 					for(var i=0;i<data2.length;i++){
