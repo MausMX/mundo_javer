@@ -7,24 +7,24 @@
 	public function index($page="1"){
 		$this->title_for_layout("Mundo Javer");
 		$hoy=date("Y-m-d H:i:s");
-		if($_SERVER['REMOTE_ADDR']=='189.181.204.198' or $_SERVER['REMOTE_ADDR']=='187.188.64.214' or $_SERVER['REMOTE_ADDR']=='189.178.230.34' or $_SERVER['REMOTE_ADDR']=='189.203.205.83' or $_SERVER['REMOTE_ADDR']=='189.213.0.38' or $_SERVER['REMOTE_ADDR']=='189.181.201.53'){
-			$this->render();
-		}else{
+		//if($_SERVER['REMOTE_ADDR']=='189.181.204.198' or $_SERVER['REMOTE_ADDR']=='187.188.64.214' or $_SERVER['REMOTE_ADDR']=='189.178.230.34' or $_SERVER['REMOTE_ADDR']=='189.203.205.83' or $_SERVER['REMOTE_ADDR']=='189.213.0.38' or $_SERVER['REMOTE_ADDR']=='189.181.201.53'){
+		//	$this->render();
+		//}else{
 			if($hoy>='2021-10-01 00:00' and $hoy<'2021-10-08 09:00'){
 				$this->view->contador_active=0;
 				$this->view->setLayout("clean");
 				$this->render('preheat');
-			}elseif($hoy>='2021-10-08 09:00' and $hoy<'2021-10-15 00:00'){
+			/*}elseif($hoy>='2021-10-08 09:00' and $hoy<'2021-10-15 00:00'){
 				$this->view->contador_active=1;
 				$this->view->setLayout("clean");
-				$this->render('contador');
+				$this->render('contador');*/
 			}elseif($hoy>='2021-11-01 00:00'){
 				$this->view->setLayout("preregistro");
 				$this->render();
 			}else{
 				$this->render();
 			}
-		}
+		//}
 	}
 	public function contador($page="1"){
 		$this->view->contador_active=1;
@@ -249,66 +249,40 @@
 			http_response_code(401);
 		}
 	}
-public function estados_disponibles($dia=''){
-		
-			/*switch ($estado) {
-				case 'Tamaulipas':
-					$estado='tamaulipas';
-					break;
-				case 'Quintana Roo':
-					$estado='quintana_roo';
-					break;
-				case 'Queretaro':
-					$estado='queretaro';
-					break;
-				case 'Estado de México':
-					$estado='estado_de_mexico';
-					break;
-				case 'Aguascalientes':
-					$estado='aguascalientes';
-					break;
-				case 'Jalisco':
-					$estado='jalisco';
-					break;
-				case 'Nuevo León':
-					$estado='nuevo_leon';
-					break;
-				default:
-					break;
-			}*/
-			if(!$dia){
-				$dia=date("d");
-				//$dia=16;
-			}
-			$lp_files=file_get_contents('./files/lp.json');
-			$lps=json_decode($lp_files,true);
-			$lps_by_day=array();
-			$e_disponibles = array();
-			$ahora=date("Y-m-d H:i:s");
-			$hora=date("H:i:s");
-			//$hora="14:02";
-			$last_id=0;
-			$current_id=0;
-			$array_estados = array("tamaulipas", "quintana_roo", "queretaro", "estado_de_mexico", "aguascalientes", "jalisco", "nuevo_leon");
-			for($v=0;$v<count($array_estados);$v++){
-				foreach ($lps[$array_estados[$v]] as $key => $lps_by_state) {
-					foreach ($lps_by_state['horario'] as $key2 => $lps_dias) {
-						if(strtotime($hora)>=strtotime($lps_dias['horario_inicio']) && strtotime($hora)<=strtotime($lps_dias['horario_fin']) && $dia==$lps_dias['dia']){
-							//echo strtotime($hora).">=".strtotime($lps_dias['horario_inicio'])."&&".strtotime($hora)."<=".strtotime($lps_dias['horario_fin'])."&&".$dia."==".$lps_dias['dia'];
-							//$e_disponibles[]=$array_estados[$v];
-							$data = array("nombre"=>$array_estados[$v]);
-							  if(!in_array($data, $e_disponibles, true)){
-									array_push($e_disponibles,$data);
-							  }
-						}
+	public function estados_disponibles($dia=''){
+		if(!$dia){
+			$dia=date("d");
+			$dia=16;
+		}
+		$lp_files=file_get_contents('./files/lp.json');
+		$lps=json_decode($lp_files,true);
+		$lps_by_day=array();
+		$e_disponibles = array();
+		$ahora=date("Y-m-d H:i:s");
+		$hora=date("H:i:s");
+		//$hora="14:02";
+		$last_id=0;
+		$current_id=0;
+		$array_estados = array("tamaulipas", "quintana_roo", "queretaro", "estado_de_mexico", "aguascalientes", "jalisco", "nuevo_leon");
+		for($v=0;$v<count($array_estados);$v++){
+			foreach ($lps[$array_estados[$v]] as $key => $lps_by_state) {
+				foreach ($lps_by_state['horario'] as $key2 => $lps_dias) {
+					if(strtotime($hora)>=strtotime($lps_dias['horario_inicio']) && strtotime($hora)<=strtotime($lps_dias['horario_fin']) && $dia==$lps_dias['dia']){
+						//echo strtotime($hora).">=".strtotime($lps_dias['horario_inicio'])."&&".strtotime($hora)."<=".strtotime($lps_dias['horario_fin'])."&&".$dia."==".$lps_dias['dia'];
+						//$e_disponibles[]=$array_estados[$v];
+						$data = array("nombre"=>$array_estados[$v]);
+							if(!in_array($data, $e_disponibles, true)){
+								array_push($e_disponibles,$data);
+							}
 					}
 				}
 			}
-			/*$e_disponibles2=array();
-			$e_disponibles2 = array("nombre" =>"tamaulipas", "nombre" =>"quintana_roo", "nombre" =>"queretaro");*/
-			//$e_disponibles2 = array("nombre" =>"tamaulipas", "nombre" =>"quintana_roo", "nombre" =>"queretaro", "nombre" =>"estado_de_mexico", "nombre" =>"aguascalientes", "nombre" =>"jalisco");
-			//$e_disponibles2 = array("nombre" =>"tamaulipas", "nombre" =>"quintana_roo", "nombre" =>"queretaro", "nombre" =>"estado_de_mexico", "nombre" =>"aguascalientes", "nombre" =>"jalisco", "nombre" =>"nuevo_leon");
-			echo $lp_actual=json_encode($e_disponibles);
+		}
+		/*$e_disponibles2=array();
+		$e_disponibles2 = array("nombre" =>"tamaulipas", "nombre" =>"quintana_roo", "nombre" =>"queretaro");*/
+		//$e_disponibles2 = array("nombre" =>"tamaulipas", "nombre" =>"quintana_roo", "nombre" =>"queretaro", "nombre" =>"estado_de_mexico", "nombre" =>"aguascalientes", "nombre" =>"jalisco");
+		//$e_disponibles2 = array("nombre" =>"tamaulipas", "nombre" =>"quintana_roo", "nombre" =>"queretaro", "nombre" =>"estado_de_mexico", "nombre" =>"aguascalientes", "nombre" =>"jalisco", "nombre" =>"nuevo_leon");
+		echo $lp_actual=json_encode($e_disponibles);
 	}
 	
 } ?>
