@@ -19,9 +19,9 @@
 		<meta name="author" content="Maus Casa Creativa SC" />
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.typekit.net/avv6anh.css">
-		<?=$this->html->includeCss("style");?>
-		<?=$this->html->includeCss("style2");?>
-		<?=$this->html->includeCss("style_contador");?>
+		<link rel="stylesheet" href="<?=Path?>/app/views/css/style.css?202110121318" type="text/css">
+		<link rel="stylesheet" href="<?=Path?>/app/views/css/style2.css?202110121318" type="text/css">
+		<link rel="stylesheet" href="<?=Path?>/app/views/css/style_contador.css?202110121318" type="text/css">
 		<script>var Path="<?=Path?>";</script>
 	</head>
 	<body id="<?=$controllerName; ?>" class="<?=$function;?> contador">
@@ -70,7 +70,7 @@
 		<script src='https://cdn.rawgit.com/vuejs/vue/v1.0.24/dist/vue.js'></script>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js'></script>
-		<script type="text/javascript" src="<?=Path?>/app/libs/js/script.js?202110051256"></script>
+		<script type="text/javascript" src="<?=Path?>/app/libs/js/script.js?202110121318"></script>
 		<?
 			if($contador_active!=0){
 				echo $this->html->includeJs("script_contador");
