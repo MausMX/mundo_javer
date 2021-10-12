@@ -282,7 +282,7 @@ public function estados_disponibles($estado,$dia=''){
 		$lp_files=file_get_contents('./files/lp.json');
 		$lps=json_decode($lp_files,true);
 		$lps_by_day=array();
-		$e_disponibles=array();
+		$e_disponibles = array();
 		$ahora=date("Y-m-d H:i:s");
 		$hora=date("H:i:s");
 		$hora="14:02";
@@ -293,8 +293,12 @@ public function estados_disponibles($estado,$dia=''){
 			foreach ($lps[$array_estados[$v]] as $key => $lps_by_state) {
 				foreach ($lps_by_state['horario'] as $key2 => $lps_dias) {
 					if(strtotime($hora)>=strtotime($lps_dias['horario_inicio']) && strtotime($hora)<=strtotime($lps_dias['horario_fin']) && $dia==$lps_dias['dia']){
-					echo strtotime($hora).">=".strtotime($lps_dias['horario_inicio'])."&&".strtotime($hora)."<=".strtotime($lps_dias['horario_fin'])."&&".$dia."==".$lps_dias['dia']."<br>";
-						$e_disponibles[$v]=$array_estados[$v];
+						//echo strtotime($hora).">=".strtotime($lps_dias['horario_inicio'])."&&".strtotime($hora)."<=".strtotime($lps_dias['horario_fin'])."&&".$dia."==".$lps_dias['dia'];
+						//$e_disponibles[]=$array_estados[$v];
+						$data = array("nombre"=>$array_estados[$v]);
+						  if(!in_array($data, $e_disponibles, true)){
+								array_push($e_disponibles,$data);
+						  }
 					}
 				}
 			}

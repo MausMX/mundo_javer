@@ -13,6 +13,75 @@
 .line-height-26{line-height: 26px;}
 .line-height-22{line-height: 22px;}
 .line-height-44{line-height: 44px;}
+.contacto_whatsappf{position: relative;text-align: right;margin-top: -50px;margin-bottom: 60px;}
+.contacto_whatsappf .detalle .contenido ul li {
+    list-style: none;
+}
+.contacto_whatsappf:hover .detalle {
+    opacity: 1;
+    display: block;
+}
+.contacto_whatsappf .detalle::after{content: '';
+background-color: #FFFFFF;
+border-right: 3px solid #D3D3D3;
+border-bottom: 3px solid #D3D3D3;
+position: absolute;
+bottom: 34px;
+right: -17px;
+width: 30px;
+height: 30px;
+-webkit-transform: rotate(-45deg);
+-moz-transform: rotate(-45deg);
+-o-transform: rotate(-45deg);
+-ms-transform: rotate(-45deg);
+transform: rotate(-45deg);}
+.contacto_whatsappf .detalle{padding-bottom: 85px;
+position: absolute;
+height: auto;
+width: 250px;
+display: block;
+top: -100px;
+right: 124px;
+z-index: 100;
+opacity: 0;
+display: none;
+padding: 20px;background-color: #FFFFFF;border: 3px solid #D3D3D3;width: 250px;border-radius: 20px;
+}
+.contacto_whatsappf .detalle .contenido ul li a {
+    color: #000000;
+    font-size: 14px;
+    text-decoration: underline;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    transition: .5s;
+}
+.contacto_whatsappf .detalle .contenido ul {
+    padding: 0px;
+    margin: 0px;
+}
+.contacto_whatsappf .detalle .titulo {
+    font-family: poppins, sans-serif;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #69AF1F;
+    margin-bottom: 10px;
+}
+.contacto_whatsappf .detalle .cerrar {
+    background-color: #FFFFFF;
+    border: 3px solid #D3D3D3;
+    padding: 2px 0 0 9px;
+    position: absolute;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    right: -15px;
+    top: -15px;
+    display: none;
+}
 /*.font-17{font-size: 16px;}*/
 .c-black{color:#000000 !important;}
 .c-white{color:#FFFFFF !important;}

@@ -1,6 +1,6 @@
 <header>
 	<div class="container font-sweet-sans-pro font-10">
-		<a id="logo-principal" class="navbar-brand d-none d-lg-block d-xl-block" href="<?=Path ?>"><img src="<?php echo Path;?>/images/header/logo.png"></a>
+		<a id="logo-principal" class="navbar-brand d-none d-lg-block d-xl-block" href="<?=Path ?>"><img src="<?php echo Path;?>/images/header/MundoJaver_Logotipo.svg"></a>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-0 pb-0 pl-0">
 		<a id="logo-principalm" class="navbar-brand d-block d-lg-none d-xl-none" href="<?=Path ?>"><img src="<?php echo Path;?>/images/header/logo_menu_mobile.png"></a>
 		<div class="py-3 d-block d-lg-none d-xl-none"><p class="title-expo-header p-2 poppins font-12-header">EXPO VIRTUAL</p></div>
