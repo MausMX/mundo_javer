@@ -278,7 +278,7 @@ public function estados_disponibles($dia=''){
 			}*/
 			if(!$dia){
 				$dia=date("d");
-				$dia=16;
+				//$dia=16;
 			}
 			$lp_files=file_get_contents('./files/lp.json');
 			$lps=json_decode($lp_files,true);
@@ -286,7 +286,7 @@ public function estados_disponibles($dia=''){
 			$e_disponibles = array();
 			$ahora=date("Y-m-d H:i:s");
 			$hora=date("H:i:s");
-			$hora="14:02";
+			//$hora="14:02";
 			$last_id=0;
 			$current_id=0;
 			$array_estados = array("tamaulipas", "quintana_roo", "queretaro", "estado_de_mexico", "aguascalientes", "jalisco", "nuevo_leon");
