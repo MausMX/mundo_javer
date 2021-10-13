@@ -2,6 +2,7 @@ var myVar;
 var contador=0;
 var camion_1={top:973,left:1728,paso:1};
 var carro_1={top:248,left:914,paso:1};
+var regalo={paso:1};
 $(function() {
 	$('#detalle').on('hidden.bs.modal',function(){location.hash='';$("#detalle .modal-body").html("");$(this).removeData('bs.modal');});
 	$('#detalle').on('show.bs.modal', function(event){var href=$(event.relatedTarget).attr("href");$('#detalle .modal-content').load(href,function(){$("#loading").hide();});});
@@ -87,6 +88,98 @@ window.addEventListener("resize", function(){
 $(window).on("load",function(){
 	//altura_wrapper_fixed2();
 	myVar = setInterval(animacion_inicial, 100);
+	myVar2 = setInterval(regalo_animacion, 80);
+	$('.regalo_1').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0000.png')"});
+	$('.regalo_2').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0001.png')"});
+	$('.regalo_3').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0002.png')"});
+	$('.regalo_4').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0003.png')"});
+	$('.regalo_5').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0004.png')"});
+	$('.regalo_6').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0005.png')"});
+	$('.regalo_7').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0006.png')"});
+	$('.regalo_8').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0007.png')"});
+	$('.regalo_9').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0008.png')"});
+	$('.regalo_10').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0009.png')"});
+	$('.regalo_11').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0010.png')"});
+	$('.regalo_12').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0011.png')"});
+	$('.regalo_13').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0012.png')"});
+	$('.regalo_14').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0013.png')"});
+	$('.regalo_15').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0014.png')"});
+	$('.regalo_16').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0015.png')"});
+	$('.regalo_17').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0016.png')"});
+	$('.regalo_18').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0017.png')"});
+	$('.regalo_19').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0018.png')"});
+	$('.regalo_20').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0019.png')"});
+	$('.regalo_21').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0020.png')"});
+	$('.regalo_22').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0021.png')"});
+	$('.regalo_23').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0022.png')"});
+	$('.regalo_24').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0023.png')"});
+	$('.regalo_25').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0024.png')"});
+	$('.regalo_26').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0025.png')"});
+	$('.regalo_27').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0026.png')"});
+	$('.regalo_28').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0027.png')"});
+	$('.regalo_29').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0028.png')"});
+	$('.regalo_30').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0029.png')"});
+	$('.regalo_31').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0030.png')"});
+	$('.regalo_32').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0031.png')"});
+	$('.regalo_33').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0032.png')"});
+	$('.regalo_34').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0033.png')"});
+	$('.regalo_35').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0034.png')"});
+	$('.regalo_36').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0035.png')"});
+	$('.regalo_37').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0036.png')"});
+	$('.regalo_38').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0037.png')"});
+	$('.regalo_39').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0038.png')"});
+	$('.regalo_40').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0039.png')"});
+	$('.regalo_41').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0040.png')"});
+	$('.regalo_42').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0041.png')"});
+	$('.regalo_43').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0042.png')"});
+	$('.regalo_44').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0043.png')"});
+	$('.regalo_45').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0044.png')"});
+	$('.regalo_46').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0045.png')"});
+	$('.regalo_47').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0046.png')"});
+	$('.regalo_48').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0047.png')"});
+	$('.regalo_49').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0048.png')"});
+	$('.regalo_50').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0049.png')"});
+	$('.regalo_51').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0050.png')"});
+	$('.regalo_52').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0051.png')"});
+	$('.regalo_53').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0052.png')"});
+	$('.regalo_54').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0053.png')"});
+	$('.regalo_55').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0054.png')"});
+	$('.regalo_56').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0055.png')"});
+	$('.regalo_57').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0056.png')"});
+	$('.regalo_58').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0057.png')"});
+	$('.regalo_59').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0058.png')"});
+	$('.regalo_60').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0059.png')"});
+	$('.regalo_61').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0060.png')"});
+	$('.regalo_62').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0061.png')"});
+	$('.regalo_63').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0062.png')"});
+	$('.regalo_64').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0063.png')"});
+	$('.regalo_65').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0064.png')"});
+	$('.regalo_66').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0065.png')"});
+	$('.regalo_67').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0066.png')"});
+	$('.regalo_68').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0067.png')"});
+	$('.regalo_69').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0068.png')"});
+	$('.regalo_70').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0069.png')"});
+	$('.regalo_71').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0070.png')"});
+	$('.regalo_72').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0071.png')"});
+	$('.regalo_73').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0072.png')"});
+	$('.regalo_74').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0073.png')"});
+	$('.regalo_75').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0074.png')"});
+	$('.regalo_76').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0075.png')"});
+	$('.regalo_77').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0076.png')"});
+	$('.regalo_78').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0077.png')"});
+	$('.regalo_79').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0078.png')"});
+	$('.regalo_80').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0079.png')"});
+	$('.regalo_81').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0080.png')"});
+	$('.regalo_82').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0081.png')"});
+	$('.regalo_83').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0082.png')"});
+	$('.regalo_84').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0083.png')"});
+	$('.regalo_85').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0084.png')"});
+	$('.regalo_86').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0085.png')"});
+	$('.regalo_87').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0086.png')"});
+	$('.regalo_88').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0087.png')"});
+	$('.regalo_89').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0088.png')"});
+	$('.regalo_90').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0089.png')"});
+	$('.regalo_91').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0090.png')"});
 });
 
 /*
@@ -110,7 +203,6 @@ function animacion_inicial() {
 	contador++;
 	switch (contador) {
 		case 3:
-			$('#regalo').addClass('active');
 			$('#edificio_2').addClass('active');
 			$('#edificio_3').addClass('active');
 			$('#edificio_4').addClass('active');
@@ -150,7 +242,6 @@ function animacion_inicial() {
 		case 45:
 			$('.pin').addClass('active');
 			break;
-	
 		default:
 			break;
 	}
@@ -162,7 +253,6 @@ function animacion_inicial() {
 
 function camion_1_animacion() {
 	$('#camion').addClass('active');
-	
 	if(camion_1.paso==1 && camion_1.top<=671 && camion_1.left<=1124){
 		camion_1.paso=2;
 		$('#camion').css({'z-index':'15'});
@@ -391,4 +481,18 @@ function carro_1_animacion() {
 			break;
 	}
 	$('#carro_1').css({'top':carro_1.top+'px','left':carro_1.left+'px'});
+}
+
+function regalo_animacion() {
+	if(contador>50 && !$('#regalo').hasClass('active')){
+		$('#regalo').addClass('active');
+	}
+	if(contador>50){
+		$('#regalo div').css({'opacity':'0'});
+		$('#regalo .regalo_'+regalo.paso).css({'opacity':'1'});
+		regalo.paso++;
+		if(regalo.paso>91){
+			regalo.paso=1;
+		}
+	}
 }
