@@ -21,10 +21,16 @@ window.addEventListener("resize", function(){
 	altura_wrapper_fixed();
 	//location.reload();
 },false);
-
+var myVar2;
+var contador2=0;
+var carro_2={top:248,left:914,paso:1};
 $(window).on("load",function(){
 	altura_wrapper_fixed();	
+	$("#carro_1").after('<div id="carro_2" class="active" ><div id="carro_2_1" style="opacity: 0;"></div><div id="carro_2_2" style="opacity: 0;"></div><div id="carro_2_3" style="opacity: 0;"></div><div id="carro_2_4" style="opacity: 0;"></div></div>');
+
+	//myVar2 = setInterval(animacion_inicial2, 200);
 });
+
 
 $('.bxslider_detalle').bxSlider({
   auto: true,
@@ -120,5 +126,140 @@ $(document).ready(function(){
 			console.log("No contamos con asesores este díasss333333333333ssssssss"+xhr.responseText);
 		}); 
 	//} 
-});
 
+});
+function animacion_inicial2() {
+	contador2++;
+	//camion_2_animacion();
+	if(contador2>28 && carro_2.paso<13){
+		carro_2_animacion();
+	}
+}
+	function carro_2_animacion() {
+	$('#carro_2').addClass('active');
+	if(carro_2.paso==1 && carro_2.top>=258 && carro_2.left>=934){
+		carro_2.paso=2;
+		$('#carro_2_1').css({'opacity':'0'});
+		$('#carro_2_2').css({'opacity':'1'});
+		$('#carro_2_3').css({'opacity':'0'});
+		$('#carro_2_4').css({'opacity':'0'});
+	}else if(carro_2.paso==2 && carro_2.top<=200 && carro_2.left>=1050){
+		carro_2.paso=3;
+		$('#carro_2_1').css({'opacity':'1'});
+		$('#carro_2_2').css({'opacity':'0'});
+		$('#carro_2_3').css({'opacity':'0'});
+		$('#carro_2_4').css({'opacity':'0'});
+	}else if(carro_2.paso==3 && carro_2.top<=140 && carro_2.left<=930){
+		carro_2.paso=4;
+		$('#carro_2_1').css({'opacity':'0'});
+		$('#carro_2_2').css({'opacity':'0'});
+		$('#carro_2_3').css({'opacity':'0'});
+		$('#carro_2_4').css({'opacity':'1'});
+	}else if(carro_2.paso==4 && carro_2.top>=422 && carro_2.left<=366){
+		carro_2.paso=5;
+		$('#carro_2_1').css({'opacity':'0'});
+		$('#carro_2_2').css({'opacity':'0'});
+		$('#carro_2_3').css({'opacity':'1'});
+		$('#carro_2_4').css({'opacity':'0'});
+	}else if(carro_2.paso==5 && carro_2.top>=530 && carro_2.left>=582){
+		carro_2.paso=6;
+		//$('#carro_1').css({'z-index':'15'});
+		$('#carro_2_1').css({'opacity':'0'});
+		$('#carro_2_2').css({'opacity':'0'});
+		$('#carro_2_3').css({'opacity':'0'});
+		$('#carro_2_4').css({'opacity':'1'});
+	}else if(carro_2.paso==6 && carro_2.top>=570 && carro_2.left<=502){
+		carro_2.paso=7;
+		$('#carro_2_1').css({'opacity':'0'});
+		$('#carro_2_2').css({'opacity':'0'});
+		$('#carro_2_3').css({'opacity':'1'});
+		$('#carro_2_4').css({'opacity':'0'});
+	}else if(carro_2.paso==7 && carro_2.top>=606 && carro_2.left>=574){
+		carro_2.paso=8;
+		$('#carro_2_1').css({'opacity':'0'});
+		$('#carro_2_2').css({'opacity':'0'});
+		$('#carro_2_3').css({'opacity':'0'});
+		$('#carro_2_4').css({'opacity':'1'});
+	}else if(carro_2.paso==8 && carro_2.top>=722 && carro_2.left<=342){
+		carro_2.paso=9;
+		$('#carro_2_1').css({'opacity':'0'});
+		$('#carro_2_2').css({'opacity':'0'});
+		$('#carro_2_3').css({'opacity':'1'});
+		$('#carro_2_4').css({'opacity':'0'});
+	}else if(carro_2.paso==9 && carro_2.top>=838 && carro_2.left>=574){
+		carro_2.paso=10;
+		$('#carro_2_1').css({'opacity':'0'});
+		$('#carro_2_2').css({'opacity':'0'});
+		$('#carro_2_3').css({'opacity':'0'});
+		$('#carro_2_4').css({'opacity':'1'});
+	}else if(carro_2.paso==10 && carro_2.top>=936 && carro_2.left<=378){
+		carro_2.paso=11;
+		$('#carro_2_1').css({'opacity':'0'});
+		$('#carro_2_2').css({'opacity':'0'});
+		$('#carro_2_3').css({'opacity':'1'});
+		$('#carro_2_4').css({'opacity':'0'});
+	}else if(carro_2.paso==11 && carro_2.top>=1084 && carro_2.left>=674){
+		carro_2.paso=12;
+		$('#carro_2_1').css({'opacity':'0'});
+		$('#carro_2_2').css({'opacity':'0'});
+		$('#carro_2_3').css({'opacity':'0'});
+		$('#carro_2_4').css({'opacity':'1'});
+	}else if(carro_2.paso==12 && carro_2.top>=1120 && carro_2.left<=602){
+		carro_2.paso=13;
+		$('#carro_2_1').css({'opacity':'0'});
+		$('#carro_2_2').css({'opacity':'0'});
+		$('#carro_2_3').css({'opacity':'0'});
+		$('#carro_2_4').css({'opacity':'0'});
+	}
+	switch (carro_2.paso) {
+		case 1:
+			carro_2.top=carro_2.top+2;
+			carro_2.left=carro_2.left+4;
+			break;
+		case 2:
+			carro_2.top=carro_2.top-2;
+			carro_2.left=carro_2.left+4;
+			break;
+		case 3:
+			carro_2.top=carro_2.top-2;
+			carro_2.left=carro_2.left-4;
+			break;
+		case 4:
+			carro_2.top=carro_2.top+2;
+			carro_2.left=carro_2.left-4;
+			break;
+		case 5:
+			carro_2.top=carro_2.top+2;
+			carro_2.left=carro_2.left+4;
+			break;
+		case 6:
+			carro_2.top=carro_2.top+2;
+			carro_2.left=carro_2.left-4;
+			break;
+		case 7:
+			carro_2.top=carro_2.top+2;
+			carro_2.left=carro_2.left+4;
+			break;
+		case 8:
+			carro_2.top=carro_2.top+2;
+			carro_2.left=carro_2.left-4;
+			break;
+		case 9:
+			carro_2.top=carro_2.top+2;
+			carro_2.left=carro_2.left+4;
+			break;
+		case 10:
+			carro_2.top=carro_2.top+2;
+			carro_2.left=carro_2.left-4;
+			break;
+		case 11:
+			carro_2.top=carro_2.top+2;
+			carro_2.left=carro_2.left+4;
+			break;
+		case 12:
+			carro_2.top=carro_2.top+2;
+			carro_2.left=carro_2.left-4;
+			break;
+	}
+	//$('#carro_2').css({'top':carro_2.top+'px','left':carro_2.left+'px'});
+}

@@ -13,16 +13,31 @@
 .line-height-26{line-height: 26px;}
 .line-height-22{line-height: 22px;}
 .line-height-44{line-height: 44px;}
-.contacto_whatsappf{position: absolute;text-align: right;right: 62px;z-index: 41;width: 200px;margin-top: -100px;}
+.contacto_whatsappf{position: absolute;text-align: right;right: 62px;z-index: 55;width: 200px;margin-top: -100px;}
+/*#carro_2 {
+    width: 30px;
+    height: 30px;
+    top: 248px;
+    left: 914px;
+    position: absolute;
+    opacity: 0;
+    z-index: 15;
+}*/
+#carro_2.active{opacity:1 !important;}
+#carro_2{width:30px;height:30px;top:248px;left:914px;position:absolute;opacity:0;z-index:15;}
+#carro_2_1{background: url('../../../images/mapa/vehiculos/carro-2/carro-1.png');width:100%;height:100%;display:block;opacity:0;position:absolute;left:0;top:0;}
+#carro_2_2{background: url('../../../images/mapa/vehiculos/carro-2/carro-2.png');width:100%;height:100%;display:block;opacity:0;position:absolute;left:0;top:0;}
+#carro_2_3{background: url('../../../images/mapa/vehiculos/carro-2/carro-3.png');width:100%;height:100%;display:block;opacity:1;position:absolute;left:0;top:0;}
+#carro_2_4{background: url('../../../images/mapa/vehiculos/carro-2/carro-4.png');width:100%;height:100%;display:block;opacity:0;position:absolute;left:0;top:0;}
 .numE_6{top:-175px !important;}
 .numE_5{top:-145px !important;}
 .numE_4{top:-125px !important;}
 .numE_3{top:-105px !important;}
 .numE_2{top:-85px !important;}
 .numE_1{top:-65px !important;}
-.dropdown:hover .dropdown-menu {
+.dropdown:hover > .dropdown-menu {
     display: block;
-    margin-top: 0; // remove the gap so it doesn't close
+    margin-top: -1px; 
  }
 .contacto_whatsappf .detalle .contenido ul li {
     list-style: none;
