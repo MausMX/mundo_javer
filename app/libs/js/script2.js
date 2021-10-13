@@ -23,12 +23,12 @@ window.addEventListener("resize", function(){
 },false);
 var myVar2;
 var contador2=0;
-var carro_2={top:248,left:914,paso:1};
+var carro_2={top:574,left:659,paso:2};
 $(window).on("load",function(){
 	altura_wrapper_fixed();	
 	$("#carro_1").after('<div id="carro_2" class="active" ><div id="carro_2_1" style="opacity: 0;"></div><div id="carro_2_2" style="opacity: 0;"></div><div id="carro_2_3" style="opacity: 0;"></div><div id="carro_2_4" style="opacity: 0;"></div></div>');
 
-	//myVar2 = setInterval(animacion_inicial2, 200);
+	myVar2 = setInterval(animacion_inicial2, 100);
 });
 
 
@@ -54,10 +54,26 @@ function altura_wrapper_fixed(){
     }
     if($('body').is('#index')){
 		altura_mapa=altura_ventana-altura_footer;
+		if($('body').hasClass('movil')){
+			altura_mapa=altura_mapa+60;
+		}
 		$('#area_mapa').css({'height':altura_mapa});
 	}
 }
 $(document).ready(function(){
+	$("button.navbar-toggler").click(function(){
+		var isVisible = $( ".collapse" ).is( ":visible" );
+		if(!isVisible){
+			$(".btn-fraccionamiento").css("z-index","140");
+			$("a#btn-back").css("z-index","140");
+		}
+		else{
+			$(".btn-fraccionamiento").css("z-index","152");
+			$("a#btn-back").css("z-index","152");
+		}
+	});
+	
+	
 	if(typeof estado_activo !== typeof undefined){
 		$.ajax({
 			//data:  parametros,
@@ -89,7 +105,7 @@ $(document).ready(function(){
 			}else{
 				if(wp_active!=0){
 					ordenarAsc(data2, 'nombre');
-					$("footer").after('<div class="contacto_whatsappf"><div class="detalle animation numE_'+data2.length+'"><div class="cerrar"><i class="fa fa-close text-danger" aria-hidden="true"></i></div><div class="titulo">Selecciona un Estado:</div><div class="contenido"><ul class="tel-wp"></ul></div></div><a target="_blank" class="d-inline-block" href="'+Path+'/index/whatsapp/"><img src="'+Path+'/images/footer/ico_whatsapp.png"></a></div>');
+					$("footer").after('<div class="contacto_whatsappf"><div class="detalle animation numE_'+data2.length+'"><div class="cerrar"><i class="fa fa-close text-danger" aria-hidden="true"></i></div><div class="titulo">Selecciona un Estado:</div><div class="contenido"><ul class="tel-wp"></ul></div></div><a class="d-inline-block" href="#"><img src="'+Path+'/images/footer/ico_whatsapp.png"></a></div>');
 					var name="";
 					for(var i=0;i<data2.length;i++){
 						switch (data2[i].nombre) {
