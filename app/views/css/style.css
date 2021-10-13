@@ -6,20 +6,22 @@ header .container{margin-top: 66px;position:relative;padding-left:100px;}
 header .container nav{border-radius: 15px;}
 #logo-principal{position: absolute;left:0px;top: -50px;z-index: 10;}
 #logo-principal img{width: 160px;}
-#menu-1 ul li{height: 66px;display: flex;flex-direction: column;justify-content: space-around;align-items: flex-start;font-weight: 700;}
-#menu-1 ul:first-child li:first-child{background-color: #DA291C;padding-left: 50px;border-right: 1px solid #000000;}
-#menu-1 ul:first-child li:nth-child(2){border-left: 1px solid #5C5C5C;}
-#menu-1 ul:first-child li a{position:relative;padding: 0 .9rem;}
-#menu-1 ul:first-child li a::after{content: '';border-right: 1px solid #5C5C5C;position: absolute;right: 0px;width: 1px;height: 16px;top: 0px;}
-#menu-1 ul:first-child li a::before{content: '';border-right: 1px solid #000000;position: absolute;right: 1px;width: 1px;height: 16px;top: 0px;}
-#menu-1 ul:first-child li:last-child a::before,
-#menu-1 ul:first-child li:last-child a::after,
-#menu-1 ul:first-child li:first-child a::before,
-#menu-1 ul:first-child li:first-child a::after{display:none;}
+#menu-1 > ul > li{height: 66px;display: flex;flex-direction: column;justify-content: space-around;align-items: flex-start;font-weight: 700;}
+#menu-1 > ul:first-child > li:first-child{background-color: #DA291C;padding-left: 50px;border-right: 1px solid #000000;}
+#menu-1 > ul:first-child > li:nth-child(2){border-left: 1px solid #5C5C5C;}
+#menu-1 > ul:first-child > li > a{position:relative;padding: 0 .9rem;}
+#menu-1 > ul:first-child > li > a::after{content: '';border-right: 1px solid #5C5C5C;position: absolute;right: 0px;width: 1px;height: 16px;top: 0px;}
+#menu-1 > ul:first-child > li > a::before{content: '';border-right: 1px solid #000000;position: absolute;right: 1px;width: 1px;height: 16px;top: 0px;}
+#menu-1 > ul:first-child > li:last-child > a::before,
+#menu-1 > ul:first-child > li:last-child > a::after,
+#menu-1 > ul:first-child > li:first-child > a::before,
+#menu-1 > ul:first-child > li:first-child > a::after{display:none;}
 .navbar-dark .navbar-nav .nav-link{color:rgba(255, 255, 255, 1);}
 #menu-1 i{font-size: 20px;}
 #menu-1 i.fa-spotify{color:#1DB954;position:absolute;top:5px;right:-20px;}
 #menu-1 .active a{color:#DA291C;}
+#menu-1 .dropdown-menu{padding-top: 0px !important;padding-bottom:0px !important;}
+#menu-1 .dropdown-menu a:hover{background-color:#DA291C;}
 .bg-dark{background-color:#2C2C2C !important;}
 .text-dark{color:#2C2C2C !important;}
 .bg-black{background-color:#1D1D1D !important;}
@@ -54,7 +56,7 @@ input[type=text],input[type=email]{font-size: 10px;height: 38px;}
 #registro.gracias .bg-white{background: url(../../../images/registro/bg_registro.png) 40px bottom no-repeat;}
 #preregistro.index .bg-white{background: url(../../../images/registro/bg_registro.png) bottom right no-repeat;}
 #preregistro.gracias .bg-white{background: url(../../../images/registro/bg_registro.png) 40px bottom no-repeat;}
-header{background: url(../../../images/general/enredaderas_menu.png) no-repeat center -20px;background-size: 1380px;z-index: 100;position: relative;}
+header{background: url(../../../images/general/enredaderas_menu.png) no-repeat center -20px;background-size: 1380px;z-index: 150;position: relative;}
 #preregistro.index .img-registro-main{margin-top: -100px;}
 #preregistro header,#terminos header{background:none;}
 footer{position:relative;z-index: 10;}
@@ -209,4 +211,13 @@ footer{position:relative;z-index: 10;}
 
 @media (min-width: 1250px){
     .container, .container-lg, .container-md, .container-sm, .container-xl{max-width: 1200px;}
+}
+
+@media (max-width: 991px){
+    #menu-1 > ul:first-child > li:first-child{min-height: 66px;height: auto;}
+    #menu-1 .dropdown-menu{width: 100%;text-align: center;border:none;}
+    #menu-1 .dropdown-menu ul{border-bottom: 1px solid #FFFFFF !important;padding:15px 0 15px;}
+    #menu-1 .dropdown-menu a{padding:15px 0 15px;font-weight: bold;}
+    #menu-1 .dropdown-menu > a{border-bottom: 1px solid #666;font-weight: normal;}
+    #menu-1 .dropdown-menu > a:last-child{border-bottom: none;}
 }
