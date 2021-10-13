@@ -53,11 +53,11 @@ function altura_wrapper_fixed(){
     $(".container-gracias-center").css({'padding-top':"0px"});
     }
     if($('body').is('#index')){
-		altura_mapa=altura_ventana-altura_footer;
 		if($('body').hasClass('movil')){
+			/*altura_mapa=altura_ventana-altura_footer;
 			altura_mapa=altura_mapa+60;
+			$('#area_mapa').css({'height':altura_mapa});*/
 		}
-		$('#area_mapa').css({'height':altura_mapa});
 	}
 }
 $(document).ready(function(){
@@ -66,10 +66,12 @@ $(document).ready(function(){
 		if(!isVisible){
 			$(".btn-fraccionamiento").css("z-index","140");
 			$("a#btn-back").css("z-index","140");
+			$(".nuevoleon.pin").css("z-index","150");
 		}
 		else{
 			$(".btn-fraccionamiento").css("z-index","152");
 			$("a#btn-back").css("z-index","152");
+			$(".nuevoleon.pin").css("z-index","151");
 		}
 	});
 	
