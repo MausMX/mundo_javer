@@ -30,7 +30,7 @@
 			</script>
 		<?php } ?>
 	</head>
-	<body id="<?=$controllerName; ?>" class="<?=$function;?>">
+	<body id="<?=$controllerName; ?>" class="<?=$function;?> <?=Movil?>">
 		<!-- Google Tag Manager (noscript) -->
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P3LPRCH"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

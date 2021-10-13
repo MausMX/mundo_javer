@@ -85,7 +85,7 @@ window.addEventListener("resize", function(){
 },false);
 
 $(window).on("load",function(){
-//	altura_wrapper_fixed2();
+	//altura_wrapper_fixed2();
 	myVar = setInterval(animacion_inicial, 100);
 });
 
@@ -95,12 +95,16 @@ function altura_wrapper_fixed2(){
     altura_footer=$("footer").height();
     altura_header=$("header").height();
     altura_wrapper=altura_ventana-altura_footer-altura_header;
-    $(".wrapper").css({'min-height':altura_wrapper});
+ //   $(".wrapper").css({'min-height':altura_wrapper});
 	if($('body').is('#index')){
 		altura_mapa=altura_ventana-altura_footer;
+		if($('body').hasClass('movil')){
+			altura_mapa=altura_mapa+60;
+		}
 		$('#area_mapa').css({'height':altura_mapa});
 	}
-}*/
+}
+*/
 
 function animacion_inicial() {
 	contador++;

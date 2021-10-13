@@ -13,4 +13,12 @@ define('DB_name', '');
 define('DB_User', '');
 define('DB_Password', '');
 define('Path', 'https://'.$_SERVER['HTTP_HOST'].'/mundo-javer-2021');
+function isMobile() {
+    return preg_match("/(android|avantgo|blackberry|bolt|boost|cricket|docomo|fone|hiptop|mini|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)/i", $_SERVER["HTTP_USER_AGENT"]);
+}
+if(isMobile()){
+    define('Movil','movil');
+}else{
+	define('Movil','');
+}
 ?>
