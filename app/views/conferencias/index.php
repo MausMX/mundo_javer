@@ -1,6 +1,6 @@
 <div class="container font-poppins pb-5">
     <div class="bg-white rounded-top px-0 bg-black mb-0 info-conferencias-title d-block d-lg-none d-xl-none d-md-none" style="position: relative;">
-        <a id="btn-back" href="<?=Path?>" style="z-index: 8;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
+        <a id="btn-back" href="<?=Path?>" style="z-index: 152;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
          <div class="col-12 col-md-9 col-lg-9 col-xl-9 p-0 rounded-top">
 				<div class="title-ciudad px-5 py-2 my-0">
 					<p class="mb-0 font-44 py-3 text-ciudad bold c-white">Conferencias Javer</p>
@@ -8,7 +8,7 @@
            </div> 
     </div> 
     <div class="bg-white p-5 mb-5 info-conferencias" style="position: relative;">
-        <a id="btn-back" class="d-none d-lg-block d-xl-block d-md-block" href="<?=Path?>" style="z-index: 8;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
+        <a id="btn-back" class="d-none d-lg-block d-xl-block d-md-block" href="<?=Path?>" style="z-index: 152;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
         <div class="row px-4 contenido-conferencias">           
             <div class="col-12 col-md-9 col-lg-9 col-xl-9">
                 <h1 class="font-44 mb-4 mt-3 title-conf d-none d-lg-block d-xl-block d-md-block"><strong>Conferencias Javer</strong></h1>

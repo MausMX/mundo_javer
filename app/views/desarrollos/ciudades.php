@@ -19,7 +19,7 @@
         		<i class="fas fa-caret-left pr-3 icon-previ"></i><strong>Anterior Zona</strong>
         	</a>
 		</div>
-		<div class="col-6 d-flex" style="justify-content:right;">
+		<div class="col-6 d-flex" style="justify-content: flex-end;">
 			<a class="btn btn-danger pl-3 pr-2 text-uppercase font-10 poppins py-2 next-frac" href="<?= Path.$nextzon;?>">
         		<strong>Siguiente Zona</strong><i class="fas fa-caret-right pl-3 icon-netx"></i>
         	</a>
@@ -29,7 +29,7 @@
 <div class="container font-poppins ciudades"> 
     <div class="px-3 mb-5">
         <div class="row" style="position: relative;">
-            <a id="btn-back" href="<?=Path?>" style="z-index:10;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
+            <a id="btn-back" href="<?=Path?>" style="z-index:152;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
              <div class="col-lg-12 bg-black rounded-left p-0 text-md-center text-lg-left ciudades-detalle">
 				<div class="title-ciudad px-5 py-5 my-2">
 					<p class="mb-0 font-12 text-estado text-danger font-sweet-sans-pro"><?= $estado?></p>

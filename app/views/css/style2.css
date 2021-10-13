@@ -14,6 +14,7 @@
 .line-height-22{line-height: 22px;}
 .line-height-44{line-height: 44px;}
 .contacto_whatsappf{position: absolute;text-align: right;right: 62px;z-index: 55;width: 200px;margin-top: -100px;}
+.btn-fraccionamiento{position:relative;z-index: 152;}
 /*#carro_2 {
     width: 30px;
     height: 30px;
@@ -24,7 +25,7 @@
     z-index: 15;
 }*/
 #carro_2.active{opacity:1 !important;}
-#carro_2{width:30px;height:30px;top:248px;left:914px;position:absolute;opacity:0;z-index:15;}
+#carro_2{width:30px;height:30px;top:574px;left:659px;position:absolute;opacity:0;z-index:20;}
 #carro_2_1{background: url('../../../images/mapa/vehiculos/carro-2/carro-1.png');width:100%;height:100%;display:block;opacity:0;position:absolute;left:0;top:0;}
 #carro_2_2{background: url('../../../images/mapa/vehiculos/carro-2/carro-2.png');width:100%;height:100%;display:block;opacity:0;position:absolute;left:0;top:0;}
 #carro_2_3{background: url('../../../images/mapa/vehiculos/carro-2/carro-3.png');width:100%;height:100%;display:block;opacity:1;position:absolute;left:0;top:0;}
@@ -219,8 +220,8 @@ margin-bottom: 8%;
 }
 
 .img-conf .player img{width:80px;height:80px;}
-
 @media (min-width:320px) and (max-width:480px){	
+.btn-fraccionamiento{position:relative;z-index: 152;}
 body{background-size:cover !important;}
 footer .container .logo-footer{justify-content: left !important;}
 
@@ -356,7 +357,7 @@ button.navbar-toggler.ml-auto{margin-left:0px !important;}
 header div.container.font-sweet-sans-pro.font-10 {font-size:12px !important;}
 .navbar-dark .navbar-toggler {color: rgba(255,255,255,1);}
 header{background: url(../../../images/header/enredadera_mobile_v2.png) no-repeat;background-position: 0px 70px !important;background-size: contain;}
-header:not(.pre-header){height: 160px;position:relative; z-index: 51;}
+header:not(.pre-header){height: 160px;position:relative; z-index: 151;}
 #menu-1 ul:first-child li:first-child{padding-left:0px !important;background-color: transparent !important;}
 .navbar-dark .navbar-nav .nav-link{margin-left:auto;margin-right:auto;}
 #menu-1 ul:first-child li a::after,#menu-1 ul:first-child li a::before{border-right:0px !important;}
@@ -515,7 +516,7 @@ button.navbar-toggler.ml-auto{margin-left:0px !important;}
 header div.container.font-sweet-sans-pro.font-10 {font-size:12px !important;margin-left: 0px !important; margin-right:0px !important;width: 100%;max-width: 100%;}
 .navbar-dark .navbar-toggler {color: rgba(255,255,255,1);}
 header{background: url(../../../images/header/enredadera_mobile_v2.png) no-repeat;background-position: 0px 70px !important;background-size: contain;}
-header:not(.pre-header){height: 219px;position:relative;z-index:51;}
+header:not(.pre-header){height: 219px;position:relative;z-index:151;}
 #menu-1 ul:first-child li:first-child{padding-left:0px !important;background-color: transparent !important;}
 .navbar-dark .navbar-nav .nav-link{margin-left:auto;margin-right:auto;}
 #menu-1 ul:first-child li a::after,#menu-1 ul:first-child li a::before{border-right:0px !important;}
@@ -628,7 +629,7 @@ header {
         background-size: auto;
     background-size: 1280px;
 }
-header:not(.pre-header){height: 219px;position:relative;z-index:51;}
+header:not(.pre-header){height: 219px;position:relative;z-index:151;}
 #menu-1 ul:first-child li:first-child{padding-left:0px !important;background-color: transparent !important;}
 .navbar-dark .navbar-nav .nav-link{margin-left:auto;margin-right:auto;}
 #menu-1 ul:first-child li a::after,#menu-1 ul:first-child li a::before{border-right:0px !important;}
