@@ -273,7 +273,7 @@
 						$data = array("nombre"=>$array_estados[$v]);
 							if(!in_array($data, $e_disponibles, true)){
 								array_push($e_disponibles,$data);
-							}
+							} 
 					}
 				}
 			}

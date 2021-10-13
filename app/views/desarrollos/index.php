@@ -120,28 +120,24 @@
            		<div class="col-lg-12 interes-desarrollo mb-5">
 	       			<p class="mb-0 font-30 poppins bold DA291C">¿Te interesa este fraccionamiento?</p>
 	       		</div>
-	       		<div class="col-lg-4 offset-lg-2 col-md-5 col-xl-4 offset-xl-2 offset-md-1 f-left">
-	       			<div class="col-lg-12 pr-0 pl-0 mb-3 oficina-title">
-		            	<p class="mb-0 font-18 poppins bold">Visita la Oficina de Venta</p>
-	                </div>
-		       		<div class="col-lg-1 col-xl-1 col-md-1 pr-0 pl-0 f-left text-center d-none d-lg-block d-xl-block d-md-block">
-	                	<img src="<?=Path?>/images/desarrollo/alvento/location_red.png">
-	                </div>
-	                <div class="col-lg-11 col-xl-11 col-md-11 pl-2 f-left mb-4 d-none d-lg-block d-xl-block d-md-block">
-		            	<p class="mb-0 font-16 poppins"><?= $calle;?></p>
-	                </div>
-	                <div class="col-lg-11  col-xl-11 col-md-11 pl-2 btn-location">
-                    <a class="btn btn-danger pl-3 pr-4 text-uppercase font-10 poppins py-2" target="_blank" href="<?= $maps?>"><img class="pr-1 logo-location-maps" src="<?=Path?>/images/desarrollo/location_google.png"><strong>Abrir en google maps</strong></a>
-	                </div>
-	            </div>
-	            <div class="d-none col-lg-4 f-left offset-lg-0 col-md-6 col-xl-4 d-lg-block d-xl-block">
+	       		<div class="d-none col-lg-12 f-left col-md-12 col-xl-12 d-lg-block d-xl-block d-md-block text-center mb-4">
 	       			<div class="col-lg-12 pr-0 pl-0 mb-4 title-asesores">
 		            	<p class="mb-0 font-30 poppins bold line-height-26">Contacta a uno de nuestros asesores</p>
 	                </div>
-		       		<div class="col-lg-11 pl-2 btn-contacta">
+		       		<div class="col-lg-12 pl-2 btn-contacta">
 	                </div>
 	            </div>
-	       		
+	       		<div class="col-lg-12 col-md-12 col-xl-12 f-left text-center">
+	       			<div class="col-lg-12 pr-0 pl-0 mb-3 oficina-title">
+		            	<p class="mb-0 font-18 poppins bold">Visita la Oficina de Venta</p>
+	                </div>
+	                <div class="col-lg-12 col-xl-12 col-md-12 pl-2 f-left mb-4 d-none d-lg-block d-xl-block d-md-block">
+		            	<p class="mb-0 font-16 poppins"> <img src="<?=Path?>/images/desarrollo/alvento/location_red.png"> <?= $calle;?></p>
+	                </div>
+	                <div class="col-lg-12 col-xl-12 col-md-12 pl-2 btn-location">
+                    <a class="btn btn-danger pl-3 pr-4 text-uppercase font-10 poppins py-2" target="_blank" href="<?= $maps?>"><img class="pr-1 logo-location-maps" src="<?=Path?>/images/desarrollo/location_google.png"><strong>Abrir en google maps</strong></a>
+	                </div>
+	            </div>	       		
            </div>
         </div>
     </div>
