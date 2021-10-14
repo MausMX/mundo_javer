@@ -1,5 +1,12 @@
 <?php class index_controller extends appcontroller{
-	
+	public $charly='189.181.205.208';
+	public $pancho='187.188.64.214';
+	public $brisa='187.189.165.75';
+	public $oscar_valadez='200.52.88.65';
+	public $arthur='189.213.0.38';
+	public $bruno='189.203.205.83';
+	public $daniel='189.178.230.34';
+
 	public function __construct(){
 		parent::__construct();
 	}
@@ -7,7 +14,13 @@
 	public function index($page="1"){
 		$this->title_for_layout("Mundo Javer");
 		$hoy=date("Y-m-d H:i:s");
-		if($_SERVER['REMOTE_ADDR']=='189.181.204.198' or $_SERVER['REMOTE_ADDR']=='187.188.64.214' or $_SERVER['REMOTE_ADDR']=='189.178.230.34' or $_SERVER['REMOTE_ADDR']=='189.203.205.83' or $_SERVER['REMOTE_ADDR']=='189.213.0.38' or $_SERVER['REMOTE_ADDR']=='189.181.201.53' or $_SERVER['REMOTE_ADDR']=='200.52.88.65' or $_SERVER['REMOTE_ADDR']=='187.189.165.75'){
+		if(	$_SERVER['REMOTE_ADDR']==$this->pancho or 
+			$_SERVER['REMOTE_ADDR']==$this->daniel or 
+			$_SERVER['REMOTE_ADDR']==$this->bruno or 
+			$_SERVER['REMOTE_ADDR']==$this->arthur or 
+			$_SERVER['REMOTE_ADDR']==$this->oscar_valadez or 
+			$_SERVER['REMOTE_ADDR']==$this->brisa or 
+			$_SERVER['REMOTE_ADDR']==$this->charly){
 			$this->render();
 		}else{
 			if($hoy>='2021-10-01 00:00' and $hoy<'2021-10-08 09:00'){
