@@ -24,7 +24,7 @@
                 <div class="px-3">
                     <div class="row">
                         <div class="col-6 col-lg-5 rounded-left imagen img-conf" style="background: url(<?=Path?>/images/conferencias/tuhuerto2.jpg);background-size:cover;">
-                            <a id="conferencia-btn-play-conferencia1" class="player" href="https://www.youtube.com/embed/XFQtjhFgxN0" data-toggle="modal" data-target="#youtube"><img src="<?=Path?>/images/conferencias/Play_Icon.svg"></a>
+                            <a id="conferencia-btn-play-conferencia1" class="player" href="https://youtu.be/JBxd_QJHBR0" data-toggle="modal" data-target="#youtube"><img src="<?=Path?>/images/conferencias/Play_Icon.svg"></a>
                         </div>
                         <div class="col-6 col-lg-7 contenido bg-dark text-white rounded-right">
                             <div class="px-2 py-4 desc-conferencia">
@@ -39,7 +39,7 @@
                 <div class="px-3">
                     <div class="row">
                         <div class="col-6 col-lg-5 rounded-left imagen img-conf" style="background: url(<?=Path?>/images/conferencias/inversiones.jpg);background-size:cover;">
-                            <a id="conferencia-btn-play-conferencia2" class="player" href="https://www.youtube.com/embed/XFQtjhFgxN0" data-toggle="modal" data-target="#youtube"><img src="<?=Path?>/images/conferencias/Play_Icon.svg"></a>
+                            <a id="conferencia-btn-play-conferencia2" class="player" href="https://youtu.be/GSeQlAwhY80" data-toggle="modal" data-target="#youtube"><img src="<?=Path?>/images/conferencias/Play_Icon.svg"></a>
                         </div>
                         <div class="col-6 col-lg-7 contenido bg-dark text-white rounded-right">
                             <div class="px-2 py-4 desc-conferencia">
@@ -69,7 +69,7 @@
                 <div class="px-3">
                     <div class="row">
                         <div class="col-6 col-lg-5 rounded-left imagen img-conf" style="background: url(<?=Path?>/images/conferencias/ecotecnologias.jpg);background-size:cover;">
-                            <a id="conferencia-btn-play-conferencia4" class="player" href="https://www.youtube.com/embed/XFQtjhFgxN0" data-toggle="modal" data-target="#youtube"><img src="<?=Path?>/images/conferencias/Play_Icon.svg"></a>
+                            <a id="conferencia-btn-play-conferencia4" class="player" href="https://youtu.be/qdFVnqMwKzY" data-toggle="modal" data-target="#youtube"><img src="<?=Path?>/images/conferencias/Play_Icon.svg"></a>
                         </div>
                         <div class="col-6 col-lg-7 contenido bg-dark text-white rounded-right">
                             <div class="px-2 py-4 desc-conferencia">
