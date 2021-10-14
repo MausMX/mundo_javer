@@ -208,6 +208,7 @@ function animacion_inicial() {
 			$('#edificio_4').addClass('active');
 			$('#edificio_7').addClass('active');
 			$('#edificio_8').addClass('active');
+			$('#edificio_9').addClass('active');
 			break;
 		case 9:
 			$('#corporativo').addClass('active');

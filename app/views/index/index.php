@@ -7,6 +7,7 @@
         <div id="edificio_4"></div>
         <div id="edificio_7"></div>
         <div id="edificio_8"></div>
+        <div id="edificio_9"></div>
         <div class="animation" id="nuevoleon"></div>
         <div class="nuevoleon pin animation">
             <div class="area_detalle">
