@@ -29,7 +29,7 @@
 <div class="container font-poppins ciudades"> 
     <div class="px-3 mb-5">
         <div class="row" style="position: relative;">
-            <a id="btn-back" href="<?=Path?>" style="z-index:152;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
+            <a id="btn-back" href="<?=Path?>" style="z-index:161;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
              <div class="col-lg-12 bg-black rounded-left p-0 text-md-center text-lg-left ciudades-detalle">
 				<div class="title-ciudad px-5 py-5 my-2">
 					<p class="mb-0 font-12 text-estado text-danger font-sweet-sans-pro"><?= $estado?></p>

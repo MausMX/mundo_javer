@@ -1,6 +1,6 @@
 <div class="container font-poppins pb-5">
     <div class="bg-white rounded-top px-0 bg-black mb-0 info-conferencias-title d-block d-lg-none d-xl-none d-md-none" style="position: relative;">
-        <a id="btn-back" href="<?=Path?>" style="z-index: 152;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
+        <a id="btn-back" href="<?=Path?>" style="z-index: 161;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
          <div class="col-12 col-md-9 col-lg-9 col-xl-9 p-0 rounded-top">
 				<div class="title-ciudad px-5 py-2 my-0">
 					<p class="mb-0 font-44 py-3 text-ciudad bold c-white">Conferencias Javer</p>

@@ -1,7 +1,7 @@
 <div class="container font-poppins acerca-de">
     <div class="mb-5">
         <div class="bg-white rounded" style="position: relative;">
-            <a id="btn-back" href="<?=Path?>" style="z-index:152;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
+            <a id="btn-back" href="<?=Path?>" style="z-index:161;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
             <div class="row pt-5 pb-4 px-5">
                 <div class="col-12">
                     <div class="px-4 space-termino">

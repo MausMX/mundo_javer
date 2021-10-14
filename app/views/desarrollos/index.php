@@ -15,7 +15,7 @@
 <div class="container font-poppins desarrollo">
     <div class="px-3 mb-5">
         <div class="row" style="position: relative;">
-            <a id="btn-back" href="<?=Path?>" style="z-index:10;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
+            <a id="btn-back" href="<?=Path?>" style="z-index:161;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
             <div class="col-lg-12 bg-black rounded-left p-0 text-md-center text-lg-left slider-detalle">
 				<div id="slider" class="carousel slide" data-ride="carousel">
 				  <div class="carousel-inner">
