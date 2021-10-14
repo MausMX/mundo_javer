@@ -126,7 +126,16 @@ padding: 20px;background-color: #FFFFFF;border: 3px solid #D3D3D3;width: 250px;b
 /*.wrapper > .container:not(.top-planta){margin-bottom:70px !important;}*/
 .contenido-logo-contador{margin-top:-70px !important;}
 .top-planta{position:relative;}
-.bg-radial{background: top right radial-gradient(#42A6EF, #254DA7);}
+.bg-radial{/*background: top right radial-gradient(#42A6EF, #254DA7);-ms-radial-gradient:top right radial-gradient(#42A6EF, #254DA7);*/
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#42a6ef+0,2989d8+50,207cca+51,254da7+100 */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#42a6ef+0,254da7+100 */
+background: #42a6ef; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #42a6ef 0%, #254da7 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #42a6ef 0%,#254da7 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #42a6ef 0%,#254da7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42a6ef', endColorstr='#254da7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
 
 body.contador{background-image: url(../../../images/general/back_mapa.jpg);background-size: cover !important;}
 body.contador .btn-registro{border-radius: 12px; border-color:#EB4141;}

@@ -8,7 +8,7 @@
            </div> 
     </div> 
     <div class="bg-white p-5 mb-5 info-conferencias" style="position: relative;">
-        <a id="btn-back" class="d-none d-lg-block d-xl-block d-md-block" href="<?=Path?>" style="z-index: 152;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
+        <a id="btn-back" class="d-none d-lg-block d-xl-block d-md-block" href="<?=Path?>" style="z-index: 161;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
         <div class="row px-4 contenido-conferencias">           
             <div class="col-12 col-md-9 col-lg-9 col-xl-9">
                 <h1 class="font-44 mb-4 mt-3 title-conf d-none d-lg-block d-xl-block d-md-block"><strong>Conferencias Javer</strong></h1>
@@ -23,7 +23,7 @@
             <div class="col-lg-6 mb-5">
                 <div class="px-3">
                     <div class="row">
-                        <div class="col-6 col-lg-5 rounded-left imagen img-conf" style="background: url(<?=Path?>/images/conferencias/TuHuertoEnCasa-thum.jpg);background-size:cover;">
+                        <div class="col-6 col-lg-5 rounded-left imagen img-conf" style="background: url(<?=Path?>/images/conferencias/tuhuerto2.jpg);background-size:cover;">
                             <a class="player" href="https://www.youtube.com/embed/XFQtjhFgxN0" data-toggle="modal" data-target="#youtube"><img src="<?=Path?>/images/conferencias/Play_Icon.svg"></a>
                         </div>
                         <div class="col-6 col-lg-7 contenido bg-dark text-white rounded-right">
@@ -38,7 +38,7 @@
             <div class="col-lg-6 mb-5">
                 <div class="px-3">
                     <div class="row">
-                        <div class="col-6 col-lg-5 rounded-left imagen img-conf" style="background: url(<?=Path?>/images/conferencias/Inversiones-thum.jpg);background-size:cover;">
+                        <div class="col-6 col-lg-5 rounded-left imagen img-conf" style="background: url(<?=Path?>/images/conferencias/inversiones.jpg);background-size:cover;">
                             <a class="player" href="https://www.youtube.com/embed/XFQtjhFgxN0" data-toggle="modal" data-target="#youtube"><img src="<?=Path?>/images/conferencias/Play_Icon.svg"></a>
                         </div>
                         <div class="col-6 col-lg-7 contenido bg-dark text-white rounded-right">
@@ -68,7 +68,7 @@
             <div class="col-lg-6 mb-5">
                 <div class="px-3">
                     <div class="row">
-                        <div class="col-6 col-lg-5 rounded-left imagen img-conf" style="background: url(<?=Path?>/images/conferencias/video4.png);background-size:cover;">
+                        <div class="col-6 col-lg-5 rounded-left imagen img-conf" style="background: url(<?=Path?>/images/conferencias/ecotecnologias.jpg);background-size:cover;">
                             <a class="player" href="https://www.youtube.com/embed/XFQtjhFgxN0" data-toggle="modal" data-target="#youtube"><img src="<?=Path?>/images/conferencias/Play_Icon.svg"></a>
                         </div>
                         <div class="col-6 col-lg-7 contenido bg-dark text-white rounded-right">

@@ -13,7 +13,7 @@
                 </div>
             </div>
             <div class="col-lg-8 col-md-8 bg-white rounded-right registro-form" style="position: relative;">
-            <a id="btn-back" class="d-none d-lg-block d-md-block d-xl-block" href="<?=Path?>" style="z-index:152;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
+            <a id="btn-back" class="d-none d-lg-block d-md-block d-xl-block" href="<?=Path?>" style="z-index:161;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
                 <div class="p-5 padding-registro">
                     <h3 class="font-poppins font-18 text-center mb-3"><strong>Llena el formulario para ser contactado por uno de nuestros asesores y brindarte atención personalizada. ¡Escritura y gana!</strong></h3>
                     <div class="px-5 pt-3 padding-registro">
