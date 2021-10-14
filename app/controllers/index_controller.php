@@ -6,6 +6,7 @@
 	public $arthur='189.213.0.38';
 	public $bruno='189.203.205.83';
 	public $daniel='189.178.230.34';
+	public $luis='201.172.37.27';
 
 	public function __construct(){
 		parent::__construct();
@@ -20,6 +21,7 @@
 			$_SERVER['REMOTE_ADDR']==$this->arthur or 
 			$_SERVER['REMOTE_ADDR']==$this->oscar_valadez or 
 			$_SERVER['REMOTE_ADDR']==$this->brisa or 
+			$_SERVER['REMOTE_ADDR']==$this->luis or 
 			$_SERVER['REMOTE_ADDR']==$this->charly){
 			$this->render();
 		}else{
