@@ -182,7 +182,7 @@
 		}
 		if(!$dia){
 			$dia=date("d");
-			$dia=16;
+			//$dia=16;
 		}
 		$lp_files=file_get_contents('./files/lp.json');
 		$lps=json_decode($lp_files,true);
@@ -252,7 +252,7 @@
 	public function estados_disponibles($dia=''){
 		if(!$dia){
 			$dia=date("d");
-			$dia=16;
+			//$dia=16;
 		}
 		$lp_files=file_get_contents('./files/lp.json');
 		$lps=json_decode($lp_files,true);
