@@ -15,7 +15,8 @@
 		foreach($json_data as $i => $ciudad) {
 		    if($ciudad->id==$buscar) {
 				$x++;
-		        $this->view->nombre = $ciudad->nombre;
+		        $this->view->id = $ciudad->id;
+				$this->view->nombre = $ciudad->nombre;
 		        $this->view->descripcion = $ciudad->descripcion;
 		        $this->view->logo = $ciudad->logo;
 		        $this->view->ubicacion = $ciudad->ubicacion;

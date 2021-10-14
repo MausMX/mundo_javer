@@ -17,7 +17,7 @@
 									<div class="dropdown dropright">
 										<a class="dropdown-item text-white" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Aguascalientes</a>
 										<div class="dropdown-menu font-12" style="margin-left: -2px;background:transparent;">
-											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/aguascalientes">Aguascalientes</a>
+											<a id="menu-btn-aguacalientes" class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/aguascalientes">Aguascalientes</a>
 										</div>
 									</div>
 								</li>
@@ -27,9 +27,9 @@
 									<div class="dropdown dropright">
 										<a class="dropdown-item text-white" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Estado de México</a>
 										<div class="dropdown-menu font-12" style="margin-left: -2px;background:transparent;">
-											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/metepec">METEPEC</a>
-											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/zinacantepec">ZINACANTEPEC</a>
-											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/zumpango">ZUMPANGO</a>
+											<a id="menu-btn-metepect" class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/metepec">METEPEC</a>
+											<a id="menu-btn-zinacantepec" class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/zinacantepec">ZINACANTEPEC</a>
+											<a id="menu-btn-zumpango" class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/zumpango">ZUMPANGO</a>
 										</div>
 									</div>
 								</li>
@@ -39,10 +39,10 @@
 									<div class="dropdown dropright">
 										<a class="dropdown-item text-white" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Jalisco</a>
 										<div class="dropdown-menu font-12" style="margin-left: -2px;background:transparent;">
-											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/el-salto">EL SALTO</a>
-											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/tlajomulco-zuniga">TLAJOMULCO DE ZUÑIGA</a>
-											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/tonala">TONALÁ</a>
-											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/zapopan">ZAPOPAN</a>
+											<a id="menu-btn-el-salto" class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/el-salto">EL SALTO</a>
+											<a id="menu-btn-tlajomulco-zuniga" class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/tlajomulco-zuniga">TLAJOMULCO DE ZUÑIGA</a>
+											<a id="menu-btn-tonala" class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/tonala">TONALÁ</a>
+											<a id="menu-btn-zapopan" class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/zapopan">ZAPOPAN</a>
 										</div>
 									</div>
 								</li>
@@ -52,13 +52,13 @@
 									<div class="dropdown dropright">
 										<a class="dropdown-item text-white" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nuevo León</a>
 										<div class="dropdown-menu font-12" style="margin-left: -2px;background:transparent;">
-											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/apodaca">APODACA</a>
-											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/escobedo">ESCOBEDO</a>
-											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/garcia">GARCIA</a>
-											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/guadalupe">GUADALUPE</a>
-											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/juarez">JUAREZ</a>
-											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/monterrey">MONTERREY</a>
-											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/salinas-victoria">SALINAS VICTORIA</a>
+											<a id="menu-btn-apodaca" class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/apodaca">APODACA</a>
+											<a id="menu-btn-escobedo" class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/escobedo">ESCOBEDO</a>
+											<a id="menu-btn-garcia" class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/garcia">GARCIA</a>
+											<a id="menu-btn-guadalupe" class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/guadalupe">GUADALUPE</a>
+											<a id="menu-btn-juarez" class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/juarez">JUAREZ</a>
+											<a id="menu-btn-monterrey" class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/monterrey">MONTERREY</a>
+											<a id="menu-btn-salinas-victoria" class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/salinas-victoria">SALINAS VICTORIA</a>
 										</div>
 									</div>
 								</li>
@@ -68,9 +68,9 @@
 									<div class="dropdown dropright">
 										<a class="dropdown-item text-white" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Querétaro</a>
 										<div class="dropdown-menu font-12" style="margin-left: -2px;background:transparent;">
-											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/el-marques">EL MARQUES</a>
-											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/queretaro">QUERETARO</a>
-											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/san-juan-rio">SAN JUAN RIO</a>
+											<a id="menu-btn-el-marques" class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/el-marques">EL MARQUES</a>
+											<a id="menu-btn-queretaro" class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/queretaro">QUERETARO</a>
+											<a id="menu-btn-san-juan-rio" class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/san-juan-rio">SAN JUAN RIO</a>
 										</div>
 									</div>
 								</li>
@@ -80,8 +80,8 @@
 									<div class="dropdown dropright">
 										<a class="dropdown-item text-white" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quintana Roo</a>
 										<div class="dropdown-menu font-12" style="margin-left: -2px;background:transparent;">
-											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/cancun">CANCUN</a>
-											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/playa-del-carmen">PLAYA DEL CARMEN</a>
+											<a id="menu-btn-cancun" class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/cancun">CANCUN</a>
+											<a id="menu-btn-playa-del-carmen" class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/playa-del-carmen">PLAYA DEL CARMEN</a>
 										</div>
 									</div>
 								</li>
@@ -91,7 +91,7 @@
 									<div class="dropdown dropright">
 										<a class="dropdown-item text-white" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tamaulipas</a>
 										<div class="dropdown-menu font-12" style="margin-left: -2px;background:transparent;">
-											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/reynosa">REYNOSA</a>		
+											<a id="menu-btn-reynosa" class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/reynosa">REYNOSA</a>		
 										</div>
 									</div>
 								</li>
@@ -99,13 +99,13 @@
 						</div>
 					</li>
 					<li class="nav-item <?=$controllerName=='acerca'?'active':'';?>">
-						<a class="nav-link" href="<?=Path?>/acerca">Acerca de Javer</a>
+						<a id="menu-btn-acerca" class="nav-link" href="<?=Path?>/acerca">Acerca de Javer</a>
 					</li>
 					<li class="nav-item <?=$controllerName=='conferencias'?'active':'';?>">
-						<a class="nav-link" href="<?=Path?>/conferencias">Conferencias</a>
+						<a id="menu-btn-conferencias" class="nav-link" href="<?=Path?>/conferencias">Conferencias</a>
 					</li>
 					<li class="nav-item <?=$controllerName=='registro'?'active':'';?>">
-						<a class="nav-link" href="<?=Path?>/registro/pasos_regalo">Registro para regalo</a>
+						<a id="menu-btn-pasos-regalo" class="nav-link" href="<?=Path?>/registro/pasos_regalo">Registro para regalo</a>
 					</li>
 				</ul>
 				<ul class="navbar-nav ml-auto pr-3 social-redes">
@@ -113,19 +113,19 @@
 						<span class="nav-text text-white">Siguenos</span>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link px-1" target="_blank" href="https://www.facebook.com/Javer"><i class="fa fa-fw fa-facebook"></i></a>
+						<a id="menu-btn-facebook" class="nav-link px-1" target="_blank" href="https://www.facebook.com/Javer"><i class="fa fa-fw fa-facebook"></i></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link px-1" target="_blank" href="https://www.youtube.com/user/CasasJaver"><i class="fa fa-fw fa-youtube"></i></a>
+						<a id="menu-btn-youtube" class="nav-link px-1" target="_blank" href="https://www.youtube.com/user/CasasJaver"><i class="fa fa-fw fa-youtube"></i></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link px-1" target="_blank" href="https://www.instagram.com/javer_mx/"><i class="fa fa-fw fa-instagram"></i></a>
+						<a id="menu-btn-instagram" class="nav-link px-1" target="_blank" href="https://www.instagram.com/javer_mx/"><i class="fa fa-fw fa-instagram"></i></a>
 					</li>
 					<li class="navbar-text px-3">
 						|
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" target="_blank" style="position: relative;" href="https://open.spotify.com/show/2y8p0X9aATy4AS0MoOOFHJ?si=OXalRj0DSjynkRTtxBoZJA&dl_branch=1" nowrap>Podcast <i class="fa fa-fw fa-spotify"></i></a>
+						<a id="menu-btn-spotify" class="nav-link" target="_blank" style="position: relative;" href="https://open.spotify.com/show/2y8p0X9aATy4AS0MoOOFHJ?si=OXalRj0DSjynkRTtxBoZJA&dl_branch=1" nowrap>Podcast <i class="fa fa-fw fa-spotify"></i></a>
 					</li>
 				</ul>
 			</div>

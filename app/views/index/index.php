@@ -15,13 +15,13 @@
                     <div class="titulo">Selecciona una zona:</div>
                     <div class="contenido">
                         <ul>
-                            <li><a href="<?=Path?>/desarrollos/ciudades/apodaca">APODACA</a></li>
-                            <li><a href="<?=Path?>/desarrollos/ciudades/escobedo">ESCOBEDO</a></li>
-                            <li><a href="<?=Path?>/desarrollos/ciudades/garcia">GARCIA</a></li>
-                            <li><a href="<?=Path?>/desarrollos/ciudades/guadalupe">GUADALUPE</a></li>
-                            <li><a href="<?=Path?>/desarrollos/ciudades/juarez">JUAREZ</a></li>
-                            <li><a href="<?=Path?>/desarrollos/ciudades/monterrey">MONTERREY</a></li>
-                            <li><a href="<?=Path?>/desarrollos/ciudades/salinas-victoria">SALINAS VICTORIA</a></li>
+                            <li><a id="mapa-btn-apodaca" href="<?=Path?>/desarrollos/ciudades/apodaca">APODACA</a></li>
+                            <li><a id="mapa-btn-escobedo" href="<?=Path?>/desarrollos/ciudades/escobedo">ESCOBEDO</a></li>
+                            <li><a id="mapa-btn-garcia" href="<?=Path?>/desarrollos/ciudades/garcia">GARCIA</a></li>
+                            <li><a id="mapa-btn-guadalupe" href="<?=Path?>/desarrollos/ciudades/guadalupe">GUADALUPE</a></li>
+                            <li><a id="mapa-btn-juarez" href="<?=Path?>/desarrollos/ciudades/juarez">JUAREZ</a></li>
+                            <li><a id="mapa-btn-monterrey" href="<?=Path?>/desarrollos/ciudades/monterrey">MONTERREY</a></li>
+                            <li><a id="mapa-btn-salinas-victoria" href="<?=Path?>/desarrollos/ciudades/salinas-victoria">SALINAS VICTORIA</a></li>
                         </ul>
                     </div>
                 </div>
@@ -38,7 +38,7 @@
                     <div class="titulo">Selecciona una zona:</div>
                     <div class="contenido">
                         <ul>
-                            <li><a href="<?=Path?>/desarrollos/ciudades/aguascalientes">AGUASCALIENTES</a></li>
+                            <li><a id="mapa-btn-aguascalientes" href="<?=Path?>/desarrollos/ciudades/aguascalientes">AGUASCALIENTES</a></li>
                         </ul>
                     </div>
                 </div>
@@ -57,9 +57,9 @@
                     <div class="titulo">Selecciona una zona:</div>
                     <div class="contenido">
                         <ul>
-                            <li><a href="<?=Path?>/desarrollos/ciudades/metepec">METEPEC</a></li>
-                            <li><a href="<?=Path?>/desarrollos/ciudades/zinacantepec">ZINACANTEPEC</a></li>
-                            <li><a href="<?=Path?>/desarrollos/ciudades/zumpango">ZUMPANGO</a></li>
+                            <li><a id="mapa-btn-metepec" href="<?=Path?>/desarrollos/ciudades/metepec">METEPEC</a></li>
+                            <li><a id="mapa-btn-zinacantepec" href="<?=Path?>/desarrollos/ciudades/zinacantepec">ZINACANTEPEC</a></li>
+                            <li><a id="mapa-btn-zumpango" href="<?=Path?>/desarrollos/ciudades/zumpango">ZUMPANGO</a></li>
                         </ul>
                     </div>
                 </div>
@@ -77,10 +77,10 @@
                     <div class="titulo">Selecciona una zona:</div>
                     <div class="contenido">
                         <ul>
-                            <li><a href="<?=Path?>/desarrollos/ciudades/el-salto">EL SALTO</a></li>
-                            <li><a href="<?=Path?>/desarrollos/ciudades/tlajomulco-zuniga">TLAJOMULCO DE ZUÑIGA</a></li>
-                            <li><a href="<?=Path?>/desarrollos/ciudades/tonala">TONALÁ</a></li>
-                            <li><a href="<?=Path?>/desarrollos/ciudades/zapopan">ZAPOPAN</a></li>
+                            <li><a id="mapa-btn-el-salto" href="<?=Path?>/desarrollos/ciudades/el-salto">EL SALTO</a></li>
+                            <li><a id="mapa-btn-tlajomulco-zuniga" href="<?=Path?>/desarrollos/ciudades/tlajomulco-zuniga">TLAJOMULCO DE ZUÑIGA</a></li>
+                            <li><a id="mapa-btn-tonala" href="<?=Path?>/desarrollos/ciudades/tonala">TONALÁ</a></li>
+                            <li><a id="mapa-btn-zapopan" href="<?=Path?>/desarrollos/ciudades/zapopan">ZAPOPAN</a></li>
                         </ul>
                     </div>
                 </div>
@@ -97,10 +97,10 @@
                     <div class="titulo">Selecciona una zona:</div>
                     <div class="contenido">
                         <ul>
-                            <!-- <li><a href="<?=Path?>/desarrollos/ciudades/corregidora">CORREGIDORA</a></li> -->
-                            <li><a href="<?=Path?>/desarrollos/ciudades/el-marques">EL MARQUES</a></li>
-                            <li><a href="<?=Path?>/desarrollos/ciudades/queretaro">QUERETARO</a></li>
-                            <li><a href="<?=Path?>/desarrollos/ciudades/san-juan-rio">SAN JUAN RIO</a></li>
+                            <!-- <li><a id="mapa-btn-corregidora" href="<?=Path?>/desarrollos/ciudades/corregidora">CORREGIDORA</a></li> -->
+                            <li><a id="mapa-btn-el-marques" href="<?=Path?>/desarrollos/ciudades/el-marques">EL MARQUES</a></li>
+                            <li><a id="mapa-btn-queretaro" href="<?=Path?>/desarrollos/ciudades/queretaro">QUERETARO</a></li>
+                            <li><a id="mapa-btn-san-juan-rio" href="<?=Path?>/desarrollos/ciudades/san-juan-rio">SAN JUAN RIO</a></li>
                         </ul>
                     </div>
                 </div>
@@ -117,8 +117,8 @@
                     <div class="titulo">Selecciona una zona:</div>
                     <div class="contenido">
                         <ul>
-                            <li><a href="<?=Path?>/desarrollos/ciudades/cancun">CANCUN</a></li>
-                            <li><a href="<?=Path?>/desarrollos/ciudades/playa-del-carmen">PLAYA DEL CARMEN</a></li>
+                            <li><a id="mapa-btn-cancun" href="<?=Path?>/desarrollos/ciudades/cancun">CANCUN</a></li>
+                            <li><a id="mapa-btn-playa-del-carmen" href="<?=Path?>/desarrollos/ciudades/playa-del-carmen">PLAYA DEL CARMEN</a></li>
                         </ul>
                     </div>
                 </div>
@@ -230,7 +230,7 @@
                     <div class="titulo">Selecciona una zona:</div>
                     <div class="contenido">
                         <ul>
-                            <li><a href="<?=Path?>/desarrollos/ciudades/reynosa">REYNOSA</a></li>
+                            <li><a id="mapa-btn-reynosa" href="<?=Path?>/desarrollos/ciudades/reynosa">REYNOSA</a></li>
                         </ul>
                     </div>
                 </div>

@@ -1,12 +1,12 @@
 <div class="container font-poppins btn-fraccionamiento mb-5">
     <div class="row" style="position: relative;">
 		<div class="col-6 d-block">
-        	<a class="btn btn-danger pl-2 pr-3 text-uppercase font-10 poppins py-2 prev-frac" href="<?= Path.$prevfrac;?>">
+        	<a id="desarrollos-fraccionamiento-btn-anterior" class="btn btn-danger pl-2 pr-3 text-uppercase font-10 poppins py-2 prev-frac" href="<?= Path.$prevfrac;?>">
         		<i class="fas fa-caret-left pr-3 icon-previ"></i><strong>Anterior Fraccionamiento</strong>
         	</a>
 		</div>
 		<div class="col-6 d-flex" style="justify-content:right;">
-			<a class="btn btn-danger pl-3 pr-2 text-uppercase font-10 poppins py-2 next-frac" href="<?= Path.$nextfrac;?>">
+			<a id="desarrollos-fraccionamiento-btn-siguiente" class="btn btn-danger pl-3 pr-2 text-uppercase font-10 poppins py-2 next-frac" href="<?= Path.$nextfrac;?>">
         		<strong>Siguiente Fraccionamiento</strong><i class="fas fa-caret-right pl-3 icon-netx"></i>
         	</a>
 		</div>
@@ -29,11 +29,11 @@
 						}
 	            	?>    
 				  </div>
-				  <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+				  <a id="desarrollos-fraccionamiento-btn-anterior-carrusel" class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
 				    <span class="fas fa-chevron-circle-left " aria-hidden="true"></span>
 				    <span class="sr-only">Previous</span>
 				  </a>
-				  <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+				  <a id="desarrollos-fraccionamiento-btn-siguiente-carrusel" class="carousel-control-next" href="#slider" role="button" data-slide="next">
 				    <span class="fas fa-chevron-circle-right" aria-hidden="true"></span>
 				    <span class="sr-only">Next</span>
 				  </a>
@@ -135,7 +135,7 @@
 		            	<p class="mb-0 font-16 poppins"> <img src="<?=Path?>/images/desarrollo/alvento/location_red.png"> <?= $calle;?></p>
 	                </div>
 	                <div class="col-lg-12 col-xl-12 col-md-12 pl-2 btn-location">
-                    <a class="btn btn-danger pl-3 pr-4 text-uppercase font-10 poppins py-2" target="_blank" href="<?= $maps?>"><img class="pr-1 logo-location-maps" src="<?=Path?>/images/desarrollo/location_google.png"><strong>Abrir en google maps</strong></a>
+                    <a id="desarrollos-fraccionamiento-btn-abrir-mapa-<?=$id?>" class="btn btn-danger pl-3 pr-4 text-uppercase font-10 poppins py-2" target="_blank" href="<?= $maps?>"><img class="pr-1 logo-location-maps" src="<?=Path?>/images/desarrollo/location_google.png"><strong>Abrir en google maps</strong></a>
 	                </div>
 	            </div>	       		
            </div>

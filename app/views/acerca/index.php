@@ -153,7 +153,7 @@
                             </table>
                         </div>
                     </div>
-                    <a class="btn btn-danger px-4 text-uppercase font-10 font-sweet-sans-pro py-2 mt-4 mb-5" href="<?=Path?>"><strong>Regresar al mundo Javer</strong></a>
+                    <a id="acerca-btn-regresar" class="btn btn-danger px-4 text-uppercase font-10 font-sweet-sans-pro py-2 mt-4 mb-5" href="<?=Path?>"><strong>Regresar al mundo Javer</strong></a>
                 </div>
             </section>
             <?php /*
