@@ -1,8 +1,8 @@
 <header>
 	<div class="container font-sweet-sans-pro font-10">
-		<a id="logo-principal" class="navbar-brand d-none d-lg-block d-xl-block" href="<?=Path ?>"><img src="<?php echo Path;?>/images/header/MundoJaver_Logotipo.svg"></a>
+		<a id="logo-principal" class="navbar-brand d-none d-lg-block d-xl-block" href="<?=Path?>"><img src="<?=Path?>/images/header/MundoJaver_Logotipo.svg"></a>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-0 pb-0 pl-0">
-		<a id="logo-principalm" class="navbar-brand d-block d-lg-none d-xl-none" href="<?=Path ?>"><img src="<?php echo Path;?>/images/header/logo_menu_mobile.png"></a>
+		<a id="logo-principalm" class="navbar-brand d-block d-lg-none d-xl-none" href="<?=Path?>"><img src="<?=Path?>/images/header/logo_menu_mobile.png"></a>
 		<div class="py-3 d-block d-lg-none d-xl-none"><p class="title-expo-header p-2 poppins font-12-header">EXPO VIRTUAL</p></div>
 			<button class="navbar-toggler ml-auto mr-0 py-3 border-0" type="button" data-toggle="collapse" data-target="#menu-1" aria-controls="menu-1" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -16,7 +16,7 @@
 								<li>
 									<div class="dropdown dropright">
 										<a class="dropdown-item text-white" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Aguascalientes</a>
-										<div class="dropdown-menu font-12" style="margin-left: -2px;padding-left:4px;background:transparent;">
+										<div class="dropdown-menu font-12" style="margin-left: -2px;background:transparent;">
 											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/aguascalientes">Aguascalientes</a>
 										</div>
 									</div>
@@ -26,7 +26,7 @@
 								<li>
 									<div class="dropdown dropright">
 										<a class="dropdown-item text-white" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Estado de México</a>
-										<div class="dropdown-menu font-12" style="margin-left: -2px;padding-left:4px;background:transparent;">
+										<div class="dropdown-menu font-12" style="margin-left: -2px;background:transparent;">
 											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/metepec">METEPEC</a>
 											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/zinacantepec">ZINACANTEPEC</a>
 											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/zumpango">ZUMPANGO</a>
@@ -38,7 +38,7 @@
 								<li>
 									<div class="dropdown dropright">
 										<a class="dropdown-item text-white" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Jalisco</a>
-										<div class="dropdown-menu font-12" style="margin-left: -2px;padding-left:4px;background:transparent;">
+										<div class="dropdown-menu font-12" style="margin-left: -2px;background:transparent;">
 											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/el-salto">EL SALTO</a>
 											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/tlajomulco-zuniga">TLAJOMULCO DE ZUÑIGA</a>
 											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/tonala">TONALÁ</a>
@@ -51,7 +51,7 @@
 								<li>
 									<div class="dropdown dropright">
 										<a class="dropdown-item text-white" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nuevo León</a>
-										<div class="dropdown-menu font-12" style="margin-left: -2px;padding-left:4px;background:transparent;">
+										<div class="dropdown-menu font-12" style="margin-left: -2px;background:transparent;">
 											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/apodaca">APODACA</a>
 											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/escobedo">ESCOBEDO</a>
 											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/garcia">GARCIA</a>
@@ -67,7 +67,7 @@
 								<li>
 									<div class="dropdown dropright">
 										<a class="dropdown-item text-white" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Querétaro</a>
-										<div class="dropdown-menu font-12" style="margin-left: -2px;padding-left:4px;background:transparent;">
+										<div class="dropdown-menu font-12" style="margin-left: -2px;background:transparent;">
 											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/el-marques">EL MARQUES</a>
 											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/queretaro">QUERETARO</a>
 											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/san-juan-rio">SAN JUAN RIO</a>
@@ -79,7 +79,7 @@
 								<li>
 									<div class="dropdown dropright">
 										<a class="dropdown-item text-white" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quintana Roo</a>
-										<div class="dropdown-menu font-12" style="margin-left: -2px;padding-left:4px;background:transparent;">
+										<div class="dropdown-menu font-12" style="margin-left: -2px;background:transparent;">
 											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/cancun">CANCUN</a>
 											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/playa-del-carmen">PLAYA DEL CARMEN</a>
 										</div>
@@ -90,7 +90,7 @@
 								<li>
 									<div class="dropdown dropright">
 										<a class="dropdown-item text-white" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tamaulipas</a>
-										<div class="dropdown-menu font-12" style="margin-left: -2px;padding-left:4px;background:transparent;">
+										<div class="dropdown-menu font-12" style="margin-left: -2px;background:transparent;">
 											<a class="dropdown-item bg-dark text-white" href="<?=Path?>/desarrollos/ciudades/reynosa">REYNOSA</a>		
 										</div>
 									</div>
@@ -105,7 +105,7 @@
 						<a class="nav-link" href="<?=Path?>/conferencias">Conferencias</a>
 					</li>
 					<li class="nav-item <?=$controllerName=='registro'?'active':'';?>">
-						<a class="nav-link" href="<?=Path?>/registro/pasos_regalo">Registro para premio</a>
+						<a class="nav-link" href="<?=Path?>/registro/pasos_regalo">Registro para regalo</a>
 					</li>
 				</ul>
 				<ul class="navbar-nav ml-auto pr-3 social-redes">

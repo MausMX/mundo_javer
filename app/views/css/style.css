@@ -56,7 +56,7 @@ input[type=text],input[type=email]{font-size: 10px;height: 38px;}
 #registro.gracias .bg-white{background: url(../../../images/registro/bg_registro.png) 40px bottom no-repeat;}
 #preregistro.index .bg-white{background: url(../../../images/registro/bg_registro.png) bottom right no-repeat;}
 #preregistro.gracias .bg-white{background: url(../../../images/registro/bg_registro.png) 40px bottom no-repeat;}
-header{background: url(../../../images/general/enredaderas_menu.png) no-repeat center -20px;background-size: 1380px;z-index: 150;position: relative;}
+header{background: url(../../../images/general/enredaderas_menu.png) no-repeat center -20px;background-size: 1380px;z-index: 160;position: relative;}
 #preregistro.index .img-registro-main{margin-top: -100px;}
 #preregistro header,#terminos header{background:none;}
 footer{position:relative;z-index: 10;}
