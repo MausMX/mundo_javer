@@ -47,6 +47,7 @@
 	</div>
 </footer>
 <?php if(isset($estado)) echo "<script> var estado_activo='{$estado}'; </script>";?>
+<?php if(isset($id)) echo "<script> var desarrollo_activo='{$id}'; </script>";?>
 <?php if($controllerName=='desarrollos' and $function=='index'){
 			echo "<script> var wp_active=0; </script>";
 		}else{
