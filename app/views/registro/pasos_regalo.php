@@ -1,7 +1,7 @@
 <div class="container font-poppins pasos-regalo">
     <div class="px-3 mb-5">
         <div class="row" style="position: relative;">
-            <img class="d-none d-md-block d-lg-block d-xl-block img-regalo-pasos" src="<?=Path?>/images/pasos_regalo/regalo_pasos.png" style="position: absolute;z-index: 99999;left: -48px;top: 60px;width: 40%;">
+            <img class="d-none d-md-block d-lg-block d-xl-block img-regalo-pasos" src="<?=Path?>/images/pasos_regalo/regalo_pasos.png" style="position: absolute;z-index: 10;left: -48px;top: 60px;width: 40%;">
             <div class="col-12 col-lg-4 col-md-4 bg-black rounded-left pt-0 pb-5 text-md-center text-lg-left bg-radial">
             <a id="btn-back" class="d-block d-lg-none d-md-none d-xl-none" href="<?=Path?>" style="z-index:152;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
                 <div class="img-registro-main px-3">
