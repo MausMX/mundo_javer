@@ -110,23 +110,23 @@
             ?>
 
            <div class="col-lg-12 bg-white py-5 rounded-bottom" style="position: relative;">
-           	    <div class="col-12 d-lg-none f-left d-md-none d-xl-none">
+           	    <!--<div class="col-12 d-lg-none f-left d-md-none d-xl-none">
 	       			<div class="col-lg-12 pr-0 pl-0 mb-4 title-asesores">
 		            	<p class="mb-0 font-30 poppins bold line-height-26">Contacta a uno de nuestros asesores</p>
 	                </div>
 		       		<div class="col-lg-11 pl-2 btn-contacta">
 	                </div>
-	            </div>
+	            </div>-->
            		<div class="col-lg-12 interes-desarrollo mb-5">
 	       			<p class="mb-0 font-30 poppins bold DA291C">¿Te interesa este fraccionamiento?</p>
 	       		</div>
-	       		<div class="d-none col-lg-12 f-left col-md-12 col-xl-12 d-lg-block d-xl-block d-md-block text-center mb-4">
+	       		<!--<div class=" col-lg-12 f-left col-md-12 col-xl-12 text-center mb-4">
 	       			<div class="col-lg-12 pr-0 pl-0 mb-4 title-asesores">
 		            	<p class="mb-0 font-30 poppins bold line-height-26">Contacta a uno de nuestros asesores</p>
 	                </div>
 		       		<div class="col-lg-12 pl-2 btn-contacta">
 	                </div>
-	            </div>
+	         </div>-->
 	       		<div class="col-lg-12 col-md-12 col-xl-12 f-left text-center">
 	       			<div class="col-lg-12 pr-0 pl-0 mb-3 oficina-title">
 		            	<p class="mb-0 font-18 poppins bold">Visita la Oficina de Venta</p>
