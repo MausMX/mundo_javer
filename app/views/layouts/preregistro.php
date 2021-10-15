@@ -15,7 +15,7 @@
 		<meta name="keywords" content="<?=$meta_keywords;?>" />
 		<meta name="title" content="<?=$meta_title;?>" />
 		<meta name="viewport" content="width=device-width">
-		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="shortcut icon" href="<?=Path?>/favicon.ico" />
 		<meta name="author" content="Maus Casa Creativa SC" />
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.typekit.net/avv6anh.css">
