@@ -19,8 +19,8 @@
                     <h3 class="font-poppins font-18 text-center mb-3"><strong>Llena el formulario para ser contactado por uno de nuestros asesores y brindarte atención personalizada. ¡Escritura y gana!</strong></h3>
                     <div class="px-5 pt-3 padding-registro">
                         <form method="post" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" onsubmit="return validar(this)">
-                            <input type="hidden" name='captcha_settings' value='{"keyname":"CAPTCHAJAVER","fallback":"true","orgId":"00D530000008hIx","ts":""}'>
-                            <input type="hidden" name="oid" value="00D530000008hIx">
+                            <input type="hidden" name='captcha_settings' value='{"keyname":"CAPTCHAJAVER","fallback":"true","orgId":"00Do0000000b6Io","ts":""}'>
+                            <input type="hidden" name="oid" value="00Do0000000b6Io">
                             <input type="hidden" name="retURL" value="<?=Path?>/registro/gracias?id=<?=$ahora?>">
                             <input type="hidden" name="00N3l00000Q7A57" id="00N3l00000Q7A57" placeholder="Fuente" required value="Mundo Javer">
                             <input type="hidden" name="00N3l00000Q7A5X" id="00N3l00000Q7A5X" class="form-control" placeholder="Zona de interés">
