@@ -6,7 +6,7 @@
 	public $arthur='189.213.0.38';
 	public $bruno='189.203.205.83';
 	public $daniel='189.178.230.34';
-	public $luis='201.172.37.27';
+	public $luis='189.219.66.81';
 
 	public function __construct(){
 		parent::__construct();
@@ -29,7 +29,7 @@
 				$this->view->contador_active=0;
 				$this->view->setLayout("clean");
 				$this->render('preheat');
-			}elseif($hoy>='2021-10-08 09:00' and $hoy<'2021-10-15 00:00'){
+			}elseif($hoy>='2021-10-08 09:00' and $hoy<'2021-10-15 09:00'){
 				$this->view->contador_active=1;
 				$this->view->setLayout("clean");
 				$this->render('contador');
