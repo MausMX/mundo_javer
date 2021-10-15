@@ -74,7 +74,7 @@
                         <div class="col-6 col-lg-7 contenido bg-dark text-white rounded-right">
                             <div class="px-2 py-4 desc-conferencia">
                                 <h2 class="titulo font-18"><strong>Ahorra inteligente con Ecotecnologías.</strong></h2>
-                                <div class="descripcion font-14">Una forma de crear en tu hogar un ambiente mucho más verde es con el uso de las ecotecnologías. Te invitamos a conocer más sobre las tecnologías limpias en la conferencia “Ecotecologías: Hipoteca Verde”.</div>
+                                <div class="descripcion font-14">Una forma de crear en tu hogar un ambiente mucho más verde es con el uso de las ecotecnologías. Te invitamos a conocer más sobre las tecnologías limpias en la conferencia “Ecotecnologías: Hipoteca Verde”.</div>
                             </div>
                         </div>
                     </div>
