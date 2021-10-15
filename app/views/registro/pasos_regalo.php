@@ -43,7 +43,7 @@
 						</div>
 						<div class="col-12 d-flex py-4 wrapper-pasos">
 							<div class="col-12 bt-w">
-								<a id="registro-pasos-regalo-btn-registro" class="btn btn-success py-2 px-4 font-10 mt-2 btn-continuar text-uppercase" href="<?=Path?>/registro"><strong>Regístrate</strong></a>
+								<a id="registro-pasos-regalo-btn-registro" class="btn btn-success py-2 px-4 font-10 mt-2 btn-continuar text-uppercase font-weight-bold" href="<?=Path?>/registro">Regístrate</a>
 							</div>
 						</div>	                    
 					</div>
