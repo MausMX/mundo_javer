@@ -325,14 +325,14 @@
 	"nextzona":"/desarrollos/ciudades/zapopan",
 	"tour_virtual":"https://www.javer.com.mx/tour/valle-de-los-encinos-plus/verona/",
     "slider": [
-      	"/images/desarrollo/Jalisco/valle_encinos/Encinos_slide_01.jpg",
-      	"/images/desarrollo/Jalisco/valle_encinos/Encinos_slide_02.jpg",
-      	"/images/desarrollo/Jalisco/valle_encinos/Encinos_slide_03.jpg",
-      	"/images/desarrollo/Jalisco/valle_encinos/Encinos_slide_04.jpg",
-      	"/images/desarrollo/Jalisco/valle_encinos/Encinos_slide_05.jpg",
-      	"/images/desarrollo/Jalisco/valle_encinos/Encinos_slide_06.jpg",
-      	"/images/desarrollo/Jalisco/valle_encinos/Encinos_slide_07.jpg",
-      	"/images/desarrollo/Jalisco/valle_encinos/Encinos_slide_08.jpg"
+      	"/images/desarrollo/Jalisco/valle_encinos/Encinos_slide_01.png",
+      	"/images/desarrollo/Jalisco/valle_encinos/Encinos_slide_02.png",
+      	"/images/desarrollo/Jalisco/valle_encinos/Encinos_slide_03.png",
+      	"/images/desarrollo/Jalisco/valle_encinos/Encinos_slide_04.png",
+      	"/images/desarrollo/Jalisco/valle_encinos/Encinos_slide_05.png",
+      	"/images/desarrollo/Jalisco/valle_encinos/Encinos_slide_06.png",
+      	"/images/desarrollo/Jalisco/valle_encinos/Encinos_slide_07.png",
+      	"/images/desarrollo/Jalisco/valle_encinos/Encinos_slide_08.png"
     ]
   },
   {
@@ -448,14 +448,14 @@
 	"nextzona":"/desarrollos/ciudades/zapopan",
 	"tour_virtual":"https://www.javer.com.mx/tour/alberi-residencial/modelo-blanc/",
     "slider": [
-      	"/images/desarrollo/Jalisco/alberi_residencial/Alberi_slide_01.jpg",
-      	"/images/desarrollo/Jalisco/alberi_residencial/Alberi_slide_02.jpg",
-      	"/images/desarrollo/Jalisco/alberi_residencial/Alberi_slide_03.jpg",
-      	"/images/desarrollo/Jalisco/alberi_residencial/Alberi_slide_04.jpg",
-      	"/images/desarrollo/Jalisco/alberi_residencial/Alberi_slide_05.jpg",
-      	"/images/desarrollo/Jalisco/alberi_residencial/Alberi_slide_06.jpg",
-      	"/images/desarrollo/Jalisco/alberi_residencial/Alberi_slide_07.jpg",
-      	"/images/desarrollo/Jalisco/alberi_residencial/Alberi_slide_08.jpg"
+      	"/images/desarrollo/Jalisco/alberi_residencial/Alberi_slide_01.png",
+      	"/images/desarrollo/Jalisco/alberi_residencial/Alberi_slide_02.png",
+      	"/images/desarrollo/Jalisco/alberi_residencial/Alberi_slide_03.png",
+      	"/images/desarrollo/Jalisco/alberi_residencial/Alberi_slide_04.png",
+      	"/images/desarrollo/Jalisco/alberi_residencial/Alberi_slide_05.png",
+      	"/images/desarrollo/Jalisco/alberi_residencial/Alberi_slide_06.png",
+      	"/images/desarrollo/Jalisco/alberi_residencial/Alberi_slide_07.png",
+      	"/images/desarrollo/Jalisco/alberi_residencial/Alberi_slide_08.png"
     ]
   },
   {
@@ -862,7 +862,7 @@
 	"telefono":"99 8777-0652",
 	"calle":"Sm. 523, mza 11 lote 1-07 Fracc. Privada Altus II, Cancún, Quintana Roo C.P. 77533",
 	"maps":"https://goo.gl/maps/tT95cfSsYqDwP6Pc8",
-	"prevurl":"/desarrollos/punta-estrella",
+	"prevurl":"/desarrollos/punta_estrella",
 	"nexturl":"/desarrollos/arbolada",
 	"prevzona":"/desarrollos/ciudades/playa-del-carmen",
 	"nextzona":"/desarrollos/ciudades/playa-del-carmen",
@@ -956,7 +956,7 @@
 	"calle":"Av. Flor de Ciruelos S/N Fracc. Porto Alto, Playa del Carmen, Quintana Roo C.P. 77723",
 	"maps":"https://g.page/r/CQevHX34mRfpEBA",
 	"prevurl":"/desarrollos/paseo-kusamil",
-	"nexturl":"/desarrollos/punta-estrella",
+	"nexturl":"/desarrollos/punta_estrella",
 	"prevzona":"/desarrollos/ciudades/cancun",
 	"nextzona":"/desarrollos/ciudades/cancun",
 	"tour_virtual":"https://www.javer.com.mx/tour/portoalto/verona/",

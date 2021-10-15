@@ -36,7 +36,7 @@
 				}else{ 
 				?>
 				<div class="mx-3 py-2 font-10 info-footer regalo-footer d-none d-lg-block d-xl-block">
-						<a id="footer-btn-regalo" target="_blank" class="d-inline-block" href="<?= Path?>/registro/pasos_regalo"><img id="footer-btn-regalo-img" src="<?=Path?>/images/preregistro/regalo_preheat.png"></a>
+						<a id="footer-btn-regalo" class="d-inline-block" href="<?= Path?>/registro/pasos_regalo"><img id="footer-btn-regalo-img" src="<?=Path?>/images/preregistro/regalo_preheat.png"></a>
 				</div>
 				<?}?>
 			</div>
