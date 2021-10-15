@@ -41,7 +41,7 @@
 			<div class="top-planta container mb-0"><img class="mr-2" id="img-hijo" src="<?=Path?>/images/general/enredaderas.png"></div>
 				<div class="col-12 text-center pt-0 pb-0 contenido-logo-contador ">
 					<div class="col-8 col-lg-2 col-xl-2 offset-2 offset-lg-5 offset-xl-5 text-center py-0 mb-5" id="logo-clean">
-						<img class="mr-2" id="img-hijo" src="<?=Path?>/images/contador/contador_logo.svg"> 
+						<img class="mr-2" id="img-hijo" alt="MUNDO JAVER 2021" title="Conoce todas las casas en venta en Mundo JAVER" src="<?=Path?>/images/contador/contador_logo.svg"> 
 					</div>
 				</div>
 			<?
@@ -50,7 +50,7 @@
 			<div class="top-planta container mb-0"><img class="mr-2" id="img-hijo" src="<?=Path?>/images/general/enredaderas.png"></div>
 			<div class="col-12 text-center pt-0 pb-0 contenido-logo-contador justify-content-center d-flex">
 					<div class="col-4 col-lg-2 col-xl-2 text-center py-0 mb-0 img-preheat">
-						<img class="mr-2" id="img-hijo" src="<?=Path?>/images/contador/contador_logo.svg">
+						<img class="mr-2" id="img-hijo" alt="MUNDO JAVER 2021" title="Conoce todas las casas en venta en Mundo JAVER" src="<?=Path?>/images/contador/contador_logo.svg">
 					</div>
 				</div>
 			<?
