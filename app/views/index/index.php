@@ -49,7 +49,7 @@
             <img src="<?=Path?>/images/mapa/nombres/ags.png">
         </div>
         <div class="animation" id="corporativo"></div>
-        <div class="corporativo pin animation"><a class="d-block w-100" style="height: 100%;" href="<?=Path?>/acerca"></a></div>
+        <div class="corporativo pin animation"><a id="mapa-btn-corporativo" class="d-block w-100" style="height: 100%;" href="<?=Path?>/acerca"></a></div>
         <div class="animation" id="edomex"></div>
         <div class="edomex pin animation">
             <div class="area_detalle">
@@ -69,7 +69,7 @@
         <div class="edomex nombre animation">
             <img src="<?=Path?>/images/mapa/nombres/edomex.png">
         </div>
-        <div class="animation" id="globo"><a target="_blank" href="https://open.spotify.com/show/2y8p0X9aATy4AS0MoOOFHJ?si=OXalRj0DSjynkRTtxBoZJA&dl_branch=1">&nbsp;</a></div>
+        <div class="animation" id="globo"><a id="mapa-btn-spotify" target="_blank" href="https://open.spotify.com/show/2y8p0X9aATy4AS0MoOOFHJ?si=OXalRj0DSjynkRTtxBoZJA&dl_branch=1">&nbsp;</a></div>
         <div class="animation" id="jalisco"></div>
         <div class="jalisco pin animation">
             <div class="area_detalle">
@@ -129,7 +129,7 @@
             <img src="<?=Path?>/images/mapa/nombres/quintana_roo.png">
         </div>
         <div id="regalo">
-            <a class="d-block w-100" style="height: 100%;" href="<?=Path?>/registro/pasos_regalo">
+            <a id="mapa-btn-pasos-regalo" class="d-block w-100" style="height: 100%;" href="<?=Path?>/registro/pasos_regalo">
             <div class="regalo_1"></div>
             <div class="regalo_2"></div>
             <div class="regalo_3"></div>
