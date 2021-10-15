@@ -180,6 +180,7 @@ $(window).on("load",function(){
 	$('.regalo_89').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0088.png')"});
 	$('.regalo_90').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0089.png')"});
 	$('.regalo_91').css({'background': "url('"+Path+"/images/mapa/regalo/JAVER_RegaloAnim_PNG0090.png')"});
+	$('body > div > iframe').parent().addClass('chatbot');
 });
 
 /*
