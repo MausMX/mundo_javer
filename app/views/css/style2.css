@@ -756,3 +756,7 @@ body{background-size:cover !important;}
 .contenido-conferencias .contenido {height: 300px;}
 /*#preregistro header{height:auto !important;}*/
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   #area_mapa{zoom:1;-ms-zoom:1;-webkit-zoom:1;}
+    body{zoom:1;-ms-zoom:1;-webkit-zoom:1;}
+}
