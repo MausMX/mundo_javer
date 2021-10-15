@@ -27,8 +27,9 @@ var carro_2={top:500,left:895,paso:1};
 $(window).on("load",function(){
 	altura_wrapper_fixed();	
 	$("#carro_1").after('<div id="carro_2" class="active" ><div id="carro_2_1" style="opacity: 0;"></div><div id="carro_2_2" style="opacity: 0;"></div><div id="carro_2_3" style="opacity: 0;"></div><div id="carro_2_4" style="opacity: 0;"></div></div>');
-
+	if($('body').is('#index') ){
 	myVar2 = setInterval(animacion_inicial2, 100);
+	}
 });
 
 
