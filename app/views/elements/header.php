@@ -113,19 +113,19 @@
 						<span class="nav-text text-white">Siguenos</span>
 					</li>
 					<li class="nav-item">
-						<a id="menu-btn-facebook" class="nav-link px-1" target="_blank" href="https://www.facebook.com/Javer"><i class="fa fa-fw fa-facebook"></i></a>
+						<a id="menu-btn-facebook" class="nav-link px-1" target="_blank" href="https://www.facebook.com/Javer"><i id="menu-btn-facebook-icono" class="fa fa-fw fa-facebook"></i></a>
 					</li>
 					<li class="nav-item">
-						<a id="menu-btn-youtube" class="nav-link px-1" target="_blank" href="https://www.youtube.com/user/CasasJaver"><i class="fa fa-fw fa-youtube"></i></a>
+						<a id="menu-btn-youtube" class="nav-link px-1" target="_blank" href="https://www.youtube.com/user/CasasJaver"><i id="menu-btn-youtube-icono" class="fa fa-fw fa-youtube"></i></a>
 					</li>
 					<li class="nav-item">
-						<a id="menu-btn-instagram" class="nav-link px-1" target="_blank" href="https://www.instagram.com/javer_mx/"><i class="fa fa-fw fa-instagram"></i></a>
+						<a id="menu-btn-instagram" class="nav-link px-1" target="_blank" href="https://www.instagram.com/javer_mx/"><i id="menu-btn-instagram-icono" class="fa fa-fw fa-instagram"></i></a>
 					</li>
 					<li class="navbar-text px-3">
 						|
 					</li>
 					<li class="nav-item">
-						<a id="menu-btn-spotify" class="nav-link" target="_blank" style="position: relative;" href="https://open.spotify.com/show/2y8p0X9aATy4AS0MoOOFHJ?si=OXalRj0DSjynkRTtxBoZJA&dl_branch=1" nowrap>Podcast <i class="fa fa-fw fa-spotify"></i></a>
+						<a id="menu-btn-spotify" class="nav-link" target="_blank" style="position: relative;" href="https://open.spotify.com/show/2y8p0X9aATy4AS0MoOOFHJ?si=OXalRj0DSjynkRTtxBoZJA&dl_branch=1" nowrap><span id="menu-btn-spotify-texto">Podcast</span> <i id="menu-btn-spotify-icono" class="fa fa-fw fa-spotify"></i></a>
 					</li>
 				</ul>
 			</div>

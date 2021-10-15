@@ -1,3 +1,4 @@
+<?php $ahora=date("YmdHis")?>
 <div class="container font-poppins reg-complete">
     <div class="px-3 mb-5">
         <div class="row" style="position: relative;">
@@ -17,11 +18,13 @@
                 <div class="p-5 padding-registro">
                     <h3 class="font-poppins font-18 text-center mb-3"><strong>Llena el formulario para ser contactado por uno de nuestros asesores y brindarte atención personalizada. ¡Escritura y gana!</strong></h3>
                     <div class="px-5 pt-3 padding-registro">
-                        <form method="post" action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" onsubmit="return validar(this)">
+                        <form method="post" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" onsubmit="return validar(this)">
                             <input type="hidden" name='captcha_settings' value='{"keyname":"CAPTCHAJAVER","fallback":"true","orgId":"00D530000008hIx","ts":""}'>
                             <input type="hidden" name="oid" value="00D530000008hIx">
-                            <input type="hidden" name="retURL" value="<?=Path?>/registro/gracias">
+                            <input type="hidden" name="retURL" value="<?=Path?>/registro/gracias?id=<?=$ahora?>">
                             <input type="hidden" name="00N3l00000Q7A57" id="00N3l00000Q7A57" placeholder="Fuente" required value="Mundo Javer">
+                            <input type="hidden" name="00N3l00000Q7A5X" id="00N3l00000Q7A5X" class="form-control" placeholder="Zona de interés">
+                            <input type="hidden" name="programas" id="programas" class="form-control" placeholder="Zona de interés" value="<?=$ahora?>">
                             <!--  ----------------------------------------------------------------------  -->
                             <!--  NOTA: Estos campos son elementos de depuración opcionales. Elimine      -->
                             <!--  los comentarios de estas líneas si desea realizar una prueba en el      -->
@@ -36,17 +39,17 @@
                                 <div class="col-lg-6 col-md-6"><input class="form-control mb-4" type="text" name="phone" id="phone" placeholder="Teléfono" required minlength="10" maxlength="10"></div>
                                 <div class="col-lg-6 col-md-6"><input class="form-control mb-4" type="email" name="email" id="email" placeholder="Correo" required maxlength="80"></div>
                                 <div class="col-lg-6 col-md-6 align-self-start">
-                                    <select class="form-control mb-4 font-10" name="00N3l00000Q7A5X" id="00N3l00000Q7A5X" required>
-                                        <option>Zona de interés</option>
-                                        <option value="UEN1 - NUEVO LEON">NUEVO LEON</option>
-                                        <option value="UEN3 - JALISCO">JALISCO</option>
-                                        <option value="UEN4 - AGUASCALIENTES">AGUASCALIENTES</option>
-                                        <option value="UEN4 - DISTRITO FEDERAL">DISTRITO FEDERAL</option>
-                                        <option value="UEN4 - ESTADO DE MEXICO">ESTADO DE MEXICO</option>
-                                        <option value="UEN4 - QUERETARO">QUERETARO</option>
-                                        <option value="UEN4 - GUANAJUATO">GUANAJUATO</option>
-                                        <option value="UEN4 - QUINTANA ROO">QUINTANA ROO</option>
-                                        <option value="UEN4 - TAMAULIPAS">TAMAULIPAS</option>
+                                    <select class="form-control mb-4 font-10 estado" name="00N3l00000Q7A4v" id="00N3l00000Q7A4v" required>
+                                        <option>Estado</option>
+                                        <option value="Aguascalientes">Aguascalientes</option>
+                                        <option value="Ciudad de México">Ciudad de México</option>
+                                        <option value="Estado de México">Estado de México</option>
+                                        <option value="Guanajuato">Guanajuato</option>
+                                        <option value="Jalisco">Jalisco</option>
+                                        <option value="Nuevo León">Nuevo León</option>
+                                        <option value="Querétaro">Querétaro</option>
+                                        <option value="Quintana Roo">Quintana Roo</option>
+                                        <option value="Tamaulipas">Tamaulipas</option>
                                     </select>
                                 </div>
                                 <div class="col-lg-6 col-md-6">
@@ -55,7 +58,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 button-registro">
-                                    <button id="btn-registro-registro" name="submit" class="btn btn-success text-uppercase py-2 px-5 font-10 letter-spacing-1" type="submit"><strong>Regístrate</strong></button>
+                                    <button id="btn-registro-registro" name="submit" class="btn btn-success text-uppercase py-2 px-5 font-10 letter-spacing-1 font-weight-bold" type="submit">Regístrate</button>
                                     <a class="font-poppins font-10 text-secondary d-block mt-2" href="https://www.javer.com.mx/avisos-de-privacidad#clientes">Ver Aviso de Privacidad</a>
                                 </div>
                                 <div class="col-lg-12 mt-4">
@@ -73,10 +76,11 @@
 </div>
 <style>
     .g-recaptcha   {
-        transform: scale(0.80);
-        -webkit-transform:scale(0.80);
+        transform: scale(0.70);
+        -webkit-transform:scale(0.70);
         transform-origin: 0 0;
         -webkit-transform-origin: 0 0;
+        zoom: 1.3;
     }
 </style>
 <script>

@@ -29,7 +29,7 @@
             </div>
         </div>
         <div class="nuevoleon nombre animation">
-            <img src="<?=Path?>/images/mapa/nombres/nuevo_leon.png">
+            <img src="<?=Path?>/images/mapa/nombres2/nuevo_leon.png">
         </div>
         <div class="animation" id="aguascalientes"></div>
         <div class="aguascalientes pin animation">
@@ -46,7 +46,7 @@
             </div>
         </div>
         <div class="aguascalientes nombre animation">
-            <img src="<?=Path?>/images/mapa/nombres/ags.png">
+            <img src="<?=Path?>/images/mapa/nombres2/ags.png">
         </div>
         <div class="animation" id="corporativo"></div>
         <div class="corporativo pin animation"><a id="mapa-btn-corporativo" class="d-block w-100" style="height: 100%;" href="<?=Path?>/acerca"></a></div>
@@ -67,7 +67,7 @@
             </div>
         </div>
         <div class="edomex nombre animation">
-            <img src="<?=Path?>/images/mapa/nombres/edomex.png">
+            <img src="<?=Path?>/images/mapa/nombres2/edomex.png">
         </div>
         <div class="animation" id="globo"><a id="mapa-btn-spotify" target="_blank" href="https://open.spotify.com/show/2y8p0X9aATy4AS0MoOOFHJ?si=OXalRj0DSjynkRTtxBoZJA&dl_branch=1">&nbsp;</a></div>
         <div class="animation" id="jalisco"></div>
@@ -88,7 +88,7 @@
             </div>
         </div>
         <div class="jalisco nombre animation">
-            <img src="<?=Path?>/images/mapa/nombres/jalisco.png">
+            <img src="<?=Path?>/images/mapa/nombres2/jalisco.png">
         </div>
         <div class="animation" id="queretaro"></div>
         <div class="queretaro pin animation">
@@ -108,7 +108,7 @@
             </div>
         </div>
         <div class="queretaro nombre animation">
-            <img src="<?=Path?>/images/mapa/nombres/queretaro.png">
+            <img src="<?=Path?>/images/mapa/nombres2/queretaro.png">
         </div>
         <div class="animation" id="quintanaroo"></div>
         <div class="quintanaroo pin animation">
@@ -126,7 +126,7 @@
             </div>
         </div>
         <div class="quintanaroo nombre animation">
-            <img src="<?=Path?>/images/mapa/nombres/quintana_roo.png">
+            <img src="<?=Path?>/images/mapa/nombres2/quintana_roo.png">
         </div>
         <div id="regalo">
             <a id="mapa-btn-pasos-regalo" class="d-block w-100" style="height: 100%;" href="<?=Path?>/registro/pasos_regalo">
@@ -238,7 +238,7 @@
             </div>
         </div>
         <div class="tamaulipas nombre animation">
-            <img src="<?=Path?>/images/mapa/nombres/tamaulipas.png">
+            <img src="<?=Path?>/images/mapa/nombres2/tamaulipas.png">
         </div>
         <div class="animation" id="edif_agu_jal"></div>
         <div id="camion"><div id="camion1"></div><div id="camion2"></div><div id="camion3"></div><div id="camion4"></div></div>
