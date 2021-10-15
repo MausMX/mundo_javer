@@ -16,12 +16,12 @@
     <div class="row" style="position: relative;">
 		<div class="col-6 d-block">
         	<a id="desarrollos-zona-btn-anterior" class="btn btn-danger pl-2 pr-3 text-uppercase font-10 poppins py-2 prev-frac" href="<?= Path.$prevzon;?>">
-        		<i class="fas fa-caret-left pr-3 icon-previ"></i><strong>Anterior Zona</strong>
+        		<i id="desarrollos-zona-btn-icono-anterior" class="fas fa-caret-left pr-3 icon-previ"></i><strong id="desarrollos-zona-btn-texto-siguiente">Anterior Zona</strong>
         	</a>
 		</div>
 		<div class="col-6 d-flex" style="justify-content: flex-end;">
 			<a id="desarrollos-zona-btn-siguiente" class="btn btn-danger pl-3 pr-2 text-uppercase font-10 poppins py-2 next-frac" href="<?= Path.$nextzon;?>">
-        		<strong>Siguiente Zona</strong><i class="fas fa-caret-right pl-3 icon-netx"></i>
+        		<strong id="desarrollos-zona-btn-texto-siguiente">Siguiente Zona</strong><i id="desarrollos-zona-btn-icono-siguiente" class="fas fa-caret-right pl-3 icon-netx"></i>
         	</a>
 		</div>
 	</div>
@@ -65,7 +65,7 @@
 												</div> 
 											</div>            
 										</div>
-										<a id="desarrollos-zona-btn-<?=$value->id;?>" class="btn btn-danger pl-3 pr-3 text-uppercase font-10 poppins py-2" href="<?=Path?>/desarrollos/<?= $value->id;?>"><strong>VER DETALLE DE FRACCIONAMIENTO</strong></a>
+										<a id="desarrollos-zona-btn-<?=$value->id;?>" class="btn btn-danger pl-3 pr-3 text-uppercase font-10 poppins py-2" href="<?=Path?>/desarrollos/<?= $value->id;?>"><strong id="desarrollos-zona-btn-texto-<?=$value->id;?>">VER DETALLE DE FRACCIONAMIENTO</strong></a>
 									</div>
 								</div>
 								<? }?>                                
