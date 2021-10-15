@@ -113,7 +113,7 @@ $(document).ready(function(){
 					$(".interes-desarrollo").after('<div class=" col-lg-12 f-left col-md-12 col-xl-12 text-center mb-4"><div class="col-lg-12 pr-0 pl-0 mb-4 title-asesores"><p class="mb-0 font-30 poppins bold line-height-26">Contacta a uno de nuestros asesores</p> </div><div class="col-lg-12 pl-2 btn-contacta"><a id="btn-whatsapp-'+nameW+'-'+desarrollo_activo+'" class="btn btn-danger pl-3 pr-4 text-uppercase font-10 poppins py-2" href="'+Path+'/index/whatsapp/'+estado_activo+'/"><img id="btn-whatsapp-img-'+nameW+'-'+desarrollo_activo+'" class="pr-1 logo-wp-btn" src="'+Path+'/images/desarrollo/WhatsApp_Icon_72x72.png"><strong id="btn-whatsapp-texto'+nameW+'-'+desarrollo_activo+'">Contactar asesor</strong></a></div></div>');
 				}
 			}).fail(function() {
-				console.log("No contamos con asesores este díasssssssssss");
+				//console.log("No contamos con asesores este díasssssssssss");
 				$("footer").before("<script>(function () {let js = document.createElement('script');js.type = 'text/javascript';js.async = 1;js.src = 'https://go.botmaker.com/rest/webchat/p/PQ2XODBE2N/init.js';document.body.appendChild(js);})();</script>");
 				//$(".btn-contacta").append('<a class="btn btn-danger pl-3 pr-4 text-uppercase font-10 poppins py-2" href="'+Path+'/index/whatsapp/'+estado_activo+'/"><img class="pr-1 logo-wp-btn" src="'+Path+'/images/desarrollo/WhatsApp_Icon_72x72.png"><strong>Contactar asesor</strong></a>');
 			}); 
@@ -171,7 +171,7 @@ $(document).ready(function(){
 				}
 			}
 		}).fail(function(xhr, status, error) {
-			console.log("No contamos con asesores este díasss333333333333ssssssss"+xhr.responseText);
+			//console.log("No contamos con asesores este díasss333333333333ssssssss"+xhr.responseText);
 		}); 
 	//} 
 
@@ -185,7 +185,6 @@ function animacion_inicial2() {
 }
 	function carro_2_animacion() {
 	$('#carro_2').addClass('active');
-	console.log(carro_2.paso+"---"+carro_2.top+"----"+carro_2.left);
 	if(carro_2.paso==1 && carro_2.top>=500 && carro_2.left>=895){
 		carro_2.paso=2;
 		$('#carro_2_1').css({'opacity':'0'});
