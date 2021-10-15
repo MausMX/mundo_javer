@@ -12,7 +12,7 @@
             <a id="btn-back" class="d-none d-lg-block d-md-block d-xl-block" href="<?=Path?>" style="z-index:161;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
                 <div class="p-4 padding-registro">
                 	<div class="px-5 py-4">
-		                 <h1 class="text-success font-30 line-height-32 font-poppins mb-4"><strong>¿Quieres saber cómo obtener uno de los regalos de Mundo javer?</strong></h1>
+		                 <h1 class="text-success font-30 line-height-32 font-poppins mb-4"><strong>¿Quieres saber cómo obtener uno de los regalos de Mundo Javer?</strong></h1>
 		                 <p class="font-poppins font-30 mb-4">
 	                          Sigue los siguientes pasos:
 						</p>
@@ -30,7 +30,7 @@
 							<div class="col-1 font-44 text-success bold line-height-44">2</div>
 							<div class="col-11">
 								<p class="mb-0 bold font-18">Escritura</p>
-								<p class="mb-0 font-18 line-height-22">Sé parte de Mundo Javer, navega en el mapa, conoce las opciones que tenemos para ti y recibe atención personalizada.</p>
+								<p class="mb-0 font-18 line-height-22">Ya que escogiste y adquiriste tu casa, el siguiente paso es escriturarla.</p>
 							</div>
 							
 						</div>
@@ -38,7 +38,7 @@
 							<div class="col-1 font-44 text-success bold line-height-44">3</div>
 							<div class="col-11">
 								<p class="mb-0 bold font-18">¡Gana!</p>
-								<p class="mb-0 font-18 line-height-22">Sé parte de Mundo Javer, navega en el mapa, conoce las opciones que tenemos para ti y recibe atención personalizada.</p>
+								<p class="mb-0 font-18 line-height-22">Conoce cuál es el regalo que tenemos para ti, desde minisplits, refrigeradores, bicicletas, tablets, y más ¡Disfrútalo!</p>
 							</div>
 						</div>
 						<div class="col-12 d-flex py-4 wrapper-pasos">
