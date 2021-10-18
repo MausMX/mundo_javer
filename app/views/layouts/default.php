@@ -20,8 +20,8 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.typekit.net/avv6anh.css">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-		<link rel="stylesheet" href="<?=Path?>/app/views/css/style.css?202110142211" type="text/css">
-		<link rel="stylesheet" href="<?=Path?>/app/views/css/style2.css?202110142211" type="text/css">
+		<link rel="stylesheet" href="<?=Path?>/app/views/css/style.css?202110181835" type="text/css">
+		<link rel="stylesheet" href="<?=Path?>/app/views/css/style2.css?202110181835" type="text/css">
 		<script>var Path="<?=Path?>";</script>
 		<?php if(($controllerName=='registro' and $function=='index') or ($controllerName=='preregistro' and $function=='index')){ ?>
 			<script src="https://www.google.com/recaptcha/api.js"></script>
@@ -57,8 +57,8 @@
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 		<script src="https://kit.fontawesome.com/8f4d94c6ec.js" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="<?=Path?>/app/libs/js/script.js?202110142211"></script>
-		<script type="text/javascript" src="<?=Path?>/app/libs/js/script2.js?202110142211"></script>
+		<script type="text/javascript" src="<?=Path?>/app/libs/js/script.js?202110181835"></script>
+		<script type="text/javascript" src="<?=Path?>/app/libs/js/script2.js?202110181835"></script>
 		<script async src=https://www.googletagmanager.com/gtag/js?id=G-GSMHZV3KJJ></script>
 		<script>
   			window.dataLayer = window.dataLayer || [];
