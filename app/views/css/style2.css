@@ -13,7 +13,7 @@
 .line-height-26{line-height: 26px;}
 .line-height-22{line-height: 22px;}
 .line-height-44{line-height: 44px;}
-.contacto_whatsappf{position: absolute;text-align: right;right: 62px;z-index: 55;width: 200px;margin-top: -100px;}
+.contacto_whatsappf{right: 20px;bottom: 19px;position: fixed;text-align: right;z-index:80;width: 200px;}
 .btn-fraccionamiento{position:relative;z-index: 152;}
 .reg-mid{margin-top:-50px;}
 /*#carro_2 {
@@ -734,21 +734,28 @@ body#conferencias .imagen{background-position:center center !important;}
 .padding-extra{padding-left:0px !important;padding-right:0px !important;}
 .desarrollo .img-ingresos,.desarrollo .info-ubicacion{text-align:center;}
 
+.globo {
+    margin-bottom: 5% !important;
+    font-size: 12px !important;
+}
 }
 @media (min-width: 1201px){
-	.contacto_whatsappf {
+/*	.contacto_whatsappf {
     position: absolute;
     text-align: right;
     right: 22px;
     z-index: 55;
     width: 130px;
     margin-top: -100px;
-}
+}*/
 .regalo-footer img {
     position: absolute;
-    right: 310px;
+    right: 220px;
     top: -103px;
     width: 160px;
+}
+@media (min-width: 1650px){
+	.regalo-footer img {right: 310px;}
 }
 .contador .registrom{margin-top:10px !important;margin-bottom:100px !important;}
 
