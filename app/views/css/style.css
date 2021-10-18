@@ -131,9 +131,6 @@ footer{position:relative;z-index: 10;}
 .pin .detalle .contenido ul li{list-style:none;}
 .pin .detalle .contenido ul li a{color:#000000;font-size:12px;text-decoration:underline;-webkit-transition:.5s;-o-transition:.5s;-moz-transition:.5s;-ms-transition:.5s;transition:.5s;}
 .pin .detalle .contenido ul li a:hover{padding-left:10px;}
-
-
-
 #regalo{width:350px;height:350px;top:374px;left:965px;position:absolute;opacity:0;z-index: 60;}
 #regalo div{width:100%;height:100%;display:block;opacity:0;position:absolute;left:0;top:0;}
 @keyframes move_globe {
@@ -141,7 +138,18 @@ footer{position:relative;z-index: 10;}
     50%{top:375px;left:670px;}
     100%{top:370px;left:695px;}
 }
-
+#header-btn-registrate-gana{position: relative;}
+#header-btn-registrate-gana::after{
+    content: '';
+    background: url('../../../images/preregistro/regalo_preheat.png');
+    background-size: contain;
+    display: block;
+    position: absolute;
+    right: -45px;
+    top: -30px;
+    width: 60px;
+    height: 60px;
+}
 @media (min-width: 1250px){
     .container, .container-lg, .container-md, .container-sm, .container-xl{max-width: 1200px;}
 }

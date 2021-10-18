@@ -3,7 +3,7 @@
 		<a id="logo-principal" class="navbar-brand d-none d-lg-block d-xl-block" href="<?=Path?>"><img src="<?=Path?>/images/header/MundoJaver_Logotipo.svg"></a>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-0 pb-0 pl-0">
 		<a id="logo-principalm" class="navbar-brand d-block d-lg-none d-xl-none" href="<?=Path?>"><img src="<?=Path?>/images/header/logo_menu_mobile.png"></a>
-		<div class="py-3 d-block d-lg-none d-xl-none"><p class="title-expo-header p-2 poppins font-12-header"><a id="header-btn-registrate-gana" class="text-white pr-5" href="<?=Path?>/registro">REGÍSTRATE Y GANA</a></p></div>
+		<div class="py-3 d-block d-lg-none d-xl-none"><p class="title-expo-header p-2 poppins font-12-header bg-success rounded px-3"><a id="header-btn-registrate-gana" class="text-white pr-4 font-weight-bold" href="<?=Path?>/registro">REGÍSTRATE Y GANA</a></p></div>
 			<button class="navbar-toggler ml-auto mr-0 py-3 border-0" type="button" data-toggle="collapse" data-target="#menu-1" aria-controls="menu-1" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
