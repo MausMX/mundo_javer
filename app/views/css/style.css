@@ -7,15 +7,15 @@ header .container nav{border-radius: 15px;}
 #logo-principal{position: absolute;left:0px;top: -50px;z-index: 10;}
 #logo-principal img{width: 160px;}
 #menu-1 > ul > li{height: 66px;display: flex;flex-direction: column;justify-content: space-around;align-items: flex-start;font-weight: 700;}
-#menu-1 > ul:first-child > li:first-child{background-color: #DA291C;padding-left: 50px;border-right: 1px solid #000000;}
-#menu-1 > ul:first-child > li:nth-child(2){border-left: 1px solid #5C5C5C;}
+#menu-1 > ul:first-child > li:nth-child(2){background-color: #DA291C;padding-left: 50px;border-right: 1px solid #000000;}
+#menu-1 > ul:first-child > li:nth-child(3){border-left: 1px solid #5C5C5C;}
 #menu-1 > ul:first-child > li > a{position:relative;padding: 0 .9rem;}
 #menu-1 > ul:first-child > li > a::after{content: '';border-right: 1px solid #5C5C5C;position: absolute;right: 0px;width: 1px;height: 16px;top: 0px;}
 #menu-1 > ul:first-child > li > a::before{content: '';border-right: 1px solid #000000;position: absolute;right: 1px;width: 1px;height: 16px;top: 0px;}
 #menu-1 > ul:first-child > li:last-child > a::before,
 #menu-1 > ul:first-child > li:last-child > a::after,
-#menu-1 > ul:first-child > li:first-child > a::before,
-#menu-1 > ul:first-child > li:first-child > a::after{display:none;}
+#menu-1 > ul:first-child > li:nth-child(2) > a::before,
+#menu-1 > ul:first-child > li:nth-child(2) > a::after{display:none;}
 .navbar-dark .navbar-nav .nav-link{color:rgba(255, 255, 255, 1);}
 #menu-1 i{font-size: 20px;}
 #menu-1 i.fa-spotify{color:#1DB954;position:absolute;top:5px;right:-20px;}

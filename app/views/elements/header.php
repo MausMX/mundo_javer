@@ -9,6 +9,9 @@
 			</button>
 			<div id="menu-1" class="collapse navbar-collapse text-uppercase pt-0 pb-0">
 				<ul class="navbar-nav mr-auto">
+					<li class="nav-item d-lg-none  <?=$controllerName=='registro'?'active':'';?>">
+						<a id="menu-btn-pasos-regalo-m" class="nav-link" href="<?=Path?>/registro">Registro para regalo</a>
+					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fraccionamientos</a>
 						<div class="dropdown-menu dropdown-menu-right bg-dark font-12" aria-labelledby="navbarDropdown" style="margin-right: -35px;">
@@ -104,7 +107,7 @@
 					<li class="nav-item <?=$controllerName=='conferencias'?'active':'';?>">
 						<a id="menu-btn-conferencias" class="nav-link" href="<?=Path?>/conferencias">Conferencias</a>
 					</li>
-					<li class="nav-item <?=$controllerName=='registro'?'active':'';?>">
+					<li class="nav-item d-none d-lg-flex <?=$controllerName=='registro'?'active':'';?>">
 						<a id="menu-btn-pasos-regalo" class="nav-link" href="<?=Path?>/registro">Registro para regalo</a>
 					</li>
 				</ul>
