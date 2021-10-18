@@ -6,7 +6,8 @@
             <a id="btn-back" class="d-block d-lg-none d-md-none d-xl-none" href="<?=Path?>" style="z-index:161;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
                 <div class="pt-5 pb-0 px-3 container-title-registro">
                     <div class="pl-0 pr-0">
-                        <h1 class="text-white text-center font-28 line-height-32 font-poppins"><strong>1. Regístrate 2. Escritura 3. ¡Gana!</strong></h1>
+                        <h1 class="text-white text-center font-32 line-height-32 font-poppins mb-3"><strong>1. REGÍSTRATE</strong></h1>
+                        <h2 class="text-white text-center font-28 line-height-32 font-poppins"><strong>2. Escritura 3. ¡Gana!</strong></h2>
                     </div>
                 </div>
                 <div class="img-registro-main px-3">
@@ -16,7 +17,7 @@
             <div class="col-lg-8 col-md-8 bg-white rounded-right registro-form" style="position: relative;">
             <a id="btn-back" class="d-none d-lg-block d-md-block d-xl-block" href="<?=Path?>" style="z-index:161;"><img src="<?=Path?>/images/conferencias/btn_back.png"></a>
                 <div class="p-5 padding-registro">
-                    <h3 class="font-poppins font-18 text-center mb-3"><strong>Llena el formulario para ser contactado por uno de nuestros asesores y brindarte atención personalizada. ¡Escritura y gana!</strong></h3>
+                    <h3 class="font-poppins font-18 text-center mb-3"><strong>¡Llena el formulario, Escritura y Gana!</strong></h3>
                     <div class="px-5 pt-3 padding-registro">
                         <form method="post" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" onsubmit="return validar(this)">
                             <input type="hidden" name='captcha_settings' value='{"keyname":"CAPTCHAJAVER","fallback":"true","orgId":"00Do0000000b6Io","ts":""}'>
@@ -58,8 +59,9 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 button-registro">
-                                    <button id="btn-registro-registro" name="submit" class="btn btn-success text-uppercase py-2 px-5 font-10 letter-spacing-1 font-weight-bold" type="submit">Regístrate</button>
+                                    <button id="btn-registro-registro" name="submit" class="btn btn-success w-100 text-uppercase py-2 px-5 font-14 letter-spacing-1 font-weight-bold" type="submit">Regístrate</button>
                                     <a class="font-poppins font-10 text-secondary d-block mt-2" href="https://www.javer.com.mx/avisos-de-privacidad#clientes">Ver Aviso de Privacidad</a>
+                                    <a class="font-poppins font-14 text-success d-block mt-2 font-weight-bold" href="<?=Path?>/registro/pasos_regalo">Ver pasos para ganar</a>
                                 </div>
                                 <div class="col-lg-12 mt-4">
                                     <p class="text-secondary font-10" style="line-height:12px;">

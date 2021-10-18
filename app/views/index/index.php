@@ -129,7 +129,7 @@
             <img src="<?=Path?>/images/mapa/nombres2/quintana_roo.png">
         </div>
         <div id="regalo">
-            <a id="mapa-btn-pasos-regalo" class="d-block w-100" style="height: 100%;" href="<?=Path?>/registro/pasos_regalo">
+            <a id="mapa-btn-pasos-regalo" class="d-block w-100" style="height: 100%;" href="<?=Path?>/registro">
             <div id="mapa-btn-pasos-regalo-img1" class="regalo_1"></div>
             <div id="mapa-btn-pasos-regalo-img2" class="regalo_2"></div>
             <div id="mapa-btn-pasos-regalo-img3" class="regalo_3"></div>

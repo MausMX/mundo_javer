@@ -5,7 +5,7 @@
 <div class="container reg-mid d-block d-lg-none d-xl-none">
 	<div class="row py-2">
 		<div class="col-xl-1 col-lg-1 col-4 py-2 font-10 info-footer regalo-footer-m d-block d-lg-none d-xl-none">
-			<a id="footer-btn-regalo-movil" target="_blank" class="d-inline-block" href="<?= Path?>/registro/pasos_regalo"><img src="<?=Path?>/images/preregistro/regalo_preheat.png"></a>
+			<a id="footer-btn-regalo-movil" target="_blank" class="d-inline-block" href="<?= Path?>/registro"><img src="<?=Path?>/images/preregistro/regalo_preheat.png"></a>
 		</div>
 		<div class="col-xl-1 col-lg-1 col-7 pl-0 py-2 font-10 info-footer vineta d-flex  d-lg-none d-xl-none">
 			<p class="globo font-sweet-sans-pro bold">REGÍSTRATE, ESCRITURA Y ¡GANA!</p>
@@ -36,7 +36,7 @@
 				}else{ 
 				?>
 				<div class="mx-3 py-2 font-10 info-footer regalo-footer d-none d-lg-block d-xl-block">
-						<a id="footer-btn-regalo" class="d-inline-block" href="<?= Path?>/registro/pasos_regalo"><img id="footer-btn-regalo-img" src="<?=Path?>/images/preregistro/regalo_preheat.png"></a>
+						<a id="footer-btn-regalo" class="d-inline-block" href="<?= Path?>/registro"><img id="footer-btn-regalo-img" src="<?=Path?>/images/preregistro/regalo_preheat.png"></a>
 				</div>
 				<?}?>
 			</div>
