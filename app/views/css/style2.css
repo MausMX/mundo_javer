@@ -734,6 +734,10 @@ body#conferencias .imagen{background-position:center center !important;}
 .padding-extra{padding-left:0px !important;padding-right:0px !important;}
 .desarrollo .img-ingresos,.desarrollo .info-ubicacion{text-align:center;}
 
+.globo {
+    margin-bottom: 5% !important;
+    font-size: 12px !important;
+}
 }
 @media (min-width: 1201px){
 /*	.contacto_whatsappf {
@@ -746,9 +750,12 @@ body#conferencias .imagen{background-position:center center !important;}
 }*/
 .regalo-footer img {
     position: absolute;
-    right: 310px;
+    right: 220px;
     top: -103px;
     width: 160px;
+}
+@media (min-width: 1650px){
+	.regalo-footer img {right: 310px;}
 }
 .contador .registrom{margin-top:10px !important;margin-bottom:100px !important;}
 
