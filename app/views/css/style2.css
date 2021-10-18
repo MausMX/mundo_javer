@@ -229,7 +229,10 @@ margin-bottom: 8%;
   transform: skewX(45deg);
 }
 
-.img-conf .player img{width:80px;height:80px;}
+.img-conf .player img{width:80px;height:80px;} 
+@media (min-width:320px) and (max-width:343px){	
+#header-btn-registrate-gana{content:"Regístrate";}
+}
 @media (min-width:320px) and (max-width:480px){	
 .btn-fraccionamiento{position:relative;z-index: 152;}
 body{background-size:cover !important;}
@@ -362,13 +365,13 @@ background-size: cover;}
 #logo-principalm{padding-left:15px !important;}
 header:not(.pre-header) .container{margin-top:0px !important;padding-left:0px !important;padding-right:0px !important;border-bottom: 1px solid #fff;}
 header .container nav{border-radius:0px !important;padding-right: 0px !important;z-index:1;}
-.title-expo-header{text-align:center; background-color:#DA291C;margin-bottom: 0px !important;}
+.title-expo-header{text-align:center; background-color:#DA291C;margin-bottom: 0px !important;font-size:10px !important;}
 button.navbar-toggler.ml-auto{margin-left:0px !important;}
 header div.container.font-sweet-sans-pro.font-10 {font-size:12px !important;}
 .navbar-dark .navbar-toggler {color: rgba(255,255,255,1);}
 header{background: url(../../../images/header/enredadera_mobile_v2.png) no-repeat;background-position: 0px 70px !important;background-size: contain;}
 header:not(.pre-header){height: 160px;position:relative; z-index: 151;}
-#menu-1 ul:first-child li:first-child{padding-left:0px !important;background-color: transparent !important;}
+#menu-1 ul:first-child li:nth-child(2){padding-left:0px !important;background-color: transparent !important;}
 .navbar-dark .navbar-nav .nav-link{margin-left:auto;margin-right:auto;}
 #menu-1 ul:first-child li a::after,#menu-1 ul:first-child li a::before{border-right:0px !important;}
 .social-redes{flex-direction: row;padding-left: 15px !important;padding-right: 15px !important;justify-content: center;}
@@ -527,7 +530,7 @@ header div.container.font-sweet-sans-pro.font-10 {font-size:12px !important;marg
 .navbar-dark .navbar-toggler {color: rgba(255,255,255,1);}
 header{background: url(../../../images/header/enredadera_mobile_v2.png) no-repeat;background-position: 0px 70px !important;background-size: contain;}
 header:not(.pre-header){height: 219px;position:relative;z-index:151;}
-#menu-1 ul:first-child li:first-child{padding-left:0px !important;background-color: transparent !important;}
+#menu-1 ul:first-child li:nth-child(2){padding-left:0px !important;background-color: transparent !important;}
 .navbar-dark .navbar-nav .nav-link{margin-left:auto;margin-right:auto;}
 #menu-1 ul:first-child li a::after,#menu-1 ul:first-child li a::before{border-right:0px !important;}
 .social-redes{flex-direction: row;padding-left: 15px !important;padding-right: 15px !important;justify-content: center;}
@@ -570,9 +573,10 @@ body div.acerca-de .presencia-estado{font-size:16px !important;}
 .img-conf .player img{width:40%;}
 }
 @media (min-width:768px) and (max-width: 991px){
-.contacto_whatsappf {
-    right: 12px !important;
-}
+.containter-captcha{position:relative !important;top:-3px !important;}
+#btn-registro-registro{padding-left:20px !important;padding-right:20px !important;}
+.contacto_whatsappf {right: 30px !important;}
+.reg-complete .container-title-registro h1{font-size:27px !important;}
 body{background-size:cover !important;}
 .contador .flip-card {font-size: 3.5rem !important;}
 .contador .flip-clock__piece {margin: 0 12px;}
@@ -643,7 +647,7 @@ header {
     background-size: 1280px;
 }
 header:not(.pre-header){height: 219px;position:relative;z-index:151;}
-#menu-1 ul:first-child li:first-child{padding-left:0px !important;background-color: transparent !important;}
+#menu-1 ul:first-child li:nth-child(2){padding-left:0px !important;background-color: transparent !important;}
 .navbar-dark .navbar-nav .nav-link{margin-left:auto;margin-right:auto;}
 #menu-1 ul:first-child li a::after,#menu-1 ul:first-child li a::before{border-right:0px !important;}
 .social-redes{flex-direction: row;padding-left: 15px !important;padding-right: 15px !important;justify-content: center;}
@@ -668,9 +672,12 @@ header:not(.pre-header){height: 219px;position:relative;z-index:151;}
 
 }
 @media (min-width:992px) and (max-width: 1200px){
+	.containter-captcha{position:relative !important;top:-3px !important;}
+
 	.contacto_whatsappf {
     right: 12px !important;
     width: 120px !important;
+    bottom: 47px;
 }
 .regalo-footer img {
     position: absolute;
