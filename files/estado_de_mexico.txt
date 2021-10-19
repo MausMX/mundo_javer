@@ -1,0 +1,21 @@
+
+
+2021-10-15 09:47:49 -- {"idLP":11,"nombre":"Marco Alberto Zavala Cardona","telefono":"5530129397","correo":"mzc@javer.com.mx","dia":15,"horario_inicio":"08:00","horario_fin":"13:00"}
+2021-10-15 13:42:39 -- {"idLP":13,"nombre":"Jose Juan Suarez Hernandez","telefono":"5572486488","correo":"jsuarez@javer.com.mx","dia":15,"horario_inicio":"08:00","horario_fin":"17:30"}
+2021-10-15 16:03:39 -- {"idLP":13,"nombre":"Jose Juan Suarez Hernandez","telefono":"5572486488","correo":"jsuarez@javer.com.mx","dia":15,"horario_inicio":"08:00","horario_fin":"17:30"}
+2021-10-15 16:04:22 -- {"idLP":13,"nombre":"Jose Juan Suarez Hernandez","telefono":"5572486488","correo":"jsuarez@javer.com.mx","dia":15,"horario_inicio":"08:00","horario_fin":"17:30"}
+2021-10-15 16:37:54 -- {"idLP":13,"nombre":"Jose Juan Suarez Hernandez","telefono":"5572486488","correo":"jsuarez@javer.com.mx","dia":15,"horario_inicio":"08:00","horario_fin":"17:30"}
+2021-10-15 19:22:34 -- {"idLP":12,"nombre":"Rodrigo Torres Diaz","telefono":"5572482209","correo":"rtd@javer.com.mx","dia":15,"horario_inicio":"18:00","horario_fin":"23:00"}
+2021-10-16 10:30:00 -- {"idLP":13,"nombre":"Jose Juan Suarez Hernandez","telefono":"5572486488","correo":"jsuarez@javer.com.mx","dia":16,"horario_inicio":"08:00","horario_fin":"23:00"}
+2021-10-16 10:30:49 -- {"idLP":13,"nombre":"Jose Juan Suarez Hernandez","telefono":"5572486488","correo":"jsuarez@javer.com.mx","dia":16,"horario_inicio":"08:00","horario_fin":"23:00"}
+2021-10-16 10:38:45 -- {"idLP":13,"nombre":"Jose Juan Suarez Hernandez","telefono":"5572486488","correo":"jsuarez@javer.com.mx","dia":16,"horario_inicio":"08:00","horario_fin":"23:00"}
+2021-10-16 13:22:57 -- {"idLP":13,"nombre":"Jose Juan Suarez Hernandez","telefono":"5572486488","correo":"jsuarez@javer.com.mx","dia":16,"horario_inicio":"08:00","horario_fin":"23:00"}
+2021-10-17 15:26:37 -- {"idLP":10,"nombre":"Maria Alejandra Angeles Aguilar","telefono":"5530310005","correo":"mangeles@javer.com.mx","dia":17,"horario_inicio":"08:00","horario_fin":"23:00"}
+2021-10-17 16:16:24 -- {"idLP":10,"nombre":"Maria Alejandra Angeles Aguilar","telefono":"5530310005","correo":"mangeles@javer.com.mx","dia":17,"horario_inicio":"08:00","horario_fin":"23:00"}
+2021-10-17 22:41:57 -- {"idLP":10,"nombre":"Maria Alejandra Angeles Aguilar","telefono":"5530310005","correo":"mangeles@javer.com.mx","dia":17,"horario_inicio":"08:00","horario_fin":"23:00"}
+2021-10-17 22:42:13 -- {"idLP":10,"nombre":"Maria Alejandra Angeles Aguilar","telefono":"5530310005","correo":"mangeles@javer.com.mx","dia":17,"horario_inicio":"08:00","horario_fin":"23:00"}
+2021-10-17 22:43:17 -- {"idLP":10,"nombre":"Maria Alejandra Angeles Aguilar","telefono":"5530310005","correo":"mangeles@javer.com.mx","dia":17,"horario_inicio":"08:00","horario_fin":"23:00"}
+2021-10-18 11:56:37 -- {"idLP":11,"nombre":"Marco Alberto Zavala Cardona","telefono":"5530129397","correo":"mzc@javer.com.mx","dia":18,"horario_inicio":"08:00","horario_fin":"21:00"}
+2021-10-18 14:03:48 -- {"idLP":12,"nombre":"Rodrigo Torres Diaz","telefono":"5572482209","correo":"rtd@javer.com.mx","dia":18,"horario_inicio":"12:00","horario_fin":"23:00"}
+2021-10-18 15:07:18 -- {"idLP":10,"nombre":"Maria Alejandra Angeles Aguilar","telefono":"5530310005","correo":"mangeles@javer.com.mx","dia":18,"horario_inicio":"08:00","horario_fin":"17:30"}
+2021-10-18 18:00:32 -- {"idLP":11,"nombre":"Marco Alberto Zavala Cardona","telefono":"5530129397","correo":"mzc@javer.com.mx","dia":18,"horario_inicio":"08:00","horario_fin":"21:00"}

@@ -1,3 +1,24 @@
 
 
 2021-10-01 17:54:05 -- {"idLP":1,"nombre":"Laura Veronica L\u00f3pez Torres","telefono":"3322612716","correo":"llt@javer.com.mx","dia":15,"horario_inicio":"13:00","horario_fin":"19:00"}
+2021-10-15 09:19:54 -- {"idLP":2,"nombre":"Karen Janette Tapia Gutierrez","telefono":"3324501570","correo":"ktapia@javer.com.mx","dia":15,"horario_inicio":"08:00","horario_fin":"14:00"}
+2021-10-15 09:25:13 -- {"idLP":2,"nombre":"Karen Janette Tapia Gutierrez","telefono":"3324501570","correo":"ktapia@javer.com.mx","dia":15,"horario_inicio":"08:00","horario_fin":"14:00"}
+2021-10-15 09:25:21 -- {"idLP":2,"nombre":"Karen Janette Tapia Gutierrez","telefono":"3324501570","correo":"ktapia@javer.com.mx","dia":15,"horario_inicio":"08:00","horario_fin":"14:00"}
+2021-10-15 09:26:02 -- {"idLP":2,"nombre":"Karen Janette Tapia Gutierrez","telefono":"3324501570","correo":"ktapia@javer.com.mx","dia":15,"horario_inicio":"08:00","horario_fin":"14:00"}
+2021-10-15 09:32:45 -- {"idLP":2,"nombre":"Karen Janette Tapia Gutierrez","telefono":"3324501570","correo":"ktapia@javer.com.mx","dia":15,"horario_inicio":"08:00","horario_fin":"14:00"}
+2021-10-15 13:42:34 -- {"idLP":1,"nombre":"Laura Veronica L\u00f3pez Torres","telefono":"3322612716","correo":"llt@javer.com.mx","dia":15,"horario_inicio":"13:00","horario_fin":"19:00"}
+2021-10-15 16:14:42 -- {"idLP":1,"nombre":"Laura Veronica L\u00f3pez Torres","telefono":"3322612716","correo":"llt@javer.com.mx","dia":15,"horario_inicio":"13:00","horario_fin":"19:00"}
+2021-10-15 16:34:12 -- {"idLP":1,"nombre":"Laura Veronica L\u00f3pez Torres","telefono":"3322612716","correo":"llt@javer.com.mx","dia":15,"horario_inicio":"13:00","horario_fin":"19:00"}
+2021-10-15 20:08:02 -- {"idLP":3,"nombre":"Gustavo Enrique Medellin Orozco","telefono":"3318103711","correo":"gmedellin@javer.com.mx","dia":15,"horario_inicio":"18:00","horario_fin":"23:00"}
+2021-10-16 10:38:35 -- {"idLP":2,"nombre":"Karen Janette Tapia Gutierrez","telefono":"3324501570","correo":"ktapia@javer.com.mx","dia":16,"horario_inicio":"08:00","horario_fin":"14:00"}
+2021-10-17 19:22:56 -- {"idLP":3,"nombre":"Gustavo Enrique Medellin Orozco","telefono":"3318103711","correo":"gmedellin@javer.com.mx","dia":17,"horario_inicio":"15:00","horario_fin":"23:00"}
+2021-10-18 09:41:26 -- {"idLP":3,"nombre":"Gustavo Enrique Medellin Orozco","telefono":"3318103711","correo":"gmedellin@javer.com.mx","dia":18,"horario_inicio":"08:00","horario_fin":"14:00"}
+2021-10-18 09:43:07 -- {"idLP":3,"nombre":"Gustavo Enrique Medellin Orozco","telefono":"3318103711","correo":"gmedellin@javer.com.mx","dia":18,"horario_inicio":"08:00","horario_fin":"14:00"}
+2021-10-18 10:27:53 -- {"idLP":3,"nombre":"Gustavo Enrique Medellin Orozco","telefono":"3318103711","correo":"gmedellin@javer.com.mx","dia":18,"horario_inicio":"08:00","horario_fin":"14:00"}
+2021-10-18 10:33:59 -- {"idLP":3,"nombre":"Gustavo Enrique Medellin Orozco","telefono":"3318103711","correo":"gmedellin@javer.com.mx","dia":18,"horario_inicio":"08:00","horario_fin":"14:00"}
+2021-10-18 10:58:14 -- {"idLP":3,"nombre":"Gustavo Enrique Medellin Orozco","telefono":"3318103711","correo":"gmedellin@javer.com.mx","dia":18,"horario_inicio":"08:00","horario_fin":"14:00"}
+2021-10-18 11:28:34 -- {"idLP":3,"nombre":"Gustavo Enrique Medellin Orozco","telefono":"3318103711","correo":"gmedellin@javer.com.mx","dia":18,"horario_inicio":"08:00","horario_fin":"14:00"}
+2021-10-18 13:17:49 -- {"idLP":3,"nombre":"Gustavo Enrique Medellin Orozco","telefono":"3318103711","correo":"gmedellin@javer.com.mx","dia":18,"horario_inicio":"08:00","horario_fin":"14:00"}
+2021-10-18 13:17:50 -- {"idLP":3,"nombre":"Gustavo Enrique Medellin Orozco","telefono":"3318103711","correo":"gmedellin@javer.com.mx","dia":18,"horario_inicio":"08:00","horario_fin":"14:00"}
+2021-10-18 13:17:59 -- {"idLP":3,"nombre":"Gustavo Enrique Medellin Orozco","telefono":"3318103711","correo":"gmedellin@javer.com.mx","dia":18,"horario_inicio":"08:00","horario_fin":"14:00"}
+2021-10-18 13:18:06 -- {"idLP":3,"nombre":"Gustavo Enrique Medellin Orozco","telefono":"3318103711","correo":"gmedellin@javer.com.mx","dia":18,"horario_inicio":"08:00","horario_fin":"14:00"}

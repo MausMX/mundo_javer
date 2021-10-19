@@ -1,0 +1,16 @@
+
+
+2021-10-15 09:34:28 -- {"idLP":18,"nombre":"Yadira Gisela Hernandez Sotelo","telefono":"4492730561","correo":"yhernandez@javer.com.mx","dia":15,"horario_inicio":"08:00","horario_fin":"23:00"}
+2021-10-15 10:13:08 -- {"idLP":18,"nombre":"Yadira Gisela Hernandez Sotelo","telefono":"4492730561","correo":"yhernandez@javer.com.mx","dia":15,"horario_inicio":"08:00","horario_fin":"23:00"}
+2021-10-15 10:19:20 -- {"idLP":18,"nombre":"Yadira Gisela Hernandez Sotelo","telefono":"4492730561","correo":"yhernandez@javer.com.mx","dia":15,"horario_inicio":"08:00","horario_fin":"23:00"}
+2021-10-15 13:42:32 -- {"idLP":18,"nombre":"Yadira Gisela Hernandez Sotelo","telefono":"4492730561","correo":"yhernandez@javer.com.mx","dia":15,"horario_inicio":"08:00","horario_fin":"23:00"}
+2021-10-15 15:17:16 -- {"idLP":18,"nombre":"Yadira Gisela Hernandez Sotelo","telefono":"4492730561","correo":"yhernandez@javer.com.mx","dia":15,"horario_inicio":"08:00","horario_fin":"23:00"}
+2021-10-15 16:30:56 -- {"idLP":18,"nombre":"Yadira Gisela Hernandez Sotelo","telefono":"4492730561","correo":"yhernandez@javer.com.mx","dia":15,"horario_inicio":"08:00","horario_fin":"23:00"}
+2021-10-15 16:34:54 -- {"idLP":18,"nombre":"Yadira Gisela Hernandez Sotelo","telefono":"4492730561","correo":"yhernandez@javer.com.mx","dia":15,"horario_inicio":"08:00","horario_fin":"23:00"}
+2021-10-16 10:38:50 -- {"idLP":18,"nombre":"Yadira Gisela Hernandez Sotelo","telefono":"4492730561","correo":"yhernandez@javer.com.mx","dia":16,"horario_inicio":"08:00","horario_fin":"23:00"}
+2021-10-16 11:05:13 -- {"idLP":18,"nombre":"Yadira Gisela Hernandez Sotelo","telefono":"4492730561","correo":"yhernandez@javer.com.mx","dia":16,"horario_inicio":"08:00","horario_fin":"23:00"}
+2021-10-16 13:22:56 -- {"idLP":18,"nombre":"Yadira Gisela Hernandez Sotelo","telefono":"4492730561","correo":"yhernandez@javer.com.mx","dia":16,"horario_inicio":"08:00","horario_fin":"23:00"}
+2021-10-18 09:13:38 -- {"idLP":17,"nombre":"Paola Alejandra Serna Trinidad","telefono":"4493297957","correo":"pserna@javer.com.mx","dia":18,"horario_inicio":"08:00","horario_fin":"23:00"}
+2021-10-18 09:23:07 -- {"idLP":17,"nombre":"Paola Alejandra Serna Trinidad","telefono":"4493297957","correo":"pserna@javer.com.mx","dia":18,"horario_inicio":"08:00","horario_fin":"23:00"}
+2021-10-18 11:44:06 -- {"idLP":17,"nombre":"Paola Alejandra Serna Trinidad","telefono":"4493297957","correo":"pserna@javer.com.mx","dia":18,"horario_inicio":"08:00","horario_fin":"23:00"}
+2021-10-18 17:53:13 -- {"idLP":17,"nombre":"Paola Alejandra Serna Trinidad","telefono":"4493297957","correo":"pserna@javer.com.mx","dia":18,"horario_inicio":"08:00","horario_fin":"23:00"}

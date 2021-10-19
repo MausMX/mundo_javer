@@ -1,0 +1,16 @@
+
+
+2021-10-15 09:17:36 -- {"idLP":15,"nombre":"Viridiana Estefania Estrello Martinez","telefono":"5530068948","correo":"vestrello@javer.com.mx","dia":15,"horario_inicio":"08:00","horario_fin":"19:00"}
+2021-10-15 09:35:15 -- {"idLP":15,"nombre":"Viridiana Estefania Estrello Martinez","telefono":"5530068948","correo":"vestrello@javer.com.mx","dia":15,"horario_inicio":"08:00","horario_fin":"19:00"}
+2021-10-15 09:49:35 -- {"idLP":15,"nombre":"Viridiana Estefania Estrello Martinez","telefono":"5530068948","correo":"vestrello@javer.com.mx","dia":15,"horario_inicio":"08:00","horario_fin":"19:00"}
+2021-10-15 13:42:41 -- {"idLP":15,"nombre":"Viridiana Estefania Estrello Martinez","telefono":"5530068948","correo":"vestrello@javer.com.mx","dia":15,"horario_inicio":"08:00","horario_fin":"19:00"}
+2021-10-15 16:15:09 -- {"idLP":15,"nombre":"Viridiana Estefania Estrello Martinez","telefono":"5530068948","correo":"vestrello@javer.com.mx","dia":15,"horario_inicio":"08:00","horario_fin":"19:00"}
+2021-10-15 19:05:09 -- {"idLP":16,"nombre":"Eduardo Camacho Basutista","telefono":"5530338786","correo":"ecamacho@javer.com.mx","dia":15,"horario_inicio":"18:00","horario_fin":"23:00"}
+2021-10-16 10:17:44 -- {"idLP":15,"nombre":"Viridiana Estefania Estrello Martinez","telefono":"5530068948","correo":"vestrello@javer.com.mx","dia":16,"horario_inicio":"08:00","horario_fin":"15:00"}
+2021-10-16 10:38:41 -- {"idLP":15,"nombre":"Viridiana Estefania Estrello Martinez","telefono":"5530068948","correo":"vestrello@javer.com.mx","dia":16,"horario_inicio":"08:00","horario_fin":"15:00"}
+2021-10-17 13:25:09 -- {"idLP":14,"nombre":"Cristina Torres Casta\u00f1eda","telefono":"4426480734","correo":"ctorres@javer.com.mx","dia":17,"horario_inicio":"08:00","horario_fin":"15:00"}
+2021-10-17 20:40:27 -- {"idLP":15,"nombre":"Viridiana Estefania Estrello Martinez","telefono":"5530068948","correo":"vestrello@javer.com.mx","dia":17,"horario_inicio":"14:00","horario_fin":"23:00"}
+2021-10-18 09:44:23 -- {"idLP":14,"nombre":"Cristina Torres Casta\u00f1eda","telefono":"4426480734","correo":"ctorres@javer.com.mx","dia":18,"horario_inicio":"08:00","horario_fin":"19:00"}
+2021-10-18 09:46:00 -- {"idLP":14,"nombre":"Cristina Torres Casta\u00f1eda","telefono":"4426480734","correo":"ctorres@javer.com.mx","dia":18,"horario_inicio":"08:00","horario_fin":"19:00"}
+2021-10-18 16:11:39 -- {"idLP":16,"nombre":"Eduardo Camacho Basutista","telefono":"5530338786","correo":"ecamacho@javer.com.mx","dia":18,"horario_inicio":"10:00","horario_fin":"23:00"}
+2021-10-18 17:30:23 -- {"idLP":14,"nombre":"Cristina Torres Casta\u00f1eda","telefono":"4426480734","correo":"ctorres@javer.com.mx","dia":18,"horario_inicio":"08:00","horario_fin":"19:00"}
