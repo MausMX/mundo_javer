@@ -168,11 +168,11 @@ footer{position:relative;z-index: 10;}
 }
 
 @media (max-height:800px){
-    body{zoom:.8;-ms-zoom:0.8;-webkit-zoom:0.8;}
+    body:not(.gracias_javer){zoom:.8;-ms-zoom:0.8;-webkit-zoom:0.8;}
     .chatbot{zoom:1.3;-ms-zoom:1.3;-webkit-zoom:1.3;}
 }
 
 @media (max-height:600px){
-    body{zoom:.7;-ms-zoom:0.7;-webkit-zoom:0.7;}
+    body:not(.gracias_javer){zoom:.7;-ms-zoom:0.7;-webkit-zoom:0.7;}
     .chatbot{zoom:1.3;-ms-zoom:1.3;-webkit-zoom:1.3;}
 }
