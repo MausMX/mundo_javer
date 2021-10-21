@@ -33,20 +33,27 @@ $(window).on("load",function(){
 });
 
 
-$('.bxslider_detalle').bxSlider({
+/*$('.bxslider_detalle').bxSlider({
   auto: true,
   stopAutoOnClick: true,
   pager: false
-});
+});*/
 
 
 function altura_wrapper_fixed(){
     altura_ventana=$(window).height();
     altura_footer=$("footer").height();
-    altura_header=$("header").height();
-    //contenedor=((altura_ventana/2)-($(".container-gracias-center").height()));
-	contenedor=((altura_ventana-$(".container-gracias-center").height())/2)-altura_header;
-    altura_wrapper=altura_ventana-altura_footer-altura_header;
+    if($("header").length==0){
+    	altura_header=0;
+	    altura_wrapper=Math.round(altura_ventana)-Math.round(altura_footer)-Math.round(altura_header);
+	    $(".wrapper").css({'min-height':altura_wrapper}); 
+    }else{
+    	altura_header=$("header").height();
+    	    //contenedor=((altura_ventana/2)-($(".container-gracias-center").height()));
+		contenedor=((altura_ventana-$(".container-gracias-center").height())/2)-altura_header;
+   		 altura_wrapper=altura_ventana-altura_footer-altura_header;
+    }
+
     $(".wrapper").css({'min-height':altura_wrapper});
     if ($(window).width() > 767){
     $(".container-gracias-center").css({'padding-top':contenedor});
@@ -62,6 +69,7 @@ function altura_wrapper_fixed(){
 	}
 }
 $(document).ready(function(){
+	
 	$("button.navbar-toggler").click(function(){
 		var isVisible = $( ".collapse" ).is( ":visible" );
 		if(!isVisible){
@@ -138,6 +146,7 @@ $(document).ready(function(){
 			}else{
 				if(wp_active!=0){
 					ordenarAsc(data2, 'nombre');
+					if(gracias!=1){
 					$("footer").after('<div class="contacto_whatsappf"><div class="detalle animation numE_'+data2.length+'"><div class="cerrar"><i class="fa fa-close text-danger" aria-hidden="true"></i></div><div class="titulo">Selecciona un Estado:</div><div class="contenido"><ul class="tel-wp"></ul></div></div><a class="d-inline-block" href="#"><img src="'+Path+'/images/footer/ico_whatsapp.png"></a></div>');
 					var name="";
 					for(var i=0;i<data2.length;i++){
@@ -169,10 +178,14 @@ $(document).ready(function(){
 						}
 						$(".tel-wp").append("<li><a id='footer-btn-whatsapp-"+data2[i].nombre+"' target='_blank' href='"+Path+"/index/whatsapp/"+data2[i].nombre+"/'>"+name+"</a></li>");
 					}
+					}
 				}
 			}
 		}).fail(function(xhr, status, error) {
-			//console.log("No contamos con asesores este díasss333333333333ssssssss"+xhr.responseText);
+				if(gracias==1){
+					$(".contacto_whatsappf").remove();
+				}
+			console.log("No contamos con asesores este díasss333333333333ssssssss"+xhr.responseText);
 		}); 
 	//} 
 
