@@ -1,5 +1,5 @@
 <?php
-	if(($controllerName=='preregistro' and $function=='index') or ($controllerName=='preregistro' and $function=='gracias') or ($controllerName=='terminos' and $function=='index') or ($controllerName=='index' and $function=='contador') or ($controllerName=='index' and $function=='preheat') or ($controllerName=='index' and $function=='index')){
+	if(($controllerName=='preregistro' and $function=='index') or ($controllerName=='index' and $function=='gracias_javer') or ($controllerName=='preregistro' and $function=='gracias') or ($controllerName=='terminos' and $function=='index') or ($controllerName=='index' and $function=='contador') or ($controllerName=='index' and $function=='preheat') or ($controllerName=='index' and $function=='index')){
 	}else{
 ?>
 <div class="container reg-mid d-block d-xl-none">
@@ -14,6 +14,22 @@
 </div>
 <?php
 	}
+if($controllerName=='index' and $function=='gracias_javer'){
+?>
+<footer>
+	<div class="contenido-borde">
+		<div class="container">
+			<div class="row py-2 d-block d-lg-flex d-xl-flex">
+				<div class="col-10 mx-3 py-2 font-10 info-footer"> <span class="c-white font-sweet-sans- text-uppercase">Copyright © casas javer 2021. Todos los derechos reservados</span></div>
+				<div class="py-2 mx-3 font-10 info-footer logo-footer">
+					<span class="c-white"><img class="mr-2" src="<?=Path?>/images/footer/logo_footer.png"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<?
+}else{
 ?>
 <footer>
 	<div class="contenido-borde">
@@ -30,7 +46,7 @@
 				</div>
 				<div class="mx-3 py-2 font-10 info-footer"> <span class="c-white font-sweet-sans- text-uppercase">Copyright © casas javer 2021. Todos los derechos reservados</span></div>
 				<?php
-				if(($controllerName=='preregistro' and $function=='index') or ($controllerName=='preregistro' and $function=='gracias') or ($controllerName=='terminos' and $function=='index') or ($controllerName=='index' and $function=='contador') or ($controllerName=='index' and $function=='preheat') or ($controllerName=='index' and $function=='index')){
+				if(($controllerName=='preregistro' and $function=='index') or ($controllerName=='index' and $function=='gracias') or ($controllerName=='preregistro' and $function=='gracias') or ($controllerName=='terminos' and $function=='index') or ($controllerName=='index' and $function=='contador') or ($controllerName=='index' and $function=='preheat') or ($controllerName=='index' and $function=='index')){
 				?>
 				<?
 				}else{ 
@@ -43,8 +59,10 @@
 		</div>
 	</div>
 </footer>
+<? } ?>
 <?php if(isset($estado)) echo "<script> var estado_activo='{$estado}'; </script>";?>
 <?php if(isset($id)) echo "<script> var desarrollo_activo='{$id}'; </script>";?>
+<?php if($controllerName=='index' and $function=='gracias_javer'){echo "<script> var gracias=1; </script>";}else{echo "<script> var gracias=0; </script>";}?>
 <?php if($controllerName=='desarrollos' and $function=='index'){
 			echo "<script> var wp_active=0; </script>";
 		}else{

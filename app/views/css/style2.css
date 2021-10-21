@@ -10,6 +10,7 @@
 .font-43{font-size:43px;}
 .font-19{font-size:19px;}
 .font-28{font-size:28px;}
+.font-72{font-size:72px;}
 .line-height-26{line-height: 26px;}
 .line-height-22{line-height: 22px;}
 .line-height-44{line-height: 44px;}
@@ -124,7 +125,7 @@ padding: 20px;background-color: #FFFFFF;border: 3px solid #D3D3D3;width: 250px;b
 .btn-light:hover{border:1px solid #DA291C;}
 .f-left{float:left;}
 /*.wrapper > .container:not(.top-planta){margin-bottom:70px !important;}*/
-.contenido-logo-contador{margin-top:-70px !important;}
+.contenido-logo-contador{margin-top:-40px !important;}
 .top-planta{position:relative;}
 .bg-radial{/*background: top right radial-gradient(#42A6EF, #254DA7);-ms-radial-gradient:top right radial-gradient(#42A6EF, #254DA7);*/
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#42a6ef+0,2989d8+50,207cca+51,254da7+100 */
@@ -230,10 +231,10 @@ margin-bottom: 8%;
 }
 
 .img-conf .player img{width:80px;height:80px;} 
-@media (min-width:320px) and (max-width:343px){	
-#header-btn-registrate-gana{content:"Regístrate";}
-}
 @media (min-width:320px) and (max-width:480px){	
+.participa{font-size:35px !important;line-height:35px !important;}
+.regalo-preheat-gracias img{width:65%;text-align:center;}
+
 .btn-fraccionamiento{position:relative;z-index: 152;}
 body{background-size:cover !important;}
 footer .container .logo-footer{justify-content: left !important;}
@@ -420,6 +421,9 @@ header:not(.pre-header){height: 160px;position:relative; z-index: 151;}
 /*.ciudades .wp-ingresos{padding-left:0px !important;padding-right:0px !important;}*/
 }
 @media (min-width:481px) and (max-width: 767px){
+.participa{font-size:40px !important;line-height:35px !important;}
+.regalo-preheat-gracias img{width:45%;text-align:center;}
+
 body{background-size:cover !important;}
 footer .container .logo-footer{justify-content: left !important;}
 .contador .flip-clock__piece{display:flex;align-items: center;margin-bottom:20px !important;}
@@ -573,6 +577,9 @@ body div.acerca-de .presencia-estado{font-size:16px !important;}
 .img-conf .player img{width:40%;}
 }
 @media (min-width:768px) and (max-width: 991px){
+.participa{font-size:45px !important;line-height:35px !important;}
+.regalo-preheat-gracias img{width:45%;text-align:center;}	
+	
 .containter-captcha{position:relative !important;top:-3px !important;}
 #btn-registro-registro{padding-left:20px !important;padding-right:20px !important;}
 .contacto_whatsappf {right: 30px !important;}
@@ -672,6 +679,9 @@ header:not(.pre-header){height: 219px;position:relative;z-index:151;}
 
 }
 @media (min-width:992px) and (max-width: 1200px){
+.participa{font-size:45px !important;line-height:35px !important;}
+.regalo-preheat-gracias img{width:45%;text-align:center;}	
+	
 	.containter-captcha{position:relative !important;top:-3px !important;}
 
 	.contacto_whatsappf {
