@@ -307,5 +307,10 @@
 		//$e_disponibles2 = array("nombre" =>"tamaulipas", "nombre" =>"quintana_roo", "nombre" =>"queretaro", "nombre" =>"estado_de_mexico", "nombre" =>"aguascalientes", "nombre" =>"jalisco", "nombre" =>"nuevo_leon");
 		echo $lp_actual=json_encode($e_disponibles);
 	}
+
+	public function abandono(){
+		$this->view->setLayout('float');
+		$this->render();
+	}
 	
 } ?>
