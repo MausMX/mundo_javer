@@ -16,6 +16,7 @@
 
 	public function gracias($page="1"){
 		$this->title_for_layout("Gracias - Javer");
+		$_SESSION['gracias']=true;
 		$this->render();
 	}
 	
