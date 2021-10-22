@@ -506,8 +506,7 @@ function regalo_animacion() {
 }
 
 
-$('body').append('<div id="abandono"></div>')
-$('#abandono').load(Path+'/index/abandono');
+
 /*
 var areYouReallySure = false;
 function areYouSure() {

@@ -5,17 +5,17 @@
 <link rel="stylesheet" href="https://use.typekit.net/avv6anh.css">
 <?php $ahora=date("YmdHis")?>
 <div id="abandono-block" class="font-poppins bg-radial" style="width:550px;min-height:100%;position:absolute;right:0;">
-    <div id="btn-back-abandono" style="position:absolute;top:0px;right:0px;z-index:161;"><img src="<?=Path?>/images/conferencias/btn_back.png"></div>
+    <div id="btn-back-abandono" style="position:absolute;top:0px;right:0px;z-index:161;cursor:pointer;"><img src="<?=Path?>/images/conferencias/btn_back.png"></div>
     <div style="padding:50px 60px 0px;">
-        <h1 style="font-size:42px;line-height:32px;font-weight:bold;color:#ffffff;text-align:center;margin-bottom:25px;" class="font-poppins">!Espera!</h1>
+        <h1 style="font-size:42px;line-height:32px;font-weight:bold;color:#ffffff;text-align:center;margin-bottom:25px;" class="font-poppins">¡Espera!</h1>
         <h2 style="font-size:28px;line-height:32px;font-weight:bold;color:#ffffff;text-align:center;margin-bottom:20px;" class="font-poppins">No te vayas sin registrarte.</h2>
         <h3 style="font-size:18px;text-align:center;margin-bottom:25px;font-weight:bold;" class="font-poppins">Tenemos increíbles regalos para ti.<br> Regístrate, Escritura y Gana.</h3>
     
-        <form method="post" action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" onsubmit="return validar(this)">
+        <form method="post" action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" onsubmit="return validar_abandono(this)">
             <input type="hidden" name='captcha_settings' value='{"keyname":"CAPTCHAJAVER","fallback":"true","orgId":"00D530000008hIx","ts":""}'>
             <input type="hidden" name="oid" value="00D530000008hIx">
             <input type="hidden" name="retURL" value="<?=Path?>/registro/gracias?id=<?=$ahora?>">
-            <!-- <input type="hidden" name="00N3l00000Q7A57" id="00N3l00000Q7A57" placeholder="Fuente" required value="Mundo Javer"> -->
+            <input type="hidden" name="00N3l00000Q7A57" id="00N3l00000Q7A57" placeholder="Fuente" required value="Mundo Javer">
             <!-- <input type="hidden" name="00N3l00000Q7A5X" id="00N3l00000Q7A5X" placeholder="Zona de interés"> -->
             <input type="hidden" name="programas" id="programas" value="<?=$ahora?>">
             <table style="width:100%;">
@@ -82,7 +82,7 @@
                     </td>
                 </tr>
             </table>
-            <div class="containter-captcha" style="margin-bottom:5px;">
+            <div class="containter-captcha">
                 <div class="g-recaptcha" style="transform:scale(0.70);-webkit-transform:scale(0.70);transform-origin:0 0;-webkit-transform-origin:0 0;zoom:1.3;" data-sitekey="6Lcg2vQZAAAAAHpqmf6Pj_-t-doxKr1iwLWfQuWQ"></div>
             </div>
             <button id="btn-registro-registro" name="submit" style="font-weight:bold;font-size:14px;background-color:#69AF1F;color:#ffffff;display:inline-block;text-align:center;vertical-align:middle;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:1px solid transparent;padding:.375rem .75rem;border-radius:.25rem;transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;letter-spacing:1px;width:100%;" type="submit">REGÍSTRATE</button>
@@ -92,7 +92,7 @@
             </p>
         </form>
     </div>
-    <div style="text-align:center;"><img src="<?=Path?>/images/registro/regalo_registro.png"></div>
+    <div style="text-align:center;"><img width="50%" src="<?=Path?>/images/abandono/regalo_abandono.png"></div>
 </div>
 <style>
     #abandono{background:rgba(0,0,0,.9);position:fixed;top:0px;right:0px;width:100%;z-index:1000;min-height:100%;}
@@ -112,7 +112,7 @@
     
 </style>
 <script>
-    function validar(a) {
+    function validar_abandono(a) {
         var response = grecaptcha.getResponse();
         if(response.length == 0){
             alert("Captcha no verificado");
@@ -123,7 +123,4 @@
             return true;
         }
     }
-    $(document).on('click','#btn-back-abandono',function(){
-        $('#abandono').css({'display':'none'});
-    });
 </script>

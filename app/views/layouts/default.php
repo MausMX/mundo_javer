@@ -59,6 +59,7 @@
 		<script src="https://kit.fontawesome.com/8f4d94c6ec.js" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="<?=Path?>/app/libs/js/script.js?202110181835"></script>
 		<script type="text/javascript" src="<?=Path?>/app/libs/js/script2.js?202110181835"></script>
+		<script type="text/javascript" src="<?=Path?>/espera.js?202110181835"></script>
 		<script async src=https://www.googletagmanager.com/gtag/js?id=G-GSMHZV3KJJ></script>
 		<script>
   			window.dataLayer = window.dataLayer || [];
