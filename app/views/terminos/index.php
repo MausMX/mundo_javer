@@ -8,7 +8,7 @@
                     	<h1 class="text-danger font-44 line-height-32 font-poppins bold mb-5">Términos y condiciones </h1>
                         <p class="text-justify font-18">Para ganar un regalo en la compra de tu vivienda deberás cumplir con los siguientes requisitos:</p> 
 						<ol>
-							<li>Registrarte en <a style="color:#000000; !important;" href="http://mundojaver.com.mx/registro">MundoJaver.com.mx</a> entre el 1 y 31 de octubre de 2021 e iniciar el proceso de compra de tu vivienda en alguno de los desarrollos de Javer dentro de dicho periodo.</li>
+							<li>Registrarte en <a style="color:#000000 !important;" href="http://mundojaver.com.mx/registro">MundoJaver.com.mx</a> entre el 1 y 31 de octubre de 2021 e iniciar el proceso de compra de tu vivienda en alguno de los desarrollos de Javer dentro de dicho periodo.</li>
 							<li>Deberás concluir el proceso de escrituración de tu vivienda ante Notario Público dentro del periodo del 1 de octubre al 30 de noviembre de 2021.</li>
 						</ol>
                         <p class="text-justify font-18">Si el cliente cumple con los requisitos antes mencionados, se enviará un cupón al correo electrónico registrado el cual deberá presentarse de manera física o digital al momento de entrega de su vivienda.</p> 
