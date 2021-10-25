@@ -6,6 +6,7 @@
 	
 	public function index($page="1"){
 		$this->title_for_layout("Registro - Javer");
+		unset($_SESSION['gracias']);
 		$this->render();
 	}
 	
