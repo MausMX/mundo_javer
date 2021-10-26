@@ -36,6 +36,7 @@
 							<li>En caso de que la vivienda adquirida sea pagada mediante financiamiento otorgado por una institución, será requisito haber cumplido con los requisitos exigidos por dicha institución que asegure la conclusión del trámite de dicho financiamiento, como, por ejemplo, la recepción de la carta de retención patronal.</li>
 							<li>Vigencia de la promoción: registrarte desde el 1 de octubre hasta el 31 de octubre de 2021 en MundoJaver.com.mx y vigencia para concluir el proceso de escrituración de tu vivienda ante Notario Público dentro del periodo del 1 de octubre al 30 de noviembre de 2021.</li>
 							<li>Las marcas de los regalos están sujetos a disponibilidad.</li>
+							<li>No aplica con otras promociones.</li>
                         </p>
                     </div>
                 </div>
