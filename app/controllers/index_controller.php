@@ -15,8 +15,10 @@
 	public function index($page="1"){
 		$this->title_for_layout("Mundo Javer");
 		$hoy=date("Y-m-d H:i:s");
-		if(!isset($_SERVER['HTTP_REFERER']) or strpos($_SERVER["HTTP_REFERER"], Path)=== false){
-			$this->redirect('registro');
+		
+		if((!isset($_SERVER['HTTP_REFERER']) or strpos($_SERVER["HTTP_REFERER"], Path)=== false) and !isset($_SESSION['gracias'])){
+			//$this->redirect('registro');
+			$this->view->show_registro=1;
 		}
 		if(	$_SERVER['REMOTE_ADDR']==$this->pancho or 
 			$_SERVER['REMOTE_ADDR']==$this->daniel or 
