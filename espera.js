@@ -10,7 +10,7 @@ $.ajax({
 });
   */
 $(document).mouseleave(function () {
-    $('#abandono').show();
+    //$('#abandono').show();
 });
 $(document).on('click','#btn-back-abandono',function(){
     $('#abandono').css({'display':'none'});
