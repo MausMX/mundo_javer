@@ -1,7 +1,7 @@
 <?php if(!isset($_SESSION['gracias'])){ ?>
     <script src="https://www.google.com/recaptcha/api.js"></script>
     <script>function timestamp() { var response = document.getElementById("g-recaptcha-response"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500); </script>
-    <script>function timestamp() { var response = document.getElementById("g-recaptcha-response-1"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[1].value = JSON.stringify(elems); } } setInterval(timestamp, 500); </script>
+    <script>function timestamp() { var response = document.getElementById("g-recaptcha-response-1"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[1].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[1].value = JSON.stringify(elems); } } setInterval(timestamp, 500); </script>
     <link rel="stylesheet" href="https://use.typekit.net/avv6anh.css">
     <?php $ahora=date("YmdHis")?>
     <div id="abandono-block" class="font-poppins bg-radial" style="width:550px;min-height:100%;position:absolute;right:0;">
@@ -17,7 +17,7 @@
                 <input type="hidden" name="00N3l00000Q7A57" id="00N3l00000Q7A57" placeholder="Fuente" required value="Mundo Javer">
                 <input type="hidden" name="programas" id="programas" value="<?=$ahora?>">
                 <!-- <input type="hidden" name="debug" value=1>
-                <input type="hidden" name="debugEmail" value="carlos.jug@maus.mx">  -->
+                <input type="hidden" name="debugEmail" value="carlos.jug@maus.mx"> -->
                 <table style="width:100%;">
                     <tr>
                         <td>
