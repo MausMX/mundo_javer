@@ -16,6 +16,7 @@
                 <input type="hidden" name="retURL" value="<?=Path?>/registro/gracias?id=<?=$ahora?>">
                 <input type="hidden" name="00N3l00000Q7A57" id="00N3l00000Q7A57" placeholder="Fuente" required value="Mundo Javer">
                 <input type="hidden" name="programas" id="programas" value="<?=$ahora?>">
+                <input type="hidden" name="00N3l00000Q7A5X" id="00N3l00000Q7A5X" class="form-control zona_interes" placeholder="Zona de interés">
                 <!-- <input type="hidden" name="debug" value=1>
                 <input type="hidden" name="debugEmail" value="carlos.jug@maus.mx"> -->
                 <table style="width:100%;">
@@ -34,7 +35,7 @@
                         </td>
                         <td></td>
                         <td>
-                            <select name="00N3l00000Q7A4v" id="00N3l00000Q7A4v" required style="font-family:poppins,sans-serif;background:#ffffff;font-size:14px;color:#666666;border:1px solid #666;width:100%;margin-bottom:10px;border-radius:5px;padding:6px 8px 6px 6px;">
+                            <select class="estado" name="00N3l00000Q7A4v" id="00N3l00000Q7A4v" required style="font-family:poppins,sans-serif;background:#ffffff;font-size:14px;color:#666666;border:1px solid #666;width:100%;margin-bottom:10px;border-radius:5px;padding:6px 8px 6px 6px;">
                                 <!-- <option>Estado</option>
                                 <option value="Aguascalientes">Aguascalientes</option>
                                 <option value="Ciudad de México">Ciudad de México</option>
@@ -122,6 +123,39 @@
                 return true;
             }
         }
+        $(".estado").on('change',function(){
+            switch ($(this).val()) {
+                case 'Nuevo León':
+                    $('.zona_interes').val('UEN1 - NUEVO LEON');
+                    break;
+                case 'Jalisco':
+                    $('.zona_interes').val('UEN3 - JALISCO');
+                    break;
+                case 'Aguascalientes':
+                    $('.zona_interes').val('UEN4 - AGUASCALIENTES');
+                    break;
+                case 'Ciudad de México':
+                    $('.zona_interes').val('UEN4 - DISTRITO FEDERAL');
+                    break;
+                case 'Estado de México':
+                    $('.zona_interes').val('UEN4 - ESTADO DE MEXICO');
+                    break;
+                case 'Querétaro':
+                    $('.zona_interes').val('UEN4 - QUERETARO');
+                    break;
+                case 'Guanajuato':
+                    $('.zona_interes').val('UEN4 - GUANAJUATO');
+                    break;
+                case 'Quintana Roo':
+                    $('.zona_interes').val('UEN4 - QUINTANA ROO');
+                    break;
+                    case 'Tamaulipas':
+                    $('.zona_interes').val('UEN4 - TAMAULIPAS');
+                    break;
+                default:
+                    break;
+            }
+        });
     </script>
 <? }else{ ?>
     <style>
