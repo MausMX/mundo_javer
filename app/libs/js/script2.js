@@ -110,7 +110,7 @@ $(document).ready(function(){
 						    	nameW="jalisco";
 						  break;
 						   case 'Quintana Roo':
-						    	name="quintana_roo";
+								nameW="quintana_roo";
 						  break;
 						  case 'Nuevo León':
 						    	nameW="nuevo_leon";
