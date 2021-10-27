@@ -10,8 +10,15 @@ $.ajax({
 });
   */
 $(document).mouseleave(function () {
-    //$('#abandono').show();
+    $('#abandono').show();
 });
 $(document).on('click','#btn-back-abandono',function(){
     $('#abandono').css({'display':'none'});
+    $.ajax({
+        url: Path+'/index/abandono_close',
+        dataType: 'html',
+        success: function(html) {
+            $('#abandono').remove();
+        }
+    });
 });

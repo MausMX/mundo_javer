@@ -314,6 +314,10 @@
 		$this->render();
 	}
 
+	public function abandono_close(){
+		$_SESSION['abandono_close']=true;
+	}
+
 	public function gracias_javer($page="1"){
 		$this->view->contador_active=0;
 		$this->view->setLayout("clean");
