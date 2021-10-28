@@ -1,4 +1,6 @@
 <?php
+header("Access-Control-Allow-Origin: *");
+
 set_time_limit(0);
 ini_set('display_errors',1);
 error_reporting(E_ALL);
@@ -12,7 +14,7 @@ define('DB_Port', false);
 define('DB_name', '');
 define('DB_User', '');
 define('DB_Password', '');
-define('Path', 'https://'.$_SERVER['HTTP_HOST'].'/mundo-javer-2021');
+define('Path', 'https://www.mundojaver.com.mx');
 function isMobile() {
     return preg_match("/(android|avantgo|blackberry|bolt|boost|cricket|docomo|fone|hiptop|mini|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)/i", $_SERVER["HTTP_USER_AGENT"]);
 }
