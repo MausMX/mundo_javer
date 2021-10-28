@@ -110,6 +110,7 @@
             background: radial-gradient(ellipse at center,  #42a6ef 0%,#254da7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42a6ef', endColorstr='#254da7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
         }
+        #abandono h2:before{display: none;}
     </style>
     <script>
         function validar_abandono(a) {
