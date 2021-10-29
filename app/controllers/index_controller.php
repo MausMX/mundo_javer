@@ -39,8 +39,9 @@
 				$this->view->setLayout("clean");
 				$this->render('contador');
 			}elseif($hoy>='2021-11-01 00:00'){
-				$this->view->setLayout("preregistro");
-				$this->render();
+				$this->view->contador_active=0;
+				$this->view->setLayout("clean");
+				$this->render('gracias_javer');
 			}else{
 				$this->render();
 			}
