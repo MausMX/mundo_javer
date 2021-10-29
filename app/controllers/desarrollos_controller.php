@@ -3,6 +3,10 @@
 	public function __construct(){
 		$this->title_for_layout("Desarrollo - Javer");
 		parent::__construct();
+		$hoy=date("Y-m-d H:i:s");
+		if($hoy>='2021-11-01 00:00'){
+			$this->redirect('/');
+		}
 	}
 	
 	public function index($fraccionamiento=""){
