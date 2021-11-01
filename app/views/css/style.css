@@ -161,9 +161,9 @@ footer{position:relative;z-index: 10;}
     #menu-1 .dropdown-menu a{padding:15px 0 15px;font-weight: bold;}
     #menu-1 .dropdown-menu > a{border-bottom: 1px solid #666;font-weight: normal;}
     #menu-1 .dropdown-menu > a:last-child{border-bottom: none;}
-    #area_mapa{zoom:.8;-ms-zoom:0.8;-webkit-zoom:0.8;}
+    /*#area_mapa{zoom:.8;-ms-zoom:0.8;-webkit-zoom:0.8;}*/
 }
-@media (max-width:500px){
+/*@media (max-width:500px){
     #area_mapa{zoom:.6;-ms-zoom:0.6;-webkit-zoom:0.6;}
 }
 
@@ -175,4 +175,4 @@ footer{position:relative;z-index: 10;}
 @media (max-height:600px){
     body:not(.gracias_javer){zoom:.7;-ms-zoom:0.7;-webkit-zoom:0.7;}
     .chatbot{zoom:1.3;-ms-zoom:1.3;-webkit-zoom:1.3;}
-}
+}*/
