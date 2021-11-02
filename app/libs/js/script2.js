@@ -123,7 +123,7 @@ $(document).ready(function(){
 				}
 			}).fail(function() {
 				//console.log("No contamos con asesores este díasssssssssss");
-				$("footer").before("<script>(function () {let js = document.createElement('script');js.type = 'text/javascript';js.async = 1;js.src = 'https://go.botmaker.com/rest/webchat/p/PQ2XODBE2N/init.js';document.body.appendChild(js);})();</script>");
+				//$("footer").before("<script>(function () {let js = document.createElement('script');js.type = 'text/javascript';js.async = 1;js.src = 'https://go.botmaker.com/rest/webchat/p/PQ2XODBE2N/init.js';document.body.appendChild(js);})();</script>");
 				//$(".btn-contacta").append('<a class="btn btn-danger pl-3 pr-4 text-uppercase font-10 poppins py-2" href="'+Path+'/index/whatsapp/'+estado_activo+'/"><img class="pr-1 logo-wp-btn" src="'+Path+'/images/desarrollo/WhatsApp_Icon_72x72.png"><strong>Contactar asesor</strong></a>');
 			}); 
 		}
@@ -141,7 +141,7 @@ $(document).ready(function(){
 		}).done(function(data2) {
 			if(data2.length==0){
 				if(wp_active!=0){
-				$("footer").before("<script>(function () {let js = document.createElement('script');js.type = 'text/javascript';js.async = 1;js.src = 'https://go.botmaker.com/rest/webchat/p/PQ2XODBE2N/init.js';document.body.appendChild(js);})();</script>");
+				//$("footer").before("<script>(function () {let js = document.createElement('script');js.type = 'text/javascript';js.async = 1;js.src = 'https://go.botmaker.com/rest/webchat/p/PQ2XODBE2N/init.js';document.body.appendChild(js);})();</script>");
 				}               
 			}else{
 				if(wp_active!=0){
